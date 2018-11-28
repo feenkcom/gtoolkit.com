@@ -26,6 +26,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
+function detectOS() {
+  var userPlatform = this.platform.os.family;
+  var platforms = $('.download-button');
+  for (var i=0; i < platforms.length; i++) {
+    var platform = platforms[i].getAttribute('data-switcher-content');
+    if (platform.toLowerCase().startsWith(userPlatform.toLowerCase())) {
+      $(platforms[i]).addClass('btn-default');
+    }
+    else {
+     $(platforms[i]).addClass('btn-secondary'); 
+    }
+  }
+}
+
+
 function buildCarousels() {
   $('.carousel').each(function() {
     var carousel = $(this);
@@ -65,6 +80,7 @@ function createControl(position, slideTo, carouselId) {
 
 function addPreview() {
   $('.thumbnail a, .carousel img, .carousel video').click(function(e) { 
+    detectOS();
     e.preventDefault();
     $("#expandedModal .modal-body").html($(e.target).clone());
     $("#expandedModal .modal-footer p").text(e.target.nextElementSibling.innerText.trim());
@@ -85,4 +101,5 @@ function buildInstructions() {
     }
     e.preventDefault();
   });
+  detectOS();
 }
