@@ -69,6 +69,29 @@
         </div>
       </div>
     </div>
+
+    <div class="container home">
+        <div class="row">
+          <div class="col-lg-12">
+                <span class="padding">
+                  <a href="https://dl.feenk.com/gt/GToolkitOSX64.zip" class="btn btn-lg btn-default btn-margin">
+                    <i class="fa fa-apple fa-fw"></i>GToolkit alpha for Mac
+                  </a>
+                </span>
+                <span class="padding">
+                    <a href="https://dl.feenk.com/gt/GToolkitLinux64.zip" class="btn btn-lg btn-default btn-margin">
+                      <i class="fa fa-linux fa-fw"></i>GToolkit alpha for Linux
+                    </a>
+                </span>
+                <span class="padding">
+                  <a href="https://dl.feenk.com/gt/GToolkitWin64.zip" class="btn btn-lg btn-default btn-margin">
+                    <i class="fa fa-windows fa-fw"></i>GToolkit alpha for Windows
+                  </a>
+                </span>
+          </div>
+        </div>
+    </div>
+
     <div class="container vspace">
      <!-- <section class="row vspace" id="components">
       <div class="col-lg-12"><h1>Philosophy</h1></div>
@@ -429,13 +452,16 @@
       <div class="instructions-list col-lg-4">
         <ul class="list-group">
           <div class="filler"></div>
-            <a class="list-group-item selected" id="image64">
+            <a class="list-group-item selected" id="download64">
+              <p class='lead download-item'>Download alpha 64bit for Mac, Windows and Linux</p>
+            </a>
+            <a class="list-group-item" id="image64">
               <p class='lead download-item'>Run the alpha 64bit image for Mac and Linux</p>
             </a>
-            <a class="list-group-item" id="image32">
+<!--             <a class="list-group-item" id="image32">
               <p class='lead download-item'>Run the alpha 32bit image for Windows 10</p>
             </a>
-            <a class="list-group-item" id="pharo-70">
+ -->            <a class="list-group-item" id="pharo-70">
               <p class='lead download-item'>Load the alpha code in Pharo 7.0</p>
             </a>
           <div class="filler"></div>
@@ -444,7 +470,25 @@
       <div class="col-lg-8">
         <div class="instructions">
           <div class="filler"></div>
-            <div class="instructions-item selected" area-labelledby="image64">
+            <div class="instructions-item selected" area-labelledby="download64">
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitOSX64.zip" class="btn btn-lg btn-default btn-margin">
+                  <i class="fa fa-apple fa-fw"></i>GToolkit alpha for Mac
+                </a>
+              </div>
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitLinux64.zip" class="btn btn-lg btn-default btn-margin">
+                  <i class="fa fa-linux fa-fw"></i>GToolkit alpha for Linux
+                </a>
+              </div>
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitWin64.zip" class="btn btn-lg btn-default btn-margin">
+                  <i class="fa fa-windows fa-fw"></i>GToolkit alpha for Windows
+                </a>
+              </div>
+            </div>
+
+            <div class="instructions-item" area-labelledby="image64">
               <ol>
                 <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest Pharo Launcher</a> specific to your system.</li>
                 <li class="lead">Get <a href="https://dl.feenk.com/gt/GToolkit64.zip" class="btn btn-lg btn-default">the latest GToolkit64.image</a>.</li>
@@ -454,17 +498,17 @@
               </ol>
             </div>
 
-            <div class="instructions-item" area-labelledby="image32">
+<!--             <div class="instructions-item" area-labelledby="image32">
               <ol>
                 <li class="lead">Install <a href="https://aka.ms/vs/15/release/vc_redist.x86.exe" class="btn btn-lg btn-default">Microsoft Visual C++ Redistributable for Visual Studio</a>.</li>
                 <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest Pharo Launcher</a> for Windows 10.</li>
                 <li class="lead">Get <a href="https://dl.feenk.com/gt/GToolkit32.zip" class="btn btn-lg btn-default">the latest GToolkit32.image</a>.</li>
                 <li class="lead">Open Pharo Launcher.</li>
-                <li class="lead">Choose to Launch an image from the file system. <!-- <img src="pictures/pharo-launcher-menu.png"/> --></li>
-                <li class="lead">Choose the downloaded image. <!-- <img src="pictures/pharo-launcher-image.png"/> --></li>
+                <li class="lead">Choose to Launch an image from the file system.</li>
+                <li class="lead">Choose the downloaded image. </li>
               </ol>
             </div>
-
+ -->
             <div class="instructions-item" area-labelledby="pharo-70">
               <ol>
                 <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">Pharo 7.0</a> specific to your system</li>
@@ -476,7 +520,7 @@ Metacello new
   load.
 EpMonitor current enable.
 #GtWorld asClass openTour.</pre>
-                  <p class="lead">Executing the above code loads all code related to the new generation of the Glamorous Toolkit, and the extra plugin for the Pharo virtual machine that enables beautiful rendering. It also opens an initial inspector on a document that provides a guided tour.</p>
+                  <p class="lead">Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables beautiful rendering. It also opens a live document that provides a guided tour.</p>
                 </li>
               </ol>
             </div>

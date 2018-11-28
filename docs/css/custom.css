@@ -1,7 +1,7 @@
 .jumbotron {
 	text-align: center;
 	background-color: white;
-	margin-top: 180px;
+	margin-top: 80px;
 }
 .jumbotron p { font-weight: 300;}
 .jumbotron h1 { font-weight: normal; }
@@ -246,6 +246,14 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 
 .closer {
 	padding-top: 10px;
+}
+
+.margin {
+	margin: 10px;
+}
+
+.padding {
+	padding: 10px;
 }
 
 pre {
