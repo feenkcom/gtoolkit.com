@@ -32,10 +32,10 @@ function detectOS() {
   for (var i=0; i < platforms.length; i++) {
     var platform = platforms[i].getAttribute('data-switcher-content');
     if (platform.toLowerCase().startsWith(userPlatform.toLowerCase())) {
-      $(platforms[i]).addClass('btn-default');
+      $(platforms[i]).addClass('btn-default download-active');
     }
     else {
-     $(platforms[i]).addClass('btn-secondary'); 
+     $(platforms[i]).addClass('download-inactive'); 
     }
   }
 }

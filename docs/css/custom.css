@@ -256,6 +256,26 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 	padding: 10px;
 }
 
+.download-button {
+	width: 300px;
+}
+
+.download-active {
+	border: 4px solid #EEE;
+}
+
+.download-active:hover {
+	border: 4px solid #e6e6e6;
+}
+
+.download-inactive {
+	border: 4px solid #e6e6e6;
+}
+
+.download-inactive:hover {
+	background-color: none;
+}
+
 pre {
 	border-color: transparent;
 	background: #eee;
