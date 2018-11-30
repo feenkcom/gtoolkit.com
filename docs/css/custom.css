@@ -1,3 +1,7 @@
+body {
+  font-family: "Helvetica Neue";
+}
+
 .jumbotron {
 	text-align: center;
 	background-color: white;
@@ -283,4 +287,40 @@ pre {
 	border-radius: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.vcenter {
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.navbar-center {
+  	float:none;
+   	margin:0 auto;
+   	display: block;
+    text-align: center;
+    position: relative;
+}
+
+.navbar-center li, .navbar-center a{
+   	display: inline-block;
+    float:none;
+    font-size: 18px;
+}
+
+.navbar-brand {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+}
+
+.nav .navbar-brand {
+	position: absolute;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding-right: 20px;
 }
