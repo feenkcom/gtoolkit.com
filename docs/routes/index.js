@@ -37,14 +37,18 @@
     },
     components: function (ctx, next) {
       get('views/components.html', function (html) {
-        ctx.content = html;
-        next();
+        get('views/modal.html', function (modalHtml) {
+          ctx.content = html+modalHtml;
+          next();
+        });
       });
     },
     gallery: function (ctx, next) {
       get('views/gallery.html', function (html) {
-        ctx.content = html;
-        next();
+        get('views/modal.html', function (modalHtml) {
+          ctx.content = html+modalHtml;
+          next();
+        });
       });
     },
     install: function (ctx, next) {
@@ -59,6 +63,10 @@
     content: function (ctx, next) {
       get('views/home.html', function (html) {
         $('#content').empty().append(ctx.content);
+          addPreview();
+          buildCarousels();
+          buildInstructions();
+          detectOS()
       });
     }
   };
