@@ -289,13 +289,6 @@ pre {
 	margin-bottom: 10px;
 }
 
-.vcenter {
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-}
-
 .navbar-center {
   	float:none;
    	margin:0 auto;
