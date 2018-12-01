@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Glamorous Toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Glamorous Toolkit is the moldable development environment for Pharo">
+    <meta name="author" content="feenk gmbh">
+    <link href ="css/bootstrap.min.css" rel="stylesheet">
+    <link href ="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/platform.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/page.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/smooth-scroll.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="routes/index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-70148882-2');
+    </script>
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-collapse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="/"><img src="../pictures/gt.png" width="32px"/></a></li>
+            <li><a href="./components">Components</a></li>
+            <li><a href="./gallery">Gallery</a></li>
+            <li><a href="./install">Install</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container vspace">
+      <section id="content"></section>
+    </div>
+  </body>
+</html>
