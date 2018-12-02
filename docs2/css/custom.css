@@ -301,9 +301,11 @@ pre {
    	display: inline-block;
     float:none;
     font-size: 18px;
-    width: 140px;
+    width: 130px;
 }
 
-.navbar-center li a:hover{
-	background-color: white;
+#navbar-branding-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

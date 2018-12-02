@@ -1,3 +1,10 @@
+function registerBehaviour() {
+  handleMenuSelection();
+  detectOS();
+  addPreview();
+  buildCarousels();
+}
+
 function detectOS() {
   var userPlatform = this.platform.os.family;
   var platforms = $('.download-button');
@@ -59,17 +66,9 @@ function addPreview() {
   });
 }
 
-// function buildInstructions() {
-//   $('.list-group-item').click(function(e) {
-//     var element = $(e.target);
-//     if (!element.hasClass('list-group-item'))
-//       element = element.closest('.list-group-item');
-//     var parent = element.closest('.row');
-//     if (!element.hasClass('selected')) {
-//       element.addClass('selected').siblings().removeClass('selected');
-//       parent.find('.instructions-item').removeClass('selected');
-//       parent.find(".instructions-item[area-labelledby='"+element.attr('id')+"']").addClass('selected');
-//     }
-//     e.preventDefault();
-//   });
-// }
+function handleMenuSelection() {
+  $('.nav li').on('click', function(){
+    $('.nav li').removeClass('active');
+    $(this).addClass('active');
+  });
+}

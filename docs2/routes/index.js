@@ -63,10 +63,7 @@
     content: function (ctx, next) {
       get('views/home.html', function (html) {
         $('#content').empty().append(ctx.content);
-          addPreview();
-          buildCarousels();
-          // buildInstructions();
-          detectOS()
+        registerBehaviour()
       });
     }
   };
