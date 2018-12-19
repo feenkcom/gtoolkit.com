@@ -88,6 +88,10 @@ img.shadow{
 	font-size: 16;
 }
 
+.navbar .navbar-toggle {
+	padding: 9px 10px;
+}
+
 footer {
 	text-align: center;
 	background-color: #424242;
