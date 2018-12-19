@@ -6,6 +6,11 @@
 .jumbotron p { font-weight: 300;}
 .jumbotron h1 { font-weight: normal; }
 
+.jumbotron img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .navbar-toggle .icon-bar {
     background-color: #212121;
 }
