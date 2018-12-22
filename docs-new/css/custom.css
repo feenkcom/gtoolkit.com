@@ -66,6 +66,7 @@ section h2 {
 	font-weight: normal;
 	font-size: 22pt;
 	margin-top: 64px;
+	margin-bottom: 24px;
 }
 section h3 {
 	font-weight: 300;
@@ -90,7 +91,7 @@ img.shadow{
 }
 .navbar li a {
 	font-weight: normal;
-	font-size: 14pt;
+	font-size: 12pt;
 }
 
 .navbar .navbar-toggle {
