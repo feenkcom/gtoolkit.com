@@ -1,9 +1,30 @@
-function registerBehaviour() {
-  handleMenuSelection();
-  detectOS();
+function training_action() {
+  var text = new Array ();
+  text[0] = "Intrigued?";
+  text[1] = "Looking for an in-house course?";
+  text[2] = "Looking for more details?";
+  text[3] = "Curious?";
+  var i = Math.floor(4*Math.random())
+  document.write(text[i]);
+}
+
+function consulting_coaching_action() {
+  var text = new Array ();
+  text[0] = "Intrigued?";
+  text[1] = "Open questions?";
+  text[2] = "Looking for more details?";
+  text[3] = "Curious?";
+  var i = Math.floor(4*Math.random())
+  document.write(text[i]);
+}
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
   addPreview();
   buildCarousels();
-}
+  buildInstructions();
+});
+
 
 function detectOS() {
   var userPlatform = this.platform.os.family;
@@ -59,6 +80,7 @@ function createControl(position, slideTo, carouselId) {
 
 function addPreview() {
   $('.thumbnail a, .carousel img, .carousel video').click(function(e) { 
+    detectOS();
     e.preventDefault();
     $("#expandedModal .modal-body").html($(e.target).clone());
     $("#expandedModal .modal-footer p").text(e.target.nextElementSibling.innerText.trim());
@@ -66,16 +88,18 @@ function addPreview() {
   });
 }
 
-function handleMenuSelection() {
-  $('.nav li a').removeClass('active');
-
-  route = window.location.hash.substr(1).trim();
-  if (route == '') route = '/';
-
-  $('.nav li a[href="'+route+'"]').addClass('active');
-
-  $('.nav li a').on('click', function(){
-    $('.nav li').removeClass('active');
-    $(this).addClass('active');
+function buildInstructions() {
+  $('.list-group-item').click(function(e) {
+    var element = $(e.target);
+    if (!element.hasClass('list-group-item'))
+      element = element.closest('.list-group-item');
+    var parent = element.closest('.row');
+    if (!element.hasClass('selected')) {
+      element.addClass('selected').siblings().removeClass('selected');
+      parent.find('.instructions-item').removeClass('selected');
+      parent.find(".instructions-item[area-labelledby='"+element.attr('id')+"']").addClass('selected');
+    }
+    e.preventDefault();
   });
+  detectOS();
 }

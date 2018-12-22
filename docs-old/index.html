@@ -1,0 +1,604 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Glamorous Toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Glamorous Toolkit is the moldable development environment for Pharo">
+    <meta name="author" content="feenk gmbh">
+    <link href ="css/bootstrap.min.css" rel="stylesheet">
+    <link href ="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/platform.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-70148882-2');
+    </script>
+  </head>
+  <body data-spy="scroll" data-target="navbar" data-offset="50">
+    <nav class="navbar navbar-fixed-top navbar-collapse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://feenk.com"><img src="pictures/gtoolkit-icon.png" height="24px"/></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href=".">Glamorous Toolkit</a></li>
+            <!-- <li><a href="#philosophy">Philosophy</a></li> -->
+            <li><a href="#components">Components</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#install">Install</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="jumbotron" id="home">
+            <p><img src="pictures/gtoolkit-icon.png" width="750"/></p>
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <p class="lead">
+                  The Glamorous Toolkit is the moldable integrated development environment. For Pharo. It is made of components that are programmable inexpensively while using the tool itself. And it is open-source under an MIT license.
+                </p>
+                <p>
+                  What's interesting about it? It offers a fundamentally new perspective on programming. We call it moldable development. We do have cool widgets and fancy code analyses, but our goal is to change the way you experience software. You can read about it, but to understand it, you have to play with it. And engage with us. We'd love to hear from you.
+                </p>
+                <div class="mdl-typography--font-light mdl-typography--text-center">
+                  <p>
+                    <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                    <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container home">
+        <div class="row">
+          <div class="col-lg-12">
+                <span class="padding">
+                  <a href="https://dl.feenk.com/gt/GToolkitOSX64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="os x">
+                    <i class="fa fa-download fa-fw"></i>GToolkit alpha for Mac
+                  </a>
+                </span>
+                <span class="padding">
+                    <a href="https://dl.feenk.com/gt/GToolkitLinux64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="linux">
+                      <i class="fa fa-download fa-fw"></i>GToolkit alpha for Linux
+                    </a>
+                </span>
+                <span class="padding">
+                  <a href="https://dl.feenk.com/gt/GToolkitWin64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="windows">
+                    <i class="fa fa-download fa-fw"></i>GToolkit alpha for Windows
+                  </a>
+                </span>
+          </div>
+        </div>
+    </div>
+
+    <div class="container vspace">
+     <!-- <section class="row vspace" id="components">
+      <div class="col-lg-12"><h1>Philosophy</h1></div>
+      <div class="col-lg-12">
+        <p class="lead">What sets the Glamorous Toolkit apart? Let's look at some features. Visualization is a first class citizen. Search is pervasive. Humane assessment is baked in the experience. Examples bridge the gap between testing and documentation. The system is approachable by non-technical people. Creating and consuming documentation is a joy. Live notebooks exist directly in the environment and are debuggable and maintainable.
+        </p>
+        <p class="lead">
+        All these are dressed in fancy widgets. How fancy? Fancy enough to not At least not in the same place. But, the is a Live and rich experience. Programmable.
+
+        The environment is formed out of visual and interactive operators that can be combined in many ways.
+        </p>
+      </div>
+
+
+      </section>     -->
+
+    <section class="row vspace" id="components">
+      <div class="col-lg-12">
+        <h1>Components</h1>
+      </div>
+      <div class="col-lg-12">
+        <h2>Playground &amp; Inspector</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">The Inspector lets you define custom presentations for each and every object. And then it enables you to navigate through them. Inexpensively.</p>
+        <p class="lead">The Playground powers up the inspector and makes the code part of the live inspection flow.</p>
+      </div>
+      <div class="col-lg-8">
+        <!-- Carousel (ID playgroundInspector - replace in <li> and carousel-control) -->
+        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-playground-inspector-filesystem.png">
+              <div class="carousel-caption">
+                <p>The Playground and Inspector can be molded in many ways. For example, for browsing the file system.</p>
+              </div>
+            </div>
+            <!-- <div class="item">
+              <video controls="controls">
+                  <source src="./video/DnaB8N3W4AAu2cu.mp4" type="video/mp4">
+              </video>
+              <div class="carousel-caption">
+                  <p>This is some description of the video</p>
+              </div>
+              </div> -->
+            <div class="item">
+              <img src="./pictures/gt-playground-inspector-codequery.png">
+              <div class="carousel-caption">
+                <p>And they can be molded to become a browser for a code query.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-playground-multiple-snippets.png">
+              <div class="carousel-caption">
+                <p>Playground supports multiple snippets that can be evaluated independently.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+      <div class="col-lg-12">
+        <h2>Debugger</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Debugger is a debugger. Go figure. Only, in true moldable fashion, it also lets you build custom debuggers that can be switched to during debugging time.</p>
+      </div>
+      <div class="col-lg-8">
+        <!-- <p><img src="./pictures/gt-debugger.png"/></p> -->
+        <!-- Carousel (ID debugger - replace in <li> and carousel-control) -->
+        <div id="debugger" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-debugger-inspector-exception.png">
+              <div class="carousel-caption">
+                <p>A Debugger opened on an exception. Inspecting a variable spawns an Inspector.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-debugger-inspector-bytecode.png">
+              <div class="carousel-caption">
+                <p>A Debugger showing the bytecode of the current execution.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+      <div class="col-lg-12">
+        <h2>Coder</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Coder is for manipulating the static code. It's both standalone and integrated in the Inspector.</p>
+      </div>
+      <div class="col-lg-8">
+
+        <!-- <p><img src="./pictures/coder.png"/></p> -->
+        <!-- Carousel (ID documenter - replace in <li> and carousel-control) -->
+        <div id="coder" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-coder-meta-inspect.png">
+              <div class="carousel-caption">
+                <p>Coder opened on the class of an object in the Inspector. Evaluating code spawns the result.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-coder-method-implementors.png">
+              <div class="carousel-caption">
+                <p>A method viewed through Coder in an Inspector. Looking for implementors highlights the results.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-coder-query-highlighting.png">
+              <div class="carousel-caption">
+                <p>The results of a code query shown highlighted in a Coder interface.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+      <div class="col-lg-12">
+        <h2>Transcript</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Transcript is a stream of events. It's a live visual environment that enables in-place interaction with the logged events.</p>
+      </div>
+      <div class="col-lg-8">
+        <div id="transcript" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-transcript-animation.png">
+              <div class="carousel-caption">
+                <p>Transcript used to trace the steps of an animation.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-transcript-reflection.png">
+              <div class="carousel-caption">
+                <p>Transcript used for teaching reflection. An exception can be expanded in place to show the stack.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <h2>Documenter</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Documenter makes creating and consuming code documentation and tutorials a beautiful experience directly in the environment. And it transforms the environment into a data science tool.</p>
+      </div>
+      <div class="col-lg-8">
+        <!-- <p><img src="./pictures/gt-documenter.png"/></p> -->
+        <!-- Carousel (ID documenter - replace in <li> and carousel-control) -->
+        <div id="documenter" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-documenter-tour.png">
+              <div class="carousel-caption">
+                <p>Documenter opened on the Tour document. Clicking on a link spawns an Inspector.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-documenter-examples-tutorial.png">
+              <div class="carousel-caption">
+                <p>Documenter showing a tutorial. The code changes are embedded as objects.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-documenter-class-comment.png">
+              <div class="carousel-caption">
+                <p>Documenter tranforms the class comment into a live document.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+      <div class="col-lg-12">
+        <h2>Visualizer</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Visualizer makes visualization a first-class citizen in the environment. It contains a few programmable engines including Mondrian, for drawing graphs, and Connector, for identifying connections between various objects.</p>
+      </div>
+      <div class="col-lg-8">
+        <!--  <p><img src="./pictures/gt-visualizer.png"/></p> -->
+        <!-- Carousel (ID visualizer - replace in <li> and carousel-control) -->
+        <div id="visualizer" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-visualizer-two-snippets-mondrian.png">
+              <div class="carousel-caption">
+                <p>A Mondrian script showing a visualization of a directory structure.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-visualizer-two-snippets-mondrian-directory.png">
+              <div class="carousel-caption">
+                <p>The visualization is directly clickable: clicking on a node spawns an Inspector.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-connector-examples-code.png">
+              <div class="carousel-caption">
+                <p>A Connector interactive visualization showing dependencies between examples.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+      <div class="col-lg-12">
+        <h2>Examples</h2>
+      </div>
+      <div class="col-lg-4">
+        <p class="lead">Examples is a slim engine that lets you define examples throughout the code and use them for documentation or testing. Through Examples, a developer can switch rapidly from the static code to a live environment and program in the presence of objects. In essence, it enables example-driven development.</p>
+      </div>
+      <div class="col-lg-8">
+        <!-- <p><img src="./pictures/gt-examples.png"/></p> -->
+        <!-- Carousel (ID examples - replace in <li> and carousel-control) -->
+        <div id="examples" class="carousel slide" data-ride="carousel" data-interval=false>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./pictures/gt-examples-nesting-preview.png">
+              <div class="carousel-caption">
+                <p>Examples can be fine grained and nested arbitrarily. The returned object offers immediate feedback.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-connector-examples-code.png">
+              <div class="carousel-caption">
+                <p>Examples can be visualized with Connector, too.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./pictures/gt-connector-examples-code-preview4.png">
+              <div class="carousel-caption">
+                <p>Examples are executable. Connector allows us to explore how the overall result is obtained.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+    </section>
+
+
+    <!-- Gallery -->
+
+     <section class="row vspace" id="gallery">
+      <div class="col-lg-12">
+        <h1>Gallery</h1>
+        <p class="lead">Moldability is hard to convey in words. You need to experience it. But, until you do take the leap, take a look at the pictures and see how different can the different parts of the system feel like.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./pictures/gt-documenter.png">
+               <img src="./pictures/gt-coder-inner-examples-execution.png" alt="Executing a nested example with Coder" style="width:100%">
+               <div class="caption">
+                 <p>Executing a nested example with Coder.</p>
+               </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./pictures/gt-coder-shortcuts-bug.png">
+               <img src="./pictures/gt-coder-shortcuts-bug.png" alt="Looking for the shortcuts that are not defined in a Linux-friendly way." style="width:100%">
+               <div class="caption">
+                 <p>Looking for the shortcuts that are not defined in a Linux-friendly way.</p>
+               </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-coder-dynamic-example-adornments.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-coder-dynamic-example-adornments.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>A method Coder changing shape dynamically when adding/removing the gtExample pragma. The changes affect: the example status label, the in-place example expanding toggle, and the run button. All this without saving.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+        </div>
+        <div class="row">
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-coder-extract-method-keyword-parameter-reordering.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-coder-extract-method-keyword-parameter-reordering.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>Performing an extract method refactoring for a keyword method, including the reordering of the parameters. Without requiring any modal dialogue.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-documenter-toggle-view-edit.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-documenter-toggle-view-edit.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>Toggling the markup visibility in Documenter.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-coder-parameter-rename.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-coder-parameter-rename.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>Renaming a parameter.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+        </div>
+        <div class="row">
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./pictures/gt-documenter-mondrian-doc.png">
+               <img src="./pictures/gt-documenter-mondrian-doc.png" alt="Documenting the visualization engines of the Glamorous Toolkit." style="width:100%">
+               <div class="caption">
+                 <p>Documenting the visualization engines of the Glamorous Toolkit.</p>
+               </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-documenter-magic-markup.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-documenter-magic-markup.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>The markup appears on cursor move in Documenter.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail">
+             <a href="./video/gt-transcript-animation.mp4">
+               <video controls="controls" style="width:100%">
+                  <source src="./video/gt-transcript-animation.mp4" type="video/mp4" >
+              </video>
+              <div class="caption">
+                 <p>The Transcript used for debugging an animation.</p>
+              </div>
+             </a>
+           </div>
+         </div>
+
+        </div>
+      </div>
+      <!-- /Gallery -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <div class="caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Modal -->
+    </section>
+
+    <section class="row closer" id="install">
+      <div class="col-lg-12">
+        <h1>Install</h1>
+      </div>
+      <div class="col-lg-12">
+        <p class="lead">You can obtain Glamorous Toolkit in several ways.</p>
+      </div>
+      <div class="instructions-list col-lg-4">
+        <ul class="list-group">
+          <div class="filler"></div>
+            <a class="list-group-item selected" id="download64">
+              <p class='lead download-item'>Download alpha 64bit for Mac, Windows and Linux</p>
+            </a>
+            <a class="list-group-item" id="image64">
+              <p class='lead download-item'>Run the alpha 64bit image for Mac and Linux</p>
+            </a>
+<!--             <a class="list-group-item" id="image32">
+              <p class='lead download-item'>Run the alpha 32bit image for Windows 10</p>
+            </a>
+ -->            <a class="list-group-item" id="pharo-70">
+              <p class='lead download-item'>Load the alpha code in Pharo 7.0</p>
+            </a>
+          <div class="filler"></div>
+        </ul>
+      </div>
+      <div class="col-lg-8">
+        <div class="instructions">
+          <div class="filler"></div>
+            <div class="instructions-item selected" area-labelledby="download64">
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitOSX64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="os x">
+                  <i class="fa fa-download fa-fw"></i>GToolkit alpha for Mac
+                </a>
+              </div>
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitLinux64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="linux">
+                  <i class="fa fa-download fa-fw"></i>GToolkit alpha for Linux
+                </a>
+              </div>
+              <div class="lead">
+                <a href="https://dl.feenk.com/gt/GToolkitWin64.zip" class="download-button btn btn-lg btn-margin" data-switcher-content="windows">
+                  <i class="fa fa-download fa-fw"></i>GToolkit alpha for Windows
+                </a>
+              </div>
+            </div>
+
+            <div class="instructions-item" area-labelledby="image64">
+              <ol>
+                <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest Pharo Launcher</a> specific to your system.</li>
+                <li class="lead">Get <a href="https://dl.feenk.com/gt/GToolkit64.zip" class="btn btn-lg btn-default">the latest GToolkit64.image</a>.</li>
+                <li class="lead">Open Pharo Launcher.</li>
+                <li class="lead">Choose to Launch an image from the file system. <img src="pictures/pharo-launcher-menu.png"/></li>
+                <li class="lead">Choose the downloaded image. <img src="pictures/pharo-launcher-image.png"/></li>
+              </ol>
+            </div>
+
+<!--             <div class="instructions-item" area-labelledby="image32">
+              <ol>
+                <li class="lead">Install <a href="https://aka.ms/vs/15/release/vc_redist.x86.exe" class="btn btn-lg btn-default">Microsoft Visual C++ Redistributable for Visual Studio</a>.</li>
+                <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest Pharo Launcher</a> for Windows 10.</li>
+                <li class="lead">Get <a href="https://dl.feenk.com/gt/GToolkit32.zip" class="btn btn-lg btn-default">the latest GToolkit32.image</a>.</li>
+                <li class="lead">Open Pharo Launcher.</li>
+                <li class="lead">Choose to Launch an image from the file system.</li>
+                <li class="lead">Choose the downloaded image. </li>
+              </ol>
+            </div>
+ -->
+            <div class="instructions-item" area-labelledby="pharo-70">
+              <ol>
+                <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">Pharo 7.0</a> specific to your system</li>
+                <li class="lead">Execute the following code in the Playground of the Pharo 7.0 image (can take 20+ minutes):
+                  <pre>EpMonitor current disable.
+[ 
+    Metacello new
+         baseline: 'GToolkit';
+          repository: 'github://feenkcom/gtoolkit/src';
+          load
+] ensure: [ EpMonitor current enable ].
+#GtWorld asClass openTour.</pre>
+                  <p class="lead">Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables beautiful rendering. It also opens a live document that provides a guided tour.</p>
+                </li>
+              </ol>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /container -->
+
+
+    <footer class="mdl-mega-footer mdl-typography--font-light mdl-typography--text-center">
+      <p>
+        <a href="mailto:contact@feenk.com"><i class="fa fa-envelope fa-fw fa-3x"></i></a>
+        <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+        <a href="https://github.com/feenkcom" title="feenkcom on GitHub" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+      </p>
+      <p><a href="https://feenk.com">&copy; feenk gmbh</a>
+      </p>
+    </footer>
+
+
+    <script type="text/javascript" id="cookieinfo"
+      src="//cookieinfoscript.com/js/cookieinfo.min.js"
+        data-bg="#212121"
+        data-font-family="Helvetica Neue"
+        data-fg="#FFFFFF"
+        data-link="#F1D600"
+        data-cookie="feenk-gtoolkit-cookies"
+        data-text-align="center"
+        data-divlinkbg="white"
+        data-divlink="#212121"
+        data-message="We want to change the way developers work. This is non-trivial. To help with this goal, we use cookies to track site analytics and learn which parts of our messages work, and which ones don't. </br> By continuing to visit this site you agree to our use of cookies."
+        data-linkmsg=''
+      >
+    </script>
+
+  </body>
+</html>
