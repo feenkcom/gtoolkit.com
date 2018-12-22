@@ -56,7 +56,7 @@ a.active {
 	background-color: #EEE;
 }
 
-section {padding-top: 60px;}
+section {padding-top: 20px;}
 section {padding-bottom: 180px;}
 section h1 {
 	font-weight: normal;
@@ -64,8 +64,8 @@ section h1 {
 }
 section h2 {
 	font-weight: normal;
-	font-size: 22px;
-	margin-top: 32px;
+	font-size: 22pt;
+	margin-top: 64px;
 }
 section h3 {
 	font-weight: 300;
