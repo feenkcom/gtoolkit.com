@@ -149,14 +149,9 @@ footer a { color: #EEE; }
 	background-color: #9e9e9e;
 	color: #9e9e9e;
 	border-color: #9e9e9e;
-	margin: 0 0 0 5;
 	width: 7px;
 	height: 7px;
-}
-
-.carousel .carousel-indicators li:hover {
-	background-color: black;
-	border-color: black;
+	margin-right: 5px;
 }
 
 .carousel .carousel-indicators .active{
@@ -164,6 +159,13 @@ footer a { color: #EEE; }
 	border-color: black;
 	width: 7px;
 	height: 7px;
+	margin-bottom: 1px;
+}
+
+
+.carousel .carousel-indicators li:hover {
+	background-color: black;
+	border-color: black;
 }
 
 .carousel .carousel-caption {
