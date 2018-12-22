@@ -1213,6 +1213,5 @@
   else {
     // Export to the global object.
     root.platform = platform;
-    console.log(platform)
   }
 }.call(this));
