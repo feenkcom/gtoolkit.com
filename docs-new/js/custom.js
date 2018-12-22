@@ -67,7 +67,14 @@ function addPreview() {
 }
 
 function handleMenuSelection() {
-  $('.nav li').on('click', function(){
+  $('.nav li a').removeClass('active');
+
+  route = window.location.hash.substr(1).trim();
+  if (route == '') route = '/';
+
+  $('.nav li a[href="'+route+'"]').addClass('active');
+
+  $('.nav li a').on('click', function(){
     $('.nav li').removeClass('active');
     $(this).addClass('active');
   });
