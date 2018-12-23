@@ -195,6 +195,10 @@ footer a:hover { color: #bfbfbf; }
     cursor: pointer;
 }
 
+.carousel.carousel-large .carousel-indicators {
+	bottom: -50px;
+}
+
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 	font-size: 20px;
 }
