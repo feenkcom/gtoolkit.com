@@ -57,7 +57,7 @@
       </div>
     </div> -->
       <div class="col-lg-12">
-        <h2>Load the alpha code in Pharo 7.0</h2>
+        <h2>Load the latest alpha code in Pharo 7.0</h2>
       </div>
 
       <div class="col-lg-6">
@@ -66,13 +66,13 @@
             <li class="lead">Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest image and latest VM of Pharo 7.0</a> specific to your system</li>
             <li class="lead">Execute the following code in the Playground of the Pharo 7.0 image (can take 20 minutes):
               <pre>EpMonitor current disable.
-    [ 
-        Metacello new
-             baseline: 'GToolkit';
-              repository: 'github://feenkcom/gtoolkit/src';
-              load
-    ] ensure: [ EpMonitor current enable ].
-    #GtWorld asClass openTour.</pre>
+[ 
+  Metacello new
+    baseline: 'GToolkit';
+    repository: 'github://feenkcom/gtoolkit/src';
+    load
+] ensure: [ EpMonitor current enable ].
+#GtWorld asClass openTour.</pre>
               <p class="lead">Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables beautiful rendering. It also opens a live document that provides a guided tour.</p>
             </li>
           </ol>
