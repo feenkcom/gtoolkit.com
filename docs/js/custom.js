@@ -9,21 +9,21 @@ function registerBehaviour(isHomePage) {
 
 function buildFeed(isHomePage) {
   if (!isHomePage) return;
-  window.twttr = (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-      t = window.twttr || {};
-    js = d.createElement(s);
+  window.twttr = (function(id) {
+    var js, fjs = document.getElementsByTagName("script")[0],
+      twitter = window.twttr || {};
+    js = document.createElement("script");
     js.id = id;
     js.src = "https://platform.twitter.com/widgets.js";
     fjs.parentNode.insertBefore(js, fjs);
 
-    t._e = [];
-    t.ready = function(f) {
-      t._e.push(f);
+    twitter._e = [];
+    twitter.ready = function(f) {
+      twitter._e.push(f);
     };
 
-    return t;
-  }(document, "script", "twitter-timeline"));
+    return twitter;
+  }("twitter-timeline"));
 }
 
 function detectOS() {
