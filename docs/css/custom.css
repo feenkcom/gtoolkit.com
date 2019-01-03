@@ -1,9 +1,13 @@
+.lead {
+	font-weight: normal;
+}
+
 .jumbotron {
 	text-align: center;
 	background-color: white;
 	margin-top: 80px;
 }
-.jumbotron p { font-weight: 300;}
+.jumbotron p { font-weight: normal;}
 .jumbotron h1 { font-weight: normal; }
 
 .jumbotron img {
@@ -41,8 +45,8 @@
 }
 .card-action { padding-top: 20px; margin-bottom: -20px;}
 
-p { font-weight: 300; }
-li { font-weight: 300; }
+p { font-weight: normal; }
+li { font-weight: normal; }
 
 a {
 	text-decoration: none;
