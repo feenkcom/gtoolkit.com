@@ -1,9 +1,29 @@
-function registerBehaviour() {
+function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
+  buildFeed(isHomePage);
   handleMenuSelection();
   detectOS();
   addPreview();
   buildCarousels();
+}
+
+function buildFeed(isHomePage) {
+  if (!isHomePage) return;
+  window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-timeline"));
 }
 
 function detectOS() {

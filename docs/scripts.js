@@ -1,4 +1,4 @@
-function loadHTML(url, id) {
+function loadHTML(url, isHomePage) {
   req = new XMLHttpRequest();
   req.open('GET', url);
   req.send();
@@ -8,7 +8,7 @@ function loadHTML(url, id) {
     modalReq.send();
     modalReq.onload = () => {
       document.getElementById('view').innerHTML = req.responseText + modalReq.responseText;
-      registerBehaviour();
+      registerBehaviour(isHomePage);
     }
   };
 }
@@ -22,7 +22,7 @@ router.on({
   'install': () => { loadHTML('./views/install.html'); }
 });
 
-router.on(() => { loadHTML('./views/home.html'); });
+router.on(() => { loadHTML('./views/home.html', true); });
 
 router.notFound((query) => { $id('view').innerHTML = '<h3>Couldn\'t find the page you\'re looking for...</h3>'; });
 
