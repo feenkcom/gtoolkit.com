@@ -1,4 +1,5 @@
 function registerBehaviour() {
+  window.scrollTo(0,0);
   handleMenuSelection();
   detectOS();
   addPreview();
