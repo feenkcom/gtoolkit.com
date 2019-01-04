@@ -19,7 +19,8 @@ router.on({
   'components': () => { loadHTML('./views/components.html'); },
   'moldable': () => { loadHTML('./views/moldable.html'); },
   'gallery': () => { loadHTML('./views/gallery.html'); },
-  'install': () => { loadHTML('./views/install.html'); }
+  'install': () => { loadHTML('./views/install.html'); },
+  'about': () => { loadHTML('./views/about.html'); }
 });
 
 router.on(() => { loadHTML('./views/home.html', true); });
