@@ -17,6 +17,7 @@ function loadHTML(url, isHomePage) {
 router = new Navigo(null, true, '#');
 router.on({
   'components': () => { loadHTML('./views/components.html'); },
+  'design': () => { loadHTML('./views/design.html'); },
   'moldable': () => { loadHTML('./views/moldable.html'); },
   'gallery': () => { loadHTML('./views/gallery.html'); },
   'install': () => { loadHTML('./views/install.html'); },
