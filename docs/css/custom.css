@@ -80,7 +80,7 @@ section h3 {
 body { background-color: #fff; }
 img { max-width: 100%; }
 
-a img {max-height: 30px; max-width: none; display: inline;}
+a.btn img {max-height: 30px; max-width: none; display: inline;}
 
 img.shadow{
 	background-color: white;
