@@ -45,7 +45,7 @@
 }
 .card-action { padding-top: 20px; margin-bottom: -20px;}
 
-p { font-weight: normal; font-size: 16px;}
+p { font-weight: normal; font-size: 16px; line-height: 1.5;}
 li { font-weight: normal; }
 
 a {
