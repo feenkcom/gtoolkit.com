@@ -18,7 +18,7 @@ function addVersionNumbers() {
   $.get('https://dl.feenk.com/gt/GToolkitOSX64-release', (data) => {
         $("#osx64").attr("href", "https://dl.feenk.com/gt/" + data);
         version = data.replace('GToolkitOSX64-', '').replace('.zip', '');
-        $("#osx64 span").text('GToolkit alpha for Mac' + version);
+        $("#osx64 span").text('GToolkit alpha for Mac ' + version);
   });
   $.get('https://dl.feenk.com/gt/GToolkitLinux64-release', (data) => {
         $("#linux64").attr("href", "https://dl.feenk.com/gt/" + data);
