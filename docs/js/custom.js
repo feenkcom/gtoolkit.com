@@ -2,9 +2,29 @@ function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
   buildFeed(isHomePage);
   handleMenuSelection();
+  addVersionNumbers();
   detectOS();
   addPreview();
   buildCarousels();
+}
+
+function addVersionNumbers() {
+  var version = '';
+  $.get('https://dl.feenk.com/gt/GToolkitWin64-release', (data) => {
+    $("#win64").attr("href", "https://dl.feenk.com/gt/" + data);
+    version = data.replace('GToolkitWin64-', '').replace('.zip', '');
+    $("#win64 span").text('GToolkit alpha for Windows ' + version);
+  }); 
+  $.get('https://dl.feenk.com/gt/GToolkitOSX64-release', (data) => {
+        $("#osx64").attr("href", "https://dl.feenk.com/gt/" + data);
+        version = data.replace('GToolkitOSX64-', '').replace('.zip', '');
+        $("#osx64 span").text('GToolkit alpha for Mac ' + version);
+  });
+  $.get('https://dl.feenk.com/gt/GToolkitLinux64-release', (data) => {
+        $("#linux64").attr("href", "https://dl.feenk.com/gt/" + data);
+        version = data.replace('GToolkitLinux64-', '').replace('.zip', '');
+        $("#linux64 span").text('GToolkit alpha for Linux ' + version);
+  }); 
 }
 
 function buildFeed(isHomePage) {
