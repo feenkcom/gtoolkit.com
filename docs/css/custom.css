@@ -280,7 +280,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 }
 
 .download-button {
-	/*width: 300px;*/
+	min-width: 400px;
 }
 
 .download-active {
