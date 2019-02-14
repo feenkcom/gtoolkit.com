@@ -13,18 +13,26 @@ function addVersionNumbers() {
   $.get('https://dl.feenk.com/gt/GToolkitWin64-release', (data) => {
     $("#win64").attr("href", "https://dl.feenk.com/gt/" + data);
     version = data.replace('GToolkitWin64-', '').replace('.zip', '');
-    $("#win64 span").text('GToolkit alpha for Windows ' + version);
+    $(".gtversion").text(version);
   }); 
   $.get('https://dl.feenk.com/gt/GToolkitOSX64-release', (data) => {
-        $("#osx64").attr("href", "https://dl.feenk.com/gt/" + data);
-        version = data.replace('GToolkitOSX64-', '').replace('.zip', '');
-        $("#osx64 span").text('GToolkit alpha for Mac ' + version);
+    $("#osx64").attr("href", "https://dl.feenk.com/gt/" + data);
+    version = data.replace('GToolkitOSX64-', '').replace('.zip', '');
+    $(".gtversion").text(version);
   });
   $.get('https://dl.feenk.com/gt/GToolkitLinux64-release', (data) => {
-        $("#linux64").attr("href", "https://dl.feenk.com/gt/" + data);
-        version = data.replace('GToolkitLinux64-', '').replace('.zip', '');
-        $("#linux64 span").text('GToolkit alpha for Linux ' + version);
+    $("#linux64").attr("href", "https://dl.feenk.com/gt/" + data);
+    version = data.replace('GToolkitLinux64-', '').replace('.zip', '');
+    $(".gtversion").text(version);
   }); 
+
+  $.get('https://dl.feenk.com/gt/.releasedateinseconds', (data) => { 
+    var d = new Date (data * 1000);
+    const month = d.toLocaleString('en-us', { month: 'long' });
+    var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + d.getMinutes();
+    $(".releasedate").text(datestring);
+  }); 
+
 }
 
 function buildFeed(isHomePage) {
