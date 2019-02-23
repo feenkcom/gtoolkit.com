@@ -299,8 +299,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 	background-color: none;
 }
 
-pre {
+code, pre {
 	border-color: transparent;
+	color: black;
 	background: #eee;
 	font-family: monospace;
 	font-size: 12pt;
