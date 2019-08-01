@@ -4,6 +4,33 @@ title: Components
 permalink: /components/
 order: 3
 ---
+<section id="components">
+<!-- Carousel -->
+  <div id="playgroundInspector" class="carousel slide" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
+        <div class="carousel-caption">
+          <p>The Playground and Inspector can be molded in many ways. For example, for browsing the file system.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/assets/pictures/gt-playground-inspector-codequery.png">
+        <div class="carousel-caption">
+          <p>And they can be molded to become a browser for a code query.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/assets/pictures/gt-playground-multiple-snippets.png">
+        <div class="carousel-caption">
+          <p>Playground supports multiple snippets that can be evaluated independently.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel -->
+</section>
+
 
 <section id="components">
   <div class="container">
@@ -25,7 +52,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
@@ -60,7 +87,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="debugger" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="debugger" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-debugger-inspector-exception.png">
@@ -89,7 +116,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="coder" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="coder" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-coder-meta-inspect.png">
@@ -124,7 +151,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="transcript" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="transcript" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-transcript-animation.png">
@@ -152,7 +179,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="documenter" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="documenter" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-documenter-tour.png">
@@ -187,7 +214,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="visualizer" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="visualizer" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian.png">
@@ -222,7 +249,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="examples" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="examples" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-examples-nesting-preview.png">
@@ -257,7 +284,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="releaser" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="releaser" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-releaser-bloc-0.4.0.png">
@@ -286,7 +313,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="bloc" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="bloc" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-inspector-editor-elements-tree.png">
@@ -315,7 +342,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="xdoc" class="carousel slide" data-ride="carousel" data-interval=false>
+        <div id="xdoc" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="item active">
               <img src="/assets/pictures/gt-xdoc-document-with-example.png">
