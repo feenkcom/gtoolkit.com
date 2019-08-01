@@ -1,0 +1,304 @@
+---
+
+---
+@import "main";
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  p {
+    font-weight: normal;
+  }
+  h1 {
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #212121;
+}
+
+.home {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border: 1px solid #DDD;
+  img {
+    margin: 10px;
+  }
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+  h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-top: 40px;*/
+  }
+}
+
+.card-action {
+  padding-top: 20px;
+  margin-bottom: -20px;
+}
+
+p, li {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+  &:hover {
+    text-decoration: none;
+    color: #212121;
+  }
+  &.active {
+    background-color: #EEE;
+  }
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 180px;
+  h1 {
+    font-weight: normal;
+    font-size: 48px;
+  }
+  h2 {
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 32px;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+body {
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+#gt img {
+  max-width: 95%;
+  max-height: 100vh;
+  height: auto;
+}
+
+img.shadow {
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px #eee;
+}
+
+.navbar {
+  background-color: white;
+  box-shadow: 0px 5px 20px 20px white;
+  /*opacity: 0.9;*/
+  filter: alpha(opacity = 90);
+  /* For IE8 and earlier */
+  li {
+    &.active a {
+      background-color: #EEE;
+    }
+    a {
+      font-weight: normal;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  a {
+      font-weight: normal;
+  }
+}
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: normal;
+  border-radius: 0px;
+  &:focus, &:active:focus, &.active:focus {
+    outline: 0 none;
+  }
+}
+
+.btn-primary, .btn-default {
+  background: #EEE;
+  color: #212121;
+}
+
+.btn-primary {
+  &:hover, &:focus {
+    background: #DDD;
+    color: #212121;
+  }
+  &:active {
+    background: #DDD;
+    color: #212121;
+    background: #DDD;
+    box-shadow: none;
+  }
+  &.active {
+    background: #DDD;
+    box-shadow: none;
+  }
+}
+
+.carousel {
+  margin-left: 50px;
+  margin-right: 50px;
+  img, video {
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+  }
+  .carousel-indicators {
+    li {
+      background-color: #9e9e9e;
+      color: #9e9e9e;
+      border-color: #9e9e9e;
+      margin: 0 0 0 5;
+      width: 7px;
+      height: 7px;
+      &:hover {
+        background-color: black;
+        border-color: black;
+      }
+    }
+    .active {
+      background-color: black;
+      border-color: black;
+      width: 7px;
+      height: 7px;
+    }
+  }
+  .carousel-caption {
+    z-index: 10;
+    text-shadow: none;
+    position: relative;
+    left: auto;
+    right: auto;
+    color: black;
+    margin-top: 10;
+  }
+  .carousel-control {
+    visibility: hidden;
+  }
+  &:hover .carousel-control {
+    color: black;
+    visibility: visible;
+    text-shadow: none;
+    background-image: none;
+    background: white;
+    -webkit-text-stroke: 2px white;
+    opacity: 0.6;
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor: pointer;
+  }
+}
+
+span.glyphicon {
+  &.glyphicon-chevron-right, &.glyphicon-chevron-left {
+    font-size: 20px;
+  }
+}
+
+.thumbnail {
+  border-radius: 0;
+}
+
+.modal {
+  &.fade {
+    .modal-dialog {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .modal-footer {
+      text-align: left;
+      border: none;
+    }
+    .modal-header {
+      border: none;
+    }
+  }
+  img, video {
+    height: auto;
+    width: 860px;
+    margin: 0 auto;
+  }
+}
+
+.instructions-item {
+  display: none;
+  &.selected {
+    display: block;
+  }
+}
+
+.instructions-list {
+  .selected {
+    background-color: #eee;
+  }
+  a {
+    border: none;
+    border-right: 1px solid;
+    border-color: #eee;
+    border-radius: 0px;
+  }
+}
+
+.instructions .filler {
+  height: 30px;
+}
+
+.instructions-list .filler {
+  height: 20px;
+  border-right: 1px solid;
+  border-color: #eee;
+}
+
+.download-item {
+  margin: 10;
+}
+
+.closer {
+  padding-top: 10px;
+}
+
+pre {
+  border-color: transparent;
+  background: #eee;
+  font-family: monospace;
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-padding {
+  padding-bottom: 50px;
+}

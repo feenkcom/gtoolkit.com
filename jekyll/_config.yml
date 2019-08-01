@@ -1,0 +1,27 @@
+
+title: Glamorous Toolkit
+email: contact@feenk.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Glamorous Toolkit is the moldable development environment. 
+  It is a live notebook. It is a flexible search interface. It is a fancy code editor. It is a software analysis platform. It is a data visualization engine. All in one. 
+  It is built in Pharo and it is free and open-source under an MIT license.
+baseurl: "/"
+url: "https://gtoolkit.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

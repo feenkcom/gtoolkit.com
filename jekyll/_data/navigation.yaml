@@ -1,0 +1,14 @@
+- title: Home
+  path: home
+- title: Get started
+  path: start
+- title: Components
+  path: components
+- title: Design Principles
+  path: design
+- title: Gallery
+  path: gallery
+- title: Install
+  path: install
+- title: About
+  path: about
