@@ -5,34 +5,6 @@ permalink: /components/
 order: 3
 ---
 <section id="components">
-<!-- Carousel -->
-  <div id="playgroundInspector" class="carousel slide" data-ride="carousel" >
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
-        <div class="carousel-caption">
-          <p>The Playground and Inspector can be molded in many ways. For example, for browsing the file system.</p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="/assets/pictures/gt-playground-inspector-codequery.png">
-        <div class="carousel-caption">
-          <p>And they can be molded to become a browser for a code query.</p>
-        </div>
-      </div>
-      <div class="item">
-        <img src="/assets/pictures/gt-playground-multiple-snippets.png">
-        <div class="carousel-caption">
-          <p>Playground supports multiple snippets that can be evaluated independently.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Carousel -->
-</section>
-
-
-<section id="components">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -54,19 +26,19 @@ order: 3
         <!-- Carousel -->
         <div id="playgroundInspector" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
               <div class="carousel-caption">
                 <p>The Playground and Inspector can be molded in many ways. For example, for browsing the file system.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-playground-inspector-codequery.png">
               <div class="carousel-caption">
                 <p>And they can be molded to become a browser for a code query.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-playground-multiple-snippets.png">
               <div class="carousel-caption">
                 <p>Playground supports multiple snippets that can be evaluated independently.</p>
@@ -89,13 +61,13 @@ order: 3
         <!-- Carousel -->
         <div id="debugger" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-debugger-inspector-exception.png">
               <div class="carousel-caption">
                 <p>A Debugger opened on an exception. Inspecting a variable spawns an Inspector.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-debugger-inspector-bytecode.png">
               <div class="carousel-caption">
                 <p>A Debugger showing the bytecode of the current execution.</p>
@@ -118,19 +90,19 @@ order: 3
         <!-- Carousel -->
         <div id="coder" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-coder-meta-inspect.png">
               <div class="carousel-caption">
                 <p>Coder opened on the class of an object in the Inspector. Evaluating code spawns the result.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-coder-method-implementors.png">
               <div class="carousel-caption">
                 <p>A method viewed through Coder in an Inspector. Looking for implementors highlights the results.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-coder-query-highlighting.png">
               <div class="carousel-caption">
                 <p>The results of a code query shown highlighted in a Coder interface.</p>
@@ -153,13 +125,13 @@ order: 3
         <!-- Carousel -->
         <div id="transcript" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-transcript-animation.png">
               <div class="carousel-caption">
                 <p>Transcript used to trace the steps of an animation.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-transcript-reflection.png">
               <div class="carousel-caption">
                 <p>Transcript used for teaching reflection. An exception can be expanded in place to show the stack.</p>
@@ -181,19 +153,19 @@ order: 3
         <!-- Carousel -->
         <div id="documenter" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-documenter-tour.png">
               <div class="carousel-caption">
                 <p>Documenter opened on the Tour document. Clicking on a link spawns an Inspector.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-documenter-examples-tutorial.png">
               <div class="carousel-caption">
                 <p>Documenter showing a tutorial. The code changes are embedded as objects.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-documenter-class-comment.png">
               <div class="carousel-caption">
                 <p>Documenter tranforms the class comment into a live document.</p>
@@ -216,19 +188,19 @@ order: 3
         <!-- Carousel -->
         <div id="visualizer" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian.png">
               <div class="carousel-caption">
                 <p>A Mondrian script showing a visualization of a directory structure.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian-directory.png">
               <div class="carousel-caption">
                 <p>The visualization is directly clickable: clicking on a node spawns an Inspector.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-connector-examples-code.png">
               <div class="carousel-caption">
                 <p>A Connector interactive visualization showing dependencies between examples.</p>
@@ -251,19 +223,19 @@ order: 3
         <!-- Carousel -->
         <div id="examples" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-examples-nesting-preview.png">
               <div class="carousel-caption">
                 <p>Examples can be fine grained and nested arbitrarily. The returned object offers immediate feedback.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-connector-examples-code.png">
               <div class="carousel-caption">
                 <p>Examples can be visualized with Connector, too.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-connector-examples-code-preview4.png">
               <div class="carousel-caption">
                 <p>Examples are executable. Connector allows us to explore how the overall result is obtained.</p>
@@ -286,13 +258,13 @@ order: 3
         <!-- Carousel -->
         <div id="releaser" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-releaser-bloc-0.4.0.png">
               <div class="carousel-caption">
                 <p>The Inspector showing a project and all its dependencies ready to be released.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-releaser-releases-and-commits.png">
               <div class="carousel-caption">
                 <p>Looking deeper in the commits ancestry of a release.</p>
@@ -315,13 +287,13 @@ order: 3
         <!-- Carousel -->
         <div id="bloc" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-inspector-editor-elements-tree.png">
               <div class="carousel-caption">
                 <p>The Inspector showing how the text editor represents all its parts, including graphical elements and the cursor, within one rendering tree.</p>
               </div>
             </div>
-            <div class="item">
+            <div class="carousel-item">
               <img src="/assets/pictures/gt-connector-objects-graph-layout.png">
               <div class="carousel-caption">
                 <p>The Connector interface combines widgets in a graph scene. This is possible because graph layouts are regular layouts.</p>
@@ -344,13 +316,13 @@ order: 3
         <!-- Carousel -->
         <div id="xdoc" class="carousel slide" data-ride="carousel" >
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="carousel-item active">
               <img src="/assets/pictures/gt-xdoc-document-with-example.png">
               <div class="carousel-caption">
                 <p>An XDoc containing a live document that can was produced and that can be played with Documenter. The XDoc also contains the HTML preview of the document.</p>
               </div>
             </div>
-            <div class="item ">
+            <div class="carousel-item ">
               <img src="/assets/pictures/gt-xdoc-empty.png">
               <div class="carousel-caption">
                 <p>An empty XDoc contains an empty manifest.</p>
