@@ -35,8 +35,8 @@ body {
   padding-bottom: 20px;
   background-color: white;
   border: 1px solid #DDD;
-  img {
-    margin: 10px;
+  img, video {
+    padding: 10px;
   }
   p {
     padding-left: 20px;
@@ -230,6 +230,7 @@ span.glyphicon {
 
 .card {
   border-radius: 0;
+  padding: 4px;
 }
 
 .modal {
