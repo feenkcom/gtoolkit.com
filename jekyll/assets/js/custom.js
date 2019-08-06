@@ -98,7 +98,7 @@ function buildCarousels() {
 
 function createControl(position, slideTo, carouselId) {
   var a = document.createElement('a');
-  a.className = position + ' carousel-control';
+  a.className = position + ' carousel-control carousel-control-'+slideTo;
   a.setAttribute('data-target', '#' + carouselId);
   a.setAttribute('role', 'button');
   a.setAttribute('data-slide', slideTo);
