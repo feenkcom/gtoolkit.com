@@ -8,7 +8,7 @@ order: 6
 <section id="install">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1 class="center-text">Install</h1>
           <p class="lead">You can obtain Glamorous Toolkit in two ways: download a ready made distribution, or manually install the code.</p>
@@ -17,7 +17,7 @@ order: 6
     </div> <!-- row -->
 
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <h2>Run alpha 64bit released <span class=releasedate></span></h2> 
         <ol>
           <li><p>Download the distribution specific to your system:</p>
@@ -51,11 +51,11 @@ order: 6
     </div> <!-- row -->
 
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <h2>Load the latest alpha code in Pharo 7.0</h2>
       </div>
 
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>

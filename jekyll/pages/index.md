@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 permalink: /
 order: 1
@@ -14,7 +14,7 @@ order: 1
     </div>
     
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <p class="lead">
           Glamorous Toolkit is the moldable development environment.
           It is a live notebook.
@@ -43,7 +43,7 @@ order: 1
       </div>
     </div>
     <div class="row vspace">
-      <div class="col-lg-6  col-lg-offset-3">
+      <div class="col-lg-6  offset-lg-3">
           <a href="#start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Get started
           </a>
@@ -51,7 +51,7 @@ order: 1
     </div>  
 
     <div class="row vspace topmarker">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
          <h2>
           Seamless object navigation
         </h2>
@@ -62,7 +62,7 @@ order: 1
     </div>
 
     <div class="row vspace topmarker">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
          <h2>
           Adaptable coding and debugging experience
         </h2>
@@ -73,7 +73,7 @@ order: 1
     </div>
 
     <div class="row vspace topmarker">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
          <h2>
           Example-driven development
         </h2>
@@ -84,7 +84,7 @@ order: 1
     </div>
 
     <div class="row vspace topmarker">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
          <h2>
           Live and debuggable notebooks and documents
         </h2>
@@ -95,7 +95,7 @@ order: 1
     </div>
 
     <div class="row vspace topmarker">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
          <h2>
           Powerful underlying engines for querying, release management or visualization
         </h2>
@@ -107,7 +107,7 @@ order: 1
 
 
     <div class="row vspace">
-      <div class="col-lg-6  col-lg-offset-3">
+      <div class="col-lg-6  offset-lg-3">
           <a href="#start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Intrigued? <br/> Get started
           </a>
@@ -115,7 +115,7 @@ order: 1
     </div>
 
     <div class="row vspace center">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-8 offset-md-2">
         <a class="twitter-timeline" data-height="650" href="https://twitter.com/feenkcom?ref_src=twsrc%5Etfw">@feenkcom</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>

@@ -8,7 +8,7 @@ order: 7
 <section id="components">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1>About</h1>
           <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">the feenk team</a>, and was born out of a long term effort to rethink the Development eXperience.</p>

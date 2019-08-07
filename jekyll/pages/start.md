@@ -8,7 +8,7 @@ order: 2
 <section id="components">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1>Get started</h1>
           <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
@@ -16,7 +16,7 @@ order: 2
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <h2>Install and run</h2>
         <p>
           First things, first. Please go ahead and <a href="#install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.

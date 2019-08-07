@@ -8,7 +8,7 @@ order: 4
 <section id="components">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1>Design principles</h1>
           <p class="lead">Glamorous Toolkit is based on a handful of principles that we continuously discover and refine. Here is what we have so far.</p>
@@ -16,7 +16,7 @@ order: 4
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 offset-lg-2">
 
         <h2>Moldable first</h2>
         <p>
