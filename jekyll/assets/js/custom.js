@@ -4,7 +4,6 @@ $(document).ready(function () {
 
 function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
-  buildFeed(isHomePage);
   handleMenuSelection();
   addVersionNumbers();
   // detectOS();
@@ -37,25 +36,6 @@ function addVersionNumbers() {
     $(".releasedate").text(datestring);
   }); 
 
-}
-
-function buildFeed(isHomePage) {
-  if (!isHomePage) return;
-  window.twttr = (function(id) {
-    var js, fjs = document.getElementsByTagName("script")[0],
-      twitter = window.twttr || {};
-    js = document.createElement("script");
-    js.id = id;
-    js.src = "https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
-
-    twitter._e = [];
-    twitter.ready = function(f) {
-      twitter._e.push(f);
-    };
-
-    return twitter;
-  }("twitter-timeline"));
 }
 
 function detectOS() {

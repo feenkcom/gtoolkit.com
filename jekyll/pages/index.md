@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 permalink: /
 order: 1
@@ -48,11 +48,7 @@ order: 1
             Get started
           </a>
       </div>
-    </div>
-<!--   </div>
-
-  <div class="container-fluid center">
- -->    
+    </div>  
 
     <div class="row vspace topmarker">
       <div class="col-lg-8 col-lg-offset-2">
