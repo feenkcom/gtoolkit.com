@@ -82,8 +82,8 @@ function createControl(position, slideTo, carouselId) {
   a.setAttribute('data-target', '#' + carouselId);
   a.setAttribute('role', 'button');
   a.setAttribute('data-slide', slideTo);
-  var spanIcon = document.createElement('span');
-  spanIcon.className = "glyphicon glyphicon-chevron-"+position;
+  var spanIcon = document.createElement('i');
+  spanIcon.className = "fas fa-fw fa-3x fa-chevron"+position;
   spanIcon.setAttribute('aria-hidden', true);
   a.append(spanIcon);
   return a;
