@@ -116,7 +116,7 @@ order: 1
 
     <div class="row vspace center">
       <div class="col-md-8 col-md-offset-2">
-        <a class="twitter-timeline" data-height="650" href="https://twitter.com/feenkcom?ref_src=twsrc%5Etfw">@feenkcom</a>
+        <a class="twitter-timeline" data-height="650" href="https://twitter.com/feenkcom?ref_src=twsrc%5Etfw">@feenkcom</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
