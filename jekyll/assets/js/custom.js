@@ -6,7 +6,6 @@ function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
   handleMenuSelection();
   addVersionNumbers();
-  // detectOS();
   addPreview();
   buildCarousels();
 }
