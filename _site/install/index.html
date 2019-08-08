@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moldable Development</title>
+    <!-- JS -->
+    <script src="/assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="/assets/js/platform.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- <script src="/assets/js/smooth-scroll.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-70148882-3');
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+  <body>
+    <nav class="navbar py-2 fixed-top navbar-expand-lg">
+  <a class="navbar-brand" href="/"><img src="/assets/pictures/gtoolkit-icon.png" height="24px" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div id="nav-items" class="navbar-nav ml-auto">
+      
+        
+          <li><a class="nav-item py-2 nav-link " href="/404.html"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/css/styles.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/assets/main.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/feed.xml"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/">Home</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/start/">Getting started</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/components/">Components</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/design/">Design principles</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/gallery/">Gallery</a></li>
+        
+          <li><a class="nav-item py-2 nav-link  active " href="/install/">Install</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/about/">About</a></li>
+        
+    </div>
+  </div>
+</nav>
+
+    <section id="install">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="jumbotron">
+          <h1 class="center-text">Install</h1>
+          <p class="lead">You can obtain Glamorous Toolkit in two ways: download a ready made distribution, or manually install the code.</p>
+        </div>   
+      </div>
+    </div> <!-- row -->
+
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
+        <ol>
+          <li><p>Download the distribution specific to your system:</p>
+            <div class="padding">
+              <a id="osx64" href="https://dl.feenk.com/gt/GToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default download-active" data-switcher-content="os x">
+                <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Mac </span><span class="gtversion"></span>
+              </a>
+            </div>
+            <div class="padding">
+                <a id="linux64" href="https://dl.feenk.com/gt/GToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="linux">
+                  <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Linux </span><span class="gtversion"></span> 
+                </a>
+            </div>
+            <div class="padding">
+              <a id="win64" href="https://dl.feenk.com/gt/GToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="windows">
+                <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Windows </span> <span class="gtversion"></span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <p>Unzip in a separate directory.</p>
+          </li> 
+          <li>
+            <p>Run the GToolkit image with the Pharo executable.</p>
+            <p>On Mac: Run the Pharo.app and point to the GToolkit image file. A note: after downloading it the first time, right click, then keep Alt pressed while choosing Open.</p>
+            <p>On Windows: Run the Pharo.exe and point to the GToolkit image file. </p>
+            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE </code></p>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Load the latest alpha code in Pharo 7.0</h2>
+      </div>
+
+      <div class="col-lg-8 offset-lg-2">
+        <div class="instructions-item selected" area-labelledby="pharo-70">
+          <ol>
+            <li>
+                <p>Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest image and latest VM of Pharo 7.0</a> specific to your system</p>
+            </li>
+            <li>
+              <p>Execute the following code in the Playground of the Pharo 7.0 image (can take 10-20 minutes):</p>
+              <pre>EpMonitor current disable.
+[ 
+  Metacello new
+    baseline: 'GToolkit';
+    repository: 'github://feenkcom/gtoolkit/src';
+    load
+] ensure: [ EpMonitor current enable ].
+#GtWorld asClass open.</pre>
+              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables glamorous rendering. It also opens a live document that provides a guided tour.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div><!-- /container -->
+</section>
+
+
+    <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <div class="caption">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <footer class="mdl-mega-footer mdl-typography--font-light mdl-typography--text-center">
+    <p>
+        <a href="mailto:contact@feenk.com"><i class="fas fa-envelope fa-fw fa-2x"></i></a>
+        <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i
+                class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i
+                class="fab fa-twitter fa-fw fa-2x"></i></a>
+        <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i
+                class="fab fa-medium-m fa-fw fa-2x"></i></a>
+        <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i
+                class="fab fa-linkedin fa-fw fa-2x"></i></a>
+    </p>
+    <div>
+        <a href="https://feenk.com">Glamorously developed by feenk gmbh.</a>
+    </div>
+</footer>
+    <script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js" data-bg="#212121"
+    data-font-family="Helvetica Neue" data-fg="#FFFFFF" data-link="#F1D600" data-cookie="feenk-gtoolkit-cookies"
+    data-text-align="center" data-divlinkbg="white" data-divlink="#212121"
+    data-message="We want to change the way developers work. This is non-trivial. We use cookies to track site analytics and to learn which parts of our messages work, and which ones don't. By continuing to visit this site you agree to our use of cookies."
+    data-linkmsg=''>
+</script>
+  </body>
+</html>

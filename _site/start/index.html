@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moldable Development</title>
+    <!-- JS -->
+    <script src="/assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="/assets/js/platform.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- <script src="/assets/js/smooth-scroll.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-70148882-3');
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+  <body>
+    <nav class="navbar py-2 fixed-top navbar-expand-lg">
+  <a class="navbar-brand" href="/"><img src="/assets/pictures/gtoolkit-icon.png" height="24px" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div id="nav-items" class="navbar-nav ml-auto">
+      
+        
+          <li><a class="nav-item py-2 nav-link " href="/404.html"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/css/styles.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/assets/main.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/feed.xml"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/">Home</a></li>
+        
+          <li><a class="nav-item py-2 nav-link  active " href="/start/">Getting started</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/components/">Components</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/design/">Design principles</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/gallery/">Gallery</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/install/">Install</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/about/">About</a></li>
+        
+    </div>
+  </div>
+</nav>
+
+    <section id="components">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="jumbotron">
+          <h1>Get started</h1>
+          <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Install and run</h2>
+        <p>
+          First things, first. Please go ahead and <a href="#install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.
+        </p>
+
+        <p>
+          So, here is what just happened. You downloaded a self contained installation made of a Glamorous Toolkit image, a Pharo virtual machine, and a few other things. The contents of the folder should look like this:
+        </p>
+
+        <p>
+          <img src="/assets/pictures/gt-distribution-contents.png" />
+        </p>
+
+        <p>
+          Now, run the image with the virtual machine and you are good to go.
+        </p>
+
+        <h2>What is Pharo and how does Glamorous Toolkit fit with it?</h2>
+
+        <p>
+          Yes, that's a legitimate question. Pharo is a Smalltalk language and environment. That means that you have a very tight integration between the language and the development environment. Pharo already comes with a development environment. Glamorous Toolkit offers a novel alternative environment based on a completely new graphical stack.
+        </p>
+
+        <h2>Browse</h2>
+
+        <p>
+          Ok, so back to your installation. It should now be running and look like this:
+        </p>
+
+        <p>
+          <img src="/assets/pictures/gt-tour-initial.png" />
+        </p>
+
+        <p>
+          Now what? Start by browsing. The first thing you see is the Glamorous Tour document. That's a live document. Go ahead. Click on the links. Read the tutorials. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
+        </p>
+
+
+        <h2>Hello world</h2>
+        <p>
+          Open the GToolkit Playground (from the top Pharo menu choose GToolkit/GToolkit Playground) and type:
+        </p>
+
+        <pre>'Hello world'</pre>
+
+        <p>
+          Now press this <img src="/assets/pictures/gt-playinspect.png" /> button, and you should see this:
+        </p>
+
+        <p>
+          <img src="/assets/pictures/gt-hello-world-inspector.png" />
+        </p>
+
+        <p>
+          That's it. You executed a piece of code and you are now inspecting the resulting object. Did you expect to rather print the result on some console? That's possible as well. Execute and inspect:
+        </p>
+
+        <pre>transcript := GtTranscript new.
+transcript show: 'Hello world'.</pre>
+
+        <p>
+          And you should get:
+        </p>
+
+        <p>
+          <img src="/assets/pictures/gt-hello-world-transcript.png" />
+        </p>
+
+        <p>
+          Now, you created a transcript object, and told it to show the string. At the end you saw the result being printed in the transcript rendering. Did you still expect to see an example that prints this to the operating system console? That's possible as well, but let's stop here for now.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <div class="caption">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+    <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <div class="caption">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <footer class="mdl-mega-footer mdl-typography--font-light mdl-typography--text-center">
+    <p>
+        <a href="mailto:contact@feenk.com"><i class="fas fa-envelope fa-fw fa-2x"></i></a>
+        <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i
+                class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i
+                class="fab fa-twitter fa-fw fa-2x"></i></a>
+        <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i
+                class="fab fa-medium-m fa-fw fa-2x"></i></a>
+        <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i
+                class="fab fa-linkedin fa-fw fa-2x"></i></a>
+    </p>
+    <div>
+        <a href="https://feenk.com">Glamorously developed by feenk gmbh.</a>
+    </div>
+</footer>
+    <script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js" data-bg="#212121"
+    data-font-family="Helvetica Neue" data-fg="#FFFFFF" data-link="#F1D600" data-cookie="feenk-gtoolkit-cookies"
+    data-text-align="center" data-divlinkbg="white" data-divlink="#212121"
+    data-message="We want to change the way developers work. This is non-trivial. We use cookies to track site analytics and to learn which parts of our messages work, and which ones don't. By continuing to visit this site you agree to our use of cookies."
+    data-linkmsg=''>
+</script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moldable Development</title>
+    <!-- JS -->
+    <script src="/assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="/assets/js/platform.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- <script src="/assets/js/smooth-scroll.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-70148882-3');
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+  <body>
+    <nav class="navbar py-2 fixed-top navbar-expand-lg">
+  <a class="navbar-brand" href="/"><img src="/assets/pictures/gtoolkit-icon.png" height="24px" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div id="nav-items" class="navbar-nav ml-auto">
+      
+        
+          <li><a class="nav-item py-2 nav-link " href="/404.html"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/css/styles.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/assets/main.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/feed.xml"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/">Home</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/start/">Getting started</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/components/">Components</a></li>
+        
+          <li><a class="nav-item py-2 nav-link  active " href="/design/">Design principles</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/gallery/">Gallery</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/install/">Install</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/about/">About</a></li>
+        
+    </div>
+  </div>
+</nav>
+
+    <section id="components">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="jumbotron">
+          <h1>Design principles</h1>
+          <p class="lead">Glamorous Toolkit is based on a handful of principles that we continuously discover and refine. Here is what we have so far.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+
+        <h2>Moldable first</h2>
+        <p>
+          Software is shapeless. Yet, to reason about it we, humans, need a shape. Tools provide the shape of software. It follows that tools are essential. Moreover, software is also highly contextual. For tools to be effective, they have to take that context into account. It follows that tools must be moldable so that the programmer can adapt them to the current needs, easily and frequently.
+        </p>
+
+        <h2>"I" stands for integrated</h2>
+        <p>
+          The "I" in the IDE stands for integrated, as in supports all activities required for evolving a software system. That means that every time we leave the environment to reason about our own system, the “I” has failed. We should never have to leave. And, true integration includes everyone that has an interest in the system. The environment is not just for a special breed of humans. It is for everyone, including managers, designers, and why not, your friends and family.
+        </p>
+
+        <h2>The environment is a language</h2>
+        <p>
+          We see the environment as a language with visual and interaction operators. We never build features. We grow them out of operators, and you should be able to grow them for your context, too.
+        </p>
+
+        <h2>Search is pervasive</h2>
+        <p>
+          Much of the software assessment effort can be expressed as search. So, search must be supported everywhere.
+        </p>
+
+        <h2>Visualization is a first class citizen</h2>
+        <p>
+          Software is data. And data has no shape. Or better yet, it has no one shape. It has many. That’s why the visual and interactive depiction of data must be a first class citizen.
+        </p>
+
+        <h2>Color is for data</h2>
+        <p>
+          Color is powerful. We want to use it for what matters. The code. The data.
+        </p>
+
+        <h2>No modal dialogs</h2>
+        <p>
+          Just that. No modal dialogs. Because our brains have better things to do.
+        </p>
+
+        <h2>One rendering tree</h2>
+        <p>
+          Ok, this is a nerdy one, but one that we are quite proud of. Whatever is shown on the screen is rendered in one single rendering tree. No canvas in between. That means that all layouts are regular layouts, including the graph layouts and text-editor layouts. That means that text is made of regular elements. And that means that all elements can be combinable without imposing a technical limit.
+        </p>
+
+      </div>
+    </div> <!-- row -->
+
+  </div> <!-- container -->
+</section>
+
+    <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <div class="caption">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <footer class="mdl-mega-footer mdl-typography--font-light mdl-typography--text-center">
+    <p>
+        <a href="mailto:contact@feenk.com"><i class="fas fa-envelope fa-fw fa-2x"></i></a>
+        <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i
+                class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i
+                class="fab fa-twitter fa-fw fa-2x"></i></a>
+        <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i
+                class="fab fa-medium-m fa-fw fa-2x"></i></a>
+        <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i
+                class="fab fa-linkedin fa-fw fa-2x"></i></a>
+    </p>
+    <div>
+        <a href="https://feenk.com">Glamorously developed by feenk gmbh.</a>
+    </div>
+</footer>
+    <script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js" data-bg="#212121"
+    data-font-family="Helvetica Neue" data-fg="#FFFFFF" data-link="#F1D600" data-cookie="feenk-gtoolkit-cookies"
+    data-text-align="center" data-divlinkbg="white" data-divlink="#212121"
+    data-message="We want to change the way developers work. This is non-trivial. We use cookies to track site analytics and to learn which parts of our messages work, and which ones don't. By continuing to visit this site you agree to our use of cookies."
+    data-linkmsg=''>
+</script>
+  </body>
+</html>

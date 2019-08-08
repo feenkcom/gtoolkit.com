@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moldable Development</title>
+    <!-- JS -->
+    <script src="/assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <script src="/assets/js/platform.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- <script src="/assets/js/smooth-scroll.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70148882-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-70148882-3');
+    </script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+  <body>
+    <nav class="navbar py-2 fixed-top navbar-expand-lg">
+  <a class="navbar-brand" href="/"><img src="/assets/pictures/gtoolkit-icon.png" height="24px" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div id="nav-items" class="navbar-nav ml-auto">
+      
+        
+          <li><a class="nav-item py-2 nav-link " href="/404.html"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/css/styles.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/assets/main.css"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/feed.xml"></a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/">Home</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/start/">Getting started</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/components/">Components</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/design/">Design principles</a></li>
+        
+          <li><a class="nav-item py-2 nav-link  active " href="/gallery/">Gallery</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/install/">Install</a></li>
+        
+          <li><a class="nav-item py-2 nav-link " href="/about/">About</a></li>
+        
+    </div>
+  </div>
+</nav>
+
+    <section class="row" id="gallery">
+  <div class="container">
+    <div class="col-lg-12">
+      <div class="jumbotron">
+        <h1>Gallery</h1>
+        <p class="lead">Moldability is hard to convey in words. You need to experience it. Until you do take the leap, observe examples of how different parts of the system can feel like.</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-documenter.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Executing a nested example with Coder.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-coder-shortcuts-bug.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Looking for the shortcuts that are not defined in a Linux-friendly way.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-coder-dynamic-example-adornments.mp4#t=0.5" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">A method Coder changing shape dynamically when adding/removing the gtExample pragma. The changes affect: the example status label, the in-place example expanding toggle, and the run button. All this without saving.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-coder-extract-method-keyword-parameter-reordering.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Performing an extract method refactoring for a keyword method, including the reordering of the parameters. Without requiring any modal dialogue.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-documenter-toggle-view-edit.mp4" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Toggling the markup visibility in Documenter.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-coder-parameter-rename.mp4" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Renaming a parameter.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-documenter-mondrian-doc.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Documenting the visualization engines of the Glamorous Toolkit.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-documenter-magic-markup.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">The markup appears on cursor move in Documenter.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-transcript-animation.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Transcript used for debugging an animation.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-inspector-rope-reuses-string.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Inspector showing the ballanced rope data structure behind a text editor.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt4p3-query.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Playground and Inspector used for opening a database connection and evaluating a query.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt4p3-schema.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Playground and Inspector used for opening a database connection and browsing the schema.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-coder-filter-specialliterals.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Querying for the special literals reveals that they are copied in four places in the kernel of Pharo 7.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-inspector-editor-whereisthemouse.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Inspector showing an editor object knowing how to inspect both the cursor indexes and the mouse position.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-connector-inspecting-examples.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Connector showing the graph of nested examples and previewing the results.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-debugger-stepping-updates-values-small.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Updating the variable values right in the code during stepping through the Debugger.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gt-inspector-bloc-keyboard.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Tracking keystrokes with a keyboard simulation in the Inspector.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gtr-petitparser2-graph.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">Exploring the structure of a grammar written in PetitParser2, one of the two parsing engines shipping with Glamorous Toolkit.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gtr-inspector-faces.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Inspector exploring the results of applying Azure Face API to a picture.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gtr-inspector-missing-file.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Inspecting a missing file shows which part of the file paths exist and which do not.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <video controls="controls" preload="metadata" style="width:100%">
+            <source src="/assets/video/gtr-inspector-live-string.mp4#t=0.1" type="video/mp4" />
+        </video>
+        <div class="card-block">
+            <p class="card-text">A custom view easing the inspection of a string and its corresponding characters.</p>
+        </div>
+    </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gtr-search-hierarchy.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Visualizing the hierarchy of filters and highlighting interesting methods to trace how the search for implementors works.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gtr-inspector-xml-source.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Inspecting an XML file.</p>
+        </div>
+    </div>
+</div>
+        <div class="col-md-4">
+    <div class="card">
+        <img class="card-img-top" src="/assets/pictures/gt-smacc-expansion.png" style="width:100%" />
+        <div class="card-block">
+            <p class="card-text">Browsing a grammar definition.</p>
+        </div>
+    </div>
+</div>
+      </div>
+       
+    </div>
+</section>
+
+    <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <div class="caption">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <footer class="mdl-mega-footer mdl-typography--font-light mdl-typography--text-center">
+    <p>
+        <a href="mailto:contact@feenk.com"><i class="fas fa-envelope fa-fw fa-2x"></i></a>
+        <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i
+                class="fab fa-github fa-fw fa-2x"></i></a>
+        <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i
+                class="fab fa-twitter fa-fw fa-2x"></i></a>
+        <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i
+                class="fab fa-medium-m fa-fw fa-2x"></i></a>
+        <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i
+                class="fab fa-linkedin fa-fw fa-2x"></i></a>
+    </p>
+    <div>
+        <a href="https://feenk.com">Glamorously developed by feenk gmbh.</a>
+    </div>
+</footer>
+    <script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js" data-bg="#212121"
+    data-font-family="Helvetica Neue" data-fg="#FFFFFF" data-link="#F1D600" data-cookie="feenk-gtoolkit-cookies"
+    data-text-align="center" data-divlinkbg="white" data-divlink="#212121"
+    data-message="We want to change the way developers work. This is non-trivial. We use cookies to track site analytics and to learn which parts of our messages work, and which ones don't. By continuing to visit this site you agree to our use of cookies."
+    data-linkmsg=''>
+</script>
+  </body>
+</html>
