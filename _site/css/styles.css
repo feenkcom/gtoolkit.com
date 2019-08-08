@@ -7679,6 +7679,8 @@ img.shadow {
   box-shadow: 0px 0px 5px 5px #eee; }
 
 #navigation {
+  padding-bottom: 0px;
+  padding-top: 0px;
   background-color: white;
   border-bottom: 1px solid #EEE;
   	/*box-shadow:0px 5px 20px 20px white;
