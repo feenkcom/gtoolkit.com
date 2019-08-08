@@ -240,8 +240,8 @@ footer {
   }
 }
 
-span.glyphicon {
-  &.glyphicon-chevron-right, &.glyphicon-chevron-left {
+.carousel-control {
+  i.fa-chevron-right, i.fa-chevron-left {
     font-size: 20px;
   }
 }
