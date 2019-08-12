@@ -44,7 +44,7 @@ order: 1
     </div>
     <div class="row vspace">
       <div class="col-lg-6  offset-lg-3">
-          <a href="#start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
+          <a href="start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Get started
           </a>
       </div>
