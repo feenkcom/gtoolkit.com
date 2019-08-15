@@ -19,7 +19,7 @@ order: 2
       <div class="col-lg-8 offset-lg-2">
         <h2>Install and run</h2>
         <p>
-          First things, first. Please go ahead and <a href="install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.
+          First things, first. Please go ahead and <a href="/install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.
         </p>
 
         <p>
