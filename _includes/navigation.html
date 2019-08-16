@@ -8,7 +8,9 @@
     <div id="nav-items" class="navbar-nav ml-auto">
       {% assign doclist = site.pages | sort: 'order'  %}
         {% for item in doclist %}
-          <li><a class="nav-item py-2 nav-link {% if item.url == page.url %} active {% endif %}" href="{{item.url}}">{{item.title}}</a></li>
+          {% if item contains "order" %}
+            <li><a class="nav-item py-2 nav-link {% if item.url == page.url %} active {% endif %}" href="{{item.url}}">{{item.title}}</a></li>
+          {% endif %}
         {% endfor %}
     </div>
   </div>
