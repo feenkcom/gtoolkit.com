@@ -25,10 +25,10 @@ order: 1
           All in one.
           It is built in Pharo and it is free and open-source under an MIT license.
         </p>
-        <p>
+        <p class="lead">
           Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to mold it seamlessly. This change is transformational.
         </p>
-        <p>
+        <p class="lead">
           Take a look around to see how this feels, but do not stop there. Play with it. And engage with us. We'd love to hear from you.
         </p>
         <div class="vspace mdl-typography--font-light mdl-typography--text-center">
@@ -44,7 +44,7 @@ order: 1
     </div>
     <div class="row vspace">
       <div class="col-lg-6  offset-lg-3">
-          <a href="#start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
+          <a href="start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Get started
           </a>
       </div>
@@ -108,7 +108,7 @@ order: 1
 
     <div class="row vspace">
       <div class="col-lg-6  offset-lg-3">
-          <a href="#start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
+          <a href="start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Intrigued? <br/> Get started
           </a>
       </div>
