@@ -10,19 +10,18 @@ layout: default
                 <h1><a href="{{ post.url | relative_url }}">{{ page.title | escape }}</a></h1>
                 <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ page.author | escape }}</a>
                 </p>
-                <hr>
                 <p><i class="fa fa-calendar"></i> Posted on {{ page.date | date: "%b %-d, %Y at %R" }}</p>
                 <p><i class="fa fa-tags"></i> Tags: &nbsp;
                     {%- for tag in page.tags -%}
                     <a href=""><span class="badge badge-info">{{ tag }}</span> &nbsp;</a>
                     {%- endfor -%}
-                    <hr>
-                    {%- if page.image -%}
-                    <img src="/assets/{{ namespace }}/{{ page.image }}" class="img-responsive">
-                    {%- endif -%}
-                    <hr>
-                    <p class="lead">{{ content }}</p>
-                    <br />
+                </p>
+                {%- if page.image -%}
+                <img src="/assets/{{ namespace }}/{{ page.image }}" class="img-responsive">
+                {%- endif -%}
+                </br>
+                <p class="lead">{{ content }}</p>
+                <br />
             </div>
         </div>
     </div>
