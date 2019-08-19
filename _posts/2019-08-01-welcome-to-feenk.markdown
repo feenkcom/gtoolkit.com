@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: posts
 title:  "Welcome to GToolkit"
 author: Tudor Girba
-date:   2019-08-01 14:24:45 +0300
+date: 2019-08-01 14:24:45 +0300
 tags: gtoolkit feenk
 image: nasa-unsplash.jpg
 ---

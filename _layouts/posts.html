@@ -1,40 +1,29 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-{%- include head.html -%}
-
-<body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-            
-                <header class="post-header">
-                    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-                    <p class="post-meta">
-                        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                            {%- assign date_format = "%b %-d, %Y" -%}
-                            {{ page.date | date: date_format }}
-                        </time>
-                        {%- if page.author -%}
-                        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
-                                itemprop="name">{{ page.author | escape }}</span></span>
-                        {%- endif -%}</p>
-                </header>
-            
-                <div class="post-content e-content" itemprop="articleBody">
-                    {{ content }}
-                </div>
-            
-                <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-            </article>
+<section id="posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {% capture namespace %}{{ page.path | split:"/" | last | split:"." | first }}{% endcapture %}
+                <h1><a href="{{ post.url | relative_url }}">{{ page.title | escape }}</a></h1>
+                <p class="lead"><i class="fa fa-user"></i> by <a href="">{{ page.author | escape }}</a>
+                </p>
+                <hr>
+                <p><i class="fa fa-calendar"></i> Posted on {{ page.date | date: "%b %-d, %Y at %R" }}</p>
+                <p><i class="fa fa-tags"></i> Tags: &nbsp;
+                    {%- for tag in page.tags -%}
+                    <a href=""><span class="badge badge-info">{{ tag }}</span> &nbsp;</a>
+                    {%- endfor -%}
+                    <hr>
+                    {%- if page.image -%}
+                    <img src="/assets/{{ namespace }}/{{ page.image }}" class="img-responsive">
+                    {%- endif -%}
+                    <hr>
+                    <p class="lead">{{ content }}</p>
+                    <br />
+            </div>
         </div>
-    </main>
-
-    {%- include footer.html -%}
-
-</body>
-
-</html>
+    </div>
+</section>
