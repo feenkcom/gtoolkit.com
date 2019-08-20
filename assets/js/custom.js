@@ -36,8 +36,7 @@ function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
   $('#' + buttonId).click(function () {
     gtag('event', 'download', {
       'event_category': 'Install',
-      'event_label': 'platform',
-      'value': buttonId
+      'event_label': buttonId,
       });
     });
   }
