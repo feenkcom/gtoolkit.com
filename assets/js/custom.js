@@ -34,15 +34,14 @@ function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
   var version = data.replace(downloadIdentifier, '').replace('.zip', '');
   $(".gtversion").text(version);
   $('#' + buttonId).click(function () {
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Install',
-      eventAction: 'download',
-      eventLabel: buttonId
+    gtag('event', 'download', {
+      'event_category': 'Install',
+      'event_label': 'platform',
+      'value': buttonId
+      });
     });
-  });
-}
-
+  }
+            
 function detectOS() {
   var userPlatform = this.platform.os.family;
   var platforms = $('.download-button');
