@@ -5,7 +5,7 @@ $(document).ready(function () {
 function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
   handleMenuSelection();
-  addVersionNumbers();
+  //addVersionNumbers();
   addPreview();
   buildCarousels();
 }

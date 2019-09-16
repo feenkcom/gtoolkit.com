@@ -7,14 +7,14 @@ order: 6
 
 <section id="install">
   <div class="container">
-    <!-- <div class="row">
+     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1 class="center-text">Install</h1>
-          <p class="lead">You can obtain Glamorous Toolkit in two ways: download a ready made distribution, or manually install the code.</p>
+          <!-- <p class="lead">You can obtain Glamorous Toolkit by manually installing the code.</p> -->
         </div>   
       </div>
-    </div>  -->
+    </div>  
 
     <!-- <div class="row">
       <div class="col-lg-8 offset-lg-2">
