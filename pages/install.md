@@ -11,12 +11,12 @@ order: 6
       <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1 class="center-text">Install</h1>
-          <p class="lead">You can obtain Glamorous Toolkit by manually loading the code.</p>
+          <p class="lead">You can obtain Glamorous Toolkit in two ways: download a ready made distribution, or manually install the code.</p>
         </div>   
       </div>
     </div>  
 
-    <!-- <div class="row">
+     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
         <ol>
@@ -48,7 +48,7 @@ order: 6
           </li>
         </ol>
       </div>
-    </div> -->
+    </div> 
 
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
