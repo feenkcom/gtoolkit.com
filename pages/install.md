@@ -44,7 +44,7 @@ order: 6
             <p>Run the GToolkit image with the Pharo executable.</p>
             <p>On Mac: Run the Pharo.app and point to the GToolkit image file. A note: after downloading it the first time, right click, then keep Alt pressed while choosing Open.</p>
             <p>On Windows: Run <code>PharoConsole.exe GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line. </p>
-            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE </code> from the command line.</p>
+            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
           </li>
         </ol>
       </div>
