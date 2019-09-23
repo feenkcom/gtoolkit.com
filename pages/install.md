@@ -43,8 +43,8 @@ order: 6
           <li>
             <p>Run the GToolkit image with the Pharo executable.</p>
             <p>On Mac: Run the Pharo.app and point to the GToolkit image file. A note: after downloading it the first time, right click, then keep Alt pressed while choosing Open.</p>
-            <p>On Windows: Run the Pharo.exe and point to the GToolkit image file. </p>
-            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE </code></p>
+            <p>On Windows: Run <code>PharoConsole.exe GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line. </p>
+            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE </code> from the command line.</p>
           </li>
         </ol>
       </div>
@@ -71,7 +71,7 @@ order: 6
     load
 ] ensure: [ EpMonitor current enable ].
 #GtWorld asClass open.</pre>
-              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables glamorous rendering. It also opens a live document that provides a guided tour.</p>
+              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugins for the Pharo virtual machine that enable glamorous rendering. It also opens a live document that provides a guided tour.</p>
             </li>
           </ol>
         </div>
