@@ -77,6 +77,33 @@ order: 6
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Manually install image, libraries and vm</h2>
+      </div>
+            <div class="col-lg-8 offset-lg-2">
+        <div class="instructions-item selected" area-labelledby="pharo-70">
+          <ol>
+            <li>
+                <p>Get the latest VM of Pharo 7.0 specific to your system 
+                <a href="https://files.pharo.org/get-files/70/pharo64-win-stable.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-mac-stable.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-linux-stable.zip" class="btn btn-lg btn-default">Linux</a> 
+                </p>
+            </li>
+             <li>
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolikt</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GToolkit-64-v0.7.204-20190930210955.zip and libWin64-v0.7.204.zip.
+                </p>
+            </li>
+            <li>
+                <p>Unpack all 3 zip files (vm, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and vm files in the same folder.</p>
+                <img src="/assets/pictures/manual-install-gt.png"/>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /container -->
 </section>
 

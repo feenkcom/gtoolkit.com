@@ -84,12 +84,12 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="jumbotron">
           <h1 class="center-text">Install</h1>
-          <p class="lead">You can obtain Glamorous Toolkit by manually loading the code.</p>
+          <p class="lead">You can obtain Glamorous Toolkit in two ways: download a ready made distribution, or manually install the code.</p>
         </div>   
       </div>
     </div>  
 
-    <!-- <div class="row">
+     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
         <ol>
@@ -116,12 +116,12 @@
           <li>
             <p>Run the GToolkit image with the Pharo executable.</p>
             <p>On Mac: Run the Pharo.app and point to the GToolkit image file. A note: after downloading it the first time, right click, then keep Alt pressed while choosing Open.</p>
-            <p>On Windows: Run the Pharo.exe and point to the GToolkit image file. </p>
-            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE </code></p>
+            <p>On Windows: Run <code>PharoConsole.exe GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line. </p>
+            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
           </li>
         </ol>
       </div>
-    </div> -->
+    </div> 
 
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
@@ -144,12 +144,39 @@
     load
 ] ensure: [ EpMonitor current enable ].
 #GtWorld asClass open.</pre>
-              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugin for the Pharo virtual machine that enables glamorous rendering. It also opens a live document that provides a guided tour.</p>
+              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugins for the Pharo virtual machine that enable glamorous rendering. It also opens a live document that provides a guided tour.</p>
             </li>
           </ol>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Manually install image, libraries and vm</h2>
+      </div>
+            <div class="col-lg-8 offset-lg-2">
+        <div class="instructions-item selected" area-labelledby="pharo-70">
+          <ol>
+            <li>
+                <p>Get the latest VM of Pharo 7.0 specific to your system 
+                <a href="https://files.pharo.org/get-files/70/pharo64-win-stable.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-mac-stable.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-linux-stable.zip" class="btn btn-lg btn-default">Linux</a> 
+                </p>
+            </li>
+             <li>
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolikt</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GToolkit-64-v0.7.204-20190930210955.zip and libWin64-v0.7.204.zip.
+                </p>
+            </li>
+            <li>
+                <p>Unpack all 3 zip files (vm, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and vm files in the same folder.</p>
+                <img src="/assets/pictures/manual-install-gt.png" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /container -->
 </section>
 
