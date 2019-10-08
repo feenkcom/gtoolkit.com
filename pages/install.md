@@ -52,17 +52,24 @@ order: 6
 
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <h2>Load the latest alpha code in Pharo 7.0</h2>
+        <h2>Load the latest alpha code in Pharo 8.0</h2>
       </div>
 
       <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
-                <p>Get <a href="http://pharo.org/download" class="btn btn-lg btn-default">the latest image and latest VM of Pharo 7.0</a> specific to your system</p>
+                <p>Get the latest VM of Pharo 8.0 specific to your system 
+                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
+                </p>
             </li>
             <li>
-              <p>Execute the following code in the Playground of the Pharo 7.0 image (can take 10-20 minutes):</p>
+                <p>Get the <a href="https://files.pharo.org/get-files/80/pharo64.zip" class="btn btn-lg btn-default">latest Pharo 8.0 image</a></p>
+            </li>
+            <li>
+              <p>Run the Pharo 8.0 image and execute the following code in the Playground (can take 10-20 minutes):</p>
               <pre>EpMonitor current disable.
 [ 
   Metacello new
@@ -85,10 +92,10 @@ order: 6
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
-                <p>Get the latest VM of Pharo 7.0 specific to your system 
-                <a href="https://files.pharo.org/get-files/70/pharo64-win-stable.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-mac-stable.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-linux-stable.zip" class="btn btn-lg btn-default">Linux</a> 
+                <p>Get the latest VM of Pharo 8.0 specific to your system 
+                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://files.pharo.org/get-files/70/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
