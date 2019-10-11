@@ -1,8 +1,4 @@
-$(document).ready(function () {
-  registerBehaviour();
-});
-
-function registerBehaviour(isHomePage) {
+window.onload = function registerBehaviour(isHomePage) {
   window.scrollTo(0,0);
   handleMenuSelection();
   addVersionNumbers();
