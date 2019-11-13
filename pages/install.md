@@ -94,8 +94,8 @@ order: 6
             <li>
                 <p>Get the latest VM of Pharo 8.0 specific to your system 
                 <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
+                <a href="https://files.pharo.org/get-files/80/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://files.pharo.org/get-files/80/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
