@@ -26,7 +26,10 @@ function addVersionNumbers() {
     addVersionNumbersToButton('linux64', 'GToolkitLinux64-', data);
   }); 
 
-  $.get('https://dl.feenk.com/gt/.releasedateinseconds', (data) => { 
+  $.get(
+        {url:'https://dl.feenk.com/gt/.releasedateinseconds',
+        cache: false}, 
+        (data) => { 
     var d = new Date (data * 1000);
     const month = d.toLocaleString('en-us', { month: 'long' });
     var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + d.getMinutes();
