@@ -1,0 +1,36 @@
+.navbar {
+  box-shadow: 0px 5px 20px 20px $white;
+
+  .navbar-nav {
+    @media screen and (max-width: $screen-md) {
+      padding-top: $alert-padding-y;
+    }
+  }
+
+  .nav-link {
+    font-size: $font-size-md;
+
+    &:hover,
+    &-active {
+      background-color: $gray-light;
+    }
+  }
+
+  .navbar-toggler {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.navbar-light {
+  .navbar-toggler {
+    color: $black;
+    border: initial;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $black;
+    }
+  }
+}
