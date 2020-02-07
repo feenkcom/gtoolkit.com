@@ -27,7 +27,7 @@ order: 2
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-distribution-contents.png"/>
+          <img src="/assets/pictures/gtr-distribution-contents.png"/>
         </p>
 
         <p>
