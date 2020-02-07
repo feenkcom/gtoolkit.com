@@ -24,7 +24,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" >
+        <div id="playgroundInspector" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
@@ -59,7 +59,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="debugger" class="carousel slide" data-ride="carousel" >
+        <div id="debugger" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-debugger-inspector-exception.png">
@@ -88,7 +88,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="coder" class="carousel slide" data-ride="carousel" >
+        <div id="coder" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-coder-meta-inspect.png">
@@ -123,7 +123,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="transcript" class="carousel slide" data-ride="carousel" >
+        <div id="transcript" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-transcript-animation.png">
@@ -151,7 +151,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="documenter" class="carousel slide" data-ride="carousel" >
+        <div id="documenter" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-documenter-tour.png">
@@ -186,7 +186,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="visualizer" class="carousel slide" data-ride="carousel" >
+        <div id="visualizer" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian.png">
@@ -221,7 +221,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="examples" class="carousel slide" data-ride="carousel" >
+        <div id="examples" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-examples-nesting-preview.png">
@@ -256,7 +256,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="releaser" class="carousel slide" data-ride="carousel" >
+        <div id="releaser" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-releaser-bloc-0.4.0.png">
@@ -285,7 +285,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="bloc" class="carousel slide" data-ride="carousel" >
+        <div id="bloc" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-inspector-editor-elements-tree.png">
@@ -314,7 +314,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="xdoc" class="carousel slide" data-ride="carousel" >
+        <div id="xdoc" class="carousel" data-ride="carousel" >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gt-xdoc-document-with-example.png">
