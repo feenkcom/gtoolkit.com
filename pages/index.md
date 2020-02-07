@@ -26,7 +26,7 @@ order: 1
           It is built in Pharo and it is free and open-source under an MIT license.
         </p>
         <p class="lead">
-          Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to mold it seamlessly. This change is transformational.
+          Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it seamlessly. This seemingly small change is transformational.
         </p>
         <p class="lead"><iframe width="560" height="315" src="https://www.youtube.com/embed/Pot9GnHFOVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
