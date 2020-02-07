@@ -1,5 +1,7 @@
+---
+
+---
 @import "main";
-@import "components/navbar";
 
 .lead {
   font-weight: normal;
@@ -9,14 +11,17 @@
   text-align: center;
   background-color: white;
   margin-top: 80px;
-  p,
-  h1 {
+  p, h1 {
     font-weight: normal;
   }
   img {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #212121;
 }
 
 .home {
@@ -29,9 +34,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
-  border: 1px solid #ddd;
-  img,
-  video {
+  border: 1px solid #DDD;
+  img, video {
     padding: 10px;
   }
   p {
@@ -69,7 +73,7 @@ a {
     color: #212121;
   }
   &.active {
-    background-color: #eee;
+    background-color: #EEE;
   }
 }
 
@@ -111,6 +115,30 @@ img.shadow {
   box-shadow: 0px 0px 5px 5px #eee;
 }
 
+#navigation {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: white;
+  border-bottom: 1px solid #EEE;
+  	/*box-shadow:0px 5px 20px 20px white;
+      filter: alpha(opacity=90); */
+  /* For IE8 and earlier */
+  li {
+    .active a {
+      background-color: #EEE;
+      color: black;
+    }
+    a {
+      font-weight: normal;
+      font-size: 12pt;
+      color: black;
+    }
+  }
+  .navbar-toggle {
+    padding: 9px 10px;
+  }
+}
+
 footer {
   text-align: center;
   background-color: #424242;
@@ -129,33 +157,29 @@ footer {
   border: 0 none;
   font-weight: normal;
   border-radius: 0px;
-  &:focus,
-  &:active:focus,
-  &.active:focus {
+  &:focus, &:active:focus, &.active:focus {
     outline: 0 none;
   }
 }
 
-.btn-primary,
-.btn-default {
-  background: #eee;
+.btn-primary, .btn-default {
+  background: #EEE;
   color: #212121;
 }
 
 .btn-primary {
-  &:hover,
-  &:focus {
-    background: #ddd;
+  &:hover, &:focus {
+    background: #DDD;
     color: #212121;
   }
   &:active {
-    background: #ddd;
+    background: #DDD;
     color: #212121;
-    background: #ddd;
+    background: #DDD;
     box-shadow: none;
   }
   &.active {
-    background: #ddd;
+    background: #DDD;
     box-shadow: none;
   }
 }
@@ -163,8 +187,7 @@ footer {
 .carousel {
   margin-left: 0px;
   margin-right: 0px;
-  img,
-  video {
+  img, video {
     max-width: 90%;
     max-height: 600px;
     margin: 0 auto;
@@ -220,8 +243,7 @@ footer {
 }
 
 .carousel-control {
-  i.fa-chevron-right,
-  i.fa-chevron-left {
+  i.fa-chevron-right, i.fa-chevron-left {
     font-size: 20px;
   }
 }
@@ -245,8 +267,7 @@ footer {
       border: none;
     }
   }
-  img,
-  video {
+  img, video {
     height: auto;
     width: 860px;
     margin: 0 auto;
@@ -303,7 +324,7 @@ footer {
 }
 
 .download-active {
-  border: 1px solid #eee;
+  border: 1px solid #EEE;
   &:hover {
     border: 1px solid #e6e6e6;
   }
@@ -316,8 +337,7 @@ footer {
   }
 }
 
-code,
-pre {
+code, pre {
   border-color: transparent;
   color: black;
   background: #eee;
