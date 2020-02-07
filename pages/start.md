@@ -82,7 +82,7 @@ transcript show: 'Hello world'.</pre>
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-hello-world-transcript.png"/>
+          <img src="/assets/pictures/gtr-hello-world-transcript.png"/>
         </p>
 
         <p>
