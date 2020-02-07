@@ -22,7 +22,7 @@ order: 1
           It is a fancy code editor.
           It is a software analysis platform.
           It is a data visualization engine.
-          All in one.
+          All in one. 
           It is built in Pharo and it is free and open-source under an MIT license.
         </p>
         <p class="lead">
