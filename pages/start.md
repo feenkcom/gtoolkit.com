@@ -27,7 +27,7 @@ order: 2
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-distribution-contents.png"/>
+          <img src="/assets/pictures/gtr-distribution-contents.png"/>
         </p>
 
         <p>
@@ -47,17 +47,17 @@ order: 2
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-tour-initial.png"/>
+          <img src="/assets/pictures/gtr-home.png"/>
         </p>
 
         <p>
-          Now what? Start by browsing. The first thing you see is the Glamorous Tour document. That's a live document. Go ahead. Click on the links. Read the tutorials. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
+          Now what? Start by browsing. The first thing you see is the home tab that offers a set of tools, interactive slide shows, and live documents. A good starting point is the Glamorous Toolkit tour slide show. Or if you like reading, start from the Glamorous Toolkit documentation. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
         </p>
 
 
         <h2>Hello world</h2>
         <p>
-          Open the GToolkit Playground (from the top Pharo menu choose GToolkit/GToolkit Playground) and type:
+          Open the Playground tool and type:
         </p>
 
         <pre>'Hello world'</pre>
@@ -67,11 +67,11 @@ order: 2
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-hello-world-inspector.png"/>
+          <img src="/assets/pictures/gtr-hello-world-inspector.png"/>
         </p>
 
         <p>
-          That's it. You executed a piece of code and you are now inspecting the resulting object. Did you expect to rather print the result on some console? That's possible as well. Execute and inspect:
+          That's it. You executed a piece of code and you are now inspecting the resulting object. Did you expect to rather print the result on some console?  That's possible, but we do it very rarely because inspectors are much more interesting. Ok, if you insist, just execute and inspect:
         </p>
 
         <pre>transcript := GtTranscript new.
@@ -82,11 +82,11 @@ transcript show: 'Hello world'.</pre>
         </p>
 
         <p>
-          <img src="/assets/pictures/gt-hello-world-transcript.png"/>
+          <img src="/assets/pictures/gtr-hello-world-transcript.png"/>
         </p>
 
         <p>
-          Now, you created a transcript object, and told it to show the string. At the end you saw the result being printed in the transcript rendering. Did you still expect to see an example that prints this to the operating system console? That's possible as well, but let's stop here for now.
+          Now, you created a transcript object, and told it to show the string. At the end you saw the result being printed in the transcript rendering. Did you still expect to see an example that prints this to the operating system console? That's possible as well, but programming with Glamorous Toolkit is about working with a live system. So, really, dive into the environment and let us know what you think.
         </p>
 
       </div>
