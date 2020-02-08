@@ -26,7 +26,9 @@ order: 7
           </p>
 
           <p class="lead">
-            At the same time, feenk is a company. We fund ourselves through customer projects, but we work as an engineering research lab. For our customer projects we use exclusively the tools and technique we create, and these projects also act as validation. By the way, feenk is a word we made up and comes from feel and think. That's because the way we feel is as important as the way we think. In any case, if you like what we build, <a href="https://feenk.com" class="btn btn-lg btn-default">step by the <img src="/assets/pictures/feenk.png"/> office</a>. 
+            At the same time, feenk is a company. We fund ourselves through customer projects, but we work as an engineering research lab. For our customer projects we use exclusively the tools and technique we create, and these projects also act as validation. By the way, feenk is a word we made up and comes from feel and think. That's because the way we feel is as important as the way we think.
+          </p>
+          <p class="lead">In any case, if you like what we build, <a href="https://feenk.com" class="btn btn-lg btn-default">step by the <img src="/assets/pictures/feenk.png"/> office</a>. 
           </p>
 
         </div>
