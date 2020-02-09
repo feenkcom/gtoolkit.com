@@ -34,12 +34,6 @@ order: 3
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-playground-inspector-codequery.png">
-              <div class="carousel-caption">
-                <p>And they can be molded to become a browser for a code query.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
               <img src="/assets/pictures/gt-playground-multiple-snippets.png">
               <div class="carousel-caption">
                 <p>Playground supports multiple snippets that can be evaluated independently.</p>
@@ -50,28 +44,33 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
-        <h2>Debugger</h2>
+        <h2>Spotter</h2>
       </div>
       <div class="col-lg-3">
-        <p class="lead">Debugger is a debugger. Go figure. Only, in true moldable fashion, it also lets you build custom debuggers that can be switched to during debugging time.</p>
+        <p class="lead">Spotter is the universal search interface. Every object can say how it can be searched, and Spotter takes that into account.</p>
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="debugger" class="carousel slide" data-ride="carousel" data-interval="0">
+        <div id="spotter" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-debugger-inspector-exception.png">
+              <img src="/assets/pictures/gtr-spotter-object.png">
               <div class="carousel-caption">
-                <p>A Debugger opened on an exception. Inspecting a variable spawns an Inspector.</p>
+                <p>A Spotter searching for a class.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-debugger-inspector-bytecode.png">
+              <img src="/assets/pictures/gtr-spotter-feenkcom-gtoolkit-resource.png">
               <div class="carousel-caption">
-                <p>A Debugger showing the bytecode of the current execution.</p>
+                <p>A Spotter searching for a resource.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/pictures/gtr-spotter-resources-contextual.png">
+              <div class="carousel-caption">
+                <p>A Spotter searching in the context of a folder.</p>
               </div>
             </div>
           </div>
@@ -79,7 +78,6 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>Coder</h2>
@@ -114,7 +112,34 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Debugger</h2>
+      </div>
+      <div class="col-lg-3">
+        <p class="lead">Debugger is a debugger. Go figure. Only, in true moldable fashion, it also lets you build custom debuggers that can be switched to during debugging time.</p>
+      </div>
+      <div class="col-lg-9">
+        <!-- Carousel -->
+        <div id="debugger" class="carousel slide" data-ride="carousel" data-interval="0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/pictures/gt-debugger-inspector-exception.png">
+              <div class="carousel-caption">
+                <p>A Debugger opened on an exception. Inspecting a variable spawns an Inspector.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/pictures/gt-debugger-inspector-bytecode.png">
+              <div class="carousel-caption">
+                <p>A Debugger showing the bytecode of the current execution.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+    </div> <!-- row -->
     <div class="row">
       <div class="col-lg-12">
         <h2>Transcript</h2>
@@ -142,7 +167,6 @@ order: 3
         </div>
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>Documenter</h2>
@@ -177,7 +201,34 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Presenter</h2>
+      </div>
+      <div class="col-lg-3">
+        <p class="lead">Slide shows is another way to construct interactive narratives that complements documents. Only in our case, the slides are live.</p>
+      </div>
+      <div class="col-lg-9">
+        <!-- Carousel -->
+        <div id="documenter" class="carousel slide" data-ride="carousel" data-interval="0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/pictures/gtr-presenter-one-rendering-tree-slide.png">
+              <div class="carousel-caption">
+                <p>Presenter showing a slide. All elements are live, including the document or the buttons.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/pictures/gtr-presenter-treemap-overview.png">
+              <div class="carousel-caption">
+                <p>Presenter showing a preview of the slides.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+    </div> <!-- row -->
     <div class="row">
       <div class="col-lg-12">
         <h2>Visualizer</h2>
@@ -212,7 +263,6 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>Examples</h2>
@@ -247,7 +297,6 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>Releaser</h2>
@@ -276,7 +325,6 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>Bloc graphical stack</h2>
@@ -305,7 +353,6 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
     <div class="row">
       <div class="col-lg-12">
         <h2>XDoc</h2>
@@ -334,6 +381,5 @@ order: 3
         <!-- Carousel -->
       </div>
     </div> <!-- row -->
-
   </div> <!-- container -->
 </section>

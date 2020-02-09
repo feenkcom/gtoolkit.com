@@ -29,16 +29,6 @@ order: 1
           Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational.
         </p>
         <p class="lead"><iframe width="560" height="315" src="https://www.youtube.com/embed/Pot9GnHFOVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-       <!--  <div class="vspace mdl-typography--font-light mdl-typography--text-center">
-          <p>
-            <a href="mailto:contact@feenk.com"><i class="fas fa-envelope fa-fw fa-3x"></i></a>
-            <a href="https://github.com/feenkcom/gtoolkit" title="Glamorous Toolkit on GitHub" target="_blank"><i class="fab fa-github fa-fw fa-3x"></i></a>
-            <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fab fa-twitter fa-fw fa-3x"></i></a>
-            <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i class="fab fa-medium-m fa-fw fa-3x"></i></a>
-            <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i class="fab fa-linkedin fa-fw fa-3x"></i></a>
-          </p>
-        </div> -->
       </div>
     </div>
     <div class="row vspace">
