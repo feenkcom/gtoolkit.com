@@ -101,9 +101,8 @@ order: 3
                 <p>Coder on the class that defines the dependencies from Glamorous Toolkit itself. A dependency string can be expanded in place to reveal the dependency definition.</p>
               </div>
             </div>
-
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-coder-query-highlighting.png">
+              <img src="/assets/pictures/gtr-coder-query-highlighting.png">
               <div class="carousel-caption">
                 <p>The results of a code query shown highlighted in a Coder interface.</p>
               </div>
@@ -153,13 +152,13 @@ order: 3
         <div id="transcript" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-transcript-animation.png">
+              <img src="/assets/pictures/gtr-transcript-animation.png">
               <div class="carousel-caption">
                 <p>Transcript used to trace the steps of an animation.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-transcript-reflection.png">
+              <img src="/assets/pictures/gtr-transcript-reflection.png">
               <div class="carousel-caption">
                 <p>Transcript used for teaching reflection. An exception can be expanded in place to show the stack.</p>
               </div>
