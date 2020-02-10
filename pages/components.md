@@ -28,15 +28,15 @@ order: 3
         <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-playground-inspector-filesystem.png">
+              <img src="/assets/pictures/gtr-playground-inspector-filesystem.png">
               <div class="carousel-caption">
                 <p>The Playground and Inspector can be molded in many ways. For example, for browsing the file system.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-playground-multiple-snippets.png">
+              <img src="/assets/pictures/gtr-playground-two-snippets.png">
               <div class="carousel-caption">
-                <p>Playground supports multiple snippets that can be evaluated independently.</p>
+                <p>Playground with two snippets that can be evaluated independently.</p>
               </div>
             </div>
           </div>
@@ -90,17 +90,18 @@ order: 3
         <div id="coder" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-coder-meta-inspect.png">
+              <img src="/assets/pictures/gtr-coder-example-object.png">
               <div class="carousel-caption">
-                <p>Coder opened on the class of an object in the Inspector. Evaluating code spawns the result.</p>
+                <p>Coder on an example method in a class. An internal call is expanded in place. The overall example can also be evaluated and inspected in place.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-coder-method-implementors.png">
+              <img src="/assets/pictures/gtr-coder-baseline-dependencies.png">
               <div class="carousel-caption">
-                <p>A method viewed through Coder in an Inspector. Looking for implementors highlights the results.</p>
+                <p>Coder on the class that defines the dependencies from Glamorous Toolkit itself. A dependency string can be expanded in place to reveal the dependency definition.</p>
               </div>
             </div>
+
             <div class="carousel-item">
               <img src="/assets/pictures/gt-coder-query-highlighting.png">
               <div class="carousel-caption">
@@ -179,19 +180,19 @@ order: 3
         <div id="documenter" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-documenter-tour.png">
+              <img src="/assets/pictures/gtr-documenter-baseline-gt.png">
               <div class="carousel-caption">
                 <p>Documenter opened on the Tour document. Clicking on a link spawns an Inspector.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-documenter-examples-tutorial.png">
+              <img src="/assets/pictures/gtr-documenter-examples-tutorial.png">
               <div class="carousel-caption">
                 <p>Documenter showing a tutorial. The code changes are embedded as objects.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-documenter-class-comment.png">
+              <img src="/assets/pictures/gtr-documenter-class-comment.png">
               <div class="carousel-caption">
                 <p>Documenter tranforms the class comment into a live document.</p>
               </div>
@@ -210,7 +211,7 @@ order: 3
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
-        <div id="documenter" class="carousel slide" data-ride="carousel" data-interval="0">
+        <div id="presenter" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/assets/pictures/gtr-presenter-one-rendering-tree-slide.png">
@@ -219,7 +220,7 @@ order: 3
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gtr-presenter-treemap-overview.png">
+              <img src="/assets/pictures/gtr-presenter-preview.png">
               <div class="carousel-caption">
                 <p>Presenter showing a preview of the slides.</p>
               </div>
@@ -290,6 +291,50 @@ order: 3
               <img src="/assets/pictures/gt-connector-examples-code-preview4.png">
               <div class="carousel-caption">
                 <p>Examples are executable. Connector allows us to explore how the overall result is obtained.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>SmaCC parsing engine</h2>
+      </div>
+      <div class="col-lg-3">
+        <p class="lead">SmaCC is a powerful compiler compiler that also comes with advanced code search and code rewriting abilities. The integration in Glamorous Toolkit comes with a dedicated development environment, too.</p>
+      </div>
+      <div class="col-lg-9">
+        <!-- Carousel -->
+        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval="0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/pictures/gtr-playground-inspector-filesystem.png">
+              <div class="carousel-caption">
+                <p>A Coder opened on the C++ parser definition. On the right, we see a simulator showing the preview of the resulting abstract syntax tree.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel -->
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Software analysis engine</h2>
+      </div>
+      <div class="col-lg-3">
+        <p class="lead">FAMIX can represent software systems in a language-independent way. The integration in Glamroous Toolkit offers seamless navigation and inspection making.</p>
+      </div>
+      <div class="col-lg-9">
+        <!-- Carousel -->
+        <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval="0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/pictures/gtr-famix-argouml.png">
+              <div class="carousel-caption">
+                <p>An example of using an interactive analysis for assessing which Deprecated classes can be removed from a Java system.</p>
               </div>
             </div>
           </div>
