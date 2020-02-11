@@ -241,15 +241,21 @@ order: 3
         <div id="visualizer" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian.png">
+              <img src="/assets/pictures/gtr-visualizer-treemap.png">
+              <div class="carousel-caption">
+                <p>A treemap of the Glamorous Toolkit code organized by packages.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/pictures/gtr-visualizer-two-snippets-mondrian.png">
               <div class="carousel-caption">
                 <p>A Mondrian script showing a visualization of a directory structure.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-visualizer-two-snippets-mondrian-directory.png">
+              <img src="/assets/pictures/gtr-visualizer-two-snippets-mondrian-directory.png">
               <div class="carousel-caption">
-                <p>The visualization is directly clickable: clicking on a node spawns an Inspector.</p>
+                <p>The visualization is directly clickable: clicking on a node spawns an Inspector on the object that stays behind the visual element.</p>
               </div>
             </div>
             <div class="carousel-item">
@@ -275,21 +281,21 @@ order: 3
         <div id="examples" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-examples-nesting-preview.png">
+              <img src="/assets/pictures/gtr-examples-nesting-preview.png">
               <div class="carousel-caption">
                 <p>Examples can be fine grained and nested arbitrarily. The returned object offers immediate feedback.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-connector-examples-code.png">
+              <img src="/assets/pictures/gtr-connector-examples-code.png">
               <div class="carousel-caption">
-                <p>Examples can be visualized with Connector, too.</p>
+                <p>Examples can be visualized through connections, too.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-connector-examples-code-preview4.png">
+              <img src="/assets/pictures/gtr-connector-examples-code-preview4.png">
               <div class="carousel-caption">
-                <p>Examples are executable. Connector allows us to explore how the overall result is obtained.</p>
+                <p>Examples are executable. Flipping between code and result allows one to explore how the overall result is obtained.</p>
               </div>
             </div>
           </div>
