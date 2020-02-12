@@ -124,15 +124,15 @@ order: 3
         <div id="debugger" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-debugger-inspector-exception.png">
+              <img src="/assets/pictures/gtr-debugger-preview.png">
               <div class="carousel-caption">
-                <p>A Debugger opened on an exception. Inspecting a variable spawns an Inspector.</p>
+                <p>A Debugger opened on an exception. The stack is made of expandable method Coders. Inspecting a variable spawns an Inspector.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-debugger-inspector-bytecode.png">
+              <img src="/assets/pictures/gtr-debugger-annotations.png">
               <div class="carousel-caption">
-                <p>A Debugger showing the bytecode of the current execution.</p>
+                <p>A Debugger highlighting the values of variables in the code editor.</p>
               </div>
             </div>
           </div>
