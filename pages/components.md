@@ -359,15 +359,15 @@ order: 3
         <div id="releaser" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-releaser-bloc-0.4.0.png">
+              <img src="/assets/pictures/gtr-releaser-release-gt.png">
               <div class="carousel-caption">
                 <p>The Inspector showing a project and all its dependencies ready to be released.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-releaser-releases-and-commits.png">
+              <img src="/assets/pictures/gtr-releaser-actions-details.png">
               <div class="carousel-caption">
-                <p>Looking deeper in the commits ancestry of a release.</p>
+                <p>Looking into the details of a commit actions.</p>
               </div>
             </div>
           </div>
@@ -380,22 +380,28 @@ order: 3
         <h2>Bloc graphical stack</h2>
       </div>
       <div class="col-lg-3">
-        <p class="lead">Glamorous Toolkit is built on top of the Bloc vector-based graphical framework. The key property is that it offers one-rendering tree at all times without the need of an intermediate canvas. This makes possible to create new kinds of visual interfaces, including a live and rich text editor.</p>
+        <p class="lead">Glamorous Toolkit is built on top of the Bloc vector-based graphical framework. The key property is that it relies on exactly one rendering tree at all times without the need of an intermediate canvas. This enables new kinds of visual interfaces, including a live and rich text editor and complicated visual scenes.</p>
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
         <div id="bloc" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="/assets/pictures/gtr-bloc-complicated-scene.png">
+              <div class="carousel-caption">
+                <p>This complicated scene is live and it is all rendered with exactly one rendering tree.</p>
+              </div>
+            </div>
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-inspector-editor-elements-tree.png">
+              <img src="/assets/pictures/gtr-bloc-editor-tree.png">
               <div class="carousel-caption">
                 <p>The Inspector showing how the text editor represents all its parts, including graphical elements and the cursor, within one rendering tree.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/pictures/gt-connector-objects-graph-layout.png">
+              <img src="/assets/pictures/gtr-bloc-tree-highlight.png">
               <div class="carousel-caption">
-                <p>The Connector interface combines widgets in a graph scene. This is possible because graph layouts are regular layouts.</p>
+                <p>The pane on the left holds a visualization embedded in an inspector. On the right we see where in the rendering tree the highlighted node fits.</p>
               </div>
             </div>
           </div>
