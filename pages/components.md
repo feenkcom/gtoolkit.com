@@ -414,22 +414,22 @@ order: 3
         <h2>XDoc</h2>
       </div>
       <div class="col-lg-3">
-        <p class="lead">XDoc stands for eXecutable Document. An XDoc is a container that contains content files and meta-data based on which a player can decide what tool to execute the content with. XDoc is useful for sharing and publishing content, such as live documents, authored in Glamorous Toolkit.</p>
+        <p class="lead">XDoc stands for eXecutable Document. An XDoc is a container that holds content and meta-data based on which a player can decide what tool to execute the content with. XDoc is useful for sharing and publishing content, such as live documents, authored in Glamorous Toolkit.</p>
       </div>
       <div class="col-lg-9">
         <!-- Carousel -->
         <div id="xdoc" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gt-xdoc-document-with-example.png">
+              <img src="/assets/pictures/gtr-xdoc-contents.png">
               <div class="carousel-caption">
-                <p>An XDoc containing a live document that can was produced and that can be played with Documenter. The XDoc also contains the HTML preview of the document.</p>
+                <p>An XDoc containing a live document that can was produced with Documenter. The XDoc also contains the HTML preview of the document.</p>
               </div>
             </div>
             <div class="carousel-item ">
-              <img src="/assets/pictures/gt-xdoc-empty.png">
+              <img src="/assets/pictures/gtr-xdoc-playground-history.png">
               <div class="carousel-caption">
-                <p>An empty XDoc contains an empty manifest.</p>
+                <p>The Playground history is also stored as XDocs in a local folder.</p>
               </div>
             </div>
           </div>
