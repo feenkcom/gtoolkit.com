@@ -258,12 +258,6 @@ order: 3
                 <p>The visualization is directly clickable: clicking on a node spawns an Inspector on the object that stays behind the visual element.</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/assets/pictures/gt-connector-examples-code.png">
-              <div class="carousel-caption">
-                <p>A Connector interactive visualization showing dependencies between examples.</p>
-              </div>
-            </div>
           </div>
         </div>
         <!-- Carousel -->
@@ -315,7 +309,7 @@ order: 3
         <div id="playgroundInspector" class="carousel slide" data-ride="carousel" data-interval="0">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/pictures/gtr-playground-inspector-filesystem.png">
+              <img src="/assets/pictures/gtr-cpp-parser-simulator.png">
               <div class="carousel-caption">
                 <p>A Coder opened on the C++ parser definition. On the right, we see a simulator showing the preview of the resulting abstract syntax tree.</p>
               </div>
