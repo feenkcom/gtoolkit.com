@@ -12,7 +12,6 @@ order: 1
           <p><img src="/assets/pictures/gtoolkit-icon.png" width="750"/></p>
       </div>
     </div>
-    
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <p class="lead">
@@ -25,6 +24,13 @@ order: 1
           All in one.
           And it is free and open-source under an MIT license.
         </p>
+      </div>
+    </div>
+    <div class="row">
+        <p><img src="/assets/pictures/gtr-overview.png" width="100%"/></p>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
         <p class="lead">
           Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational.
         </p>
@@ -37,8 +43,7 @@ order: 1
             Get started
           </a>
       </div>
-    </div>  
-
+    </div>
     <div class="row vspace topmarker">
       <div class="col-lg-8 offset-lg-2">
          <h2>
@@ -49,7 +54,6 @@ order: 1
         <img src="/assets/pictures/gt-playground-inspector-filesystem.png"/>
       </div>
     </div>
-
     <div class="row vspace topmarker">
       <div class="col-lg-8 offset-lg-2">
          <h2>
@@ -60,7 +64,6 @@ order: 1
         <img src="/assets/pictures/gt-debugger-text-visuals.png"/>
       </div>
     </div>
-
     <div class="row vspace topmarker">
       <div class="col-lg-8 offset-lg-2">
          <h2>
@@ -71,7 +74,6 @@ order: 1
         <img src="/assets/pictures/gt-connector-examples-code-preview4.png"/>
       </div>
     </div>
-
     <div class="row vspace topmarker">
       <div class="col-lg-8 offset-lg-2">
          <h2>
@@ -82,7 +84,6 @@ order: 1
         <img src="/assets/pictures/gt-documenter-tour.png"/>
       </div>
     </div>
-
     <div class="row vspace topmarker">
       <div class="col-lg-8 offset-lg-2">
          <h2>
@@ -93,8 +94,6 @@ order: 1
         <img src="/assets/pictures/gt-coder-query-highlighting.png"/>
       </div>
     </div>
-
-
     <div class="row vspace">
       <div class="col-lg-6  offset-lg-3">
           <a href="start" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
@@ -102,7 +101,6 @@ order: 1
           </a>
       </div>
     </div>
-
     <div class="row vspace center">
       <div class="col-md-8 offset-md-2">
         <a class="twitter-timeline" data-height="650" href="https://twitter.com/feenkcom?ref_src=twsrc%5Etfw">@feenkcom</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
