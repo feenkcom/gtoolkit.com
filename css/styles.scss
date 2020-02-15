@@ -33,6 +33,18 @@ body {
   text-align: center;
 }
 
+#home .usecase {
+  text-align: left;
+  h3 {
+    font-size: 14pt;
+    font-weight: normal;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+
 .card {
   text-align: center;
   margin-top: 20px;
@@ -157,6 +169,27 @@ img.shadow {
   }
 }
 
+.sample {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  img,
+  video {
+    max-width: 99%;
+    max-height: 600px;
+    margin: 0 auto;
+  }
+  .picture-caption {
+    p {
+      color: gray;
+      font-size: 12px;
+      margin-left: 10px; 
+      margin-right: 10px;
+    }
+  }
+}
+
 .carousel {
   text-align: center;
   margin-left: 0px;
@@ -194,8 +227,11 @@ img.shadow {
     position: relative;
     left: auto;
     right: auto;
-    color: black;
+    color: gray;
     margin-top: 10;
+    p {
+      font-size: 12px;
+    }
   }
   .carousel-control {
     visibility: hidden;

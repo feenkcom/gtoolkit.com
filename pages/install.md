@@ -15,7 +15,6 @@ order: 6
         </div>   
       </div>
     </div>  
-
      <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
@@ -42,19 +41,17 @@ order: 6
           </li> 
           <li>
             <p>Run the GToolkit image with the Pharo executable.</p>
-            <p>On Mac: Run the Pharo.app and point to the GToolkit image file. A note: after downloading it the first time, right click, then keep Alt pressed while choosing Open.</p>
-            <p>On Windows: Run <code>PharoConsole.exe GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line. </p>
-            <p>On Linux: Run <code> ./pharo GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
+            <p>On Mac: Run the <code>GToolkit.app</code> and point to the GToolkit image file.</p>
+            <p>On Windows: Run <code>GToolkit.exe</code>. </p>
+            <p>On Linux: Run <code> ./gtoolkit GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
           </li>
         </ol>
       </div>
     </div> 
-
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2>Load the latest alpha code in Pharo 8.0</h2>
       </div>
-
       <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
