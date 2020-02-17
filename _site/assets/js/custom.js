@@ -32,7 +32,7 @@ function addVersionNumbers() {
         (data) => { 
     var d = new Date (data * 1000);
     const month = d.toLocaleString('en-us', { month: 'long' });
-    var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + d.getMinutes();
+    var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + ((d.getMinutes() < 10 ? '0' : '') + d.getMinutes());
     $(".releasedate").text(datestring);
   }); 
 }
