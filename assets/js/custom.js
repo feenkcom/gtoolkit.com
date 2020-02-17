@@ -41,13 +41,7 @@ function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
   $('#' + buttonId).attr("href", "https://dl.feenk.com/gt/" + data);
   var version = data.replace(downloadIdentifier, '').replace('.zip', '');
   $(".gtversion").text(version);
-  $('#' + buttonId).click(function () {
-    gtag('event', 'download', {
-      'event_category': 'Install',
-      'event_action': buttonId,
-      });
-    });
-  }
+}
             
 function detectOS() {
   var userPlatform = this.platform.os.family;
