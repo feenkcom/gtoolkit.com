@@ -4,7 +4,7 @@
 @import "main";
 
 body {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 .lead {
@@ -44,7 +44,6 @@ body {
     margin-top: 0;
   }
 }
-
 
 .card {
   text-align: center;
