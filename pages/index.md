@@ -47,10 +47,10 @@ order: 1
     <div class="row vspace usecase topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
-        <h2>Exploratory specifications</h2>
+        <h2>Executable specifications</h2>
         <p class="lead">That's right. Specifications. Specs tend to get a bad name because they are expensive and, as paper supports anything, often wrong.</p>
         <p class="lead">But, there is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <p class="lead">So, yes. Specifications. Make them fun and iterate faster.</p>
+        <p class="lead">So, yes. Specifications. Iterate faster and identify the business value in your domain.</p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
