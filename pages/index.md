@@ -82,6 +82,12 @@ order: 1
             <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
           </div>
         </div>
+        <div class="sample">
+          <img src="/assets/pictures/gtr-famix-cpp-ast.png"/>
+          <div class="picture-caption">
+            <p>An example of exploring the abstract syntax tree of a class from a C++ system.</p>
+          </div>
+        </div>
       </div>
     </div> <!-- row -->
     <!-- <div class="row vspace usecase topmarker">
@@ -102,9 +108,9 @@ order: 1
     <div class="row vspace usecase topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
-        <h2>Data exploration</h2>
-        <p class="lead">Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so. To reason about it, we first to qualitatively understand its structure.</p>
-        <p class="lead">The inspection tools and the ability to query and visualize in place are directly usable in these contexts.</p>
+        <h2>Qualitative data exploration</h2>
+        <p class="lead">Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.</p>
+        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools and the ability to query and visualize in place are directly usable in these contexts.</p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
