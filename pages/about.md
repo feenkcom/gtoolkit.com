@@ -16,7 +16,7 @@ order: 7
             Why do we build this? Well, if we asked if you loved working with legacy systems, you are likely to say "No," and you might even feel a shiver. We think that should change. Programming is the coolest job on the planet, and it should feel like that all the time.
           </p>
           <p class="lead">
-            We believe that tools are essential in software engineering, yet for too long, our industry disregarded their importance. We set out to create a new systematic experience that is conducive to a new approach to programming that we call moldable development.
+            We believe that tools are essential in software engineering, yet for too long, our industry disregarded their importance. We set out to create a new systematic experience that is conducive to a new approach to programming that we call <a href="https://moldabledevelopment.com">moldable development</a>.
           </p> 
           <p class="lead">
             Moldable development is hard to convey in words. You have to experience it. We offer Glamorous Toolkit as free and open-source under the MIT license because we want you to experience moldable development as directly as possible.
@@ -25,7 +25,7 @@ order: 7
             At the same time, feenk is a company. We fund ourselves through customer projects, but we work as an engineering research lab. For our customer projects we use exclusively the tools and techniques we create, and these projects also act as validation. 
           </p>
           <p class="lead">
-            By the way, feenk is a word we made up and comes from feel and think. That's because the way we feel is as important as the way we think.
+            By the way, feenk is a word we made up and comes from feel and think. That's because, even in our technical world, the way we feel is as important as the way we think.
           </p>
           <p class="lead">
             In any case, if you like what we build, or are interested in what we do, <a href="https://feenk.com" class="btn btn-lg btn-default">please do step by our office</a>. 
