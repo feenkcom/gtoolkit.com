@@ -32,7 +32,7 @@ function addVersionNumbers() {
         (data) => { 
     var d = new Date (data * 1000);
     const month = d.toLocaleString('en-us', { month: 'long' });
-    var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + d.getMinutes();
+    var datestring = month + " " + d.getDate() + " " + d.getHours() + ":" + ((d.getMinutes() < 10 ? '0' : '') + d.getMinutes());
     $(".releasedate").text(datestring);
   }); 
 }
@@ -41,13 +41,7 @@ function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
   $('#' + buttonId).attr("href", "https://dl.feenk.com/gt/" + data);
   var version = data.replace(downloadIdentifier, '').replace('.zip', '');
   $(".gtversion").text(version);
-  $('#' + buttonId).click(function () {
-    gtag('event', 'download', {
-      'event_category': 'Install',
-      'event_action': buttonId,
-      });
-    });
-  }
+}
             
 function detectOS() {
   var userPlatform = this.platform.os.family;
