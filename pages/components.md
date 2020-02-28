@@ -31,7 +31,7 @@ order: 3
           </div>
         </div>
         <div class="sample">
-          <img src="/assets/pictures/gtr-playground-two-snippets.png"/>
+          <img src="/assets/pictures/gtr-playground-timeline.png"/>
           <div class="picture-caption">
             <p>Playground with two snippets that can be evaluated independently.</p>
           </div>
