@@ -7628,7 +7628,7 @@ a.text-dark:hover, a.text-dark:focus {
       color: #bfbfbf; }
 
 body {
-  font-family: "Helvetica Neue"; }
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif"; }
 
 .lead {
   font-weight: normal; }
@@ -7649,6 +7649,15 @@ body {
 
 .home {
   text-align: center; }
+
+.component, .usecase {
+  text-align: left; }
+  .component h3, .usecase h3 {
+    font-size: 14pt;
+    font-weight: normal;
+    color: gray; }
+  .component h2, .usecase h2 {
+    margin-top: 0; }
 
 .card {
   text-align: center;
@@ -7745,7 +7754,24 @@ img.shadow {
   background: #ddd;
   box-shadow: none; }
 
+.sample {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px; }
+  .sample img,
+  .sample video {
+    max-width: 99%;
+    max-height: 600px;
+    margin: 0 auto; }
+  .sample .picture-caption p {
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px; }
+
 .carousel {
+  text-align: center;
   margin-left: 0px;
   margin-right: 0px; }
   .carousel img,
@@ -7775,8 +7801,10 @@ img.shadow {
     position: relative;
     left: auto;
     right: auto;
-    color: black;
+    color: gray;
     margin-top: 10; }
+    .carousel .carousel-caption p {
+      font-size: 12px; }
   .carousel .carousel-control {
     visibility: hidden; }
   .carousel:hover .carousel-control {
