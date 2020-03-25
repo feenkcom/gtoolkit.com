@@ -76,6 +76,7 @@ order: 1
         <p class="lead">Code reading is the single most expensive development activity. Developers read to understand enough to figure out what to do next. That is decision making.</p>
         <p class="lead">Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
         <p class="lead">Build custom tools to show the interior of software to support your technical decision making.</p>
+        <p class="lead"><a class="footer-link" href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i class="fab fa-medium-m fa-fw fa-2x"></i></a><a href="https://medium.com/feenk/evaluating-deprecated-classes-in-java-systems-with-glamorous-toolkit-842e76a0afe2?source=friends_link&sk=be771f6650d58c9b797960283ce1856d">Example: Evaluating @Deprecated classes in Java systems with Glamorous Toolkit</a></p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
