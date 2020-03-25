@@ -110,9 +110,9 @@ order: 1
     <div class="row vspace usecase topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
-        <h2>Qualitative data exploration</h2>
+        <h2>Iterative data exploration</h2>
         <p class="lead">Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.</p>
-        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools and the ability to query and visualize in place are directly usable in these contexts.</p>
+        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
