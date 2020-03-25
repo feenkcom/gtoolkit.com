@@ -317,6 +317,12 @@ order: 3
             <p>Browsing the failed example directly from the stage map of the Glamorous Toolkit build.</p>
           </div>
         </div>
+        <div class="sample">
+          <img src="/assets/pictures/gtr-jenkins-error-log.png">
+          <div class="picture-caption">
+            <p>Browsing a console with an error.</p>
+          </div>
+        </div>
       </div>
     </div> <!-- row -->
     <div class="row vspace component topmarker">
