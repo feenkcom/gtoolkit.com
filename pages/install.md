@@ -50,34 +50,17 @@ order: 6
     </div> 
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <h2>Load the latest alpha code in Pharo 8.0</h2>
+        <h2>Get the latest vm and the latest code in one step</h2>
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
-          <ol>
-            <li>
-                <p>Get the latest VM of Pharo 8.0 specific to your system 
-                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
-                </p>
-            </li>
-            <li>
-                <p>Get the <a href="https://files.pharo.org/get-files/80/pharo64.zip" class="btn btn-lg btn-default">latest Pharo 8.0 image</a></p>
-            </li>
-            <li>
-              <p>Run the Pharo 8.0 image and execute the following code in the Playground (can take 10-20 minutes):</p>
-              <pre>EpMonitor current disable.
-[ 
-  Metacello new
-    baseline: 'GToolkit';
-    repository: 'github://feenkcom/gtoolkit/src';
-    load
-] ensure: [ EpMonitor current enable ].
-#GtWorld asClass open.</pre>
-              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugins for the Pharo virtual machine that enable glamorous rendering. It also opens a live document that provides a guided tour.</p>
-            </li>
-          </ol>
+          <p>Get the latest VM of Pharo 8.0 specific to your system</p>
+          <p>On Mac:</p>
+          <p><code>curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/mac.sh | bash</code></p>
+          <p>On Linux:</p>
+          <p><code>curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/linux.sh | bash</code></p>
+          <p>On Windows:</p>
+          <p>Using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
         </div>
       </div>
     </div>
@@ -90,8 +73,8 @@ order: 6
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
-                <p>Get the latest VM of Pharo 8.0 specific to your system 
-                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
+                <p>Get the latest VM specific to your system 
+                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
                 <a href="https://files.pharo.org/get-files/80/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
                 <a href="https://files.pharo.org/get-files/80/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
@@ -109,6 +92,6 @@ order: 6
       </div>
     </div>
 
-  </div><!-- /container -->
+  </div> <!-- /container -->
 </section>
 
