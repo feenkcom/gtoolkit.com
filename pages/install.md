@@ -56,9 +56,9 @@ order: 6
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <p>Get the latest VM of Pharo 8.0 specific to your system</p>
           <p>On Mac:</p>
-          <pre style="overflow:visible; background:white">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/mac.sh | bash</pre>
+          <pre style="width: 130%; margin-left: -5%;">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/mac.sh | bash</pre>
           <p>On Linux:</p>
-          <pre style="overflow:visible; background:white">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/linux.sh | bash</pre>
+          <pre style="width: 130%; margin-left: -5%;">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/linux.sh | bash</pre>
           <p>On Windows:</p>
           <p>Using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
         </div>
