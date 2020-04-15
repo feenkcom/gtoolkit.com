@@ -80,7 +80,7 @@ order: 6
                 </p>
             </li>
              <li>
-                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GToolkit-64-v0.7.204-20190930210955.zip and libWin64-v0.7.204.zip.
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GT.zip and libWin64-v0.7.890.zip.
                 </p>
             </li>
             <li>
