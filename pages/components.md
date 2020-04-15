@@ -307,6 +307,27 @@ order: 3
     <div class="row vspace component topmarker">
       <div class="col-lg-3">
         <h3>Component</h3>
+        <h2>Jenkins connection</h2>
+        <p class="lead">The Jenkins connection is a utility client that allows you to browse Jenkins through custom views right from the IDE.</p>
+      </div>
+      <div class="col-lg-9">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-jenkins-failed-examples.png">
+          <div class="picture-caption">
+            <p>Browsing the failed example directly from the stage map of the Glamorous Toolkit build.</p>
+          </div>
+        </div>
+        <div class="sample">
+          <img src="/assets/pictures/gtr-jenkins-error-log.png">
+          <div class="picture-caption">
+            <p>Browsing a console with an error.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+    <div class="row vspace component topmarker">
+      <div class="col-lg-3">
+        <h3>Component</h3>
         <h2>Bloc graphical stack</h2>
         <p class="lead">Glamorous Toolkit is built on top of the Bloc vector-based graphical framework. The key property is that it relies on exactly one rendering tree at all times without the need of an intermediate canvas. This enables new kinds of visual interfaces, including a live and rich text editor and complicated visual scenes.</p>
       </div>

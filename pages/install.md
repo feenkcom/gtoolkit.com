@@ -50,65 +50,65 @@ order: 6
     </div> 
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <h2>Load the latest alpha code in Pharo 8.0</h2>
+        <h2>Get the latest vm and the latest code in one step</h2>
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
-          <ol>
-            <li>
-                <p>Get the latest VM of Pharo 8.0 specific to your system 
-                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://files.pharo.org/get-files/70/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
-                </p>
-            </li>
-            <li>
-                <p>Get the <a href="https://files.pharo.org/get-files/80/pharo64.zip" class="btn btn-lg btn-default">latest Pharo 8.0 image</a></p>
-            </li>
-            <li>
-              <p>Run the Pharo 8.0 image and execute the following code in the Playground (can take 10-20 minutes):</p>
-              <pre>EpMonitor current disable.
-[ 
-  Metacello new
-    baseline: 'GToolkit';
-    repository: 'github://feenkcom/gtoolkit/src';
-    load
-] ensure: [ EpMonitor current enable ].
-#GtWorld asClass open.</pre>
-              <p>Executing the above code loads all code related to Glamorous Toolkit and the extra plugins for the Pharo virtual machine that enable glamorous rendering. It also opens a live document that provides a guided tour.</p>
-            </li>
-          </ol>
+          <p>Get the latest VM of Pharo 8.0 specific to your system</p>
+          <p>On Mac:</p>
+          <pre style="width: 130%; margin-left: -5%;">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/mac.sh | bash</pre>
+          <p>On Linux:</p>
+          <pre style="width: 130%; margin-left: -5%;">curl https://raw.githubusercontent.com/feenkcom/gtoolkit/master/scripts/localbuild/linux.sh | bash</pre>
+          <p>On Windows:</p>
+          <p>Using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <h2>Manually install image, libraries and vm</h2>
-        <h3>This will allow you to load more code in the GToolkit image.</h3>
+        
       </div>
             <div class="col-lg-8 offset-lg-2">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
-                <p>Get the latest VM of Pharo 8.0 specific to your system 
-                <a href="https://files.pharo.org/get-files/80/pharo64-win-latest.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://files.pharo.org/get-files/80/pharo64-mac-latest.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://files.pharo.org/get-files/80/pharo64-linux-latest.zip" class="btn btn-lg btn-default">Linux</a> 
+                <p>Get the latest VM specific to your system 
+                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
-                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolikt</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GToolkit-64-v0.7.204-20190930210955.zip and libWin64-v0.7.204.zip.
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GT.zip and libWin64-v0.7.890.zip.
                 </p>
             </li>
             <li>
                 <p>Unpack all 3 zip files (vm, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and vm files in the same folder.</p>
                 <img src="/assets/pictures/manual-install-gt.png"/>
             </li>
+            <li>
+                <p>Execute the following 2 commands in your favorite terminal. Adjusting the image file name as needed.</p>
+                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "ThreadedFFIMigration enableThreadedFFI."
+                </pre>
+                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
+                </pre>
+                <p>And last but not least run in Windows with</p>
+                <pre>.\GToolkit.exe
+                </pre>
+                <p>In Mac OSX with </p>
+                 <pre>./GToolkit.app/Contents/MacOS/GToolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                 </pre>
+                <p>And in Linux with something like </p>
+                <pre>./gtoolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                </pre>
+
+            </li>
           </ol>
         </div>
       </div>
     </div>
 
-  </div><!-- /container -->
+  </div> <!-- /container -->
 </section>
 

@@ -53,6 +53,8 @@ order: 1
         <p class="lead">That's right. Specifications. Specs tend to get a bad name because they are expensive and, as paper supports anything, often wrong.</p>
         <p class="lead">But, there is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
         <p class="lead">So, yes. Specifications. Iterate faster and identify the business value in your domain.</p>
+        <p class="lead"><a href="https://medium.com/feenk/live-tutorials-inside-the-ide-b392f15b920b?source=friends_link&sk=bc4d9e07ef2dacfb3114ac30cdf3b5da" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Live tutorials inside the IDE</a></p>
+        <p class="lead"><a href="https://medium.com/feenk/code-comments-as-live-wikis-in-ides-1c7b593749f5?source=friends_link&sk=36e01c019c88403db9a4f74b1bbfcca0" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Code comments as live wikis in IDEs</a></p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
@@ -76,6 +78,7 @@ order: 1
         <p class="lead">Code reading is the single most expensive development activity. Developers read to understand enough to figure out what to do next. That is decision making.</p>
         <p class="lead">Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
         <p class="lead">Build custom tools to show the interior of software to support your technical decision making.</p>
+        <p class="lead"><a href="https://medium.com/feenk/evaluating-deprecated-classes-in-java-systems-with-glamorous-toolkit-842e76a0afe2?source=friends_link&sk=be771f6650d58c9b797960283ce1856d" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Evaluating @Deprecated classes in Java systems with Glamorous Toolkit</a></p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
@@ -110,9 +113,9 @@ order: 1
     <div class="row vspace usecase topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
-        <h2>Qualitative data exploration</h2>
+        <h2>Iterative data exploration</h2>
         <p class="lead">Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.</p>
-        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools and the ability to query and visualize in place are directly usable in these contexts.</p>
+        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
