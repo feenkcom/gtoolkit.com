@@ -87,6 +87,23 @@ order: 6
                 <p>Unpack all 3 zip files (vm, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and vm files in the same folder.</p>
                 <img src="/assets/pictures/manual-install-gt.png"/>
             </li>
+            <li>
+                <p>Execute the following 2 commands in your favorite terminal. Adjusting the image file name as needed.</p>
+                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "ThreadedFFIMigration enableThreadedFFI."
+                </pre>
+                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
+                </pre>
+                <p>And last but not least run in Windows with</p>
+                <pre>.\GToolkit.exe
+                </pre>
+                <p>In Mac OSX with </p>
+                 <pre>./GToolkit.app/Contents/MacOS/GToolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                 </pre>
+                <p>And in Linux with something like </p>
+                <pre>./gtoolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                </pre>
+
+            </li>
           </ol>
         </div>
       </div>
