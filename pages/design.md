@@ -1,8 +1,14 @@
 ---
+# layout: submenu
 layout: default
 title: Design principles
 permalink: /design/
 order: 4
+# submenuitems:
+#   - title: First
+#     permalink: /design/first/
+#   - title: Second
+#     permalink: /design/second/
 ---
 
 <section id="components">
@@ -17,7 +23,6 @@ order: 4
     </div>
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-
         <h2>Moldable first</h2>
         <p>
           Software is shapeless. Yet, to reason about it we, humans, need a shape. Tools provide the shape of software. It follows that tools are essential. Moreover, software is also highly contextual. For tools to be effective, they have to take that context into account. It follows that tools must be moldable so that the programmer can adapt them to the current needs, easily and frequently.

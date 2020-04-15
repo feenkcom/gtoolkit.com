@@ -3,15 +3,18 @@
     <img src="/assets/pictures/gt.png" height="24px" />
   </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist %} {% if item contains "order" %}
+      {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist
+          %} {% if item contains "order" %}
       <li>
-        <a class="nav-item nav-link {% if item.url == page.url %} nav-link-active {% endif %} p-3" href="{{item.url}}">{{item.title}}</a>
+        <a class="nav-item nav-link {% if page.permalink == item.permalink or item.permalink == page.parentpermalink %} nav-link-active {% endif %} p-3"
+          href="{{ item.url }}">{{ item.title }}</a>
       </li>
       {% endif %} {% endfor %}
     </div>
