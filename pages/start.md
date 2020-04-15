@@ -73,7 +73,7 @@ transcript show: 'Hello world'.</pre>
     </div>
     <div class="row vspace">
       <div class="col-lg-6  offset-lg-3">
-          <a href="install" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
+          <a href="/install" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
             Install it already! Pretty please. With sugar on top.
           </a>
       </div>
