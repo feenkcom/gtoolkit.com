@@ -74,9 +74,9 @@ order: 6
           <ol>
             <li>
                 <p>Get the latest VM specific to your system 
-                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/download/latest/GToolkitVM-8.2.0-9dcae7b12-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
