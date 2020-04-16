@@ -7,27 +7,27 @@ window.onload = function registerBehaviour(isHomePage) {
 function addVersionNumbers() {
   $.get(
     {
-      url: 'https://dl.feenk.com/gt/GToolkitWin64-release',
+      url: 'https://dl.feenk.com/gt/GlamorousToolkitWin64-release',
       cache: false
     },
     (data) => {
-      addVersionNumbersToButton('win64', 'GToolkitWin64-', data);
+      addVersionNumbersToButton('win64', 'GlamorousToolkitWin64-', data);
     });
   $.get(
     {
-      url: 'https://dl.feenk.com/gt/GToolkitOSX64-release',
+      url: 'https://dl.feenk.com/gt/GlamorousToolkitOSX64-release',
       cache: false
     },
     (data) => {
-      addVersionNumbersToButton('osx64', 'GToolkitOSX64-', data);
+      addVersionNumbersToButton('osx64', 'GlamorousToolkitOSX64-', data);
     });
   $.get(
     {
-      url: 'https://dl.feenk.com/gt/GToolkitLinux64-release',
+      url: 'https://dl.feenk.com/gt/GlamorousToolkitLinux64-release',
       cache: false
     },
     (data) => {
-      addVersionNumbersToButton('linux64', 'GToolkitLinux64-', data);
+      addVersionNumbersToButton('linux64', 'GlamorousToolkitLinux64-', data);
     });
 
   $.get(

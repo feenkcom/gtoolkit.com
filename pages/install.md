@@ -21,18 +21,18 @@ order: 6
         <ol>
           <li><p>Download the distribution specific to your system:</p>
             <div class="padding">
-              <a id="osx64" href="https://dl.feenk.com/gt/GToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default download-active" data-switcher-content="os x">
-                <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Mac </span><span class="gtversion"></span>
+              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default download-active" data-switcher-content="os x">
+                <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Mac </span><span class="gtversion"></span>
               </a>
             </div>
             <div class="padding">
-                <a id="linux64" href="https://dl.feenk.com/gt/GToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="linux">
-                  <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Linux </span><span class="gtversion"></span> 
+                <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="linux">
+                  <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Linux </span><span class="gtversion"></span> 
                 </a>
             </div>
             <div class="padding">
-              <a id="win64" href="https://dl.feenk.com/gt/GToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="windows">
-                <i class="fas fa-download fa-fw"></i><span>GToolkit alpha for Windows </span> <span class="gtversion"></span>
+              <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="windows">
+                <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Windows </span> <span class="gtversion"></span>
               </a>
             </div>
           </li>
@@ -40,10 +40,10 @@ order: 6
             <p>Unzip in a separate directory.</p>
           </li> 
           <li>
-            <p>Run the GToolkit image with the Pharo executable.</p>
-            <p>On Mac: Run the <code>GToolkit.app</code> and point to the GToolkit image file.</p>
-            <p>On Windows: Run <code>GToolkit.exe</code>. </p>
-            <p>On Linux: Run <code> ./gtoolkit GToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
+            <p>Run the GlamorousToolkit image with the Pharo executable.</p>
+            <p>On Mac: Run the <code>GlamorousToolkit.app</code> and point to the GlamorousToolkit image file.</p>
+            <p>On Windows: Run <code>GlamorousToolkit.exe</code>. </p>
+            <p>On Linux: Run <code> ./glamoroustoolkit GlamorousToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
           </li>
         </ol>
       </div>
@@ -74,13 +74,13 @@ order: 6
           <ol>
             <li>
                 <p>Get the latest VM specific to your system 
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GToolkitVM-8.2.0-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
-                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GT.zip and libWin64-v0.7.890.zip.
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GlamorousToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GT.zip and libWin64-v0.7.890.zip.
                 </p>
             </li>
             <li>
@@ -89,18 +89,18 @@ order: 6
             </li>
             <li>
                 <p>Execute the following 2 commands in your favorite terminal. Adjusting the image file name as needed.</p>
-                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "ThreadedFFIMigration enableThreadedFFI."
+                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit-64-20200415081304-a4a2d1e.image eval --save "ThreadedFFIMigration enableThreadedFFI."
                 </pre>
-                <pre>.\GToolkitConsole.exe .\GToolkit-64-20200415081304-a4a2d1e.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
+                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit-64-20200415081304-a4a2d1e.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
                 </pre>
                 <p>And last but not least run in Windows with</p>
-                <pre>.\GToolkit.exe
+                <pre>.\GlamorousToolkit.exe
                 </pre>
                 <p>In Mac OSX with </p>
-                 <pre>./GToolkit.app/Contents/MacOS/GToolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                 <pre>./GlamorousToolkit.app/Contents/MacOS/GlamorousToolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
                  </pre>
                 <p>And in Linux with something like </p>
-                <pre>./gtoolkit GToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                <pre>./glamoroustoolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
                 </pre>
 
             </li>
