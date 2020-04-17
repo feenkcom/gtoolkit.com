@@ -60,7 +60,7 @@ order: 6
           <p>On Linux:</p>
           <pre>curl https://dl.feenk.com/scripts/linux.sh | bash</pre>
           <p>On Windows:</p>
-          <p>Using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
+          <p>Clone <a href="https://github.com/feenkcom/gtoolkit/">https://github.com/feenkcom/gtoolkit</a> and then using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
         </div>
       </div>
     </div>
