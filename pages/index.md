@@ -27,14 +27,14 @@ order: 1
       </div>
     </div>
     <div class="row">
-        <p><img src="/assets/pictures/gtr-overview.png" width="100%"/></p>
-    </div>
-    <div class="row">
       <div class="col-lg-6 offset-lg-3">
           <a href="install" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
-            Install
+            Install on Mac, Linux or Windows
           </a>
       </div>
+    </div>
+    <div class="row vspace">
+        <p><img src="/assets/pictures/gtr-overview.png" width="100%"/></p>
     </div>
     <div class="row vspace">
       <div class="col-lg-8 offset-lg-2">
@@ -198,13 +198,6 @@ order: 1
         <img src="/assets/pictures/gt-coder-query-highlighting.png"/>
       </div>
     </div> -->
-    <div class="row vspace">
-      <div class="col-lg-6  offset-lg-3">
-          <a href="install" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
-            Intrigued already? <br/> Install it and take it for a spin
-          </a>
-      </div>
-    </div>
     <div class="row vspace center">
       <div class="col-md-8 offset-md-2">
         <a class="twitter-timeline" data-height="650" href="https://twitter.com/feenkcom?ref_src=twsrc%5Etfw">@feenkcom</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

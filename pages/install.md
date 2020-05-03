@@ -21,17 +21,17 @@ order: 6
         <ol>
           <li><p>Download the distribution specific to your system:</p>
             <div class="padding">
-              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default download-active" data-switcher-content="os x">
+              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default xdownload-active" data-switcher-content="os x">
                 <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Mac </span><span class="gtversion"></span>
               </a>
             </div>
             <div class="padding">
-                <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="linux">
+                <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="linux">
                   <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Linux </span><span class="gtversion"></span> 
                 </a>
             </div>
             <div class="padding">
-              <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin download-inactive" data-switcher-content="windows">
+              <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="windows">
                 <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Windows </span> <span class="gtversion"></span>
               </a>
             </div>
