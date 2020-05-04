@@ -1,9 +1,9 @@
-<!-- ---
-layout: default
+---
+layout: subpage
 title: Getting started
-permalink: /start/
-order: 2
---- -->
+parentpermalink: /doc/
+permalink: /doc/start/
+---
 
 <section id="components">
   <div class="container">

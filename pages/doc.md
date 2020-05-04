@@ -1,14 +1,12 @@
-<!-- ---
+---
 layout: submenu
 title: Getting started
 permalink: /doc/
 order: 2
 submenuitems:
-   - title: Get started
-     permalink: /doc/start/
-   - title: How to use GT for software analysis
-     permalink: /design/software-analysis/
---- -->
+  - title: Get started
+    permalink: /doc/start/
+---
 
 <section id="components">
   <div class="container">
