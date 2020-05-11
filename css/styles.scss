@@ -3,8 +3,19 @@
 
 @import "main";
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .lead {
@@ -33,7 +44,8 @@ body {
   text-align: center;
 }
 
-.component, .usecase {
+.component,
+.usecase {
   text-align: left;
   h3 {
     font-size: 14pt;
@@ -184,7 +196,7 @@ img.shadow {
     p {
       color: gray;
       font-size: 12px;
-      margin-left: 10px; 
+      margin-left: 10px;
       margin-right: 10px;
     }
   }

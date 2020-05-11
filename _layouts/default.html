@@ -2,10 +2,10 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {% include navigation.html %}
-    {{ content }}
-    {% include modal.html %}
-    {% include custom.html %}
+    <div class="content">
+      {% include navigation.html %} {{ content }} {% include modal.html %} {%
+      include custom.html %}
+    </div>
     {% include footer.html %}
   </body>
 </html>
