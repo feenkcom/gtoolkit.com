@@ -1,17 +1,12 @@
 <div class="side-menu sticky-top pb-5">
-    <div class="jumbotron">
-        <nav>
-            <ul class="nav flex-column border-left">
-                {% assign doclist = site.pages %}
-                {% for item in doclist %}
-                {% if item contains "submenuitems" %}
-                {% include sidemenu_entry.html data=item %}
-                {% for entry in item.submenuitems %}
-                {% include sidemenu_entry.html data=entry %}
-                {% endfor %}
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </nav>
-    </div>
+  <div class="jumbotron">
+    <nav>
+      <ul class="nav flex-column border">
+        {% assign doclist = site.pages %} {% for item in doclist %} {% if item
+        contains "submenuitems" %} {% include sidemenu_entry.html data=item %}
+        {% for entry in item.submenuitems %} {% include sidemenu_entry.html
+        data=entry %} {% endfor %} {% endif %} {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </div>
