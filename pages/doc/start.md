@@ -6,11 +6,11 @@ permalink: /doc/start/
 ---
 
 <section id="getstarted">
-    <div class="container pt-5 pb-5 jumbotron-small">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Getting started</h1>
-          <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
+  <div class="container pt-5 pb-5 jumbotron-small">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Getting started</h1>
+        <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
         <h2>Install and run</h2>
         <p>
           First things, first. Please go ahead and <a href="/install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.
@@ -59,25 +59,6 @@ transcript show: 'Hello world'.</pre>
         <p>
           Now, you created a transcript object, and told it to show the string. At the end you saw the result being printed in the transcript rendering. Did you still expect to see an example that prints this to the operating system console? That's possible as well, but programming with Glamorous Toolkit is about working with a live system. So, really, dive into the environment and let us know what you think.
         </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="expandedModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-        </div>
-        <div class="modal-footer">
-          <div class="caption">
-            <p></p>
-          </div>
-        </div>
       </div>
     </div>
   </div>

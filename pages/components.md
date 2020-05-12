@@ -6,13 +6,11 @@ order: 3
 ---
 
 <section id="components">
-  <div class="container">
+  <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-lg-12">
-        <div class="jumbotron">
           <h1>Components</h1>
           <p class="lead">Glamorous Toolkit is made of moldable, programmable and combinable components.</p>
-        </div>
       </div>
     </div>
     <div class="row vspace component topmarker">

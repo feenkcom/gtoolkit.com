@@ -10,15 +10,13 @@ submenuitems:
     permalink: /doc/gt-and-pharo/
 ---
 
-<section id="getstarted">
-    <div class="container pt-5 pb-5 jumbotron-small">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Documentation</h1>
-          <p class="lead">Learning to use Glamorous Toolkit is a journey. Take a look around for some entry points.</p>
-          <h2>Get started</h2>
-          
-        </div>
+<section id="doc">
+  <div class="container pt-5 pb-5 jumbotron-small">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Documentation</h1>
+        <p class="lead">Learning to use Glamorous Toolkit is a journey. Take a look around for some entry points.</p>          
       </div>
     </div>
+  </div>
 </section>
