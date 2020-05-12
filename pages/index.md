@@ -8,12 +8,12 @@ order: 1
 <section id="home" class="jumbotron">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 center">
           <p><img src="/assets/pictures/gtoolkit-icon.png" width="750"/></p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
           Glamorous Toolkit is the moldable development environment.
           It is a live notebook.
