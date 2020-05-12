@@ -12,17 +12,11 @@ order: 4
 ---
 
 <section id="components">
-  <div class="container">
+  <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="jumbotron">
-          <h1>Design principles</h1>
-          <p class="lead">Glamorous Toolkit is based on a handful of principles that we continuously discover and refine. Here is what we have so far.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-md-8">
+        <h1>Design principles</h1>
+        <p class="lead">Glamorous Toolkit is based on a handful of principles that we continuously discover and refine. Here is what we have so far.</p>
         <h2>Moldable first</h2>
         <p>
           Software is shapeless. Yet, to reason about it we, humans, need a shape. Tools provide the shape of software. It follows that tools are essential. Moreover, software is also highly contextual. For tools to be effective, they have to take that context into account. It follows that tools must be moldable so that the programmer can adapt them to the current needs, easily and frequently.

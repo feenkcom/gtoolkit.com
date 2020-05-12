@@ -6,17 +6,11 @@ order: 6
 ---
 
 <section id="install">
-  <div class="container">
+  <div class="container pt-5 pb-5 jumbotron-small">
      <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="jumbotron">
+      <div class="col-lg-8">
           <h1 class="center-text">Install</h1>
           <p class="lead">You can obtain Glamorous Toolkit in three ways: download a ready made distribution, loading the code in a Pharo image or manually downloading the image, vm and libraries.</p>
-        </div>   
-      </div>
-    </div>  
-     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
         <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
         <ol>
           <li><p>Download the distribution specific to your system:</p>
@@ -49,10 +43,10 @@ order: 6
       </div>
     </div> 
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8">
         <h2>Get the latest vm and the latest code in one step</h2>
       </div>
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <p>Get the latest VM of Pharo 8.0 specific to your system</p>
           <p>On Mac:</p>
@@ -65,11 +59,10 @@ order: 6
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8">
         <h2>Manually install image, libraries and vm</h2>
-        
       </div>
-            <div class="col-lg-8 offset-lg-2">
+            <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>

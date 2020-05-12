@@ -6,10 +6,9 @@ order: 7
 ---
 
 <section id="components">
-  <div class="container">
+  <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="jumbotron">
+      <div class="col-lg-8">
           <h1>About</h1>
           <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to rethink the development experience.</p>
           <p class="lead">
@@ -28,9 +27,8 @@ order: 7
             By the way, feenk is a word we made up and comes from feel and think. That's because, even in our technical world, the way we feel is as important as the way we think.
           </p>
           <p class="lead">
-            In any case, if you like what we build, or are interested in what we do, <a href="https://feenk.com" class="btn btn-lg btn-default">please do step by our office</a>. 
+            In any case, if you like what we build, or are interested in what we do, <a href="https://feenk.com">please do contact us.</a> We'd love to hear from you. 
           </p>
-        </div>
       </div>
     </div>
   </div> <!-- container -->
