@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: Getting started
 permalink: /start/
 order: 2
----
+--- -->
 
 <section id="components">
   <div class="container">
