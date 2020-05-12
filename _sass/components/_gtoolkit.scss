@@ -1,0 +1,42 @@
+.sample {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  img,
+  video {
+    max-width: 99%;
+    max-height: 600px;
+    margin: 0 auto;
+  }
+  .picture-caption {
+    p {
+      color: gray;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.download-item {
+  margin: 10px;
+}
+
+.download-button {
+  min-width: 400px;
+}
+
+.download-active {
+  border: 1px solid $gray-light;
+  &:hover {
+    border: 1px solid #e6e6e6;
+  }
+}
+
+.download-inactive {
+  border: 1px solid #e6e6e6;
+  &:hover {
+    background-color: none;
+  }
+}
