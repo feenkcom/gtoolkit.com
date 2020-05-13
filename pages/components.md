@@ -1,8 +1,14 @@
 ---
+<!-- layout: submenu -->
 layout: default
 title: Components
 permalink: /components/
 order: 2
+<!-- submenuitems:
+  - title: Playground &amp; Inspector
+    permalink: /components/playground-inspector/
+  - title: Coder
+    permalink: /components/coder/ -->
 ---
 
 <section id="components">
