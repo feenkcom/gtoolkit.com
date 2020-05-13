@@ -10,7 +10,7 @@ order: 7
     <div class="row">
       <div class="col-lg-8">
           <h1>About</h1>
-          <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to rethink the development experience.</p>
+          <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable.</p>
           <p class="lead">
             Why do we build this? Well, if we asked if you loved working with legacy systems, you are likely to say "No," and you might even feel a shiver. We think that should change. Programming is the coolest job on the planet, and it should feel like that all the time.
           </p>
