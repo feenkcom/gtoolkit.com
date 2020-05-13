@@ -26,15 +26,15 @@ submenuitems:
     permalink: /components/presenter/
   - title: Exemplifier
     permalink: /components/exemplifier/
-  - title: SmaCC parsing engine
+  - title: GT4SmaCC parsing engine
     permalink: /components/gt4smacc/
-  - title: Software analyzer
+  - title: GT4Famix3 software analyzer
     permalink: /components/gt4famix3/
-  - title: XML Support
+  - title: GT4XMLSupport
     permalink: /components/gt4xmlsupport/
   - title: Releaser
     permalink: /components/releaser/
-  - title: Jenkins connector
+  - title: GT4Jenkins
     permalink: /components/gt4jenkins/
   - title: Bloc graphical stack
     permalink: /components/bloc/

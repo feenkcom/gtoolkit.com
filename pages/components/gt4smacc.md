@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: GT4SmaCC: parsing engine
+title: GT4SmaCC parsing engine
 parentpermalink: /components/
 permalink: /components/gt4smacc/
 ---
