@@ -1,8 +1,16 @@
-<div class="col-md-4">
+{% if include.url %} 
+<a class="gallery col-md-4" href="{{include.url}}">
+{% else %}
+<div class="gallery col-md-4">
+{% endif %}
     <div class="card">
         <img class="card-img-top" src="{{include.image}}" style="width:100%">
         <div class="card-block">
             <p class="card-text">{{include.text}}</p>
         </div>
     </div>
+{% if include.url %} 
+</a>
+{% else %}
 </div>
+{% endif %}

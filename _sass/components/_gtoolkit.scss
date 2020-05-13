@@ -46,3 +46,12 @@
 #win64 {
   min-width: 500px;
 }
+
+a.gallery {
+  text-decoration: none;
+  &:hover {
+    background: $white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
