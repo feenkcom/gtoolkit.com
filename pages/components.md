@@ -2,7 +2,7 @@
 layout: default
 title: Components
 permalink: /components/
-order: 3
+order: 2
 ---
 
 <section id="components">
