@@ -7,7 +7,7 @@ submenuitems:
   - title: Getting started
     permalink: /doc/start/
   - title: Presentations
-    permalink: /doc/videos/
+    permalink: /doc/presentations/
   - title: Glamorous Toolkit &amp; Pharo
     permalink: /doc/gt-and-pharo/
 ---
