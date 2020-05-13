@@ -7,8 +7,32 @@ order: 2
 <!-- submenuitems:
   - title: Playground &amp; Inspector
     permalink: /components/playground-inspector/
+  - title: Spotter
+    permalink: /components/spotter/
   - title: Coder
-    permalink: /components/coder/ -->
+    permalink: /components/coder/
+  - title: Debugger
+    permalink: /components/debugger/
+  - title: Documenter
+    permalink: /components/documenter/
+  - title: Transcript
+    permalink: /components/transcript/
+  - title: Presenter
+    permalink: /components/presenter/
+  - title: Exemplifier
+    permalink: /components/exemplifier/
+  - title: SmaCC parsing engine
+    permalink: /components/smacc/
+  - title: Software analyzer
+    permalink: /components/analyzer/
+  - title: Releaser
+    permalink: /components/releaser/
+  - title: Jenkins connector
+    permalink: /components/jenkins/
+  - title: Bloc graphical stack
+    permalink: /components/bloc/
+  - title: XDoc
+    permalink: /components/xdoc/ -->
 ---
 
 <section id="components">
@@ -153,12 +177,6 @@ order: 2
             <p>Documenter showing a tutorial. The code changes are embedded as objects.</p>
           </div>
         </div>
-<!--         <div class="sample">
-          <img src="/assets/pictures/gtr-documenter-class-comment.png">
-          <div class="picture-caption">
-            <p>Documenter tranforms the class comment into a live document.</p>
-          </div>
-        </div> -->
       </div>
     </div> <!-- row -->
     <div class="row vspace component topmarker">
@@ -311,7 +329,7 @@ order: 2
     <div class="row vspace component topmarker">
       <div class="col-lg-3">
         <h3>Component</h3>
-        <h2>Jenkins connection</h2>
+        <h2>Jenkins connector</h2>
         <p class="lead">The Jenkins connection is a utility client that allows you to browse Jenkins through custom views right from the IDE.</p>
       </div>
       <div class="col-lg-9">
