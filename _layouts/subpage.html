@@ -10,12 +10,13 @@
           <div class="col-lg-8">
             {{ content }}
           </div>
-          <div class="col-lg-3">
+          <div class="offset-lg-1 col-lg-3">
             {% include sidebar.html %}
           </div>
         </div>
       </div>
+      {% include modal.html %} {% include custom.html %}
     </div>
-    {% include modal.html %} {% include custom.html %} {% include footer.html %}
+    {% include footer.html %}
   </body>
 </html>
