@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: GT4Famix3: Software analyzer
+title: GT4Famix3 Software analyzer
 parentpermalink: /components/
 permalink: /components/gt4famix3/
 ---
