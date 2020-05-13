@@ -3,8 +3,8 @@
     <nav>
       <ul class="nav flex-column border-top border-left border-right">
         {% assign doclist = site.pages %} 
-          {% for item in doclist %} 
-            {% if item.title == page.title %}
+          {% for item in doclist %}
+            {% if page.permalink == item.permalink or item.permalink == page.parentpermalink %}
               {% if item contains "submenuitems" %} 
                 {% include sidemenu_entry.html data=item %}
                   {% for entry in item.submenuitems %} 
