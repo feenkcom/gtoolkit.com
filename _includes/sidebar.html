@@ -1,9 +1,8 @@
 <div class="side-menu sticky-top pb-5">
-  <div class="jumbotron">
-    <nav>
-      <ul class="nav flex-column border-top border-left border-right">
-        {% assign doclist = site.pages %} 
-          {% for item in doclist %}
+  <nav>
+    <ul class="nav flex-column border-top border-left border-right">
+      {% assign doclist = site.pages %} 
+          {% for item in doclist %} 
             {% if page.permalink == item.permalink or item.permalink == page.parentpermalink %}
               {% if item contains "submenuitems" %} 
                 {% include sidemenu_entry.html data=item %}
@@ -13,7 +12,6 @@
               {% endif %} 
             {% endif %} 
         {% endfor %}
-      </ul>
-    </nav>
-  </div>
+    </ul>
+  </nav>
 </div>
