@@ -22,13 +22,15 @@ order: 2
   - title: Exemplifier
     permalink: /components/exemplifier/
   - title: SmaCC parsing engine
-    permalink: /components/smacc/
+    permalink: /components/gt4smacc/
   - title: Software analyzer
-    permalink: /components/analyzer/
+    permalink: /components/gt4famix3/
+  - title: XML Support
+    permalink: /components/gt4xmlsupport/
   - title: Releaser
     permalink: /components/releaser/
   - title: Jenkins connector
-    permalink: /components/jenkins/
+    permalink: /components/gt4jenkins/
   - title: Bloc graphical stack
     permalink: /components/bloc/
   - title: XDoc
@@ -39,8 +41,8 @@ order: 2
   <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-lg-12">
-          <h1>Components</h1>
-          <p class="lead">Glamorous Toolkit is made of moldable, programmable and combinable components.</p>
+        <h1>Components</h1>
+        <p class="lead">Glamorous Toolkit is made of moldable, programmable and combinable components.</p>
       </div>
     </div>
     <div class="row vspace component topmarker">

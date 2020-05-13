@@ -1,15 +1,15 @@
 ---
 layout: subpage
-title: Jenkins connector
+title: GT4Jenkins
 parentpermalink: /components/
-permalink: /components/jenkins/
+permalink: /components/gt4jenkins/
 ---
 
 <section id="exemplifier">
 	<div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-md-12">
-        <h1>Jenkins connector</h1>
+        <h1>GT4Jenkins</h1>
         <p class="lead">The Jenkins connection is a utility client that allows you to browse Jenkins through custom views right from the IDE.</p>
          <div class="sample">
           <img src="/assets/pictures/gtr-jenkins-failed-examples.png">
