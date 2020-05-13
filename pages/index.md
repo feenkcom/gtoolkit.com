@@ -37,12 +37,12 @@ order: 1
         <p><img src="/assets/pictures/gtr-overview.png" width="100%"/></p>
     </div>
     <div class="row vspace">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
           Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.
         </p>
         <p class="lead">
-          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/moldable-development-video.png" width="600"></a>        
+          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video.png" width="600"></a>        
         </p>
       </div>
     </div>
