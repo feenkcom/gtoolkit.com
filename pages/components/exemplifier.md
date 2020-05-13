@@ -10,7 +10,7 @@ permalink: /components/exemplifier/
     <div class="row">
       <div class="col-md-12">
      		<h1>Exemplifier</h1>
-        <p class="lead">Examples is a slim engine that lets you define examples throughout the code and use them for documentation or testing. Through Examples, a developer can switch rapidly from the static code to a live environment and program in the presence of objects. In essence, it enables example-driven development.</p>
+        <p class="lead">Examplifier is a slim engine that lets you define examples throughout the code and use them for documentation or testing. Through Exemplifier, a developer can switch rapidly from the static code to a live environment and program in the presence of objects. In essence, it enables example-driven development.</p>
         <div class="sample">
           <img src="/assets/pictures/gtr-examples-nesting-preview.png">
           <div class="picture-caption">
