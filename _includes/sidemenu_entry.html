@@ -1,11 +1,17 @@
-<li class="nav-item">
-    {% if page.permalink == include.data.permalink %}
-    <a class="nav-link pt-3 pb-3 active" href="{{ include.data.permalink }}">
-        {{include.data.title}}
-    </a>
-    {% else %}
-    <a class="nav-link pt-3 pb-3" href="{{ include.data.permalink }}">
-        {{include.data.title}}
-    </a>
-    {% endif %}
+<li>
+  {% if page.permalink == include.data.permalink %}
+  <a
+    class="nav-item nav-link pt-3 pb-3 border-bottom active"
+    href="{{ include.data.permalink }}"
+  >
+    {{include.data.title}}
+  </a>
+  {% else %}
+  <a
+    class="nav-item nav-link pt-3 pb-3 border-bottom"
+    href="{{ include.data.permalink }}"
+  >
+    {{include.data.title}}
+  </a>
+  {% endif %}
 </li>

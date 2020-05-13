@@ -1,10 +1,15 @@
 ---
-<!-- layout: submenu -->
 layout: default
 title: Components
 permalink: /components/
 order: 2
-<!-- submenuitems:
+---
+<!-- ---
+layout: submenu
+title: Components
+permalink: /components/
+order: 2
+submenuitems:
   - title: Playground &amp; Inspector
     permalink: /components/playground-inspector/
   - title: Spotter
@@ -34,8 +39,8 @@ order: 2
   - title: Bloc graphical stack
     permalink: /components/bloc/
   - title: XDoc
-    permalink: /components/xdoc/ -->
----
+    permalink: /components/xdoc/
+--- -->
 
 <section id="components">
   <div class="container pt-5 pb-5 jumbotron-small">
