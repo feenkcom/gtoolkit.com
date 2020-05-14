@@ -4,8 +4,10 @@ title: Components
 permalink: /components/
 order: 2
 submenuitems:
-  - title: Playground &amp; Inspector
-    permalink: /components/playground-inspector/
+  - title: Playground
+    permalink: /components/playground/
+  - title: Inspector
+    permalink: /components/inspector/
   - title: Spotter
     permalink: /components/spotter/
   - title: Coder
