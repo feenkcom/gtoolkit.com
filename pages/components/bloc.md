@@ -23,6 +23,12 @@ permalink: /components/bloc/
             <p>The Inspector showing how the text editor represents all its parts, including graphical elements and the cursor, within one rendering tree.</p>
           </div>
         </div>
+        <div class="sample">
+          <img src="/assets/pictures/gtr-bloc-tree-highlight.png">
+          <div class="picture-caption">
+            <p>The pane on the left holds a visualization embedded in an inspector. On the right we see where in the rendering tree the highlighted node fits.</p>
+          </div>
+        </div>
 		  </div>			
     </div>
 	</div>
