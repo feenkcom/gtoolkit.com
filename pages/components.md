@@ -22,6 +22,8 @@ submenuitems:
     permalink: /components/presenter/
   - title: Visualizer
     permalink: /components/visualizer/
+  - title: Explainer
+    permalink: /components/explainer/
   - title: Exemplifier
     permalink: /components/exemplifier/
   - title: GT4SmaCC
