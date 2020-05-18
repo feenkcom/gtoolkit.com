@@ -18,10 +18,10 @@ submenuitems:
     permalink: /components/documenter/
   - title: Transcript
     permalink: /components/transcript/
-  - title: Presenter
-    permalink: /components/presenter/
   - title: Visualizer
     permalink: /components/visualizer/
+  - title: Presenter
+    permalink: /components/presenter/
   - title: Explainer
     permalink: /components/explainer/
   - title: Exemplifier
@@ -30,6 +30,8 @@ submenuitems:
     permalink: /components/gt4smacc/
   - title: GT4Famix3
     permalink: /components/gt4famix3/
+  - title: GT4XMLSupport
+    permalink: /components/gt4xmlsupport/
   - title: Releaser
     permalink: /components/releaser/
   - title: GT4Jenkins
@@ -56,8 +58,8 @@ submenuitems:
         {% include overview_image.html image="/assets/pictures/gtr-debugger-preview.png" text="Debugger" url="/components/debugger/" %}
         {% include overview_image.html image="/assets/pictures/gtr-documenter-baseline-gt.png" text="Documenter" url="/components/documenter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-transcript-animation.png" text="Transcript" url="/components/transcript/" %}
-        {% include overview_image.html image="/assets/pictures/gtr-presenter-preview.png" text="Presenter" url="/components/presenter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-visualizer-treemap.png" text="Visualizer" url="/components/visualizer/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-presenter-preview.png" text="Presenter" url="/components/presenter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-explainer-inspector-view.png" text="Explainer" url="/components/explainer/" %}
         {% include overview_image.html image="/assets/pictures/gtr-examples-nesting-preview.png" text="Exemplifier" url="/components/exemplifier/" %}
         {% include overview_image.html image="/assets/pictures/gtr-cpp-parser-simulator.png" text="GT4SmaCC" url="/components/gt4smacc/" %}
