@@ -6,7 +6,7 @@ permalink: /components/gt4famix3/
 ---
 
 <section id="debugger">
-	<div class="container min-height pt-5 pb-5 jumbotron-small">
+	<div class="container pt-5 pb-5 jumbotron-small">
   	<div class="row">
     		<div class="col-md-12">
     			<h1>GT4Famix3: Software analyzer</h1>

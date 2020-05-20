@@ -6,7 +6,7 @@ permalink: /components/gt4xmlsupport/
 ---
 
 <section id="exemplifier">
-	<div class="container min-height pt-5 pb-5 jumbotron-small">
+	<div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-md-12">
         <h1>GT4XMLSupport</h1>
