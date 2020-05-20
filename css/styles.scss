@@ -93,8 +93,9 @@ a:hover img {
 }
 
 .card {
+  padding-bottom: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: white;
   img,
   video {
@@ -104,8 +105,8 @@ a:hover img {
     padding-left: 20px;
     padding-right: 20px;
   }
-  h2 {
-    margin-top: 20px;
+  h3 {
+    margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
   }
