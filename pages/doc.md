@@ -8,6 +8,8 @@ submenuitems:
     permalink: /doc/start/
   - title: Glamorous Toolkit &amp; Pharo
     permalink: /doc/gt-and-pharo/
+  - title: Working with Git
+    permalink: /doc/working-with-git/
 ---
 
 <section id="doc">
