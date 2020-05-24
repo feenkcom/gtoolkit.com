@@ -9,7 +9,7 @@ permalink: /components/gt4smacc/
 	<div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-md-12">
-        <h1>GT4SmaCC: parsing engine</h1>
+        <h1>GT4SmaCC: powerful parsing engine</h1>
         <p class="lead">SmaCC is a powerful compiler compiler that also comes with advanced code search and code rewriting abilities. The integration in Glamorous Toolkit comes with a dedicated development environment, too.</p>
         <div class="sample">
           <img src="/assets/pictures/gtr-cpp-parser-simulator.png">

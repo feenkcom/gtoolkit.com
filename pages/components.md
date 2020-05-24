@@ -28,6 +28,8 @@ submenuitems:
     permalink: /components/exemplifier/
   - title: GT4SmaCC
     permalink: /components/gt4smacc/
+  - title: GT4PetitParser2
+    permalink: /components/gt4petitparser2/
   - title: GT4Famix3
     permalink: /components/gt4famix3/
   - title: GT4XMLSupport
@@ -65,6 +67,7 @@ submenuitems:
         {% include overview_image.html image="/assets/pictures/gtr-explainer-inspector-view.png" text="Explainer" url="/components/explainer/" %}
         {% include overview_image.html image="/assets/pictures/gtr-examples-nesting-preview.png" text="Exemplifier" url="/components/exemplifier/" %}
         {% include overview_image.html image="/assets/pictures/gtr-cpp-parser-simulator.png" text="GT4SmaCC" url="/components/gt4smacc/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-gt4petitparser2-coder.png" text="GT4PetitParser2" url="/components/gt4petitparser2/" %}
         {% include overview_image.html image="/assets/pictures/gtr-famix-argouml.png" text="GT4Famix3" url="/components/gt4famix3/" %}
         {% include overview_image.html image="/assets/pictures/gtr-zip-xml-xpath.png" text="GT4XMLSupport" url="/components/gt4xmlsupport/" %}
         {% include overview_image.html image="/assets/pictures/gtr-constrainer-acceptVisitor.png" text="Constrainer" url="/components/constrainer/" %}
