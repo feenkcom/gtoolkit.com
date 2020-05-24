@@ -6,6 +6,8 @@ order: 3
 submenuitems:
   - title: Getting started
     permalink: /doc/start/
+  - title: Moldable development in a nutshell
+    permalink: /doc/moldable/
   - title: Glamorous Toolkit &amp; Pharo
     permalink: /doc/gt-and-pharo/
   - title: Working with Git
