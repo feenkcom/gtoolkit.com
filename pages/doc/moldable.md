@@ -20,9 +20,10 @@ permalink: /doc/moldable/
         <p><img src="/assets/pictures/doc/moldable/moldable-inspector-custom.png"/></p>
         <p>These are not generic shapes. They are custom made. They only make sense for the objects they depict. Their specificity makes them humane and helps you engage.</p>
         <p>Everything in a software system, including individual objects, can be viewed from multiple perspectives, and we believe the environment should accommodate all these. We say it should be moldable.</p>
-        <p>Glamorous Toolkit is built from the ground up to be a moldable development environment. For example, here is how the inspectors for six distinct objects look like. They are distinct, contextual.</p>
+        <p>Glamorous Toolkit is built from the ground up to be a moldable development environment. For example, here is how the inspectors for our six objects look like. They are distinct, contextual.</p>
         <p><img src="/assets/pictures/doc/moldable/moldable-inspector-all.png"/></p>
-        <p>Changing the way we see our systems can have a dramatic impact on how we reason about our systems. We are developing Glamorous Toolkit to show concretely how this applies throughout the whole development cycle all the way from how we depict a single object to how we can steer agile architecture, or how we can explain whole systems to non-technical people.</p>
+        <p>Changing the way we see our systems can have a dramatic impact on how we reason about our systems and it is applicable systematically through all our tools.</p>
+        <p>We are developing Glamorous Toolkit to show concretely how this applies throughout the whole development cycle all the way from how we depict a single object to how we can steer agile architecture, or how we can explain whole systems to non-technical people.</p>
       </div>
     </div>
   </div>
