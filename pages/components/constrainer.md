@@ -17,6 +17,12 @@ permalink: /components/constrainer/
             <p>The report on the left shows a few constraints. Selecting one shows both the result and the definition of the constraint.</p>
           </div>
         </div>
+        <div class="sample">
+          <img src="/assets/pictures/gtr-constrainer-report-issue.png">
+          <div class="picture-caption">
+            <p>The report lists the group of constraints.</p>
+          </div>
+        </div>
 		  </div>			
     </div>
 	</div>
