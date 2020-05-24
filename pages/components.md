@@ -32,6 +32,8 @@ submenuitems:
     permalink: /components/gt4famix3/
   - title: GT4XMLSupport
     permalink: /components/gt4xmlsupport/
+  - title: Constrainer
+    permalink: /components/constrainer/
   - title: Releaser
     permalink: /components/releaser/
   - title: GT4Jenkins
@@ -64,6 +66,8 @@ submenuitems:
         {% include overview_image.html image="/assets/pictures/gtr-examples-nesting-preview.png" text="Exemplifier" url="/components/exemplifier/" %}
         {% include overview_image.html image="/assets/pictures/gtr-cpp-parser-simulator.png" text="GT4SmaCC" url="/components/gt4smacc/" %}
         {% include overview_image.html image="/assets/pictures/gtr-famix-argouml.png" text="GT4Famix3" url="/components/gt4famix3/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-zip-xml-xpath.png" text="GT4XMLSupport" url="/components/gt4xmlsupport/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-constrainer-acceptVisitor.png" text="Constrainer" url="/components/constrainer/" %}
         {% include overview_image.html image="/assets/pictures/gtr-releaser-release-gt.png" text="Releaser" url="/components/releaser/" %}
         {% include overview_image.html image="/assets/pictures/gtr-jenkins-error-log.png" text="GT4Jenkins" url="/components/gt4jenkins/" %}
         {% include overview_image.html image="/assets/pictures/gtr-bloc-complicated-scene.png" text="Bloc" url="/components/bloc/" %}
