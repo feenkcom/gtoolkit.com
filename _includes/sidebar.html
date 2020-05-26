@@ -1,12 +1,24 @@
 <div class="side-menu sticky-top pb-5">
   <nav>
-    <ul class="nav flex-column border-top border-left border-right">
-      {% assign doclist = site.pages %} {% for item in doclist %} {% if
-      page.permalink == item.permalink or (item.permalink != '/' and
-      page.permalink contains item.permalink) %} {% if item contains
-      "submenuitems" %} {% include sidemenu_entry.html data=item %} {% for entry
-      in item.submenuitems %} {% include sidemenu_entry.html data=entry %} {%
-      endfor %} {% endif %} {% endif %} {% endfor %}
+    <ul class="nav flex-column">
+      {% assign doclist = site.pages %} 
+        {% for item in doclist %} 
+          {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %} 
+          {% if item contains "submenuitems" %} 
+            {% for entry in item.submenuitems %} 
+              {% if entry contains "tag" %}
+                <li class="tag">{{entry.tag}}</li>
+              {% elsif entry contains "items" %}
+                 {% for entryItem in entry.items %} 
+                    {% include sidemenu_entry.html data=entryItem %} 
+                 {% endfor %}
+              {% else %}
+                {% include sidemenu_entry.html data=entry %} 
+              {% endif %}
+            {%endfor %} 
+            {% endif %}
+          {% endif %} 
+        {% endfor %}
     </ul>
   </nav>
 </div>

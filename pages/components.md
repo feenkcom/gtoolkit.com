@@ -4,46 +4,52 @@ title: Components
 permalink: /components/
 order: 3
 submenuitems:
-  - title: Playground
-    permalink: /components/playground/
-  - title: Inspector
-    permalink: /components/inspector/
-  - title: Spotter
-    permalink: /components/spotter/
-  - title: Coder
-    permalink: /components/coder/
-  - title: Debugger
-    permalink: /components/debugger/
-  - title: Documenter
-    permalink: /components/documenter/
-  - title: Transcript
-    permalink: /components/transcript/
-  - title: Visualizer
-    permalink: /components/visualizer/
-  - title: Presenter
-    permalink: /components/presenter/
-  - title: Explainer
-    permalink: /components/explainer/
-  - title: Exemplifier
-    permalink: /components/exemplifier/
-  - title: GT4SmaCC
-    permalink: /components/gt4smacc/
-  - title: GT4PetitParser2
-    permalink: /components/gt4petitparser2/
-  - title: GT4Famix3
-    permalink: /components/gt4famix3/
-  - title: GT4XMLSupport
-    permalink: /components/gt4xmlsupport/
-  - title: Constrainer
-    permalink: /components/constrainer/
-  - title: Releaser
-    permalink: /components/releaser/
-  - title: GT4Jenkins
-    permalink: /components/gt4jenkins/
-  - title: Bloc graphical stack
-    permalink: /components/bloc/
-  - title: XDoc
-    permalink: /components/xdoc/
+  - tag: "First tag"
+  - items:
+      - title: Playground
+        permalink: /components/playground/
+      - title: Inspector
+        permalink: /components/inspector/
+      - title: Spotter
+        permalink: /components/spotter/
+      - title: Coder
+        permalink: /components/coder/
+      - title: Debugger
+        permalink: /components/debugger/
+      - title: Documenter
+        permalink: /components/documenter/
+      - title: Transcript
+        permalink: /components/transcript/
+  - tag: "Second tag"
+  - items:
+      - title: Visualizer
+        permalink: /components/visualizer/
+      - title: Presenter
+        permalink: /components/presenter/
+      - title: Explainer
+        permalink: /components/explainer/
+      - title: Exemplifier
+        permalink: /components/exemplifier/
+      - title: GT4SmaCC
+        permalink: /components/gt4smacc/
+      - title: GT4PetitParser2
+        permalink: /components/gt4petitparser2/
+      - title: GT4Famix3
+        permalink: /components/gt4famix3/
+      - title: GT4XMLSupport
+        permalink: /components/gt4xmlsupport/
+  - tag: "Third tag"
+  - items:
+      - title: Constrainer
+        permalink: /components/constrainer/
+      - title: Releaser
+        permalink: /components/releaser/
+      - title: GT4Jenkins
+        permalink: /components/gt4jenkins/
+      - title: Bloc graphical stack
+        permalink: /components/bloc/
+      - title: XDoc
+        permalink: /components/xdoc/
 ---
 
 <section id="components">
