@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Iterative data exploration
-parentpermalink: /usecases/
 permalink: /usecases/iterative-data-exploration
 ---
 

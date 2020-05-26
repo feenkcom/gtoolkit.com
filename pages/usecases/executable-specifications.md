@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Executable specifications
-parentpermalink: /usecases/
 permalink: /usecases/executable-specifications/
 ---
 
