@@ -2,7 +2,7 @@
 layout: submenu
 title: Components
 permalink: /components/
-order: 2
+order: 3
 submenuitems:
   - title: Playground
     permalink: /components/playground/

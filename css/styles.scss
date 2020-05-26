@@ -52,6 +52,7 @@ a:hover img {
 
 .services,
 .usecase,
+.feature,
 .component,
 .randd,
 .randd2 {
@@ -62,12 +63,14 @@ a:hover img {
   }
   h2 {
     margin-top: 0;
+    margin-bottom: 10px;
   }
   img {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+
 .services {
   padding-top: 120px;
   padding-bottom: 40px;
@@ -80,6 +83,15 @@ a:hover img {
   padding-bottom: 40px;
   & a:hover img {
     background: $background;
+  }
+}
+
+.feature {
+  background: $gray-light;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  & a:hover img {
+    background: $gray-light;
   }
 }
 

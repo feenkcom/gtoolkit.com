@@ -2,7 +2,7 @@
 layout: default
 title: Gallery
 permalink: /gallery/
-order: 5
+order: 6
 ---
 
 <section id="gallery">
