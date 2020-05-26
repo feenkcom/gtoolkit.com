@@ -4,7 +4,7 @@ title: Components
 permalink: /components/
 order: 3
 submenuitems:
-  - tag: "First tag"
+  - tag: "Core tools"
   - items:
       - title: Playground
         permalink: /components/playground/
@@ -20,7 +20,9 @@ submenuitems:
         permalink: /components/documenter/
       - title: Transcript
         permalink: /components/transcript/
-  - tag: "Second tag"
+      - title: Exemplifier
+        permalink: /components/exemplifier/
+  - tag: "Visualization"
   - items:
       - title: Visualizer
         permalink: /components/visualizer/
@@ -28,8 +30,8 @@ submenuitems:
         permalink: /components/presenter/
       - title: Explainer
         permalink: /components/explainer/
-      - title: Exemplifier
-        permalink: /components/exemplifier/
+  - tag: "Software nalysis engines"
+  - items:
       - title: GT4SmaCC
         permalink: /components/gt4smacc/
       - title: GT4PetitParser2
@@ -38,16 +40,20 @@ submenuitems:
         permalink: /components/gt4famix3/
       - title: GT4XMLSupport
         permalink: /components/gt4xmlsupport/
-  - tag: "Third tag"
-  - items:
       - title: Constrainer
         permalink: /components/constrainer/
+  - tag: "Deployment"
+  - items:
       - title: Releaser
         permalink: /components/releaser/
       - title: GT4Jenkins
         permalink: /components/gt4jenkins/
+  - tag: "Graphics"
+  - items:
       - title: Bloc graphical stack
         permalink: /components/bloc/
+  - tag: "Import/export"
+  - items:
       - title: XDoc
         permalink: /components/xdoc/
 ---
