@@ -30,7 +30,7 @@ submenuitems:
         permalink: /components/presenter/
       - title: Explainer
         permalink: /components/explainer/
-  - tag: "Software nalysis engines"
+  - tag: "Software analysis engines"
   - items:
       - title: GT4SmaCC
         permalink: /components/gt4smacc/
