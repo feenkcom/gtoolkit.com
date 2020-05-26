@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Exemplifier
-parentpermalink: /components/
 permalink: /components/exemplifier/
 ---
 

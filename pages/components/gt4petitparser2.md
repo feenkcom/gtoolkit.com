@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: GT4PetitParser2
-parentpermalink: /components/
 permalink: /components/gt4petitparser2/
 ---
 

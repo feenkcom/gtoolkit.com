@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Bloc
-parentpermalink: /components/
 permalink: /components/bloc/
 ---
 

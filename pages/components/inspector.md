@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Inspector
-parentpermalink: /components/
 permalink: /components/inspector/
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Playground
-parentpermalink: /components/
 permalink: /components/playground/
 ---
 

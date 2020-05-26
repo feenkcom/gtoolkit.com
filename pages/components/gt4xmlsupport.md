@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: GT4XMLSupport
-parentpermalink: /components/
 permalink: /components/gt4xmlsupport/
 ---
 

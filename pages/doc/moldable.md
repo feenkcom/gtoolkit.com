@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Moldable development in a nutshell
-parentpermalink: /doc/
 permalink: /doc/moldable/
 ---
 

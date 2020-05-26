@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Debugger
-parentpermalink: /components/
 permalink: /components/debugger/
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Transcript
-parentpermalink: /components/
 permalink: /components/transcript/
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Documenter
-parentpermalink: /components/
 permalink: /components/documenter/
 ---
 

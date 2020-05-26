@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Releaser
-parentpermalink: /components/
 permalink: /components/releaser/
 ---
 

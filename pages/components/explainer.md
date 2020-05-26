@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Explainer
-parentpermalink: /components/
 permalink: /components/explainer/
 ---
 

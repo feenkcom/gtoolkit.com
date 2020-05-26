@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Glamorous Toolkit &amp; Pharo
-parentpermalink: /doc/
 permalink: /doc/gt-and-pharo/
 ---
 

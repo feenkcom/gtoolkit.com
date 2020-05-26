@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Visualizer
-parentpermalink: /components/
 permalink: /components/visualizer/
 ---
 

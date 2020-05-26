@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Getting started
-parentpermalink: /doc/
 permalink: /doc/start/
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: XDoc
-parentpermalink: /components/
 permalink: /components/xdoc/
 ---
 

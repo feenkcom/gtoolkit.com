@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Constrainer
-parentpermalink: /components/
 permalink: /components/constrainer/
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Spotter
-parentpermalink: /components/
 permalink: /components/spotter/
 ---
 

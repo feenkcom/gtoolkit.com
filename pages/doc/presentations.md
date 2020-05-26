@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Videos
-parentpermalink: /doc/
 permalink: /doc/presentations/
 ---
 

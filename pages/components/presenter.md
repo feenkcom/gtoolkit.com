@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Presenter
-parentpermalink: /components/
 permalink: /components/presenter/
 ---
 

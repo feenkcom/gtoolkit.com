@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Working with Git
-parentpermalink: /doc/
 permalink: /doc/working-with-git/
 ---
 

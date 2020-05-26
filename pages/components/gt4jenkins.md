@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: GT4Jenkins
-parentpermalink: /components/
 permalink: /components/gt4jenkins/
 ---
 

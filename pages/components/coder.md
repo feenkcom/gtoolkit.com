@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Coder
-parentpermalink: /components/
 permalink: /components/coder/
 ---
 
