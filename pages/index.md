@@ -34,63 +34,145 @@ order: 1
       </div>
     </div>
     <div class="row vspace">
-        <p><img src="/assets/pictures/gtr-overview.png" width="100%"/></p>
-    </div>
-    <div class="row vspace">
-      <div class="col-lg-8 offset-lg-2 center">
+      <div class="col-lg-12 vspace">
         <p class="lead">
-          Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.
+          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>        
         </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="topmarker feature vspace">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>A novel development experience</h1>
+        <p class="lead">Glamorous Toolkit offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.</p>
+      </div>
+<!--       <div class="col-lg-8">
         <p class="lead">
           <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video.png" width="600"></a>        
         </p>
       </div>
+ -->    </div> <!-- row -->
+    <div class="row vspace">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Moldable</h2>
+        <p class="lead">Every part can be molded to the context. Every object can specify how it can be viewed. And how it can be searched. Every method can specify how it can be edited. Every exception can define how it can be debugged. And all can be molded directly from the environment.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-moldable.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Exploratory flow</h2>
+        <p class="lead">Understanding software requires continuous exploration. We capture that flow explicitly and, in true moldable fashion, we want each step can be adapted dynamically to the context. Together with the various tools this leads to an ever extensible experience.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-exploratoryflow.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Live</h2>
+        <p class="lead">Live programming is programning in the presence of living objects. It can start with a code snippet. Or with a form. Or another visual that creates the living objects.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-playground.png"/>
+      </div>
     </div>
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-3">
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>On demand editors</h2>
+        <p class="lead">We have a beautifully flexible editor. You just do not have go to it. The editor comes to you. You get to code, but you can do that after you find the right place.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-editor.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Notebooks</h2>
+        <p class="lead">Writing and consuming documentation must be enjoyable. And maintainable. So, we made the whole environment host a giant interactive, visual wiki.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-livenotebooks.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Interactive analyses for many languages</h2>
+        <p class="lead">Parsing a new langauge. Investigating an abstract syntax tree. Querying code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. We find these abilities essential to support software development. So, we made them accessible.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-analyses.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>Example-driven</h2>
+        <p class="lead">Examples are like tests that return an object. A small change that impacts how we compose examples, how we use them to guide development, and how, when combined with interactive narratives, we can explain how things</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-examples.png"/>
+      </div>
+    </div> <!-- row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Feature</h3>
+        <h2>One rendering tree</h2>
+        <p class="lead">Ok, this is rather ... geeky, but we are really proud of how we draw all scenes through exactly one rendering tree. That includes the editor or visualizations. We built a whole new graphical stack to make this possible. And now we can build new interesting visualizations and interactions.</p>
+      </div>
+      <div class="col-lg-8">
+        <img src="/assets/pictures/feature-onerenderingtree.png"/>
+      </div>
+    </div> <!-- row -->
+  </div>
+</section>
+<section class="vspace">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>What's it good for?</h1>
+        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations and enable a new kind of development.</p>
+      </div>
+    </div>
+    <div class="row vspace usecase">
+      <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
-        <p class="lead">That's right. Specifications. Specs tend to get a bad name because they are expensive and, as paper supports anything, often wrong.</p>
-        <p class="lead">But, there is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <p class="lead">So, yes. Specifications. Iterate faster and identify the business value in your domain.</p>
-        <p class="lead"><a href="https://medium.com/feenk/live-tutorials-inside-the-ide-b392f15b920b?source=friends_link&sk=bc4d9e07ef2dacfb3114ac30cdf3b5da" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Live tutorials inside the IDE</a></p>
-        <p class="lead"><a href="https://medium.com/feenk/code-comments-as-live-wikis-in-ides-1c7b593749f5?source=friends_link&sk=36e01c019c88403db9a4f74b1bbfcca0" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Code comments as live wikis in IDEs</a></p>
+        <p class="lead">That's right. Specifications. They tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
+        <a href="usecases" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-8">
         <div class="sample">
           <img src="/assets/pictures/gtr-uhmo-prices.png"/>
           <div class="picture-caption">
             <p>Explaining a domain with live documents.</p>
           </div>
         </div>
-        <div class="sample">
-          <img src="/assets/pictures/gtr-uhmo-cozycorner.png"/>
-          <div class="picture-caption">
-            <p>Exploring various scenarios through scripts and visualizations.</p>
-          </div>
-        </div>
       </div>
     </div> <!-- row -->
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-3">
+    <div class="row vspace usecase xtopmarker">
+      <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Software assessment</h2>
-        <p class="lead">Code reading is the single most expensive development activity. Developers read to understand enough to figure out what to do next. That is decision making.</p>
-        <p class="lead">Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
-        <p class="lead">Build custom tools to show the interior of software to support your technical decision making.</p>
-        <p class="lead"><a href="https://medium.com/feenk/evaluating-deprecated-classes-in-java-systems-with-glamorous-toolkit-842e76a0afe2?source=friends_link&sk=be771f6650d58c9b797960283ce1856d" class="download-all-button btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x"></i> Evaluating @Deprecated classes in Java systems with Glamorous Toolkit</a></p>
+        <p class="lead">Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
+        <p class="lead"><a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-8">
         <div class="sample">
           <img src="/assets/pictures/gtr-famix-argouml.png"/>
           <div class="picture-caption">
             <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
-          </div>
-        </div>
-        <div class="sample">
-          <img src="/assets/pictures/gtr-famix-cpp-ast.png"/>
-          <div class="picture-caption">
-            <p>An example of exploring the abstract syntax tree of a class from a C++ system.</p>
           </div>
         </div>
       </div>
@@ -110,20 +192,14 @@ order: 1
         </div>
       </div>
     </div> -->
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-3">
+    <div class="row vspace usecase xtopmarker">
+      <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Iterative data exploration</h2>
-        <p class="lead">Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.</p>
-        <p class="lead">To reason about it, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
+        <p class="lead">To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
+        <p class="lead"><a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
       </div>
-      <div class="col-lg-9">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-xml-xpath.png"/>
-          <div class="picture-caption">
-            <p>A case of exploring a folder, finding an XML, querying it with XPath. Seamlessly.</p>
-          </div>
-        </div>
+      <div class="col-lg-8">
         <div class="sample">
           <img src="/assets/pictures/gtr-postgres-visualization.png"/>
           <div class="picture-caption">

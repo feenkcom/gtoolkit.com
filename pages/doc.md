@@ -2,7 +2,7 @@
 layout: submenu
 title: Documentation
 permalink: /doc/
-order: 3
+order: 5
 submenuitems:
   - title: Getting started
     permalink: /doc/start/
