@@ -1,7 +1,5 @@
 ---
 layout: subpage
-title: Software assessment
-parentpermalink: /usecases/
 permalink: /usecases/software-assessment/
 ---
 
