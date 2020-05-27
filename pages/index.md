@@ -22,7 +22,7 @@ order: 1
           It is a software analysis platform.
           It is a data visualization engine.
           All in one.
-          And it is free and open-source under an MIT license.
+          And it is free and open-source under the MIT license.
         </p>
       </div>
     </div>
@@ -47,7 +47,7 @@ order: 1
     <div class="row">
       <div class="col-lg-8">
         <h1>A novel development experience</h1>
-        <p class="lead">Glamorous Toolkit is implemented in Pharo, but it's made to work for many languages. It offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.</p>
+        <p class="lead">Glamorous Toolkit is implemented in Pharo, but it's made to work for many languages. I offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.</p>
       </div>
 <!--       <div class="col-lg-8">
         <p class="lead">
