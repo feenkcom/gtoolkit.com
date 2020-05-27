@@ -40,3 +40,13 @@ footer {
     color: black;
   }
 }
+
+#floatframe {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  height: 200px;
+  z-index: 9999;
+  border: 0;
+}
