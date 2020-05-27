@@ -48,7 +48,6 @@ order: 6
       </div>
       <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
-          <p>Get the latest VM of Pharo 8.0 specific to your system</p>
           <p>On Mac:</p>
           <pre>curl https://dl.feenk.com/scripts/mac.sh | bash</pre>
           <p>On Linux:</p>
