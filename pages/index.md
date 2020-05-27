@@ -22,13 +22,13 @@ order: 1
           It is a software analysis platform.
           It is a data visualization engine.
           All in one.
-          And it is free and open-source under an MIT license.
+          And it is free and open-source under the MIT license.
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
-          <a href="install" class="download-all-button btn btn-block btn-lg btn-margin btn-default">
+          <a href="install" class="btn btn-block btn-lg btn-margin btn-primary">
             Install on Mac, Linux or Windows
           </a>
       </div>
@@ -47,7 +47,8 @@ order: 1
     <div class="row">
       <div class="col-lg-8">
         <h1>A novel development experience</h1>
-        <p class="lead">Glamorous Toolkit is implemented in Pharo, but it's made to work for many languages. It offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it live. This seemingly small change is transformational and can be utilized in many ways.</p>
+        <p class="lead">Glamorous Toolkit is implemented in Pharo, but it's made to work for many languages.</p>
+        <p class="lead">It offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it. Live. This seemingly small change is transformational and can be utilized in many ways.</p>
       </div>
 <!--       <div class="col-lg-8">
         <p class="lead">
@@ -59,7 +60,7 @@ order: 1
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Moldable</h2>
-        <p class="lead">Every part can be molded to the context. Every object can specify how it can be viewed. And how it can be searched. Every method can specify how it can be edited. Every exception can define how it can be debugged. And all can be molded directly from the environment.</p>
+        <p class="lead">Every part can be molded to the context. Every object can specify how it can be viewed or searched. Every method can specify how it can be edited. Every exception can define how it can be debugged. And all can be molded directly from the environment, often in minutes.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-moldable.png"/>
@@ -69,7 +70,7 @@ order: 1
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Exploratory flow</h2>
-        <p class="lead">Understanding software requires continuous exploration. We capture that flow explicitly and, in true moldable fashion, we want each step can be adapted dynamically to the context. Together with the various tools this leads to an ever extensible experience.</p>
+        <p class="lead">Understanding software requires continuous exploration. We capture that flow explicitly. In true moldable fashion, each step can be adapted dynamically. Together with the various tools this leads to an ever extensible experience.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-exploratoryflow.png"/>
@@ -108,8 +109,8 @@ order: 1
     <div class="row">
       <div class="col-lg-4">
         <h3>Feature</h3>
-        <h2>Interactive analyses for many languages</h2>
-        <p class="lead">Parsing a new langauge. Investigating an abstract syntax tree. Querying code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. We find these abilities essential to support software development. So, we made them accessible.</p>
+        <h2>Analyses for many languages</h2>
+        <p class="lead">Parsing a new langauge. Querying and visualizing code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. They are all accessible.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-analyses.png"/>
@@ -119,7 +120,7 @@ order: 1
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Example-driven</h2>
-        <p class="lead">Examples are like tests that return an object. A small change that impacts how we compose examples, how we use them to guide development, and how, when combined with interactive narratives, we can explain how things</p>
+        <p class="lead">Examples are like tests that return an object. A small change that impacts how we compose examples, how we use them to guide development, and how, when combined with interactive narratives, we can explain our systems.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-examples.png"/>

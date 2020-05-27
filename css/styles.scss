@@ -202,17 +202,18 @@ a.btn {
 }
 
 .btn-primary {
+  background: $blue-light;
+  border: 1px solid $blue-dark;
   &:hover,
   &:focus {
-    background: #ddd;
+    background: $blue-dark;
   }
   &:active {
-    background: #ddd;
-    background: #ddd;
+    background: $blue-dark;
     box-shadow: none;
   }
   &.active {
-    background: #ddd;
+    background: $blue-dark;
     box-shadow: none;
   }
 }

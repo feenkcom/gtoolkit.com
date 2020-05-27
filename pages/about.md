@@ -24,10 +24,7 @@ order: 7
             At the same time, feenk is a company. We fund ourselves through customer projects, but we work as an engineering research lab. For our customer projects we use exclusively the tools and techniques we create, and these projects also act as validation. 
           </p>
           <p class="lead">
-            By the way, feenk is a word we made up and comes from feel and think. That's because, even in our technical world, the way we feel is as important as the way we think.
-          </p>
-          <p class="lead">
-            In any case, if you like what we build, or are interested in what we do, <a href="https://feenk.com">please do contact us.</a> We'd love to hear from you. 
+            If you like what we build, or are interested in what we do, <a href="https://feenk.com">please do contact us</a>. We'd love to hear from you. 
           </p>
       </div>
     </div>
