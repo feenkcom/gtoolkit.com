@@ -9,6 +9,9 @@
   background-color: white;
   ul {
     margin-top: 0;
+    height: 540px;
+    overflow: scroll;
+    flex-wrap: unset;
   }
   .border-bottom {
     border-bottom: 1px solid $gray-light !important;
