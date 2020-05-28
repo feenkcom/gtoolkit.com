@@ -10,7 +10,7 @@ order: 6
      <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Install</h1>
-          <p class="lead">You can obtain Glamorous Toolkit in three ways: download a ready made distribution, loading the code in a Pharo image or manually downloading the image, vm and libraries.</p>
+          <p class="lead">You can obtain Glamorous Toolkit in three ways: download a ready made distribution, loading the code in a Pharo image or manually downloading the image, VM and libraries.</p>
         <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
         <ol>
           <li><p>Download the distribution specific to your system:</p>
@@ -44,7 +44,8 @@ order: 6
     </div> 
     <div class="row">
       <div class="col-lg-8">
-        <h2>Get the latest vm and the latest code in one step</h2>
+        <h2>Get the latest VM and clone the source code in one step</h2>
+        <p>This method downloads the VM and clones all gtoolkit repositories. It takes about 20 minutes and it's (mostly) useful for developing GT itself.</p>
       </div>
       <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
@@ -59,7 +60,7 @@ order: 6
     </div>
     <div class="row">
       <div class="col-lg-8">
-        <h2>Manually install image, libraries and vm</h2>
+        <h2>Manually install image, libraries and VM</h2>
       </div>
             <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
@@ -76,7 +77,7 @@ order: 6
                 </p>
             </li>
             <li>
-                <p>Unpack all 3 zip files (vm, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and vm files in the same folder.</p>
+                <p>Unpack all 3 zip files (VM, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and VM files in the same folder.</p>
                 <img src="/assets/pictures/manual-install-gt.png"/>
             </li>
             <li>
