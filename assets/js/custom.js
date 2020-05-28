@@ -1,4 +1,4 @@
-window.onload = function registerBehaviour(isHomePage) {
+window.onload = function registerBehaviour() {
   window.scrollTo(0, 0);
   handleMenuSelection();
   detectOS();
