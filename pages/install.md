@@ -15,7 +15,7 @@ order: 6
         <ol>
           <li><p>Download the distribution specific to your system:</p>
             <div class="padding">
-              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin btn-default xdownload-inactive" data-switcher-content="os x">
+              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="os x">
                 <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Mac </span><span class="gtversion"></span>
               </a>
             </div>
