@@ -19,21 +19,21 @@ order: 6
       </div>
       <div class="col-lg-4 vspace">
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <i class="fas fa-download fa-fw"></i><span>Glamorous Toolkit for Mac</span>
+          <i class="fas fa-download fa-fw"></i><span>Mac</span>
         </a>
-        <p class="padding center">Unzip, run <code>GlamorousToolkit.app</code> and point it to the <code>GlamorousToolkit.image</code> file.</p>
+        <p class="padding center">Run <code>GlamorousToolkit.app</code> and point it to the <code>GlamorousToolkit.image</code> file.</p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
-                  <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit for Linux </span>
+          <i class="fas fa-download fa-fw"></i><span>Linux </span>
         </a>
         <p class="padding center">Run <code> ./glamoroustoolkit GlamorousToolkit --interactive</code> from the command line.</p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
-          <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit for Windows </span>
+          <i class="fas fa-download fa-fw"></i><span>Windows</span>
         </a>
-        <p class="padding center">Unzip and run <code>GlamorousToolkit.exe</code>.</p>
+        <p class="padding center">Run <code>GlamorousToolkit.exe</code>.</p>
       </div>
     </div> 
     <div class="row">
