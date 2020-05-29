@@ -15,7 +15,7 @@ order: 6
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <h2>Run alpha 64bit <span class="gtversion"> </span> released on <span class="releasedate"></span></h2> 
+        <h2><span class="gtversion"> </span> alpha released on <span class="releasedate"></span></h2> 
       </div>
       <div class="col-lg-4 vspace">
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
