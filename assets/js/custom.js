@@ -67,9 +67,9 @@ function detectOS() {
   for (var i = 0; i < platforms.length; i++) {
     var platform = platforms[i].getAttribute("data-switcher-content");
     if (platform.toLowerCase().startsWith(userPlatform.toLowerCase())) {
-      $(platforms[i]).addClass("btn-default download-active");
+      $(platforms[i]).addClass("btn-primary download-active");
     } else {
-      $(platforms[i]).addClass("download-inactive");
+      $(platforms[i]).addClass("btn-default download-inactive");
     }
   }
 }
