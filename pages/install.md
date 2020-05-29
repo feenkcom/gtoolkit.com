@@ -87,10 +87,10 @@ order: 6
                 <pre>.\GlamorousToolkit.exe
                 </pre>
                 <p>On Mac:</p>
-                 <pre>./GlamorousToolkit.app/Contents/MacOS/GlamorousToolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                 <pre>./GlamorousToolkit.app/Contents/MacOS/GlamorousToolkit GlamorousToolkit.image --no-quit --interactive
                  </pre>
                 <p>On Linux:</p>
-                <pre>./glamoroustoolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
+                <pre>./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive
                 </pre>
 
             </li>
