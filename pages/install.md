@@ -10,7 +10,7 @@ order: 6
     <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Install</h1>
-          <p class="lead">You can obtain Glamorous Toolkit in three ways: download a ready made distribution, loading the code in a Pharo image or manually downloading the image, VM and libraries.</p>
+          <p class="lead">You can obtain Glamorous Toolkit in three ways: downloading a ready made distribution, cloning the code explicitly, or manually downloading the artifacts.</p>
       </div>
     </div>
     <div class="row">
@@ -36,10 +36,10 @@ order: 6
         <p class="padding center">Run <code>GlamorousToolkit.exe</code>.</p>
       </div>
     </div> 
-    <div class="row">
-      <div class="col-lg-8">
-        <h2>Get the latest VM and clone the source code in one step</h2>
-        <p>This method downloads the VM and clones all gtoolkit repositories. It takes about 20 minutes and it's (mostly) useful for developing GT itself.</p>
+    <div class="row vspace">
+      <div class="col-lg-12">
+        <h2>Clone the code and install in one step</h2>
+        <p>This method downloads the VM and clones all gtoolkit repositories. It takes about 20 minutes and it is useful for developing Glamorous Toolkit itself.</p>
       </div>
       <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
@@ -48,13 +48,13 @@ order: 6
           <p>On Linux:</p>
           <pre>curl https://dl.feenk.com/scripts/linux.sh | bash</pre>
           <p>On Windows:</p>
-          <p>Clone <a href="https://github.com/feenkcom/gtoolkit/">https://github.com/feenkcom/gtoolkit</a> and then using Powershell cd into  <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
+          <p>Clone <a href="https://github.com/feenkcom/gtoolkit/">https://github.com/feenkcom/gtoolkit</a>. Using Powershell, cd to <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row vspace">
       <div class="col-lg-8">
-        <h2>Manually install image, libraries and VM</h2>
+        <h2>Manual install image, libraries and VM</h2>
       </div>
             <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
@@ -67,26 +67,29 @@ order: 6
                 </p>
             </li>
              <li>
-                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GlamorousToolkit</a> and one of the libriaries zip files specific to your system. For example, in Windows it would be GT.zip and libWin64-v0.7.890.zip.
+                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GlamorousToolkit</a> and the libriaries zip files specific to your system. For example, on Windows it would be GT.zip and libWin64-v0.7.890.zip.
                 </p>
             </li>
             <li>
-                <p>Unpack all 3 zip files (VM, image files and library files) in the same folder and run Pharo. The screenshot below shows a Windows instalation with all dlls, image, and VM files in the same folder.</p>
+                <p>Unpack all 3 zip files (VM, image files and library files) in the same folder and run . The screenshot below shows a Windows instalation with all dlls, image, and VM files in the same folder.</p>
                 <img src="/assets/pictures/manual-install-gt.png"/>
             </li>
             <li>
-                <p>Execute the following 2 commands in your favorite terminal. Adjusting the image file name as needed.</p>
-                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit-64-20200415081304-a4a2d1e.image eval --save "ThreadedFFIMigration enableThreadedFFI."
+                <p>Execute the following 2 commands in your favorite terminal:</p>
+                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit.image eval --save "ThreadedFFIMigration enableThreadedFFI."
                 </pre>
-                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit-64-20200415081304-a4a2d1e.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
+                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
                 </pre>
-                <p>And last but not least run in Windows with</p>
+            </li>
+            <li>
+                <p>Launch Glamorous Toolkit:</p>
+                <p>On Windows:</p>
                 <pre>.\GlamorousToolkit.exe
                 </pre>
-                <p>In Mac OSX with </p>
+                <p>On Mac:</p>
                  <pre>./GlamorousToolkit.app/Contents/MacOS/GlamorousToolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
                  </pre>
-                <p>And in Linux with something like </p>
+                <p>On Linux:</p>
                 <pre>./glamoroustoolkit GlamorousToolkit-64-20200415081304-a4a2d1e.image --no-quit --interactive
                 </pre>
 

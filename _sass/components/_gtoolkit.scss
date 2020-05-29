@@ -23,10 +23,6 @@
   margin: 10px;
 }
 
-.download-button {
-  xmin-width: 400px;
-}
-
 .download-active {
   border: 1px solid $gray-light;
   &:hover {
@@ -48,4 +44,8 @@ a.overview {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+}
+
+code {
+  color: $black;
 }
