@@ -38,7 +38,7 @@ order: 6
     </div> 
     <div class="row vspace">
       <div class="col-lg-12">
-        <h2>Clone the code and install in one step</h2>
+        <h2>Clone the latest code and install in one step</h2>
         <p>This method downloads the VM and clones all gtoolkit repositories. It takes about 20 minutes and it is useful for developing Glamorous Toolkit itself.</p>
       </div>
       <div class="col-lg-8">
