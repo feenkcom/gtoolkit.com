@@ -1,13 +1,15 @@
 footer {
   flex-shrink: 0;
-  color: $white;
+  color: $gray-verylight;
   background-color: $black;
-  padding: 100px;
 
   .footer-link,
   .footer-credits {
     font-size: $font-size-md;
-    a, a:hover {
+    a {
+      text-decoration: none;
+    }
+    a:hover {
       color: $gray-verylight;
       text-decoration: none;
     } 
@@ -34,14 +36,14 @@ footer {
 
 footer {
   text-align: center;
-  color: $gray-verylight;
   margin-top: 120px;
+  pading-top: 120px;
   a:hover {
     text-decoration: none;
     background-color: black;
     padding-top: 0;
     padding-bottom: 0;
-    color: black;
+    color: transparent;
   }
 }
 
