@@ -1,0 +1,53 @@
+.services,
+.usecase,
+.feature,
+.component,
+.randd,
+.randd2 {
+  text-align: left;
+  h3 {
+    font-size: 14px;
+    color: gray;
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.services {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.randd {
+  margin-top: 120px;
+  background: $background;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  & a:hover img {
+    background: $background;
+  }
+}
+
+.feature {
+  background: $gray-light;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  & a:hover img {
+    background: $gray-light;
+  }
+}
+
+.randd2 {
+  background: $gray-light;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  & a:hover img {
+    background: $gray-light;
+  }
+}

@@ -1,10 +1,12 @@
 @import "base/config";
 @import "base/vendors";
+@import "base/general";
+@import "base/gtoolkit";
 
 @import "components/navbar";
 @import "components/footer";
-@import "components/gtoolkit";
 @import "components/sidemenu";
 @import "components/utilities";
 
+@import "pages/index";
 @import "pages/404";
