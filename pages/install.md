@@ -7,39 +7,33 @@ order: 6
 
 <section id="install">
   <div class="container pt-5 pb-5 jumbotron-small">
-     <div class="row">
+    <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Install</h1>
           <p class="lead">You can obtain Glamorous Toolkit in three ways: download a ready made distribution, loading the code in a Pharo image or manually downloading the image, VM and libraries.</p>
-        <h2>Run alpha 64bit released <span class="releasedate"></span></h2> 
-        <ol>
-          <li><p>Download the distribution specific to your system:</p>
-            <div class="padding">
-              <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="os x">
-                <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Mac </span><span class="gtversion"></span>
-              </a>
-            </div>
-            <div class="padding">
-                <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="linux">
-                  <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Linux </span><span class="gtversion"></span> 
-                </a>
-            </div>
-            <div class="padding">
-              <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-margin xdownload-inactive" data-switcher-content="windows">
-                <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit alpha for Windows </span> <span class="gtversion"></span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <p>Unzip in a separate directory.</p>
-          </li> 
-          <li>
-            <p>Run the GlamorousToolkit image with the Pharo executable.</p>
-            <p>On Mac: Run the <code>GlamorousToolkit.app</code> and point to the GlamorousToolkit image file.</p>
-            <p>On Windows: Run <code>GlamorousToolkit.exe</code>. </p>
-            <p>On Linux: Run <code> ./glamoroustoolkit GlamorousToolkit-FILENAME-DOT-IMAGE --interactive</code> from the command line.</p>
-          </li>
-        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Run alpha 64bit <span class="gtversion"> </span> released on <span class="releasedate"></span></h2> 
+      </div>
+      <div class="col-lg-4 vspace">
+        <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
+          <i class="fas fa-download fa-fw"></i><span>Glamorous Toolkit for Mac</span>
+        </a>
+        <p class="padding center">Unzip, run <code>GlamorousToolkit.app</code> and point it to the <code>GlamorousToolkit.image</code> file.</p>
+      </div>
+      <div class="col-lg-4 vspace">
+        <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
+                  <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit for Linux </span>
+        </a>
+        <p class="padding center">Run <code> ./glamoroustoolkit GlamorousToolkit --interactive</code> from the command line.</p>
+      </div>
+      <div class="col-lg-4 vspace">
+        <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
+          <i class="fas fa-download fa-fw"></i><span>GlamorousToolkit for Windows </span>
+        </a>
+        <p class="padding center">Unzip and run <code>GlamorousToolkit.exe</code>.</p>
       </div>
     </div> 
     <div class="row">
