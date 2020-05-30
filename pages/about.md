@@ -10,13 +10,15 @@ order: 7
     <div class="row">
       <div class="col-lg-8">
           <h1>About</h1>
-          <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable.</p>
+          <p class="lead">Glamorous Toolkit pioneers the concept of moldable development.</p>
           <p class="lead">
             Why do we build this? Well, if we asked if you loved working with legacy systems, you are likely to say "No," and you might even feel a shiver. We think that should change. Programming is the coolest job on the planet, and it should feel like that all the time.
           </p>
           <p class="lead">
             We believe that tools are essential in software engineering, yet for too long, our industry disregarded their importance. We set out to create a new systematic experience that is conducive to a new approach to programming that we call <a href="https://moldabledevelopment.com">moldable development</a>.
           </p> 
+          <h2>Built by feenk</h2>
+          <p class="lead">Glamorous Toolkit is built by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable.</p>
           <p class="lead">
             Moldable development is hard to convey in words. You have to experience it. We offer Glamorous Toolkit as free and open-source under the MIT license because we want you to experience moldable development as directly as possible.
           </p>

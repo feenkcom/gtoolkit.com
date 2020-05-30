@@ -36,7 +36,7 @@ order: 1
     <div class="row vspace">
       <div class="col-lg-12 vspace">
         <p class="lead">
-          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>        
+          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>
         </p>
       </div>
     </div>
@@ -45,17 +45,12 @@ order: 1
 <section class="topmarker usecase usecase-section-light vspace">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <h1>A novel development experience</h1>
         <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it's made to work for many languages.</p>
-        <p class="lead">It offers a fundamentally new perspective on programming. We call it moldable development. We want the environment to fit the context of the current system and when it does not, we want to be able to mold it. Live. This seemingly small change is transformational and can be utilized in many ways.</p>
+        <p class="lead">It offers a fundamentally new perspective on programming. We call it <a href="/docs/moldable">moldable development</a>. We want the environment to fit the context of the current system and when it does not, we mold it. Live. This seemingly small change is transformational and can be utilized in many ways.</p>
       </div>
-<!--       <div class="col-lg-8">
-        <p class="lead">
-          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video.png" width="600"></a>        
-        </p>
-      </div>
- -->    </div> <!-- row -->
+    </div> 
     <div class="row vspace">
       <div class="col-lg-4">
         <h3>Feature</h3>
@@ -146,6 +141,22 @@ order: 1
         <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations and enable a new kind of development.</p>
       </div>
     </div>
+<!--     <div class="row vspace usecase ">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Programming Pharo</h2>
+        <p class="lead">Glamorous Toolkit is implemented in Pharo, the live object-oriented system. And it offers novel interactions for working with Pharo systems.</p>
+        <a href="usecases" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
+          <div class="picture-caption">
+            <p>Explaining a domain with live documents.</p>
+          </div>
+        </div>
+      </div>
+    </div>  -->    
     <div class="row vspace usecase ">
       <div class="col-lg-4">
         <h3>Use case</h3>

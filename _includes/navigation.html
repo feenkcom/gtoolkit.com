@@ -21,7 +21,10 @@
       %} {% if item contains "order" %}
       <li>
         <a
-          class="nav-item nav-link {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %} nav-link-active {% endif %} p-3"
+          class="nav-item nav-link 
+            {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %} 
+               nav-link-active 
+            {% endif %} p-3"
           href="{{ item.url }}"
           >{{ item.title }}</a
         >

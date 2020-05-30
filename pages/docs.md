@@ -16,6 +16,8 @@ submenuitems:
       permalink: /docs/moldable/
     - title: Glamorous Toolkit &amp; Pharo
       permalink: /docs/gt-and-pharo/
+    - title: Design principles
+      permalink: /docs/principles/
 ---
 
 <section id="doc">
