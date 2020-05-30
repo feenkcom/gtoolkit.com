@@ -1,6 +1,6 @@
 ---
 layout: subpage
-permalink: /doc/gt-and-pharo/
+permalink: /docs/gt-and-pharo/
 ---
 
 <section id="getstarted">
