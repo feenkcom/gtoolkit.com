@@ -42,7 +42,7 @@ order: 1
     </div>
   </div>
 </section>
-<section class="topmarker feature vspace">
+<section class="topmarker usecase usecase-section-light vspace">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -146,7 +146,7 @@ order: 1
         <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations and enable a new kind of development.</p>
       </div>
     </div>
-    <div class="row vspace usecase">
+    <div class="row vspace usecase ">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
@@ -178,7 +178,7 @@ order: 1
         </div>
       </div>
     </div> <!-- row -->
-    <!-- <div class="row vspace usecase topmarker">
+    <!-- <div class="row vspace usecase  topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
         <h2>Custom tools</h2>
@@ -209,7 +209,7 @@ order: 1
         </div>
       </div>
     </div>
-<!--     <div class="row vspace usecase topmarker">
+<!--     <div class="row vspace usecase  topmarker">
       <div class="col-lg-3">
         <h3>Use case</h3>
         <h2>Pharo development</h2>

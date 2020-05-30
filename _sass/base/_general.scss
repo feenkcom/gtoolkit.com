@@ -161,3 +161,45 @@ a.btn {
 .min-height {
   min-height: 1500px;
 }
+
+.usecase {
+  text-align: left;
+  h3 {
+    font-size: 14px;
+    color: gray;
+  }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.padding-top-large {
+  padding-top: 120px;
+}
+
+.padding-bottom-medium {
+  padding-bottom: 40px;
+}
+
+@mixin usecaseSection($color) {
+  background: $color;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  & a:hover img {
+    background: $color;
+  }
+}
+
+.usecase-section-background {
+  @include usecaseSection($background);
+  margin-top: 120px;
+}
+
+.usecase-section-light {
+  @include usecaseSection($gray-light);
+}

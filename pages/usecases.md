@@ -20,7 +20,7 @@ submenuitems:
         <p class="lead">Glamorous Toolkit can be molded in many ways to serve many different purposes. Through moldable development, developers can create custom tools for every single development problem. This is far reaching and it can impact how you think with and about the system both from a technical and from a non-technical perspective.</p>
       </div>
     </div>
-    <div class="row vspace component">
+    <div class="row vspace usecase">
         {% include overview_image.html image="/assets/pictures/gtr-uhmo-prices.png" text="Executable specifications" url="/usecases/executable-specifications/" %}
         {% include overview_image.html image="/assets/pictures/gtr-famix-argouml.png" text="Software assessment" url="/usecases/software-assessment/" %}
         {% include overview_image.html image="/assets/pictures/gtr-postgres-visualization.png" text="Iterative data exploration" url="/usecases/iterative-data-exploration/" %}
