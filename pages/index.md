@@ -157,7 +157,7 @@ order: 1
         </div>
       </div>
     </div>  -->    
-    <div class="row vspace usecase ">
+    <div class="row vspace usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
@@ -173,7 +173,7 @@ order: 1
         </div>
       </div>
     </div> <!-- row -->
-    <div class="row vspace usecase xtopmarker">
+    <div class="row vspace usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Software assessment</h2>
@@ -204,7 +204,7 @@ order: 1
         </div>
       </div>
     </div> -->
-    <div class="row vspace usecase xtopmarker">
+    <div class="row vspace usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Iterative data exploration</h2>
@@ -220,7 +220,7 @@ order: 1
         </div>
       </div>
     </div>
-    <div class="row vspace usecase  topmarker">
+    <div class="row vspace usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Pharo development</h2>
