@@ -48,7 +48,7 @@ order: 1
       <div class="col-lg-9">
         <h1>A novel development experience</h1>
         <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it's made to work for many languages.</p>
-        <p class="lead">It offers a fundamentally new perspective on programming. We call it <a href="/docs/moldable">moldable development</a>. We want the environment to fit the context of the current system and when it does not, we mold it. Live. This seemingly small change is transformational and can be utilized in many ways.</p>
+        <p class="lead">It offers a new perspective on programming that changes how we understand our systems. We call it <a href="/docs/moldable">moldable development</a>. For every development situation, we want the environment to present it contextually and when it does not, we mold it. Live. This seemingly small change is transformational and can be utilized in many ways.</p>
       </div>
     </div> 
     <div class="row vspace">
