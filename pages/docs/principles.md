@@ -1,20 +1,12 @@
 ---
-# layout: submenu
-layout: default
-title: Design principles
-permalink: /design/
-order: 4
-# submenuitems:
-#   - title: First
-#     permalink: /design/first/
-#   - title: Second
-#     permalink: /design/second/
+layout: subpage
+permalink: /docs/principles/
 ---
 
 <section id="components">
   <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-12">
         <h1>Design principles</h1>
         <p class="lead">Glamorous Toolkit is based on a handful of principles that we continuously discover and refine. Here is what we have so far.</p>
         <h2>Moldable first</h2>

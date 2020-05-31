@@ -1,6 +1,6 @@
 ---
 layout: subpage
-permalink: /doc/start/
+permalink: /docs/start/
 ---
 
 <section id="getstarted">

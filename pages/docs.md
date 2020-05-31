@@ -1,21 +1,23 @@
 ---
 layout: submenu
 title: Documentation
-permalink: /doc/
+permalink: /docs/
 order: 5
 submenuitems:
   - tag: "Getting started"
   - items:
     - title: Getting started
-      permalink: /doc/start/
+      permalink: /docs/start/
     - title: Working with Git
-      permalink: /doc/working-with-git/
+      permalink: /docs/working-with-git/
   - tag: "About"
   - items:
     - title: Moldable development in a nutshell
-      permalink: /doc/moldable/
+      permalink: /docs/moldable/
     - title: Glamorous Toolkit &amp; Pharo
-      permalink: /doc/gt-and-pharo/
+      permalink: /docs/gt-and-pharo/
+    - title: Design principles
+      permalink: /docs/principles/
 ---
 
 <section id="doc">

@@ -1,6 +1,6 @@
 ---
 layout: subpage
-permalink: /doc/working-with-git/
+permalink: /docs/working-with-git/
 ---
 
 <section id="getstarted">

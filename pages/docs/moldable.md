@@ -1,6 +1,6 @@
 ---
 layout: subpage
-permalink: /doc/moldable/
+permalink: /docs/moldable/
 ---
 
 <section id="getstarted">

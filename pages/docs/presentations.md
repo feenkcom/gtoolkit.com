@@ -1,6 +1,6 @@
 ---
 layout: subpage
-permalink: /doc/presentations/
+permalink: /docs/presentations/
 ---
 
 <section id="getstarted">
