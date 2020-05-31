@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white py-0 px-4">
   <a class="navbar-brand" href="/">
-    <img src="/assets/pictures/gt.png" height="24px" />
+    <img src="/assets/pictures/gtoolkit-icon.png" height="24px" />
   </a>
 
   <button
@@ -22,7 +22,10 @@
       <li>
         <a
           class="nav-item nav-link 
-            {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %} 
+            {% if item.permalink == '/install/' %} 
+              nav-link-prominent
+            {% endif %} 
+            {% if item.permalink != '/install/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
                nav-link-active 
             {% endif %} p-3"
           href="{{ item.url }}"
