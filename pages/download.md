@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Install
-permalink: /install/
-redirect_from: /download/
+title: Download
+permalink: /download/
+redirect_from: /install/
 order: 20
 ---
 
@@ -10,7 +10,7 @@ order: 20
   <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-lg-8">
-          <h1 class="center-text">Install</h1>
+          <h1 class="center-text">Download</h1>
           <p class="lead">You can obtain Glamorous Toolkit in three ways: downloading a ready made distribution, cloning the code explicitly, or manually downloading the artifacts.</p>
       </div>
     </div>
@@ -55,7 +55,7 @@ order: 20
     </div>
     <div class="row vspace">
       <div class="col-lg-8">
-        <h2>Manual install image, libraries and VM</h2>
+        <h2>Manually download the image, libraries and VM</h2>
       </div>
             <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">

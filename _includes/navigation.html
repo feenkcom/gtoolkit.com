@@ -22,10 +22,10 @@
       <li>
         <a
           class="nav-item nav-link 
-            {% if item.permalink == '/install/' %} 
+            {% if item.permalink == '/download/' %} 
               nav-link-prominent
             {% endif %} 
-            {% if item.permalink != '/install/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
+            {% if item.permalink != '/download/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
                nav-link-active 
             {% endif %} p-3"
           href="{{ item.url }}"
