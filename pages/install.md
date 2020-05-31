@@ -2,6 +2,7 @@
 layout: default
 title: Install
 permalink: /install/
+redirect_from: /download
 order: 6
 ---
 
