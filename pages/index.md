@@ -162,7 +162,7 @@ order: 1
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
         <p class="lead">That's right. Specifications. They tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <a href="usecases" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
       </div>
       <div class="col-lg-8">
         <div class="sample">
