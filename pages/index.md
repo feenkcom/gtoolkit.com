@@ -28,7 +28,7 @@ order: 1
     </div>
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
-          <a href="install" class="btn btn-block btn-lg btn-margin btn-primary">
+          <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
             Download for Mac, Linux or Windows
           </a>
       </div>
