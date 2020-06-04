@@ -246,7 +246,7 @@ order: 1
         <h1>Who is it for?</h1>
       </div>
     </div>
-    <div class="row vspace">
+    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For developers</h2>
         <p class="lead">Moldable development is a new way to approach programming: developers build custom tools for, ideally, each of their problems. This requires new skills. Glamorous Toolkit is a platform through which you can learn and practice those skills.</p>
