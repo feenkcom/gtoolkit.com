@@ -33,7 +33,7 @@ order: 1
           </a>
       </div>
     </div>
-    <div class="row vspace">
+    <div class="row top-space">
       <div class="col-lg-12 vspace">
         <p class="lead">
           <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>
@@ -42,7 +42,7 @@ order: 1
     </div>
   </div>
 </section>
-<section class="topmarker usecase usecase-section-light vspace">
+<section class="topmarker usecase usecase-section-light top-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
@@ -133,7 +133,7 @@ order: 1
     </div> <!-- row -->
   </div>
 </section>
-<section class="vspace">
+<section class="top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -157,7 +157,7 @@ order: 1
         </div>
       </div>
     </div>  -->    
-    <div class="row vspace usecase topmarker">
+    <div class="row top-space usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
@@ -173,7 +173,7 @@ order: 1
         </div>
       </div>
     </div> <!-- row -->
-    <div class="row vspace usecase topmarker">
+    <div class="row top-space usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Software assessment</h2>
@@ -204,7 +204,7 @@ order: 1
         </div>
       </div>
     </div> -->
-    <div class="row vspace usecase topmarker">
+    <div class="row top-space usecase topmarker">
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Iterative data exploration</h2>
@@ -239,7 +239,7 @@ order: 1
     <!-- row -->
   </div>
 </section>
-<section class="topmarker usecase usecase-section-light vspace">
+<section class="topmarker usecase usecase-section-light top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
@@ -253,11 +253,11 @@ order: 1
       </div>
       <div class="col-lg-6">
         <h2>For managers</h2>
-        <p class="lead">Systems must not remain black boxes. They can be made explainable. For non-technical people, too. This has implications on how decisions are made and how budgets are attracted and allocated.</p>
+        <p class="lead">Systems must not remain black boxes. They can be made explainable. For non-technical people, too. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
       </div>
       <div class="col-lg-6">
         <h2>For researchers</h2>
-        <p class="lead">Moldable development is a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
+        <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
       </div>
       <div class="col-lg-6">
         <h2>For teachers</h2>
