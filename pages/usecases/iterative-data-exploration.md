@@ -22,6 +22,9 @@ permalink: /usecases/iterative-data-exploration
             <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
           </div>
         </div>
+        <h2>Read more</h2>
+        <p class="lead"><a href="https://medium.com/feenk/visualizing-a-postgres-database-from-the-inspector-3e922e8f4670?source=friends_link&sk=6d8bf63c17bcc10b854891c7217d6466" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i>Working with Postgres from the development environment</a></p>
+        <p class="lead"><a href="https://medium.com/feenk/working-with-postgres-from-the-development-environment-3efee0f8fe90?source=friends_link&sk=1b077d5a695bf2972009e5d6efd77a2d" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i>Visualizing a Postgres database from the inspector</a></p>
       </div>
     </div>
   </div>
