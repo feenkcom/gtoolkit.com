@@ -23,10 +23,10 @@ submenuitems:
       </div>
     </div>
     <div class="row vspace component">
-        {% include overview_image.html image="/assets/pictures/gtr-uhmo-prices.png" text="Executable specifications" url="/usecases/executable-specifications/" %}
-        {% include overview_image.html image="/assets/pictures/gtr-famix-argouml.png" text="Software assessment" url="/usecases/software-assessment/" %}
-        {% include overview_image.html image="/assets/pictures/gtr-postgres-visualization.png" text="Iterative data exploration" url="/usecases/iterative-data-exploration/" %}
-        {% include overview_image.html image="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png" text="Pharo development" url="/usecases/pharo-dev/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-uhmo-prices.png" text="Executable specifications" url="/usecases/executable-specifications" %}
+        {% include overview_image.html image="/assets/pictures/gtr-famix-argouml.png" text="Software assessment" url="/usecases/software-assessment" %}
+        {% include overview_image.html image="/assets/pictures/gtr-postgres-visualization.png" text="Iterative data exploration" url="/usecases/iterative-data-exploration" %}
+        {% include overview_image.html image="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png" text="Pharo development" url="/usecases/pharo-dev" %}
     </div>
   </div>
 </section>
