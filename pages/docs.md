@@ -25,7 +25,10 @@ submenuitems:
     <div class="row">
       <div class="col-md-12">
         <h1>Documentation</h1>
-        <p class="lead">Learning to use Glamorous Toolkit is a journey. We look at Glamorous Toolkit as a language that can be used in many ways. We invite you to regard it as a language, and learn it as a language, too.</p>
+        <p class="lead">is baked in Glamorous Toolkit itself. Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.</p>
+        <p>
+          <img src="/assets/pictures/gtr-docs.png"/>
+        </p>
         <h2>Code and issues on GitHub</h2>
         <p>We manage the code and associated issues at: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a>.</p>
         <h2>Our online community: spectrum.chat/gtoolkit</h2>
