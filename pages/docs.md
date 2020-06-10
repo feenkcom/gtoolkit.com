@@ -25,7 +25,7 @@ submenuitems:
     <div class="row">
       <div class="col-md-12">
         <h1>Documentation</h1>
-        <p class="lead">is baked in Glamorous Toolkit itself. Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.</p>
+        <p class="lead">Glamorous Toolkit offers documentation about itself directly in the environment. Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.</p>
         <p>
           <img src="/assets/pictures/gtr-docs.png"/>
         </p>
@@ -34,7 +34,7 @@ submenuitems:
         <h2>Our online community: spectrum.chat/gtoolkit</h2>
         <p>We interact with users through <a href="https://spectrum.chat/gtoolkit">our online community on Spectrum</a>.</p>
         <h2>@feenkcom on Twitter</h2>
-        <p>We use our <a href="https://twitter.com/feenkcom">@feenkcom</a> Twitter presence in two ways: to tell short stories about moldable development, and to interact with people that are interested to learn more. </p>
+        <p>We use our <a href="https://twitter.com/feenkcom">@feenkcom</a> Twitter presence in two ways: to tell share stories about moldable development, and to interact with people that are interested to learn more.</p>
       </div>
     </div>
   </div>
