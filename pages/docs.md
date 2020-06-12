@@ -12,10 +12,14 @@ submenuitems:
       permalink: /docs/working-with-git/
   - tag: "Software analysis"
   - items:
+    - title: Analyzing systems
+      permalink: /docs/analyzing-systems/
     - title: Analyzing Java systems
       permalink: /docs/analyzing-java/
     - title: Analyzing C# systems
       permalink: /docs/analyzing-csharp/
+    - title: Analyzing C/C++ systems
+      permalink: /docs/analyzing-cpp/
   - tag: "About"
   - items:
     - title: Moldable development in a nutshell

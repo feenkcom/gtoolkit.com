@@ -19,8 +19,8 @@ permalink: /docs/analyzing-csharp/
         </pre>
         <h2>Parsing C#</h2>
         <p>Glamorous Toolkit ships with a built in parser and abstract syntax tree implementation for C#.</p>
-        <pre>javaFile := 'PATH/TO/FILE.java' asFileReference.
-CSharpParser parse: javaFile contents
+        <pre>csFile := 'PATH/TO/FILE.cs' asFileReference.
+CSharpParser parse: csFile contents
         </pre>
       </div>
     </div>
