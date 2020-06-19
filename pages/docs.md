@@ -10,6 +10,8 @@ submenuitems:
       permalink: /docs/start/
     - title: Working with Git
       permalink: /docs/working-with-git/
+    - title: Operating system support
+      permalink: /docs/os-support/
   - tag: "Software analysis"
   - items:
     - title: Analyzing systems
