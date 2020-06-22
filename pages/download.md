@@ -57,7 +57,7 @@ order: 20
       <div class="col-lg-8">
         <h2>Manually download the image, libraries and VM</h2>
       </div>
-            <div class="col-lg-8">
+      <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
@@ -93,7 +93,6 @@ order: 20
                 <p>On Linux:</p>
                 <pre>./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive
                 </pre>
-
             </li>
           </ol>
         </div>
