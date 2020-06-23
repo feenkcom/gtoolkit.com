@@ -49,7 +49,7 @@ order: 20
           <p>On Linux:</p>
           <pre>curl https://dl.feenk.com/scripts/linux.sh | bash</pre>
           <p>On Windows:</p>
-          <p>Clone <a href="https://github.com/feenkcom/gtoolkit/">https://github.com/feenkcom/gtoolkit</a>. Using Powershell, cd to <code>scripts\localbuild</code> and execute <code>.\windows.ps1</code> </p>
+          <pre>wget https://dl.feenk.com/scripts/windows.ps1 -OutFile windows.ps1; ./windows.ps1</pre>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ order: 20
       <div class="col-lg-8">
         <h2>Manually download the image, libraries and VM</h2>
       </div>
-            <div class="col-lg-8">
+      <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
           <ol>
             <li>
@@ -93,12 +93,10 @@ order: 20
                 <p>On Linux:</p>
                 <pre>./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive
                 </pre>
-
             </li>
           </ol>
         </div>
       </div>
     </div>
-
   </div> <!-- /container -->
 </section>
