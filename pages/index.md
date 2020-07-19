@@ -43,7 +43,10 @@ order: 1
       <div class="col-lg-8 offset-lg-2">
         <h1>Code reading reimagined</h1>
         <p class="lead">
-          Yes, code reading. Developers spend 50% or more of their time doing just that. It's the single most expensive activity in software development. We reimagined it from the ground up. And with it, we reshaped the whole development experience. We call it moldable development.
+          Yes, code reading. Developers spend 50% or more of their time doing just that. It's the single most expensive activity in software development. We reimagined it from the ground up and with it, we reshaped the whole development experience.
+        </p>
+        <p class="lead">
+          We call it moldable development.
         </p>
       </div>
       <div class="row">
