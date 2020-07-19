@@ -14,7 +14,7 @@ permalink: /docs/start/
           First things, first. Please go ahead and <a href="/install" class="btn btn-lg btn-default">install Glamorous Toolkit</a>. We'll wait.
         </p>
         <p>
-          So, here is what just happened. You downloaded a self contained installation made of a Glamorous Toolkit image, a virtual machine, and a few other things. The contents of the folder should look like this:
+          Here is what just happened. You downloaded a self contained installation made of a Glamorous Toolkit image, a virtual machine, and a few other resources and libraries. The contents of the folder should look like this:
         </p>
         <p>
           <img src="/assets/pictures/gtr-distribution-contents.png"/>
@@ -30,7 +30,9 @@ permalink: /docs/start/
           <img src="/assets/pictures/gtr-home.png"/>
         </p>
         <p>
-          Now what? Start by browsing. The first thing you see is the home tab that offers a set of tools, interactive slide shows, and live documents. A good starting point is the Glamorous Toolkit tour slide show. Or if you like reading, start from the Glamorous Toolkit documentation. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
+          Now what? Start by browsing. The first thing you likely notice are two notifications. First, a notification about taking an interactive tour. Take it. Second, a prompt for registering to our <a href="https://blog.feenk.com">blog</a> and have the feed be delivered right in the environment. We use this channel to keep you informed about new developments and tutorials. And the interesting part is that all those posts are actually created in Glamorous Toolkit and they can be interacted with in Glamorous Toolkit, too. Do give them a try.
+        </p>
+        <p>Beside notifications, the home tab offers a set of tools, interactive slide shows, and live documents. The Glamorous Toolkit tour slideshow is a good start, but if you like reading, start from the Glamorous Toolkit documentation. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
         </p>
         <h2>Hello world</h2>
         <p>
