@@ -30,6 +30,8 @@ submenuitems:
       permalink: /docs/gt-and-pharo/
     - title: Design principles
       permalink: /docs/principles/
+    - title: Gallery
+      permalink: /docs/gallery/
 ---
 
 <section id="doc">

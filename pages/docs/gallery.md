@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Gallery
-permalink: /gallery/
-order: 6
+layout: subpage
+permalink: /docs/gallery/
 ---
 
 <section id="gallery">

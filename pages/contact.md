@@ -10,15 +10,11 @@ order: 8
       <div class="row">
         <div class="col-md-8">
           <h1>Contact us</h1>
-          <div class="mdl-typography--font-light xmdl-typography--text-center">
-            <p>
-              <a href="mailto:contact@feenk.com" title="contact us by environmentalist"><i class="fas fa-envelope fa-fw fa-3x"></i></a>
-              <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fab fa-twitter fa-fw fa-3x"></i></a>
-              <a href="https://github.com/feenkcom" title="feenkcom on GitHub" target="_blank"><i class="fab fa-github fa-fw fa-3x"></i></a>
-              <a href="https://medium.com/feenk" title="feenk blog on Medium" target="_blank"><i class="fab fa-medium-m fa-fw fa-3x"></i></a>
-              <a href="https://linkedin.com/company/feenk" title="feenk on LinkedIn" target="_blank"><i class="fab fa-linkedin fa-fw fa-3x"></i></a>
-            </p>
-          </div>
+              <a class="btn btn-block btn-lg btn-margin btn-primary" href="mailto:contact@feenk.com">
+              <i class="fas fa-envelope fa-fw fa-2x"></i>
+              Send an email
+              </a>
+              <!-- <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fab fa-twitter fa-fw fa-3x"></i></a> -->
           <!--<h2>Stay in touch</h2>
           <div id="mc_embed_signup">
             <form action="https://feenk.us10.list-manage.com/subscribe/post?u=ac03372bbac53b26921e7449e&amp;id=16168190a2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

@@ -16,6 +16,8 @@ order: 1
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
           Glamorous Toolkit is the moldable development environment.
+        </p>
+        <p class="lead">
           It is a live notebook.
           It is a flexible search interface.
           It is a fancy code editor.
@@ -33,16 +35,28 @@ order: 1
           </a>
       </div>
     </div>
-    <div class="row top-space">
-      <div class="col-lg-12 vspace">
+  </div>
+</section>
+<section class="topmarker usecase-section-light top-space center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h1>Code reading reimagined</h1>
         <p class="lead">
-          <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>
+          Yes, code reading. Developers spend 50% or more of their time doing just that. It's the single most expensive activity in software development. We reimagined it from the ground up. And with it, we reshaped the whole development experience. We call it moldable development.
         </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <p class="lead">
+            <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section class="topmarker usecase usecase-section-light top-space">
+<section class="usecase top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
@@ -133,7 +147,7 @@ order: 1
     </div> <!-- row -->
   </div>
 </section>
-<section class="top-double-space">
+<section class="top-double-space usecase-section-light">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -161,7 +175,7 @@ order: 1
       <div class="col-lg-4">
         <h3>Use case</h3>
         <h2>Executable specifications</h2>
-        <p class="lead">That's right. Specifications. They tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
+        <p class="lead">Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
         <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
       </div>
       <div class="col-lg-8">
@@ -239,7 +253,7 @@ order: 1
     <!-- row -->
   </div>
 </section>
-<section class="topmarker usecase usecase-section-light top-double-space">
+<section class="usecase top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
