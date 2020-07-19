@@ -186,7 +186,7 @@ a.btn {
   padding-bottom: 40px;
 }
 
-@mixin usecaseSection($color) {
+@mixin sectionWithBackground($color) {
   background: $color;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -195,11 +195,16 @@ a.btn {
   }
 }
 
-.usecase-section-background {
-  @include usecaseSection($background);
-  margin-top: 120px;
+.section-light {
+   @include sectionWithBackground($gray-light);
 }
 
-.usecase-section-light {
-  @include usecaseSection($gray-light);
+.top-note {
+  background-color: $black !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $white;
+  a {
+    color: white;
+  }
 }

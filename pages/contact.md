@@ -10,7 +10,7 @@ order: 8
       <div class="row">
         <div class="col-md-8">
           <h1>Contact us</h1>
-              <a class="btn btn-block btn-lg btn-margin btn-primary" href="mailto:contact@feenk.com">
+              <a class="btn btn-block btn-lg btn-margin btn-primary" href="mailto:gt@feenk.com">
               <i class="fas fa-envelope fa-fw fa-2x"></i>
               Send an email
               </a>

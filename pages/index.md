@@ -4,7 +4,6 @@ title: Home
 permalink: /
 order: 1
 ---
-
 <section id="home" class="jumbotron">
   <div class="container">
     <div class="row">
@@ -37,7 +36,7 @@ order: 1
     </div>
   </div>
 </section>
-<section class="topmarker usecase-section-light top-space center">
+<section class="topmarker section-light top-double-space center">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
@@ -150,7 +149,7 @@ order: 1
     </div> <!-- row -->
   </div>
 </section>
-<section class="top-double-space usecase-section-light">
+<section class="top-double-space section-light">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
