@@ -1,41 +1,49 @@
 <div class="fixed-top">
-
-<nav class="navbar navbar-light navbar-expand-lg bg-white py-0 px-4">
-  <a class="navbar-brand" href="/">
-    <img src="/assets/pictures/gtoolkit-icon.png" height="24px" />
-  </a>
-
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <i class="fas fa-bars"></i>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist
-      %} {% if item contains "order" %}
-      <li>
-        <a
-          class="nav-item nav-link 
-            {% if item.permalink == '/download/' %} 
-              nav-link-prominent
-            {% endif %} 
-            {% if item.permalink != '/download/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
-               nav-link-active 
-            {% endif %} p-3"
-          href="{{ item.url }}"
-          >{{ item.title }}</a
-        >
-      </li>
-      {% endif %} {% endfor %}
+  <div class="top-note center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          Glamorous Toolkit is now beta. <a href="https://blog.feenk.com/glamorous-toolkit-v0-7-1214-beta-2uv9ne4vyynvcv08kcm07cihz/">Read more.</a>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
+</div>
+  <nav class="navbar navbar-light navbar-expand-lg bg-white py-0 px-4">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/pictures/gtoolkit-icon.png" height="24px" />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist
+        %} {% if item contains "order" %}
+        <li>
+          <a
+            class="nav-item nav-link 
+              {% if item.permalink == '/download/' %} 
+                nav-link-prominent
+              {% endif %} 
+              {% if item.permalink != '/download/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
+                 nav-link-active 
+              {% endif %} p-3"
+            href="{{ item.url }}"
+            >{{ item.title }}</a
+          >
+        </li>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+  </nav>
 </div>
