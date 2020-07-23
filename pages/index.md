@@ -14,9 +14,7 @@ order: 1
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is the moldable development environment.
-        </p>
-        <p class="lead">
+          Glamorous Toolkit is the moldable development environment. 
           It is a live notebook.
           It is a flexible search interface.
           It is a fancy code editor.
@@ -121,7 +119,7 @@ order: 1
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Analyses for many languages</h2>
-        <p class="lead">Parsing a new langauge. Querying and visualizing code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. They are all accessible.</p>
+        <p class="lead">Parsing a new language. Querying and visualizing code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. They are all accessible.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-analyses.png"/>
