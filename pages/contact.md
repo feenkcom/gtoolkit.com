@@ -9,12 +9,15 @@ order: 8
     <div class="container pt-5 pb-5 jumbotron-small">
       <div class="row">
         <div class="col-md-8">
-          <h1>Contact us</h1>
-              <a class="btn btn-block btn-lg btn-margin btn-primary" href="mailto:gt@feenk.com">
-              <i class="fas fa-envelope fa-fw fa-2x"></i>
-              Send an email
-              </a>
-              <!-- <a href="https://twitter.com/feenkcom" title="feenkcom on Twitter" target="_blank"><i class="fab fa-twitter fa-fw fa-3x"></i></a> -->
+          <h1>Contact</h1>              
+          <p class="lead top-space">Code and issues: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
+          <p class="lead">Forum: <a href="https://spectrum.chat/gtoolkit">spectrum.chat/gtoolkit</a></p>
+          <p class="lead">Chat: <a href="https://discord.gg/eEcRsz">discord.gg/eEcRsz</a></p>
+          <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
+          <a class="btn btn-block btn-lg btn-margin btn-primary top-double-space" href="mailto:gt@feenk.com">
+            <i class="fas fa-envelope fa-fw fa-2x"></i>
+            Send an email
+          </a>
           <!--<h2>Stay in touch</h2>
           <div id="mc_embed_signup">
             <form action="https://feenk.us10.list-manage.com/subscribe/post?u=ac03372bbac53b26921e7449e&amp;id=16168190a2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
