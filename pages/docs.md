@@ -39,9 +39,12 @@ submenuitems:
     <div class="row">
       <div class="col-md-12">
         <h1>Documentation</h1>
-        <p class="lead">Glamorous Toolkit offers documentation about itself directly in the environment. Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.</p>
+        <p class="lead">Glamorous Toolkit offers documentation about itself directly in the environment.</p>
+        <p class="lead">
+          Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.
+        </p>
         <p>
-          <img src="/assets/pictures/gtr-docs.png"/>
+          <img src="/assets/pictures/gtr-home.png"/>
         </p>
       </div>
     </div>
