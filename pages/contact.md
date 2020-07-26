@@ -14,7 +14,7 @@ order: 8
           <p class="lead">Forum: <a href="https://spectrum.chat/gtoolkit">spectrum.chat/gtoolkit</a></p>
           <p class="lead">Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
-          <a class="btn btn-block btn-lg btn-margin btn-primary top-double-space" href="mailto:gt@feenk.com">
+          <a class="btn btn-block btn-lg btn-margin btn-default top-double-space" href="mailto:gt@feenk.com">
             <!-- <i class="fas fa-envelope fa-fw fa-2x"></i> -->
             Other issues? Just send us an email
           </a>
