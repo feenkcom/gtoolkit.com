@@ -56,7 +56,97 @@ order: 1
     </div>
   </div>
 </section>
-<section class="usecase top-double-space">
+<section class="top-double-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>What's it good for?</h1>
+        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations and enable a new kind of development.</p>
+      </div>
+    </div>
+    <div class="row top-space usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Executable specifications</h2>
+        <p class="lead">Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
+        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
+          <div class="picture-caption">
+            <p>Explaining a domain with live documents.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+    <div class="row top-space usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Software assessment</h2>
+        <p class="lead">Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
+        <p class="lead"><a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-famix-argouml.png"/>
+          <div class="picture-caption">
+            <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+    <!-- <div class="row vspace usecase  topmarker">
+      <div class="col-lg-3">
+        <h3>Use case</h3>
+        <h2>Custom environments</h2>
+        <p class="lead">The core idea of moldable development is that developers should build their own tools.</p>
+      </div>
+      <div class="col-lg-9">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-famix-argouml.png"/>
+          <div class="picture-caption">
+            <p>.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="row top-space usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Iterative API &amp; data exploration</h2>
+        <p class="lead">To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
+        <p class="lead"><a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-postgres-visualization.png"/>
+          <div class="picture-caption">
+            <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row vspace usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Pharo development</h2>
+        <p class="lead">Glamorous Toolkit is implemented in Pharo, the pure object-oriented language. Of course, it brings a moldable environment for developers working with Pharo. And yes, Glamorous Toolkit is developed using Glamorous Toolkit, too.</p>
+        <p class="lead"><a href="/usecases/pharo-dev" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png"/>
+          <div class="picture-caption">
+            <p>Exploring a Pharo algorithm based on Tensorflow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+</section>
+<section class="usecase section-light top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
@@ -147,112 +237,6 @@ order: 1
     </div> <!-- row -->
   </div>
 </section>
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1>What's it good for?</h1>
-        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations and enable a new kind of development.</p>
-      </div>
-    </div>
-<!--     <div class="row vspace usecase ">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Programming Pharo</h2>
-        <p class="lead">Glamorous Toolkit is implemented in Pharo, the live object-oriented system. And it offers novel interactions for working with Pharo systems.</p>
-        <a href="usecases" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
-          <div class="picture-caption">
-            <p>Explaining a domain with live documents.</p>
-          </div>
-        </div>
-      </div>
-    </div>  -->    
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Executable specifications</h2>
-        <p class="lead">Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
-          <div class="picture-caption">
-            <p>Explaining a domain with live documents.</p>
-          </div>
-        </div>
-      </div>
-    </div> <!-- row -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Software assessment</h2>
-        <p class="lead">Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
-        <p class="lead"><a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-famix-argouml.png"/>
-          <div class="picture-caption">
-            <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
-          </div>
-        </div>
-      </div>
-    </div> <!-- row -->
-    <!-- <div class="row vspace usecase  topmarker">
-      <div class="col-lg-3">
-        <h3>Use case</h3>
-        <h2>Custom tools</h2>
-        <p class="lead">The core idea of moldable development is that developers should build their own tools.</p>
-      </div>
-      <div class="col-lg-9">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-famix-argouml.png"/>
-          <div class="picture-caption">
-            <p>.</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Iterative data exploration</h2>
-        <p class="lead">To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
-        <p class="lead"><a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-postgres-visualization.png"/>
-          <div class="picture-caption">
-            <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Pharo development</h2>
-        <p class="lead">Glamorous Toolkit is implemented in Pharo, the pure object-oriented language. Of course, it brings a moldable environment for developers working with Pharo. And yes, Glamorous Toolkit is developed using Glamorous Toolkit, too.</p>
-        <p class="lead"><a href="/usecases/pharo-dev" class="btn btn-block btn-lg btn-margin btn-default">Read more</a></p>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png"/>
-          <div class="picture-caption">
-            <p>Exploring a Pharo algorithm based on Tensorflow.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- row -->
-  </div>
-</section>
 <section class="usecase top-double-space">
   <div class="container">
     <div class="row">
@@ -279,7 +263,7 @@ order: 1
       </div>
       <div class="col-lg-6 vspace">
         <p class="lead">We are still documenting both moldable development and Glamorous Toolkit. In the meantime, if you want to learn more, please do contact us.</p>
-        <p class="lead"><a href="/contact" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
+        <p class="lead"><a href="/community" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
       </div>
     </div> 
   </div>
