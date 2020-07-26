@@ -15,8 +15,8 @@ order: 8
           <p class="lead">Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
           <a class="btn btn-block btn-lg btn-margin btn-primary top-double-space" href="mailto:gt@feenk.com">
-            <i class="fas fa-envelope fa-fw fa-2x"></i>
-            Send an email
+            <!-- <i class="fas fa-envelope fa-fw fa-2x"></i> -->
+            Other issues? Just send us an email
           </a>
           <!--<h2>Stay in touch</h2>
           <div id="mc_embed_signup">
