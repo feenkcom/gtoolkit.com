@@ -61,9 +61,9 @@ order: 20
           <ol>
             <li>
                 <p>Get the latest VM specific to your system 
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-8.2.0-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
+                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
                 </p>
             </li>
              <li>
