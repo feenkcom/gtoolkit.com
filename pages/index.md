@@ -146,7 +146,20 @@ order: 1
     <!-- row -->
   </div>
 </section>
-<section class="usecase section-light top-double-space">
+<section class="topmarker section-light top-double-space center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h1>Making the inside of software systems explainable</h1>
+        <p class="lead">
+          Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. To make this practical, you need an environment that makes the creation of those custom tools inexpensive. A moldable development environment.
+          Glamorous Toolkit makes this possible by treating the interface as a set of visual and interactive operators that can be combined in many ways.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="usecase top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
@@ -237,7 +250,7 @@ order: 1
     </div> <!-- row -->
   </div>
 </section>
-<section class="usecase top-double-space">
+<section class="usecase section-light top-double-space negative-margin-bottom">
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
