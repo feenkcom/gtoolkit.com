@@ -34,9 +34,9 @@ permalink: /docs/start/
         </p>
         <p>Beside notifications, the home tab offers a set of tools, interactive slide shows, and live documents. The Glamorous Toolkit tour slideshow is a good start, but if you like reading, start from the Glamorous Toolkit documentation. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
         </p>
-        <h2>Hello world</h2>
+        <h2>Pharo hello world</h2>
         <p>
-          Open the Playground tool and type:
+          Open a Playground and type:
         </p>
         <pre>'Hello world'</pre>
         <p>

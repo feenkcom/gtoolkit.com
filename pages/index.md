@@ -21,7 +21,6 @@ order: 1
           It is a software analysis platform.
           It is a data visualization engine.
           All in one.
-          And it is free and open-source under the MIT license.
         </p>
       </div>
     </div>
@@ -50,6 +49,16 @@ order: 1
         <div class="col-lg-8 offset-lg-2">
           <p class="lead">
             <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video2.png" ></a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <p class="lead">
+            Every single development problem includes a data science problem. And the other way around. The way to deal with these problems is through custom tools molded specifically for each of them. Yes, for every single problem.
+          </p>
+          <p class="lead">
+            To make this practical, you need a platform that makes it possible to do that inexpensively, while working with on problem. That's Glamorous Toolkit.
           </p>
         </div>
       </div>
@@ -150,9 +159,9 @@ order: 1
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
-        <h1>Making the inside of software systems explainable</h1>
+        <h1>The insides of software systems can be made explainable</h1>
         <p class="lead">
-          Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. To make this practical, you need an environment that makes the creation of those custom tools inexpensive. A moldable development environment.
+          Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. 
           Glamorous Toolkit makes this possible by treating the interface as a set of visual and interactive operators that can be combined in many ways.
         </p>
       </div>
@@ -187,7 +196,7 @@ order: 1
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-exploratoryflow.png"/>
       </div>
-    </div> <!-- row -->
+    </div>
     <div class="row">
       <div class="col-lg-4">
         <h3>Feature</h3>
@@ -227,8 +236,8 @@ order: 1
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-analyses.png"/>
       </div>
-    </div> <!-- row -->
-    <div class="row">
+    </div>
+    <!-- <div class="row">
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Example-driven</h2>
@@ -237,7 +246,7 @@ order: 1
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-examples.png"/>
       </div>
-    </div> <!-- row -->
+    </div>
     <div class="row">
       <div class="col-lg-4">
         <h3>Feature</h3>
@@ -247,7 +256,7 @@ order: 1
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-onerenderingtree.png"/>
       </div>
-    </div> <!-- row -->
+    </div> -->
   </div>
 </section>
 <section class="usecase section-light top-double-space negative-margin-bottom">
@@ -267,7 +276,7 @@ order: 1
         <p class="lead">Systems must not remain black boxes. They can be made explainable. For non-technical people, too. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
       </div>
       <div class="col-lg-6">
-        <h2>For researchers</h2>
+        <h2>For software engineering researchers</h2>
         <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
       </div>
       <div class="col-lg-6">
@@ -276,7 +285,7 @@ order: 1
       </div>
       <div class="col-lg-6 vspace">
         <p class="lead">We are still documenting both moldable development and Glamorous Toolkit. In the meantime, if you want to learn more, please do contact us.</p>
-        <p class="lead"><a href="/community" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
+        <p class="lead"><a href="/contact" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
       </div>
     </div> 
   </div>
