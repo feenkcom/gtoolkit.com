@@ -32,6 +32,11 @@ submenuitems:
       permalink: /docs/principles/
     - title: Gallery
       permalink: /docs/gallery/
+    - title: Videos
+      permalink: /docs/videos/
+    - title: Podcasts
+      permalink: /docs/podcasts/
+
 ---
 
 <section id="doc">
