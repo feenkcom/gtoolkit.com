@@ -24,7 +24,7 @@ permalink: /docs/analyzing-js/
   importDirectory: baseDir) model
         </pre>
         <p>
-          <img src="/assets/pictures/gtr-importing-react-parsing.png"/>
+          <img src="/assets/pictures/gtr-importing-react.png"/>
         </p>
         <h2>Parsing JavaScript</h2>
         <pre>jsFile := 'PATH/TO/FILE.js' asFileReference.
