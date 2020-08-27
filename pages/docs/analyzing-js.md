@@ -23,7 +23,9 @@ permalink: /docs/analyzing-js/
   parserClass: JSXParser; 
   importDirectory: baseDir) model
         </pre>
-        <p><img src="/assets/pictures/gtr-importing-react-parsing.png"/></p>
+        <p>
+          <img src="/assets/pictures/gtr-importing-react-parsing.png"/>
+        </p>
         <h2>Parsing JavaScript</h2>
         <pre>jsFile := 'PATH/TO/FILE.js' asFileReference.
 JSParser parse: jsFile contents
