@@ -22,6 +22,8 @@ submenuitems:
       permalink: /docs/analyzing-csharp/
     - title: Analyzing C/C++ systems
       permalink: /docs/analyzing-cpp/
+    - title: Analyzing JavaScript, JSX/React systems
+      permalink: /docs/analyzing-js/
   - tag: "About"
   - items:
     - title: Moldable development in a nutshell
