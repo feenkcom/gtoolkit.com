@@ -21,24 +21,24 @@ order: 20
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
           <i class="fas fa-download fa-fw margin-right"></i><span>Mac</span>
         </a>
-        <p class="padding center">Run <code>GlamorousToolkit.app</code> and point it to the <code>GlamorousToolkit.image</code> file</p>
+        <p class="padding center">Run <code class="small">GlamorousToolkit.app</code> and point it to the <code class="small">GlamorousToolkit.image</code> file</p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
           <i class="fas fa-download fa-fw margin-right"></i><span>Linux </span>
         </a>
-        <p class="padding center">Run from the command line: <br/> <code> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code> </p>
+        <p class="padding center">Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code> </p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
           <i class="fas fa-download fa-fw margin-right"></i><span>Windows</span>
         </a>
-        <p class="padding center">Run <code>GlamorousToolkit.exe</code></p>
+        <p class="padding center">Run <code class="small">GlamorousToolkit.exe</code></p>
       </div>
     </div> 
     <div class="row vspace">
-      <div class="col-lg-12">
-        <h2>Clone the latest code and install in one step</h2>
+      <div class="col-lg-8">
+        <h2>Alternative: clone the latest code and install in one step</h2>
         <p>This method downloads the VM and clones all gtoolkit repositories. It takes about 20 minutes and it is useful for developing Glamorous Toolkit itself.</p>
       </div>
       <div class="col-lg-8">
@@ -54,7 +54,7 @@ order: 20
     </div>
     <div class="row vspace">
       <div class="col-lg-8">
-        <h2>Manually download the image, libraries and VM</h2>
+        <h2>Alternative: manually download the image, libraries and VM</h2>
       </div>
       <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
