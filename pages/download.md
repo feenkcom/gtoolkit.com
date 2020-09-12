@@ -27,7 +27,7 @@ order: 20
         <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
           <i class="fas fa-download fa-fw margin-right"></i><span>Linux </span>
         </a>
-        <p class="padding center">Run from the command line: <br/> <code> ./glamoroustoolkit GlamorousToolkit.image <br/> --no-quit --interactive</code> </p>
+        <p class="padding center">Run from the command line: <br/> <code> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code> </p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
