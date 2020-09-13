@@ -4,7 +4,7 @@ body {
 }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-family: "sources-regular", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -90,11 +90,11 @@ a {
 
 section {
   h1 {
-    font-weight: bold;
+    font-family: "sources-bold", sans-serif;
     font-size: 48px;
   }
   h2 {
-    font-weight: bold;
+    font-family: "sources-bold", sans-serif;
     font-size: 32px;
     margin-top: 64px;
     margin-bottom: 24px;

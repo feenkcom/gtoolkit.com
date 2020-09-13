@@ -2,3 +2,34 @@
 ---
 
 @import "main";
+
+@font-face {
+    font-family: "sources-extralight";
+    src: url("../assets/webfonts/sourcesanspro-extralight-webfont.woff");
+}
+
+@font-face {
+    font-family: "sources-bold";
+    src: url("../assets/webfonts/sourcesanspro-bold-webfont.woff");
+}
+
+@font-face {
+    font-family: "sources-regular";
+    src: url("../assets/webfonts/sourcesanspro-regular-webfont.woff");
+}
+
+.flexfill {
+    flex: 1 auto;
+}
+
+.sources-b {
+    font-family: "sources-bold", sans-serif;
+}
+
+.sources-el {
+    font-family: "sources-extralight", sans-serif;
+}
+
+.logo {
+    font-size: 150px;
+}
