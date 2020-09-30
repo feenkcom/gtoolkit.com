@@ -20,10 +20,8 @@ permalink: /docs/os-support/
         	<tr>
         		<td>Fedora 31 &amp; 32</td>
         		<td>
-        			<ul>
-			        	<li>Native windows are not rendering under Wayland.</li>
-								<li>The Morphic Host turns black after clicking in the window.</li>
-			        </ul>
+        			Native windows are not rendering under Wayland.<br/>
+					The Morphic Host turns black after clicking in the window.
         		</td>
         	</tr>
         	<tr><td>Ubuntu 18.04</td><td>Sub-pixel anti-aliasing isn’t supported.</td></tr>
