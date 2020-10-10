@@ -24,6 +24,8 @@ submenuitems:
       permalink: /docs/analyzing-cpp/
     - title: Analyzing JavaScript, JSX/React systems
       permalink: /docs/analyzing-js/
+    - title: Analyzing PHP systems
+      permalink: /docs/analyzing-php/
   - tag: "About"
   - items:
     - title: Moldable development in a nutshell
