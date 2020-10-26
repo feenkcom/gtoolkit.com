@@ -9,7 +9,8 @@ order: 8
     <div class="container pt-5 pb-5 jumbotron-small">
       <div class="row">
         <div class="col-md-8">
-          <h1>Contact</h1>              
+          <h1>Contact</h1>
+          <p class="lead top-space"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="350" height="80" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
           <p class="lead top-space">Code and issues: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
           <p class="lead">Forum: <a href="https://spectrum.chat/gtoolkit">spectrum.chat/gtoolkit</a></p>
           <p class="lead">Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
