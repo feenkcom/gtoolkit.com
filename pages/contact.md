@@ -15,7 +15,6 @@ order: 8
       <div class="row">
         <div class="col-md-8">
           <p class="lead top-space">Code and issues on GitHub: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
-          <p class="lead">Forum: <a href="https://spectrum.chat/gtoolkit">spectrum.chat/gtoolkit</a></p>
           <p class="lead">Discord Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
           <p class="lead">YouTube: <a href="https://www.youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug">youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug</a></p>
