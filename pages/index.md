@@ -265,20 +265,25 @@ order: 1
         <h2>For developers</h2>
         <p class="lead">Moldable development is a new way to approach programming: developers build custom tools for, ideally, each of their problems. This requires new skills. Glamorous Toolkit is a platform through which you can learn and practice those skills.</p>
       </div>
+    </div>
+<!--     <div class="row top-space">
       <div class="col-lg-6">
         <h2>For managers</h2>
         <p class="lead">Systems must not remain black boxes. They can be made explainable. For non-technical people, too. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
       </div>
-      <div class="col-lg-6">
+       <div class="col-lg-6">
         <h2>For software engineering researchers</h2>
         <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
       </div>
+    </div>
+ -->    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For teachers</h2>
         <p class="lead">Glamorous Toolkit was first conceived to explain the inside of systems. Through custom tools people can form better mental models about the underlying system. We later learnt that teaching programming faces the same class of problem. Glamorous Toolkit can provide the basis for creating dedicated teaching environments.</p>
       </div>
-      <div class="col-lg-6 vspace">
-        <p class="lead">We are still documenting both moldable development and Glamorous Toolkit. In the meantime, if you want to learn more, please do contact us.</p>
+    </div>
+    <div class="row top-space">
+      <div class="col-lg-6">
         <p class="lead"><a href="/contact" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
       </div>
     </div> 

@@ -10,7 +10,7 @@ order: 7
     <div class="row">
       <div class="col-lg-8">
           <h1>About</h1>
-          <p class="lead">Glamorous Toolkit is conceived as a whole environment that enables a new way of thinking about programming that we call <a href="/docs/moldable">moldable development</a>. We see the environment as a language that extends the base language with visual and interactive operators. Through this language, the various components can be combined in many ways live.
+          <p class="lead">Glamorous Toolkit is the environment for <a href="/docs/moldable">moldable development</a>. We see the environment as a language that extends the base language with visual and interactive operators. Through this language, the various components can be combined in many ways live.
           </p>
           <h2>Developed by feenk</h2>
           <p class="lead">
