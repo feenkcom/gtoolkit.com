@@ -58,7 +58,41 @@ order: 1
     </div>
   </div>
 </section>
+
 <section class="top-double-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>What people say</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <p >A most fascinating environment.</p>
+        <p class="lead"><a href="https://twitter.com/Grady_Booch/status/1290381503478632448?s=20">@Grady_Booch</a></p>
+      </div>
+      <div class="col-lg-3">
+        <p>GT is a point of light in the darkness. I have my reservations of course, but it is by far the best example I've seen of a live literate programming environment.</p>
+        <p class="lead"><a href="https://twitter.com/Gilad_Bracha/status/1321238595273814016?s=20">@Gilad_Bracha</a></p>
+      </div>
+      <div class="col-lg-3">
+        <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can composite queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
+        <p class="lead"><a href="https://twitter.com/SeanDenigris/status/1322516881127936000?s=20">@SeanDenigris</a></p>
+      </div>
+      <div class="col-lg-3">
+        <p>GToolkit.com is the only environment that we think might be better for thinking in than us.</p>
+        <p class="lead"><a href="https://twitter.com/roamresearch/status/1276049217434161152?s=21">@RoamResearch</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <a href="https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Follow @feenkcom on Twitter</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="top-double-space padding-top-large topmarker">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
