@@ -76,12 +76,28 @@ order: 1
         <p class="lead"><a href="https://twitter.com/Gilad_Bracha/status/1321238595273814016?s=20">@Gilad_Bracha</a></p>
       </div>
       <div class="col-lg-3">
+        <p>GToolkit.com is the only environment that we think might be better for thinking in than us.</p>
+        <p class="lead"><a href="https://twitter.com/roamresearch/status/1276049217434161152?s=21">@RoamResearch</a></p>
+      </div>
+      <div class="col-lg-3">
+        <p>What #gtoolkit excels at is the workflow that @GaelVaroquaux describes as "progressive consolidation" on his slides. There are no tool-induced boundaries between documents, scripts, functions, classes, etc. I know of no other environment with equally good support for that.
+        </p>
+        <p>
+          And then there's moldability, hardly found anywhere else, which is the icing on the cake: you can add and then consolidate you own development tools. Unfortunately this is hard to describe in words, you have to see (or better yet: try) it.
+        </p>
+        <p class="lead"><a href="https://twitter.com/khinsen/status/1139818529350410240?s=20">@khinsen</a></p>
+      </div>
+      <div class="col-lg-3">
         <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can composite queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
         <p class="lead"><a href="https://twitter.com/SeanDenigris/status/1322516881127936000?s=20">@SeanDenigris</a></p>
       </div>
       <div class="col-lg-3">
-        <p>GToolkit.com is the only environment that we think might be better for thinking in than us.</p>
-        <p class="lead"><a href="https://twitter.com/roamresearch/status/1276049217434161152?s=21">@RoamResearch</a></p>
+        <p>Emacs with graphics done right, but with a really weird dialect of Elisp ;]</p>
+        <p class="lead"><a href="https://twitter.com/PaniczGodek/status/1330464622562914306">@PaniczGodek</a></p>
+      </div>
+      <div class="col-lg-3">
+        <p>Unbelievable ppwerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
+        <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
       </div>
     </div>
     <div class="row">
@@ -300,17 +316,19 @@ order: 1
         <p class="lead">Moldable development is a new way to approach programming: developers build custom tools for, ideally, each of their problems. This requires new skills. Glamorous Toolkit is a platform through which you can learn and practice those skills.</p>
       </div>
     </div>
-<!--     <div class="row top-space">
+    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For managers</h2>
-        <p class="lead">Systems must not remain black boxes. They can be made explainable. For non-technical people, too. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
+        <p class="lead">Yes, managers. Systems must not remain black boxes. They can be made explainable. For non-technical people, too. Glamorous Toolkit makes this posible. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
       </div>
-       <div class="col-lg-6">
+    </div>  
+    <div class="row top-space">
+      <div class="col-lg-6">
         <h2>For software engineering researchers</h2>
         <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
       </div>
     </div>
- -->    <div class="row top-space">
+    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For teachers</h2>
         <p class="lead">Glamorous Toolkit was first conceived to explain the inside of systems. Through custom tools people can form better mental models about the underlying system. We later learnt that teaching programming faces the same class of problem. Glamorous Toolkit can provide the basis for creating dedicated teaching environments.</p>
