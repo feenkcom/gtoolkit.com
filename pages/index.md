@@ -80,13 +80,12 @@ order: 1
         <p class="lead"><a href="https://twitter.com/roamresearch/status/1276049217434161152?s=21">@RoamResearch</a></p>
       </div>
       <div class="col-lg-3">
-        <p>What #gtoolkit excels at is the workflow that @GaelVaroquaux describes as "progressive consolidation" on his slides. There are no tool-induced boundaries between documents, scripts, functions, classes, etc. I know of no other environment with equally good support for that.
+        <p>The first software system that I can seriously imagine to replace Emacs for me. Given that I practically live in Emacs, that’s not a small statement.
         </p>
-        <p>
-          And then there's moldability, hardly found anywhere else, which is the icing on the cake: you can add and then consolidate you own development tools. Unfortunately this is hard to describe in words, you have to see (or better yet: try) it.
-        </p>
-        <p class="lead"><a href="https://twitter.com/khinsen/status/1139818529350410240?s=20">@khinsen</a></p>
+        <p class="lead"><a href="https://twitter.com/khinsen/status/1330551198068449281">@khinsen</a></p>
       </div>
+    </div>
+    <div class="row padding-top-medium">
       <div class="col-lg-3">
         <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can composite queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
         <p class="lead"><a href="https://twitter.com/SeanDenigris/status/1322516881127936000?s=20">@SeanDenigris</a></p>
@@ -96,7 +95,7 @@ order: 1
         <p class="lead"><a href="https://twitter.com/PaniczGodek/status/1330464622562914306">@PaniczGodek</a></p>
       </div>
       <div class="col-lg-3">
-        <p>Unbelievable ppwerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
+        <p>Unbelievable powerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
         <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
       </div>
     </div>
