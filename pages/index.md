@@ -333,7 +333,7 @@ order: 1
         <p class="lead">Glamorous Toolkit was first conceived to explain the inside of systems. Through custom tools people can form better mental models about the underlying system. We later learnt that teaching programming faces the same class of problem. Glamorous Toolkit can provide the basis for creating dedicated teaching environments.</p>
       </div>
     </div>
-    <div class="row top-space">
+    <div class="row top-space padding-bottom-medium">
       <div class="col-lg-6">
         <p class="lead"><a href="/contact" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
       </div>
