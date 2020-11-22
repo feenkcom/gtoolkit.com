@@ -100,7 +100,7 @@ order: 1
         <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
       </div>
     </div>
-    <div class="row">
+    <div class="row padding-top-medium">
       <div class="col-lg-4">
         <a href="https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Follow @feenkcom on Twitter</a>
       </div>
