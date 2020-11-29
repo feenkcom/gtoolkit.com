@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  letter-spacing: -0.1px;
 }
 
 .content {
