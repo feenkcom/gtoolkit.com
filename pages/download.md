@@ -21,19 +21,28 @@ order: 20
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
           <i class="fas fa-download fa-fw margin-right"></i><span>Mac</span>
         </a>
-        <p class="padding center">Run <code class="small">GlamorousToolkit.app</code> and point it to the <code class="small">GlamorousToolkit.image</code> file</p>
+        <p class="padding center">
+          Works with macOS 14 or later. <br/>
+          Run <code class="small">GlamorousToolkit.app</code> and point it to the <code class="small">GlamorousToolkit.image</code> file
+        </p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
-          <i class="fas fa-download fa-fw margin-right"></i><span>Linux </span>
+          <i class="fas fa-download fa-fw margin-right"></i><span>Linux</span>
         </a>
-        <p class="padding center">Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code> </p>
+        <p class="padding center">
+          Works with Ubuntu 18.04 and 20.04.<br/>
+          Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code>
+        </p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
           <i class="fas fa-download fa-fw margin-right"></i><span>Windows</span>
         </a>
-        <p class="padding center">Run <code class="small">GlamorousToolkit.exe</code></p>
+        <p class="padding center">
+          Works with Windows 10.<br/>
+          Run <code class="small">GlamorousToolkit.exe</code>
+        </p>
       </div>
     </div> 
     <div class="row vspace">
