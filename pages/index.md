@@ -98,6 +98,11 @@ order: 1
         <p>Unbelievable powerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
         <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
       </div>
+      <div class="col-lg-3">
+        <p>One of the most impressive tools I've seen in the last ten years. The Glamorous Toolkit extends Pharo IDE capabilities to support live creation of inspectors/visualizers and editors for objects.</p>
+        <p>It makes every other IDE obsolete.</p>
+        <p class="lead"><a href="https://twitter.com/dyokomizo/status/1338105334209110016">@dyokomizo</a></p>
+      </div>
     </div>
     <div class="row padding-top-medium">
       <div class="col-lg-4">
