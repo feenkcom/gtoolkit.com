@@ -8,6 +8,7 @@ permalink: /docs/videos/
     <div class="row">
       <div class="col-md-12">
         <h1>Videos</h1>
+        <iframe src="https://player.vimeo.com/video/496004749" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Pot9GnHFOVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIePUQ_WKqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qeYEais1eT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,7 +16,6 @@ permalink: /docs/videos/
         <iframe width="560" height="315" src="https://www.youtube.com/embed/t7cLKDnd_ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/F1G7-TNOgy8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xYBwhQm4VPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-BBd9dgJcEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
