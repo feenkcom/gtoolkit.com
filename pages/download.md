@@ -31,7 +31,7 @@ order: 20
           <i class="fas fa-download fa-fw margin-right"></i><span>Linux</span>
         </a>
         <p class="padding center">
-          Works with Ubuntu 20.04 and Fedora 33.<br/>
+          Works with Ubuntu 20.04 and Fedora 32 & 33.<br/>
           Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code>
         </p>
       </div>
