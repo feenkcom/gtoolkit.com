@@ -34,10 +34,6 @@ order: 20
           Works with Ubuntu 20.04.<br/>
           Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code>
         </p>
-        <p class="padding center">
-          Wayland is not supported. Instead, please install X11 and run this command line: <br/>
-          <code class="small">export WINIT_UNIX_BACKEND=x11 && ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code>
-        </p>
       </div>
       <div class="col-lg-4 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
