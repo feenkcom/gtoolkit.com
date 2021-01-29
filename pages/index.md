@@ -37,11 +37,11 @@ order: 1
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-          <h1>Code reading reimagined</h1>
+          <h1>Figuring the system out reimagined</h1>
       </div>
       <div class="col-lg-6">
           <p class="lead">
-            Yes, code reading. Developers spend 50% or more of their time doing just that. It's the single most expensive activity in software development. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
+            Developers spend 50% or more of their time figuring the system out. And most of it is spent on reading. It's the single most expensive activity in software development. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
           </p>
           <p class="lead">
             Every single development problem includes a data science problem. And the other way around. The moldable way is to construct custom tools specifically for every single problem.
@@ -118,7 +118,29 @@ order: 1
   </div>
 </section>
 
-<section class="top-double-space padding-top-large topmarker">
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+          <h1>Join the conversation</h1>
+          <p class="lead">
+            Moldable development has many implications both technically and economically. And it can make you smile when you work, too.
+          </p>
+          <p class="lead">
+            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile on top of each other. As the world we are build is based on software, we cannot let it be a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
+          <p class="lead">
+            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. Join us. Let us have that conversation.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <p class="lead"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="100%" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="top-double-space xpadding-top-large">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
