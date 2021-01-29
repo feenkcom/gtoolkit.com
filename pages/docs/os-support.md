@@ -24,7 +24,6 @@ permalink: /docs/os-support/
 					The Morphic Host turns black after clicking in the window.
         		</td>
         	</tr>
-        	<tr><td>Ubuntu 18.04</td><td>Sub-pixel anti-aliasing isn’t supported.</td></tr>
         	<tr><td>Ubuntu 20.04</td><td>Sub-pixel anti-aliasing isn’t supported.</td></tr>
         </table>  
         <h2>Windows</h2>
