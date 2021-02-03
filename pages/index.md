@@ -109,6 +109,11 @@ order: 1
         <p>Emacs with graphics done right, but with a really weird dialect of Elisp ;]</p>
         <p class="lead"><a href="https://twitter.com/PaniczGodek/status/1330464622562914306">@PaniczGodek</a></p>
       </div>
+      <div class="col-lg-3">
+        <p>just got off a call with @girba talking about gtoolkit.com 🤩</p>
+        <p>this is what's possible when you think about developer experience and cognitive overhead up front. a generational leap in IDE tooling for the whole system 👩‍💻✨</p>
+        <p class="lead"><a href="https://twitter.com/shelbyspees/status/1357058643389157378">@shelbyspees</a></p>
+      </div>
     </div>
     <div class="row padding-top-medium">
       <div class="col-lg-4">
