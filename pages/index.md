@@ -41,7 +41,7 @@ order: 1
       </div>
       <div class="col-lg-6">
           <p class="lead">
-            Developers spend 50% or more of their time figuring the system out. And most of it is spent on reading. It's the single most expensive activity in software development. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
+            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring the system out</a>. And most of it is spent on reading. It's the single most expensive activity in software development. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
           </p>
           <p class="lead">
             Every single development problem includes a data science problem. And the other way around. The moldable way is to construct custom tools specifically for every single problem.
