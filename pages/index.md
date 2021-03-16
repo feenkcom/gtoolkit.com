@@ -94,20 +94,14 @@ order: 1
         <p>It is no exaggeration to say that #GToolkit is a work of genius built on top of a work of genius.</p>
         <p class="lead"><a href="https://twitter.com/codexeditor/status/1339833115401805824">@codexeditor</a></p>
       </div>
-      <div class="col-lg-3">
+<!--       <div class="col-lg-3">
         <p>Unbelievable powerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
         <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
       </div>
-      <div class="col-lg-3">
+ -->      <div class="col-lg-3">
         <p>One of the most impressive tools I've seen in the last ten years. The Glamorous Toolkit extends Pharo IDE capabilities to support live creation of inspectors/visualizers and editors for objects.</p>
         <p>It makes every other IDE obsolete.</p>
         <p class="lead"><a href="https://twitter.com/dyokomizo/status/1338105334209110016">@dyokomizo</a></p>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-lg-3">
-        <p>Emacs with graphics done right, but with a really weird dialect of Elisp ;]</p>
-        <p class="lead"><a href="https://twitter.com/PaniczGodek/status/1330464622562914306">@PaniczGodek</a></p>
       </div>
       <div class="col-lg-3">
         <p>just got off a call with @girba talking about gtoolkit.com 🤩</p>
