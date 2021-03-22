@@ -87,7 +87,7 @@ order: 1
     </div>
     <div class="row padding-top-medium">
       <div class="col-lg-3">
-        <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can composite queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
+        <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can compose queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
         <p class="lead"><a href="https://twitter.com/SeanDenigris/status/1322516881127936000?s=20">@SeanDenigris</a></p>
       </div>
       <div class="col-lg-3">
