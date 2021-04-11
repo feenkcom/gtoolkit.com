@@ -8,7 +8,7 @@ order: 1
   <div class="container">
     <div class="row">
       <div class="col-lg-12 center">
-          <p><img src="/assets/pictures/gtoolkit-icon.png" width="750"/></p>
+          <p><img src="/assets/pictures/gtoolkit-icon.png" width="500"/></p>
       </div>
     </div>
     <div class="row">
@@ -37,17 +37,15 @@ order: 1
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-          <h1>Figuring the system out reimagined</h1>
+          <h1>Figuring systems out, reimagined</h1>
       </div>
       <div class="col-lg-6">
           <p class="lead">
-            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring the system out</a>. And most of it is spent on reading. It's the single most expensive activity in software development. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
+            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring systems out</a>. It's the single most expensive activity in software development. And most of it is spent on reading. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
           </p>
           <p class="lead">
-            Every single development problem includes a data science problem. And the other way around. The moldable way is to construct custom tools specifically for every single problem.
-          </p>
-          <p class="lead">
-            To make this practical, you need a platform that makes the creation of tools inexpensive and seamless while working with on your problem. That's Glamorous Toolkit.
+            Every single development problem includes a data science problem, and data problems are best dealt with custom tools.
+            Glamorous Toolkit makes this practical through a platform that makes the creation of tools inexpensive.
           </p>
       </div>
       <div class="col-lg-6">
@@ -55,6 +53,103 @@ order: 1
             <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video4.png" ></a>
           </p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="top-double-space xpadding-top-large">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>What's it good for?</h1>
+        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations in a uniform manner.</p>
+      </div>
+    </div>
+    <div class="row top-space usecase">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Executable specifications & domain discovery</h2>
+        <p>Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
+        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
+          <div class="picture-caption">
+            <p>Explaining a domain with live documents.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+    <div class="row top-space usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Software assessment</h2>
+        <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
+        <a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-famix-argouml.png"/>
+          <div class="picture-caption">
+            <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+    <div class="row top-space usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Iterative API &amp; data exploration</h2>
+        <p>To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
+        <a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-postgres-visualization.png"/>
+          <div class="picture-caption">
+            <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row vspace usecase topmarker">
+      <div class="col-lg-4">
+        <h3>Use case</h3>
+        <h2>Pharo development</h2>
+        <p>Glamorous Toolkit is implemented in Pharo, the pure object-oriented language. Of course, it brings a moldable environment for developers working with Pharo. And yes, Glamorous Toolkit is developed using Glamorous Toolkit, too.</p>
+        <a href="/usecases/pharo-dev" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      </div>
+      <div class="col-lg-8">
+        <div class="sample">
+          <img src="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png"/>
+          <div class="picture-caption">
+            <p>Exploring a Pharo algorithm based on Tensorflow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+</section>
+
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+          <h1>Join the conversation</h1>
+          <p class="lead">
+            Moldable development has many implications both technically and economically. And it can make you smile when you work, too.
+          </p>
+          <p class="lead">
+            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile on top of each other. As the world we are build is based on software, we cannot let it be a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
+          <p class="lead">
+            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. Join us. <a href="https://discord.gg/FTJr9gP">Let us have that conversation</a>.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <p class="lead"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="100%" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
+        </div>
     </div>
   </div>
 </section>
@@ -94,11 +189,7 @@ order: 1
         <p>It is no exaggeration to say that #GToolkit is a work of genius built on top of a work of genius.</p>
         <p class="lead"><a href="https://twitter.com/codexeditor/status/1339833115401805824">@codexeditor</a></p>
       </div>
-<!--       <div class="col-lg-3">
-        <p>Unbelievable powerful. Had yesterday just the Tour in GT and I have no Smalltalk experience but have been mindblown. Will follow the YT series :)</p>
-        <p class="lead"><a href="https://twitter.com/KevinHaferkamp/status/1330431560928137218">@KevinHaferkamp</a></p>
-      </div>
- -->      <div class="col-lg-3">
+      <div class="col-lg-3">
         <p>One of the most impressive tools I've seen in the last ten years. The Glamorous Toolkit extends Pharo IDE capabilities to support live creation of inspectors/visualizers and editors for objects.</p>
         <p>It makes every other IDE obsolete.</p>
         <p class="lead"><a href="https://twitter.com/dyokomizo/status/1338105334209110016">@dyokomizo</a></p>
@@ -117,131 +208,8 @@ order: 1
   </div>
 </section>
 
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-          <h1>Join the conversation</h1>
-          <p class="lead">
-            Moldable development has many implications both technically and economically. And it can make you smile when you work, too.
-          </p>
-          <p class="lead">
-            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile on top of each other. As the world we are build is based on software, we cannot let it be a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
-          <p class="lead">
-            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. Join us. Let us have that conversation.
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <p class="lead"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="100%" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
-        </div>
-    </div>
-  </div>
-</section>
 
 
-<section class="top-double-space xpadding-top-large">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>What's it good for?</h1>
-        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations in a uniform manner.</p>
-      </div>
-    </div>
-    <div class="row top-space usecase">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Executable specifications</h2>
-        <p>Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
-          <div class="picture-caption">
-            <p>Explaining a domain with live documents.</p>
-          </div>
-        </div>
-      </div>
-    </div> <!-- row -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Software assessment</h2>
-        <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
-        <a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-famix-argouml.png"/>
-          <div class="picture-caption">
-            <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
-          </div>
-        </div>
-      </div>
-    </div> <!-- row -->
-    <!-- <div class="row vspace usecase  topmarker">
-      <div class="col-lg-3">
-        <h3>Use case</h3>
-        <h2>Custom environments</h2>
-        <p class="lead">The core idea of moldable development is that developers should build their own tools.</p>
-      </div>
-      <div class="col-lg-9">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-famix-argouml.png"/>
-          <div class="picture-caption">
-            <p>.</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Iterative API &amp; data exploration</h2>
-        <p>To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
-        <a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-postgres-visualization.png"/>
-          <div class="picture-caption">
-            <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Pharo development</h2>
-        <p>Glamorous Toolkit is implemented in Pharo, the pure object-oriented language. Of course, it brings a moldable environment for developers working with Pharo. And yes, Glamorous Toolkit is developed using Glamorous Toolkit, too.</p>
-        <a href="/usecases/pharo-dev" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
-      </div>
-      <div class="col-lg-8">
-        <div class="sample">
-          <img src="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png"/>
-          <div class="picture-caption">
-            <p>Exploring a Pharo algorithm based on Tensorflow.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- row -->
-  </div>
-</section>
-<!-- <section class="topmarker section-light top-double-space center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <h1>The insides of software systems can be made explainable</h1>
-        <p class="lead">
-          Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. 
-          Glamorous Toolkit makes this possible by treating the interface as a set of visual and interactive operators that can be combined in many ways.
-        </p>
-      </div>
-    </div>
-  </div>
-</section> -->
 <section class="usecase section-light top-double-space">
   <div class="container">
     <div class="row">
@@ -346,8 +314,6 @@ order: 1
         <h2>For developers</h2>
         <p class="lead">Moldable development is a new way to approach programming: developers build custom tools for, ideally, each of their problems. This requires new skills. Glamorous Toolkit is a platform through which you can learn and practice those skills.</p>
       </div>
-    </div>
-    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For managers</h2>
         <p class="lead">Yes, managers. Systems must not remain black boxes. They can be made explainable. For non-technical people, too. Glamorous Toolkit makes this posible. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
@@ -358,8 +324,6 @@ order: 1
         <h2>For software engineering researchers</h2>
         <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
       </div>
-    </div>
-    <div class="row top-space">
       <div class="col-lg-6">
         <h2>For teachers</h2>
         <p class="lead">Glamorous Toolkit was first conceived to explain the inside of systems. Through custom tools people can form better mental models about the underlying system. We later learnt that teaching programming faces the same class of problem. Glamorous Toolkit can provide the basis for creating dedicated teaching environments.</p>
