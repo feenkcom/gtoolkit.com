@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/inspector/
+description: Glamorous Toolkit Inspector.
+image: /assets/pictures/gtr-six-inspectors.png
 ---
 
 <section id="inspector">

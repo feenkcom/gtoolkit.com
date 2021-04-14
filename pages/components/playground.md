@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/playground/
+description: Glamorous Toolkit Playground.
+image: /assets/pictures/gtr-playground-timeline.png
 ---
 
 <section id="playground-inspector">
