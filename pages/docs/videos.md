@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/videos/
+description: Videos
 ---
 
 <section id="getstarted">

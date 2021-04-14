@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/visualizer/
+description: Visualizer makes visualization a first-class citizen in the environment. It contains a few programmable engines including Mondrian, for drawing graphs, and Connector, for identifying connections between various objects.
+image: /assets/pictures/gtr-visualizer-treemap.png
 ---
 
 <section id="visualizer">

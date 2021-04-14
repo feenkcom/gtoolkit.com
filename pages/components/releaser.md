@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/releaser/
+description: Releaser is a utility engine that allows you to release deeply nested projects.
+image: /assets/pictures/gtr-releaser-release-gt.png
 ---
 
 <section id="exemplifier">

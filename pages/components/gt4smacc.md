@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/gt4smacc/
+description: SmaCC is a powerful compiler compiler that also comes with advanced code search and code rewriting abilities.
+image: /assets/pictures/gtr-cpp-parser-simulator.png
 ---
 
 <section id="exemplifier">

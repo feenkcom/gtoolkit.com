@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/exemplifier/
+description: Examplifier is a slim engine that lets you define examples throughout the code and use them for documentation or testing.
+image: /assets/pictures/gtr-examples-nesting-preview.png
 ---
 
 <section id="exemplifier">

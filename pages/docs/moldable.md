@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /docs/moldable/
+description: Everything about software systems is representable as data. Data does not have an intrinsic shape. It's just data. But, to reason about it, we, humans need a shape. That shape is provided by our tools.
+image: /assets/pictures/doc/moldable/moldable-inspector-custom.png
 ---
 
 <section id="getstarted">

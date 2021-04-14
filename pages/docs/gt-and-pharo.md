@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/gt-and-pharo/
+description: Glamorous Toolkit (GT) is built in Pharo, and it enables people to work with Pharo systems. Nevertheless, the goal of GT is distinct from that of Pharo and so is the realization of it.
 ---
 
 <section id="getstarted">

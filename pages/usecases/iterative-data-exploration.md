@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /usecases/iterative-data-exploration
+description: Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.
+image: /assets/pictures/gtr-xml-xpath.png
 ---
 
 <section id="getstarted">

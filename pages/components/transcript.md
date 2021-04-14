@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/transcript/
+description: Transcript is a stream of events. It's a live visual environment that enables in-place interaction with the logged events.
+image: /assets/pictures/gtr-transcript-animation.png
 ---
 
 <section id="transcript">

@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /docs/analyzing-systems/
+description: Glamorous Toolkit also comes with an elaborate software analysis framework.
+image: /assets/pictures/gtr-importing-cpp-blueprint-ast.png
 ---
 
 <section id="getstarted">

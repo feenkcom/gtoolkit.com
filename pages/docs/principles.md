@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/principles/
+description: Glamorous Toolkit is based on a handful of principles that we continuously discover and refine.
 ---
 
 <section id="components">

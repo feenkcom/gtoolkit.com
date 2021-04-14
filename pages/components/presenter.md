@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/presenter/
+description: Slide shows is another way to construct interactive narratives that complements documents. Only in our case, the slides are live.
+image: /assets/pictures/gtr-presenter-one-rendering-tree-slide.png
 ---
 
 <section id="documenter">

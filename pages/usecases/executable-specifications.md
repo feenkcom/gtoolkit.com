@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /usecases/executable-specifications/
+description: Specs tend to get a bad name because they are expensive and, as paper supports anything, often wrong.
+image: /assets/pictures/gtr-uhmo-prices.png
 ---
 
 <section id="getstarted">

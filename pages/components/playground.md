@@ -1,7 +1,7 @@
 ---
 layout: subpage
 permalink: /components/playground/
-description: Glamorous Toolkit Playground.
+description: The Playground is the play to live code. It offers multiple snippets of differnt types that can be manipulated and evaluated independently.
 image: /assets/pictures/gtr-playground-timeline.png
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/documenter/
+description: Documenter makes creating and consuming code documentation and tutorials a beautiful experience directly in the environment. 
+image: /assets/pictures/gtr-documenter-baseline-gt.png
 ---
 
 <section id="documenter">

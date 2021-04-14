@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/coder/
+description: Coder is for manipulating the static code. It's both standalone and integrated in the Inspector.
+image: /assets/pictures/gtr-coder-example-object.png
 ---
 
 <section id="coder">

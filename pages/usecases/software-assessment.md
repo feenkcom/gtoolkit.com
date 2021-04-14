@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /usecases/software-assessment/
+description: Code reading is the single most expensive development activity. Developers read to understand enough to figure out what to do next. That is decision making.
+image: /assets/pictures/gtr-famix-argouml.png
 ---
 
 <section id="getstarted">

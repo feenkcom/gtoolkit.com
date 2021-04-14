@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/podcasts/
+description: Podcasts
 ---
 
 <section id="getstarted">

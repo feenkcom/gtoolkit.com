@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/gt4famix3/
+description: FAMIX is a meta-model that can represent software systems in a language-independent way. The integration in Glamroous Toolkit offers seamless navigation and inspection.
+image: /assets/pictures/gtr-famix-argouml.png
 ---
 
 <section id="debugger">

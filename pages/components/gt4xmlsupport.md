@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/gt4xmlsupport/
+description: MLSupport is an engine for manipulating XML. Glamorous Toolkit integrates it seamlessly in the rest of the environment.
+image: /assets/pictures/gtr-zip-xml-xpath.png
 ---
 
 <section id="exemplifier">

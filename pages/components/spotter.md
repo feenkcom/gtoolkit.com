@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/spotter/
+description: Spotter is the universal search interface. Every object can say how it can be searched, and Spotter takes that into account.
+image: /assets/pictures/gtr-spotter-object.png
 ---
 
 <section id="spotter">

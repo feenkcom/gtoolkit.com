@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/working-with-git/
+description: Working with Git and GitHub
 ---
 
 <section id="getstarted">

@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/bloc/
+description: Glamorous Toolkit is built on top of the Bloc vector-based graphical framework.
+image: /assets/pictures/gtr-bloc-complicated-scene.png
 ---
 
 <section id="bloc">

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 permalink: /components/inspector/
-description: Glamorous Toolkit Inspector.
+description: The Inspector lets you define custom views for each and every object. And then it enables you to navigate through them.
 image: /assets/pictures/gtr-six-inspectors.png
 ---
 

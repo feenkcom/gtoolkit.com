@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /docs/gallery/
+description: Moldability is hard to convey in words. You need to experience it. Until you do take the leap, observe examples of how different parts of the system can feel like.
+image: /assets/pictures/gt-documenter.png
 ---
 
 <section id="gallery">

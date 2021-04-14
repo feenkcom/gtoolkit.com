@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/gt4petitparser2/
+description: PetitParser2 is a flexible parser engine.
+image: /assets/pictures/gtr-gt4petitparser2-coder.png
 ---
 
 <section id="exemplifier">

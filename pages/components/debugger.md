@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/debugger/
+description: Debugger is a debugger. Go figure. Only, in true moldable fashion, it also lets you build custom debuggers that can be switched to during debugging time.
+image: /assets/pictures/gtr-debugger-preview.png
 ---
 
 <section id="debugger">

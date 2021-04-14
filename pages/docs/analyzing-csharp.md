@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/analyzing-csharp/
+description: C# is supported in two distinct ways: through the external https://github.com/feenkcom/roslyn2famix parser, and through the internal C# parser.
 ---
 
 <section id="getstarted">

@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/constrainer/
+description: Constrainer is a small engine through which you can define checks of, usually static, constraints.
+image: /assets/pictures/gtr-constrainer-acceptVisitor.png
 ---
 
 <section id="exemplifier">

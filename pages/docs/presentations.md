@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /docs/presentations/
+description: Presentations
+image: /assets/pictures/curryon2019-video.png
 ---
 
 <section id="getstarted">

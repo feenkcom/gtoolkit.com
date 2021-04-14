@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/gt4jenkins/
+description: The Jenkins connection is a utility client that allows you to browse Jenkins through custom views right from the IDE.
+image: /assets/pictures/gtr-jenkins-failed-examples.png
 ---
 
 <section id="exemplifier">

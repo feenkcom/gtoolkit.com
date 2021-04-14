@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/explainer/
+description: Explainer is an engine for visually connecting textual explanations with interactive scenes.
+image: /assets/pictures/gtr-explainer-pharo-syntax.png
 ---
 
 <section id="explainer">

@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/os-support/
+description: Operating System Support - Mac OS, Windows, Linux 
 ---
 
 <section id="getstarted">

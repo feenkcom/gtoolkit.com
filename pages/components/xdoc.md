@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /components/xdoc/
+description: XDoc stands for eXecutable Document. XDoc is useful for sharing and publishing content, such as live documents, authored in Glamorous Toolkit.
+image: /assets/pictures/gtr-xdoc-contents.png
 ---
 
 <section id="xdoc">

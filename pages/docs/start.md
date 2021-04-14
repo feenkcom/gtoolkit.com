@@ -1,6 +1,8 @@
 ---
 layout: subpage
 permalink: /docs/start/
+description: Starting is easy. We just ask you to stick with it for a few days to feel the effect.
+image: /assets/pictures/gtr-hello-world-inspector.png
 ---
 
 <section id="getstarted">
