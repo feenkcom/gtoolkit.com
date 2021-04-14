@@ -3,6 +3,8 @@ layout: submenu
 title: Documentation
 permalink: /docs/
 order: 5
+description: Glamorous Toolkit offers documentation about itself directly in the environment.
+image: /assets/pictures/gtr-home.png
 submenuitems:
   - tag: "Getting started"
   - items:

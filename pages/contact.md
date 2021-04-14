@@ -3,6 +3,7 @@ layout: default
 title: Contact
 permalink: /contact/
 order: 8
+description: '[Discord Chat](https://discord.gg/FTJr9gP)'
 ---
 
 <section id="contact">
