@@ -1,3 +1,17 @@
+title: gtoolkit.com
+
+author: Tudor Girba
+
+tagline: Glamorous Toolkit is the moldable development environment.
+description:  It is a live notebook. It is a flexible search interface. It is a fancy code editor. It is a software analysis platform. It is a data visualization engine. All in one.
+url: https://gtoolkit.com/
+
+twitter:
+  username: feenkcom
+  card: summary
+
+logo: /assets/pictures/gtoolkit-icon.png
+
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
