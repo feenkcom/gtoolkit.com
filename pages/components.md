@@ -3,13 +3,19 @@ layout: submenu
 title: Components
 permalink: /components/
 order: 3
+description: Glamorous Toolkit is the moldable development environment.
+image: /assets/pictures/gtr-home.png
 submenuitems:
   - tag: "Core tools"
   - items:
       - title: Playground
         permalink: /components/playground/
+        description: Glamorous Toolkit Playground.
+        image: /assets/pictures/gtr-playground-timeline.png
       - title: Inspector
         permalink: /components/inspector/
+        description: Glamorous Toolkit Inspector.
+        image: /assets/pictures/gtr-six-inspectors.png
       - title: Spotter
         permalink: /components/spotter/
       - title: Coder

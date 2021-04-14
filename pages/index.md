@@ -3,6 +3,8 @@ layout: default
 title: Home
 permalink: /
 order: 1
+description: Glamorous Toolkit is the moldable development environment.
+image: /assets/pictures/gtr-home.png
 ---
 <section id="home" class="jumbotron">
   <div class="container">

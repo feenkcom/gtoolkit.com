@@ -3,6 +3,8 @@ layout: submenu
 title: Use cases
 permalink: /usecases/
 order: 2
+description: Glamorous Toolkit can be molded in many ways to serve many different purposes.
+image: /assets/pictures/gtr-postgres-visualization.png
 submenuitems:
   - title: Executable specifications
     permalink: /usecases/executable-specifications/
