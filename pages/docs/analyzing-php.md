@@ -1,7 +1,7 @@
 ---
 layout: subpage
 permalink: /docs/analyzing-php/
-description: PHP is supported through the external pdt2famix parser
+description: "PHP is supported through the external pdt2famix parser"
 ---
 
 <section id="getstarted">
