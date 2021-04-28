@@ -144,9 +144,9 @@ image: /assets/pictures/gtr-home.png
             Moldable development has many implications both technically and economically. And it can make you smile when you work, too.
           </p>
           <p class="lead">
-            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile on top of each other. As the world we are build is based on software, we cannot let it be a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
+            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile up on top of each other. As the world we build is based on software, we cannot let it remain a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
           <p class="lead">
-            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. Join us. <a href="https://discord.gg/FTJr9gP">Let us have that conversation</a>.
+            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. <a href="https://discord.gg/FTJr9gP">Join us</a>.
           </p>
         </div>
         <div class="col-lg-6">
