@@ -6,18 +6,17 @@ order: 1
 description: Glamorous Toolkit is the moldable development environment.
 image: /assets/pictures/gtr-home.png
 ---
-<section id="home" class="jumbotron">
+<section id="home" class="jumbotron top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 center">
-          <p><img src="/assets/pictures/gtoolkit-icon.png" width="500"/></p>
+          <h1>The Moldable Development Environment</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is the moldable development environment. 
-          It is a live notebook.
+          Glamorous Toolkit is a live notebook.
           It is a flexible search interface.
           It is a fancy code editor.
           It is a software analysis platform.
