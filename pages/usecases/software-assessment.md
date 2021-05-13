@@ -25,6 +25,12 @@ image: /assets/pictures/gtr-famix-argouml.png
             <p>An example of exploring the abstract syntax tree of a class from a C++ system.</p>
           </div>
         </div>
+        <div class="sample">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ll3Or7n_KCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="picture-caption">
+            <p>Lecture on moldable analysis by Andrei Chis.</p>
+          </div>
+        </div>
         <h2>Read more</h2>
         <p class="lead"><a href="https://medium.com/feenk/evaluating-deprecated-classes-in-java-systems-with-glamorous-toolkit-842e76a0afe2?source=friends_link&sk=be771f6650d58c9b797960283ce1856d" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i> Evaluating @Deprecated classes in Java systems with Glamorous Toolkit</a></p>
         <p class="lead"><a href="https://medium.com/feenk/expressing-architectural-constraints-for-a-java-system-in-glamorous-toolkit-3b45b7eb2573?source=friends_link&sk=84653f2e12c162cc33241351b735c3e0" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i> Expressing architectural constraints for a Java system using Glamorous Toolkit</a></p>
