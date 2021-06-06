@@ -23,6 +23,7 @@ order: 20
         </a>
         <p class="padding center">
           Works with macOS 14 or later. <br/>
+          Support for M1 coming soon. <br/>
           Run <code class="small">GlamorousToolkit.app</code> and point it to the <code class="small">GlamorousToolkit.image</code> file
         </p>
       </div>
