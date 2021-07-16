@@ -62,50 +62,5 @@ order: 20
         </div>
       </div>
     </div>
-    <div class="row vspace">
-      <div class="col-lg-8">
-        <h2>Alternative: manually download the image, libraries and VM</h2>
-      </div>
-      <div class="col-lg-8">
-        <div class="instructions-item selected" area-labelledby="pharo-70">
-          <ol>
-            <li>
-                <p>Get the latest VM specific to your system 
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-win64-bin.zip" class="btn btn-lg btn-default">Win</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-mac64-bin.zip" class="btn btn-lg btn-default">Mac</a>
-                <a href="https://github.com/feenkcom/gtoolkit/releases/latest/download/GlamorousToolkitVM-linux64-bin.zip" class="btn btn-lg btn-default">Linux</a> 
-                </p>
-            </li>
-             <li>
-                <p>Get the <a href="https://github.com/feenkcom/gtoolkit/releases/latest" class="btn btn-lg btn-default">latest image release of GlamorousToolkit</a> and the libriaries zip files specific to your system. For example, on Windows it would be GT.zip and libWin64-v0.7.890.zip.
-                </p>
-            </li>
-            <li>
-                <p>Unpack all 3 zip files (VM, image files and library files) in the same folder and run . The screenshot below shows a Windows instalation with all dlls, image, and VM files in the same folder.</p>
-                <img src="/assets/pictures/manual-install-gt.png"/>
-            </li>
-            <li>
-                <p>Execute the following 2 commands in your favorite terminal:</p>
-                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit.image eval --save "ThreadedFFIMigration enableThreadedFFI."
-                </pre>
-                <pre>.\GlamorousToolkitConsole.exe .\GlamorousToolkit.image eval --save "GtWorld openWithShutdownListener. 30 seconds wait. BlHost pickHost universe snapshot: true andQuit: true."
-                </pre>
-            </li>
-            <li>
-                <p>Launch Glamorous Toolkit:</p>
-                <p>On Windows:</p>
-                <pre>.\GlamorousToolkit.exe
-                </pre>
-                <p>On Mac:</p>
-                 <pre>./GlamorousToolkit.app/Contents/MacOS/GlamorousToolkit GlamorousToolkit.image --no-quit --interactive
-                 </pre>
-                <p>On Linux:</p>
-                <pre>./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive
-                </pre>
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
   </div> <!-- /container -->
 </section>

@@ -17,19 +17,21 @@ image: /assets/pictures/gtr-home.png
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
           Glamorous Toolkit is a live notebook.
-          It is a flexible search interface.
-          It is a fancy code editor.
-          It is a software analysis platform.
-          It is a data visualization engine.
+          A fancy code editor.
+          A software analysis platform.
+          A data visualization engine.
+          A knowledge management system.
           All in one.
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
-          <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
-            Download for Mac, Linux or Windows
-          </a>
+          <p>
+            <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
+              Download for Mac, Linux or Windows
+            </a>
+          </p>
       </div>
     </div>
   </div>
