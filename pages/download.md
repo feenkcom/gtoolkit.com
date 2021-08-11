@@ -18,7 +18,7 @@ order: 20
       <div class="col-lg-12" id="release-datetime">
       </div>
       <div class="col-lg-3 vspace">
-        <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
+        <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
           <i class="fas fa-download fa-fw margin-right"></i><span>Mac M1</span>
         </a>
         <p class="padding center">
