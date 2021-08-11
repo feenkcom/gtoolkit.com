@@ -15,7 +15,7 @@ function addVersionNumbers() {
       cache: false,
     },
     (data) => {
-      addVersionNumbersToButton("win64", "GlamorousToolkitWin64-", data);
+      addVersionNumbersToButton("win64", "GlamorousToolkit-Windows-x86_64-", data);
     }
   );
   $.get(
@@ -24,7 +24,7 @@ function addVersionNumbers() {
       cache: false,
     },
     (data) => {
-      addVersionNumbersToButton("osx64", "GlamorousToolkitOSX64-", data);
+      addVersionNumbersToButton("osx64", "GlamorousToolkit-MacOS-x86_64-", data);
     }
   );
   $.get(
@@ -33,7 +33,7 @@ function addVersionNumbers() {
       cache: false,
     },
     (data) => {
-      addVersionNumbersToButton("osxM1", "GlamorousToolkitOSXM1-", data);
+      addVersionNumbersToButton("osxM1", "GlamorousToolkit-MacOS-aarch64-", data);
     }
   );
   $.get(
@@ -42,7 +42,7 @@ function addVersionNumbers() {
       cache: false,
     },
     (data) => {
-      addVersionNumbersToButton("linux64", "GlamorousToolkitLinux64-", data);
+      addVersionNumbersToButton("linux64", "GlamorousToolkit-Linux-x86_64-", data);
     }
   );
 
