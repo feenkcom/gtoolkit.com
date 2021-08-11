@@ -29,6 +29,15 @@ function addVersionNumbers() {
   );
   $.get(
     {
+      url: "https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release",
+      cache: false,
+    },
+    (data) => {
+      addVersionNumbersToButton("osxM1", "GlamorousToolkitOSXM1-", data);
+    }
+  );
+  $.get(
+    {
       url: "https://dl.feenk.com/gt/GlamorousToolkitLinux64-release",
       cache: false,
     },
