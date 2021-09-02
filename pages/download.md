@@ -41,7 +41,7 @@ order: 20
         </a>
         <p class="padding center">
           Works with Windows 10.<br/>
-          Run <code class="small">GlamorousToolkit.exe</code>
+          Run <code class="small">bin\GlamorousToolkit.exe</code>
         </p>
       </div>
       <div class="col-lg-3 vspace">
@@ -50,7 +50,7 @@ order: 20
         </a>
         <p class="padding center">
           Works with Ubuntu 20.04 and Fedora 32 & 33.<br/>
-          Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --interactive</code>
+          Run <code class="small">bin/glamoroustoolkit</code>
         </p>
       </div>
     </div> 
