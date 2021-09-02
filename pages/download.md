@@ -50,7 +50,7 @@ order: 20
         </a>
         <p class="padding center">
           Works with Ubuntu 20.04 and Fedora 32 & 33.<br/>
-          Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --no-quit --interactive</code>
+          Run from the command line: <br/> <code class="small"> ./glamoroustoolkit GlamorousToolkit.image --interactive</code>
         </p>
       </div>
     </div> 
