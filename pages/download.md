@@ -50,7 +50,7 @@ order: 20
         </a>
         <p class="padding center">
           Works with Ubuntu 20.04 and Fedora 32 & 33.<br/>
-          Run <code class="small">bin/glamoroustoolkit</code>
+          Run <code class="small">bin/GlamorousToolkit</code>
         </p>
       </div>
     </div> 
