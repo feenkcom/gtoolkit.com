@@ -1,4 +1,4 @@
----
+programning---
 layout: default
 title: Home
 permalink: /
@@ -247,7 +247,7 @@ image: /assets/pictures/gtr-home.png
       <div class="col-lg-4">
         <h3>Feature</h3>
         <h2>Live</h2>
-        <p>Live programming is programning in the presence of living objects. It can start with a code snippet. Or with a form. Or another visual that creates the living objects.</p>
+        <p>Live programming is programming in the presence of living objects. It can start with a code snippet. Or with a form. Or another visual that creates the living objects.</p>
       </div>
       <div class="col-lg-8">
         <img src="/assets/pictures/feature-playground.png"/>
