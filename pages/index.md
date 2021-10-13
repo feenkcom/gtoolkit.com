@@ -21,7 +21,7 @@ image: /assets/pictures/gtr-home.png
           A software analysis platform.
           A data visualization engine.
           A knowledge management system.
-          All in one.
+          All in one. <br/> And it's free and open-source.
         </p>
       </div>
     </div>
@@ -29,7 +29,7 @@ image: /assets/pictures/gtr-home.png
       <div class="col-lg-6 offset-lg-3">
           <p>
             <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
-              Download for Mac, Linux or Windows
+              Download for Mac, Linux &amp; Windows
             </a>
           </p>
       </div>
@@ -303,39 +303,5 @@ image: /assets/pictures/gtr-home.png
         <img src="/assets/pictures/feature-onerenderingtree.png"/>
       </div>
     </div> -->
-  </div>
-</section>
-<section class="usecase top-double-space">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-9">
-        <h1>Who is it for?</h1>
-      </div>
-    </div>
-    <div class="row top-space">
-      <div class="col-lg-6">
-        <h2>For developers</h2>
-        <p class="lead">Moldable development is a new way to approach programming: developers build custom tools for, ideally, each of their problems. This requires new skills. Glamorous Toolkit is a platform through which you can learn and practice those skills.</p>
-      </div>
-      <div class="col-lg-6">
-        <h2>For managers</h2>
-        <p class="lead">Yes, managers. Systems must not remain black boxes. They can be made explainable. For non-technical people, too. Glamorous Toolkit makes this posible. This has implications on how you can make decisions and how you can allocate and attract budgets.</p>
-      </div>
-    </div>  
-    <div class="row top-space">
-      <div class="col-lg-6">
-        <h2>For software engineering researchers</h2>
-        <p class="lead">Moldable development opens a new research space and Glamorous Toolkit is an engineered platform on top of which this new space can be explored inexpensively.</p>
-      </div>
-      <div class="col-lg-6">
-        <h2>For teachers</h2>
-        <p class="lead">Glamorous Toolkit was first conceived to explain the inside of systems. Through custom tools people can form better mental models about the underlying system. We later learnt that teaching programming faces the same class of problem. Glamorous Toolkit can provide the basis for creating dedicated teaching environments.</p>
-      </div>
-    </div>
-    <div class="row top-space padding-bottom-medium">
-      <div class="col-lg-6">
-        <p class="lead"><a href="/contact" class="btn btn-block btn-lg btn-margin btn-primary">Want to learn more? Contact us</a></p>
-      </div>
-    </div> 
   </div>
 </section>
