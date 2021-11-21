@@ -32,6 +32,7 @@ image: /assets/pictures/gtr-famix-argouml.png
           </div>
         </div>
         <h2>Read more</h2>
+        <p class="lead"><a href="https://lepiter.io/feenk/steering-agile-architecture-by-example--th-e2p6aps2brbby94deek31xqxh/" class="btn btn-block btn-lg btn-margin btn-default">Steering Agile Architecture by Example: the Feature Toggles From Open edX</a></p>
         <p class="lead"><a href="https://medium.com/feenk/evaluating-deprecated-classes-in-java-systems-with-glamorous-toolkit-842e76a0afe2?source=friends_link&sk=be771f6650d58c9b797960283ce1856d" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i> Evaluating @Deprecated classes in Java systems with Glamorous Toolkit</a></p>
         <p class="lead"><a href="https://medium.com/feenk/expressing-architectural-constraints-for-a-java-system-in-glamorous-toolkit-3b45b7eb2573?source=friends_link&sk=84653f2e12c162cc33241351b735c3e0" class="btn btn-block btn-lg btn-margin btn-default"><i class="fab fa-medium-m fa-fw fa-x margin-right"></i> Expressing architectural constraints for a Java system using Glamorous Toolkit</a></p>
       </div>        

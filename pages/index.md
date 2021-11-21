@@ -218,7 +218,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-9">
         <h1>A novel development experience</h1>
-        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it's made to work for many languages.</p>
+        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it's made to work for many languages. It presently offers support for JavaScript, Python, and Gemstone.</p>
         <p class="lead">Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. 
           Glamorous Toolkit makes this possible by treating the interface as a set of visual and interactive operators that can be combined in many ways. </p>
       </div>
