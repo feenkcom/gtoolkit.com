@@ -9,6 +9,7 @@ description: Podcasts
     <div class="row">
       <div class="col-md-12">
         <h1>Podcasts</h1>
+        <p class="lead"><a href="https://www.infoq.com/podcasts/tudor-girba-moldable-development/">Finding your smile & Moldable Development</a>, Tudor Girba on InfoQ podcast, 2022, 35min.</p>
         <p class="lead"><a href="https://thattech.show/episodes/31-finding-your-smile-moldable-development-environments-with-tudor-girba">Finding your smile & Moldable Development</a>, Tudor Girba on That Tech Show, 2021, 1h55min.</p>
         <p class="lead"><a href="https://www.greaterthancode.com/optimizing-for-happiness">Optimizing for happiness</a>, Tudor Girba on the Greater Than Code podcast, 2020, 1h13min.</p>
         <p class="lead"><a href="https://maintainable.fm/episodes/tudor-girba-moldable-development-and-software-environmentalism">Moldable Development and Software Environmentalism</a>  Tudor Girba on the Maintainable podcast, 2020, 44min</p>
