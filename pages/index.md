@@ -16,12 +16,12 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is a live notebook.
+          Glamorous Toolkit is a multi-language notebook.
           A fancy code editor.
           A software analysis platform.
-          A data visualization engine.
+          A visualization engine.
           A knowledge management system.
-          All in one. <br/> And it's free and open-source.
+          All programmable. Free and open-source.
         </p>
       </div>
     </div>
@@ -44,7 +44,7 @@ image: /assets/pictures/gtr-home.png
       </div>
       <div class="col-lg-6">
           <p class="lead">
-            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring systems out</a>. It's the single most expensive activity in software development. And most of it is spent on reading. We reimagine it from the ground up, and with it we reshape the whole development experience. We call it moldable development.
+            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring systems out</a>. It's the single most expensive activity in software development. We reimagine it from the ground up by means of custom tools and with it we reshape the whole development experience. We call it Moldable Development.
           </p>
           <p class="lead">
             Every single development problem includes a data science problem, and data problems are best dealt with custom tools.
