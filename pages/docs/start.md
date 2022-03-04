@@ -32,9 +32,10 @@ image: /assets/pictures/gtr-hello-world-inspector.png
           <img src="/assets/pictures/gtr-home.png"/>
         </p>
         <p>
-          Now what? Start by browsing. The first thing you likely notice are two notifications. First, a notification about taking an interactive tour. Take it. Second, a prompt for registering to our <a href="https://blog.feenk.com">blog</a> and have the feed be delivered right in the environment. We use this channel to keep you informed about new developments and tutorials. And the interesting part is that all those posts are actually created in Glamorous Toolkit and they can be interacted with in Glamorous Toolkit, too. Do give them a try.
+          Now what? Start by reading the Glamorous Toolkit Book that is shipped right in the environment.
         </p>
-        <p>Beside notifications, the home tab offers a set of tools, interactive slide shows, and live documents. The Glamorous Toolkit tour slideshow is a good start, but if you like reading, start from the Glamorous Toolkit documentation. We just warn you that it's quite captivating. Better allocate a Pomodoro or two to not lose track of time.
+        <p>
+          <img src="/assets/pictures/gtr-book.png"/>
         </p>
         <h2>Pharo hello world</h2>
         <p>
@@ -48,18 +49,7 @@ image: /assets/pictures/gtr-hello-world-inspector.png
           <img src="/assets/pictures/gtr-hello-world-inspector.png"/>
         </p>
         <p>
-          That's it. You executed a piece of code and you are now inspecting the resulting object. Did you expect to rather print the result on some console?  That's possible, but we do it very rarely because inspectors are much more interesting. Ok, if you insist, just execute and inspect:
-        </p>
-        <pre>transcript := GtTranscript new.
-transcript show: 'Hello world'.</pre>
-        <p>
-          And you should get:
-        </p>
-        <p>
-          <img src="/assets/pictures/gtr-hello-world-transcript.png"/>
-        </p>
-        <p>
-          Now, you created a transcript object, and told it to show the string. At the end you saw the result being printed in the transcript rendering. Did you still expect to see an example that prints this to the operating system console? That's possible as well, but programming with Glamorous Toolkit is about working with a live system. So, really, dive into the environment and let us know what you think.
+          That's it. You executed a piece of code and you are now inspecting the resulting object. Did you expect to rather print the result on some console?  That's possible, but we do it very rarely because inspectors are much more interesting. Programming with Glamorous Toolkit is about working with a live system. So, really, dive into the environment and let us know what you think.
         </p>
       </div>
     </div>
