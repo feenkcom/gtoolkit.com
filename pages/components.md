@@ -8,18 +8,16 @@ image: /assets/pictures/gtr-home.png
 submenuitems:
   - tag: "Core tools"
   - items:
-      - title: Playground
-        permalink: /components/playground/
       - title: Inspector
         permalink: /components/inspector/
+      - title: Lepiter
+        permalink: /components/lepiter/
       - title: Spotter
         permalink: /components/spotter/
       - title: Coder
         permalink: /components/coder/
       - title: Debugger
         permalink: /components/debugger/
-      - title: Documenter
-        permalink: /components/documenter/
       - title: Transcript
         permalink: /components/transcript/
       - title: Exemplifier
