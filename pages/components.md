@@ -67,12 +67,11 @@ submenuitems:
       </div>
     </div>
     <div class="row vspace component">
-        {% include overview_image.html image="/assets/pictures/gtr-playground-embedded-enclosure.png" text="Playground" url="/components/playground/" %}
         {% include overview_image.html image="/assets/pictures/gtr-playground-inspector-filesystem.png" text="Inspector" url="/components/inspector/" %}
+        {% include overview_image.html image="/assets/pictures/gtr-lepiter-visualize-links.png" text="Lepiter" url="/components/lepiter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-spotter-resources-contextual.png" text="Spotter" url="/components/spotter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-coder-example-object.png" text="Coder" url="/components/coder/" %}
         {% include overview_image.html image="/assets/pictures/gtr-debugger-preview.png" text="Debugger" url="/components/debugger/" %}
-        {% include overview_image.html image="/assets/pictures/gtr-documenter-baseline-gt.png" text="Documenter" url="/components/documenter/" %}
         {% include overview_image.html image="/assets/pictures/gtr-transcript-animation.png" text="Transcript" url="/components/transcript/" %}
         {% include overview_image.html image="/assets/pictures/gtr-visualizer-treemap.png" text="Visualizer" url="/components/visualizer/" %}
         {% include overview_image.html image="/assets/pictures/gtr-presenter-preview.png" text="Presenter" url="/components/presenter/" %}
