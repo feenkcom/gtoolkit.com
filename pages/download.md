@@ -11,7 +11,7 @@ order: 20
     <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Download</h1>
-          <p class="lead">You can obtain Glamorous Toolkit in three ways: downloading a ready made distribution, cloning the code explicitly, or manually downloading the artifacts.</p>
+          <p class="lead">You can obtain Glamorous Toolkit in two ways: downloading a ready made distribution, or cloning the code explicitly.</p>
       </div>
     </div>
     <div class="row">
