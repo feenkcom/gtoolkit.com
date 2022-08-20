@@ -19,38 +19,38 @@ order: 20
       </div>
       <div class="col-lg-3 vspace">
         <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <i class="fas fa-download fa-fw margin-right"></i><span>Mac M1</span>
+          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac M1 </span></div>
+          <div><small>macOS 10.13 or later</small></div>
         </a>
         <p class="padding center">
-          Works with macOS 10.13 or later. <br/>
-          Run <code class="small">GlamorousToolkit.app</code>
+          Unzip and run <code class="small">GlamorousToolkit.app</code>
         </p>
       </div>
       <div class="col-lg-3 vspace">
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
           <i class="fas fa-download fa-fw margin-right"></i><span>Mac Intel</span>
+          <div><small>macOS 10.13 or later</small></div>
         </a>
         <p class="padding center">
-          Works with macOS 10.13 or later. <br/>
-          Run <code class="small">GlamorousToolkit.app</code>
+          Unzip and run <code class="small">GlamorousToolkit.app</code>
         </p>
       </div>
       <div class="col-lg-3 vspace">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
-          <i class="fas fa-download fa-fw margin-right"></i><span>Windows</span>
+          <div><i class="fas fa-download fa-fw margin-right"></i><span>Windows</span></div>
+          <div><small>Windows 10 or later</small></div>
         </a>
         <p class="padding center">
-          Works with Windows 10.<br/>
-          Run <code class="small">bin\GlamorousToolkit.exe</code>
+          Unzip and run <code class="small">.\bin\GlamorousToolkit.exe</code>
         </p>
       </div>
       <div class="col-lg-3 vspace">
         <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
-          <i class="fas fa-download fa-fw margin-right"></i><span>Linux</span>
+          <div><i class="fas fa-download fa-fw margin-right"></i><span>Linux</span></div>
+          <div><small>Ubuntu 20.04, Fedora 32 & 33</small></div>
         </a>
         <p class="padding center">
-          Works with Ubuntu 20.04 and Fedora 32 & 33.<br/>
-          Run <code class="small">bin/GlamorousToolkit</code>
+          Unzip and run <code class="small">./bin/GlamorousToolkit</code>
         </p>
       </div>
     </div> 
