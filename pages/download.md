@@ -19,7 +19,7 @@ order: 20
       </div>
       <div class="col-lg-3 vspace">
         <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac Apple Silicon (_e.g._ M1, M2) </span></div>
+          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac Apple Silicon (<em>e.g.</em> M1, M2) </span></div>
           <div><small>macOS 10.13 or later</small></div>
         </a>
         <p class="padding center">
