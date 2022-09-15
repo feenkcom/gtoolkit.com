@@ -29,7 +29,7 @@ order: 20
       <div class="col-lg-3 vspace">
         <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
           <i class="fas fa-download fa-fw margin-right"></i><span>Mac Intel</span>
-          <div><small>macOS 10.13 or later</small></div>
+          <div><small>macOS 10.15 or later</small></div>
         </a>
         <p class="padding center">
           Unzip and run <code class="small">GlamorousToolkit.app</code>
