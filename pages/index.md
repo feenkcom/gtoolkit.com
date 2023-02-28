@@ -361,8 +361,8 @@ image: /assets/pictures/gtr-home.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Get started</h1>
-        <p class="lead">Starting is easy. Download. Execute. That's it.</p>
+        <h1>Take your first steps in Moldable Development</h1>
+        <p class="lead">Starting is easy. Download Glamorous Toolkit. Execute. That's it.</p>
         <p class="lead">When you start, first focus on learning how to learn. Then pick a concrete problem you care about. Perhaps like the use cases above. Moldable Development takes a bit of time to get used to, but once you do, you won't want to go ahead without it.</p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
