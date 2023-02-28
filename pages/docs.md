@@ -42,7 +42,7 @@ submenuitems:
         <h1>Documentation</h1>
         <p class="lead">Glamorous Toolkit offers extensive and live documentation about itself directly in the environment.</p>
         <p class="lead">
-          <a href="/docs/start/" class="btn btn-lg btn-margin btn-primary">Get started</a>
+          <a href="/start/" class="btn btn-lg btn-margin btn-primary">Get started</a>
         </p>
       </div>
     </div>
