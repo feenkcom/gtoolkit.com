@@ -106,7 +106,6 @@ section {
     font-weight: bold;
     font-size: 32px;
     margin-top: 64px;
-    margin-bottom: 24px;
   }
   h3 {
     margin-top: 20px;
@@ -181,7 +180,7 @@ a.btn {
     margin-top: 0;
     margin-bottom: 10px;
   }
-  img {
+  simg {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -205,16 +204,17 @@ a.btn {
 
 @mixin sectionWithBackground($color) {
   background: $color;
-  padding-top: 40px;
-  padding-bottom: 40px;
   & a:hover img {
     background: $color;
   }
 }
 
 .section-light {
+  padding-top: 40px;
+  padding-bottom: 40px;
    @include sectionWithBackground($gray-light);
 }
+
 
 .top-note {
   background-color: $black !important;
@@ -222,6 +222,6 @@ a.btn {
   padding-bottom: 10px;
   color: $white;
   a {
-    color: white;
+    color: $white;
   }
 }

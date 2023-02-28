@@ -12,8 +12,7 @@ description: Operating System Support - Mac OS, Windows, Linux
         <h2>Mac OS</h2>
         <table>
         	<tr><th>Supported Version</th><th>Known issues</th></tr>
-        	<tr><td>10.15</td><td>No known issues</td></tr>
-        	<tr><td>10.14</td><td>No known issues</td></tr>
+        	<tr><td>10.15 or later</td><td>Opening new windows when in fullscreen mode leads to crash.</td></tr>
         </table>
         <h2>Linux</h2>
         <table>
@@ -30,7 +29,7 @@ description: Operating System Support - Mac OS, Windows, Linux
         <h2>Windows</h2>
         <table>
         	<tr><th>Supported Version</th><th>Known issues</th></tr>
-        	<tr><td>Windows 10</td><td>Sub-pixel anti-aliasing isn’t supported.</td></tr>
+        	<tr><td>Windows 10</td><td>Maximizing a window does not update the contents immediately.</td></tr>
         </table>        
       </div>
     </div>

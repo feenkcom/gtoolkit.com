@@ -1,41 +1,33 @@
 ---
 layout: submenu
-title: Documentation
+title: Docs
 permalink: /docs/
 order: 5
 description: Glamorous Toolkit offers documentation about itself directly in the environment.
 image: /assets/pictures/gtr-home.png
 submenuitems:
-  - tag: "Getting started"
+  - tag: "Use cases"
   - items:
-    - title: Getting started
-      permalink: /docs/start/
-    - title: Working with Git
-      permalink: /docs/working-with-git/
-    - title: Operating system support
-      permalink: /docs/os-support/
-  - tag: "Software analysis"
-  - items:
-    - title: Analyzing systems
-      permalink: /docs/analyzing-systems/
-    - title: Analyzing Java systems
-      permalink: /docs/analyzing-java/
-    - title: Analyzing C# systems
-      permalink: /docs/analyzing-csharp/
-    - title: Analyzing C/C++ systems
-      permalink: /docs/analyzing-cpp/
-    - title: Analyzing JavaScript, JSX/React systems
-      permalink: /docs/analyzing-js/
+    - title: Domain discovery
+      permalink: /docs/domain-discovery
+    - title: Software assessment
+      permalink: /docs/software-assessment
+    - title: Data exploration
+      permalink: /docs/data-exploration
+    - title: API exploration
+      permalink: /docs/api-exploration
+    - title: System documnetation
+      permalink: /docs/system-documentation
+    - title: Pharo development
+      permalink: /docs/pharo-dev/
   - tag: "About"
   - items:
-    - title: Moldable development in a nutshell
+    - title: Moldable Development in a nutshell
       permalink: /docs/moldable/
     - title: Glamorous Toolkit &amp; Pharo
       permalink: /docs/gt-and-pharo/
     - title: Design principles
       permalink: /docs/principles/
-    - title: Gallery
-      permalink: /docs/gallery/
     - title: Videos
       permalink: /docs/videos/
     - title: Podcasts
@@ -48,12 +40,9 @@ submenuitems:
     <div class="row">
       <div class="col-md-12">
         <h1>Documentation</h1>
-        <p class="lead">Glamorous Toolkit offers documentation about itself directly in the environment.</p>
+        <p class="lead">Glamorous Toolkit offers extensive and live documentation about itself directly in the environment.</p>
         <p class="lead">
-          Head over to <a href="/docs/start/">Getting Started</a> and begin exploring.
-        </p>
-        <p>
-          <img src="/assets/pictures/gtr-home.png"/>
+          <a href="/docs/start/" class="btn btn-lg btn-margin btn-primary">Get started</a>
         </p>
       </div>
     </div>

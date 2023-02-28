@@ -2,6 +2,10 @@
   margin-top: 60px;
 }
 
+.top-small-space {
+  margin-top: 30px;
+}
+
 .top-space {
   margin-top: 60px;	
 }
@@ -32,7 +36,11 @@
 }
 
 .topmarker {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
+}
+
+.bottommarker {
+  border-bottom: 1px solid #ddd;
 }
 
 .margin {

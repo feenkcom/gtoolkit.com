@@ -10,18 +10,13 @@ image: /assets/pictures/gtr-home.png
   <div class="container">
     <div class="row">
       <div class="col-lg-12 center">
-          <h1>The Moldable Development Environment</h1>
+          <h1>Mold your development experience</h1>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is a multi-language notebook.
-          A fancy code editor.
-          A software analysis platform.
-          A visualization engine.
-          A knowledge management system.
-          All programmable. Free and open-source.
+          Glamorous Toolkit is the moldable development environment for making systems explainable through experiences tailored for each problem.
         </p>
       </div>
     </div>
@@ -36,98 +31,103 @@ image: /assets/pictures/gtr-home.png
     </div>
   </div>
 </section>
-<section class="topmarker section-light top-double-space">
+
+
+<!--TOP-->
+<section class="top-double-space section-light">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-          <h1>Figuring systems out, reimagined</h1>
+        <h1>Program. Explore data. Manage knowledge. Browse APIs. Integrated in a programmable experience</h1>
+        <p class="lead">Glamorous Toolkit is made out of visual and interactive operators that can be combined inexpensively in many ways. This makes it feasible to build custom tools for each development problem. And this leads to a new way of programming: Moldable Development.</p>
+        <p class="lead">Why is this important? Because it address the single largest cost in software development today: figuring the system out.</p>
       </div>
-      <div class="col-lg-6">
-          <p class="lead">
-            <a href="https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/">Developers spend 50% or more of their time figuring systems out</a>. It's the single most expensive activity in software development. We reimagine it from the ground up by means of custom tools and with it we reshape the whole development experience. We call it Moldable Development.
-          </p>
-          <p class="lead">
-            Every single development problem includes a data science problem, and data problems are best dealt with custom tools.
-            Glamorous Toolkit makes this practical through a platform that makes the creation of tools inexpensive.
-          </p>
-      </div>
-      <div class="col-lg-6">
-          <p class="lead vcenter">
-            <a href="https://youtu.be/Pot9GnHFOVU" target="_blank"><img alt="View more" src="/assets/pictures/curryon2019-video4.png" ></a>
-          </p>
+   </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="sample">
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="top-double-space xpadding-top-large">
+<!--Use cases-->
+<section class="top-double-space">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <h1>What's it good for?</h1>
-        <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations in a uniform manner.</p>
+      <div class="col-lg-9">
+        <h1>A single environment. Many applications</h1>
+        <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways. Here are some examples. </p>
+        <!-- <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations. Here are some examples.</p> -->
       </div>
     </div>
     <div class="row top-space usecase">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Executable specifications & domain discovery</h2>
-        <p>Specifications tend to get a bad name because they are expensive and often wrong. There is a better way. Model them explicitly. Explore scenarios through executable examples. View the results through custom views.</p>
-        <a href="usecases/executable-specifications" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+      <div class="col-lg-3">
+        <h2>Domain discovery</h2>
+        <p>Discovering the proper model for a domain is difficult. You want feedabck. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="sample">
-          <img src="/assets/pictures/gtr-uhmo-prices.png"/>
+          <img src="/assets/pictures/use-case-domain-discovery.png"/>
           <div class="picture-caption">
-            <p>Explaining a domain with live documents.</p>
+            <p>Explaining a domain object through examples and custom views.</p>
           </div>
         </div>
       </div>
     </div> <!-- row -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
+    <div class="row top-space usecase">
+      <div class="col-lg-3">
         <h2>Software assessment</h2>
         <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
-        <a href="/usecases/software-assessment" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="sample">
-          <img src="/assets/pictures/gtr-famix-argouml.png"/>
+          <img src="/assets/pictures/use-case-assessment-dependencies.png"/>
           <div class="picture-caption">
-            <p>An example of using an interactive analysis for assessing which deprecated classes can be removed from a Java system.</p>
+            <p>An interactive exploration of dependencies between ActiveRecords in a Rails application that also shows the Ruby and SQL sources.</p>
           </div>
         </div>
       </div>
     </div> <!-- row -->
-    <div class="row top-space usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Iterative API &amp; data exploration</h2>
-        <p>To reason about data, we first need to qualitatively understand its structure. The inspection tools together with the ability of refining the data model and of visualizing in place are directly usable in these contexts.</p>
-        <a href="/usecases/iterative-data-exploration" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+    <div class="row top-space usecase">
+      <div class="col-lg-3">
+        <h2>API exploration</h2>
+        <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="sample">
-          <img src="/assets/pictures/gtr-postgres-visualization.png"/>
+          <img src="/assets/pictures/use-case-rest-api.png"/>
           <div class="picture-caption">
-            <p>A case of exploring a database, querying with SQL, and then visualizing the result. Seamlessly.</p>
+            <p>Exploring a REST API through custom views.</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="row vspace usecase topmarker">
-      <div class="col-lg-4">
-        <h3>Use case</h3>
-        <h2>Pharo development</h2>
-        <p>Glamorous Toolkit is implemented in Pharo, the pure object-oriented language. Of course, it brings a moldable environment for developers working with Pharo. And yes, Glamorous Toolkit is developed using Glamorous Toolkit, too.</p>
-        <a href="/usecases/pharo-dev" class="btn btn-block btn-lg btn-margin btn-default">Read more</a>
+    <div class="row top-space usecase">
+      <div class="col-lg-3">
+        <h2>Data exploration</h2>
+        <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-9">
         <div class="sample">
-          <img src="/assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png"/>
+          <img src="/assets/pictures/use-case-data.png"/>
           <div class="picture-caption">
-            <p>Exploring a Pharo algorithm based on Tensorflow.</p>
+            <p>Exploring the data exported from a Twitter account.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row vspace usecase">
+      <div class="col-lg-3">
+        <h2>System documentation</h2>
+        <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p>
+      </div>
+      <div class="col-lg-9">
+        <div class="sample">
+          <img src="/assets/pictures/use-case-documentation.png"/>
+          <div class="picture-caption">
+            <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
           </div>
         </div>
       </div>
@@ -136,27 +136,38 @@ image: /assets/pictures/gtr-home.png
   </div>
 </section>
 
+
+<!--Conversation-->
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
         <div class="col-lg-6">
           <h1>Join the conversation</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
           <p class="lead">
-            Moldable development has many implications both technically and economically. And it can make you smile when you work, too.
+            Moldable Development has many implications both technically and business-wise.
           </p>
           <p class="lead">
-            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile up on top of each other. As the world we build is based on software, we cannot let it remain a black box. It's a large problem that can only change if we deal with it explicitly. We need a conversation.</p>
-          <p class="lead">
+            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile up on top of each other. As the world we build is based on software, we must make those black boxes explainable. It's a large problem that can only change if we deal with it explicitly. We need a conversation.
+          </p>
+          <p class="lead">    
             We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. <a href="https://discord.gg/FTJr9gP">Join us</a>.
           </p>
         </div>
-        <div class="col-lg-6">
-          <p class="lead"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="100%" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
+        <div class="col-lg-4">
+          <a href="https://discord.gg/FTJr9gP" class="btn btn-block btn-lg btn-margin btn-primary">Join us on Discord</a>
+          <a href="https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Follow @feenkcom on Twitter</a>
+          <a href="https://www.youtube.com/@gtoolkit" class="btn btn-block btn-lg btn-margin btn-default">Watch @gtoolkit on YouTube</a>
+          <a href=" https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Fork us on GitHub</a>
         </div>
     </div>
   </div>
 </section>
 
+<!--What people say-->
 <section class="top-double-space">
   <div class="container">
     <div class="row">
@@ -166,7 +177,7 @@ image: /assets/pictures/gtr-home.png
     </div>
     <div class="row">
       <div class="col-lg-3">
-        <p >A most fascinating environment.</p>
+        <p>A most fascinating environment.</p>
         <p class="lead"><a href="https://twitter.com/Grady_Booch/status/1290381503478632448?s=20">@Grady_Booch</a></p>
       </div>
       <div class="col-lg-3">
@@ -174,134 +185,511 @@ image: /assets/pictures/gtr-home.png
         <p class="lead"><a href="https://twitter.com/Gilad_Bracha/status/1321238595273814016?s=20">@Gilad_Bracha</a></p>
       </div>
       <div class="col-lg-3">
-        <p>GToolkit.com is the only environment that we think might be better for thinking in than us.</p>
-        <p class="lead"><a href="https://twitter.com/roamresearch/status/1276049217434161152?s=21">@RoamResearch</a></p>
-      </div>
-      <div class="col-lg-3">
         <p>The first software system that I can seriously imagine to replace Emacs for me. Given that I practically live in Emacs, that’s not a small statement.
         </p>
         <p class="lead"><a href="https://twitter.com/khinsen/status/1330551198068449281">@khinsen</a></p>
       </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-lg-3">
-        <p>It's impossible to explain the feeling of #GToolkit's "new world" where, in a one-liner, you can compose queries VS. traditional context switching to a stovepiped tool with its own domain and limitations. You'll just have to try for yourself... </p>
-        <p class="lead"><a href="https://twitter.com/SeanDenigris/status/1322516881127936000?s=20">@SeanDenigris</a></p>
-      </div>
       <div class="col-lg-3">
         <p>It is no exaggeration to say that #GToolkit is a work of genius built on top of a work of genius.</p>
         <p class="lead"><a href="https://twitter.com/codexeditor/status/1339833115401805824">@codexeditor</a></p>
-      </div>
-      <div class="col-lg-3">
-        <p>One of the most impressive tools I've seen in the last ten years. The Glamorous Toolkit extends Pharo IDE capabilities to support live creation of inspectors/visualizers and editors for objects.</p>
-        <p>It makes every other IDE obsolete.</p>
-        <p class="lead"><a href="https://twitter.com/dyokomizo/status/1338105334209110016">@dyokomizo</a></p>
-      </div>
-      <div class="col-lg-3">
-        <p>just got off a call with @girba talking about gtoolkit.com 🤩</p>
-        <p>this is what's possible when you think about developer experience and cognitive overhead up front. a generational leap in IDE tooling for the whole system 👩‍💻✨</p>
-        <p class="lead"><a href="https://twitter.com/shelbyspees/status/1357058643389157378">@shelbyspees</a></p>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-lg-4">
-        <a href="https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Follow @feenkcom on Twitter</a>
       </div>
     </div>
   </div>
 </section>
 
 
-
-<section class="usecase section-light top-double-space">
+<!--Own experience-->
+<section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9">
-        <h1>A novel development experience</h1>
-        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it's made to work for many languages. It presently offers support for JavaScript, Python, and Gemstone.</p>
-        <p class="lead">Every part of a software system, be it an algorithm, a domain-driven design, or the architecture, can be made explainable through custom tools. 
-          Glamorous Toolkit makes this possible by treating the interface as a set of visual and interactive operators that can be combined in many ways. </p>
+      <div class="col-lg-5">
+        <h1>Build your own development experience</h1>
+        <p class="lead">Every system is unique and deserves a dedicated environment. Scratch that. Every problem about any piece of a system is unique.</p>
+        <p class="lead">Yes, we know it's sounds crazy expensive. But it's really not. Glamorous Toolkit is programmable exactly so that you can create your own experience for each development problem inexpensively.</p>
+        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
-    </div> 
-    <div class="row vspace">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Moldable</h2>
-        <p>Every part can be molded to the context. Every object can specify how it can be viewed or searched. Every method can specify how it can be edited. Every exception can define how it can be debugged. And all can be molded directly from the environment, often in minutes.</p>
+      <div class="col-lg-7">
+        <div class="sample">
+          <img src="/assets/pictures/wardleymap-white.png"/>
+          <div class="picture-caption">
+            <p>Wardley Map describing the benefits of custom tools that produce dedicated views that accelerate decision making.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-moldable.png"/>
-      </div>
-    </div> <!-- row -->
+    </div>
+  </div>
+</section>
+
+<!--Made to work with other languages-->
+<section class="top-double-space">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Exploratory flow</h2>
-        <p>Understanding software requires continuous exploration. We capture that flow explicitly. In true moldable fashion, each step can be adapted dynamically. Together with the various tools this leads to an ever extensible experience.</p>
-      </div>
       <div class="col-lg-8">
-        <img src="/assets/pictures/feature-exploratoryflow.png"/>
+        <h1>Made to work with many languages and technologies</h1>
+        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it was designed to be extended for other technologies and languages, like GraphQL, Python or JavaScript.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/user-case-graphql.png"/>
+          <div class="picture-caption">
+            <p>Editing GraphQL and exploring a server response from a Lepiter page.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/own-environment-smacc.png"/>
+          <div class="picture-caption">
+            <p>A dedicated environment for defining support for other languages.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Manage your knowledge-->
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1>Manage your knowledge base. Programmatically</h1>
+        <p class="lead">Whether it's your personal knowledge base, or the documentation for your system, you want it linked and tailored to the context. Customize it with dedicated annotations and snippets created right in the environment.</p>
+        <p class="lead">And once you have a knowledge base, exploit by querying and visualizing it programmatically.</p>
+        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+      </div>
+      <div class="col-lg-7">
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-graph.png"/>
+          <div class="picture-caption">
+            <p>A custom visualization of pages and their interconnections from the Glamorous Toolkit book. The node in blue is the "Get started" page. The nodes in red are all the pages reachable from the "Get started" page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Lepiter-->
+<section class="top-double-space bottom-double-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h1>Moldable knowledge management + multi-language notebooks</h1>
+         <p class="lead">Glamorous Toolkit is powered by the Lepiter knowledge base engine. Lepiter is made out of snippets grouped into pages and can be used for various use cases. And like every part of the environment, Lepiter is also moldable.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-5 offset-lg-1">
+        <h2>Snippets define their own language</h2>
+        <p class="lead">Each snippet defines its own language. Languages can be textual, like GraphQL or JavaScript. They can be visual, like a Wardley Map. Or even widgets.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-example.png"/>
+          <div class="picture-caption">
+            <p>An example with a preview embedded in a Lepiter page. The example is defined and viewed in a dedicated snippet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <h2>Snippets interoperate across languages</h2>
+        <p class="lead">Every page defines a shared scope for variables. Combined with an extensible proxy model, variables can be defined and reused across languages.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-js-pharo.png"/>
+          <div class="picture-caption">
+            <p>A page with a JavaScript snippet that is combined with a Pharo snippet to produce a visualization of dependencies defined in a Yarn file.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Live</h2>
-        <p>Live programming is programming in the presence of living objects. It can start with a code snippet. Or with a form. Or another visual that creates the living objects.</p>
+      <div class="col-lg-5 offset-lg-1">
+        <h2>Extensible Markdown</h2>
+        <p class="lead">The default text snippet supports a Markdown that can be extended with custom annotations.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-extensible-markdown.png"/>
+          <div class="picture-caption">
+            <p>A completion inside a custom todo annotation. The completion shows a date dialog for the due date.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-playground.png"/>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>On demand editors</h2>
-        <p>We have a beautifully flexible editor. You just do not have go to it. The editor comes to you. You get to code, but you can do that after you find the right place.</p>
-      </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-editor.png"/>
-      </div>
-    </div> <!-- row -->
-    <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Notebooks</h2>
-        <p class="lead">Writing and consuming documentation must be enjoyable. And maintainable. So, we made the whole environment host a giant interactive, visual wiki.</p>
-      </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-livenotebooks.png"/>
-      </div>
-    </div> <!-- row -->
-    <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Analyses for many languages</h2>
-        <p>Parsing a new language. Querying and visualizing code. Connecting sources from different languages like Java, JavaScript, TypeScript, JSX, C# or Delphi. Or perhaps integrating that XML descriptor file. They are all accessible.</p>
-      </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-analyses.png"/>
-      </div>
-    </div>
-    <!-- <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>Example-driven</h2>
-        <p class="lead">Examples are like tests that return an object. A small change that impacts how we compose examples, how we use them to guide development, and how, when combined with interactive narratives, we can explain our systems.</p>
-      </div>
-      <div class="col-lg-8">
-        <img src="/assets/pictures/feature-examples.png"/>
+      <div class="col-lg-5">
+        <h2>Links are bidirectional and language agnostic</h2>
+        <p class="lead">Links can come from any snippet to any snippet. And even to and from arbitrary objects.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-links.png"/>
+          <div class="picture-caption">
+            <p>On the left, we see a page with a Wardley Map in which one of the nodes has a link to another page. On the right, the linked page shows the Wardley Map as one of the references.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
-        <h3>Feature</h3>
-        <h2>One rendering tree</h2>
-        <p class="lead">Ok, this is rather ... geeky, but we are really proud of how we draw all scenes through exactly one rendering tree. That includes the editor or visualizations. We built a whole new graphical stack to make this possible. And now we can build new interesting visualizations and interactions.</p>
+      <div class="col-lg-5 offset-lg-1">
+        <h2>Queryable</h2>
+        <p class="lead">Every knowledge base case be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-program.png"/>
+          <div class="picture-caption">
+            <p>Visualizing the current knowledge base through a Pharo snippet. Clicking on nodes opens the page to the right.</p>
+          </div>
+        </div>
       </div>
+      <div class="col-lg-5">
+        <h2>Edit and view in a seamless interface</h2>
+        <p class="lead">Editing and viewing happen in the same interface. We achieve this by making the editing capabilities appear in place.</p>
+        <div class="sample">
+          <img src="/assets/pictures/lepiter-edit-view.png"/>
+          <div class="picture-caption">
+            <p>A page containing text with two links and an example snippet. The second link ("Examples") appears expanded because the cursor is next to it. At the bottom, the example snippet shows the parameters when the mouse hovers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Get started-->
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Get started</h1>
+        <p class="lead">Starting is easy. Download. Execute. That's it.</p>
+        <p class="lead">When you start, first focus on learning how to learn. Then pick a concrete problem you care about. Perhaps like the use cases above. Moldable Development takes a bit of time to get used to, but once you do, you won't want to go ahead without it.</p>
+        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Graphical stack-->
+<section class="top-double-space bottom-double-space">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8">
-        <img src="/assets/pictures/feature-onerenderingtree.png"/>
+        <h1>Flexible graphical stack</h1>
+        <p class="lead">All visual scenes are rendered using a single underlying tree, including the editor and visualizations. This allows us to create flexible, unforeseen experiences.</p>
       </div>
-    </div> -->
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="sample">
+          <img src="/assets/pictures/graphics-driller-shortcuts.png"/>
+          <div class="picture-caption">
+            <p>Inspecting the rendering tree and asking for the implementation of a shortcut available in a text snippet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Extensible editor</h2>
+        <p class="lead">The editor is made out of the same elements as every other visual widget in the interface. Because of this you can add adornments anywhere in the text. Combined with stylers, you can produce surprisingly elaborate editing experiences.</p>
+        <div class="sample">
+          <img src="/assets/pictures/graphics-editor.png"/>
+          <div class="picture-caption">
+            <p>An editor on the definition of the Glamorous Toolkit baseline. The editor understands the meaning of the string because of the baseline specification interface and offers an expander adornment accordingly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2>Built-in visualization engine</h2>
+        <p class="lead">Visualizations are also made out of elements and are arranged through layouts modelled like any other layouts. The consequence is that visualizations are not confined to isolated panes. You can combine widgets with visualizations arbitrarily.</p>
+        <div class="sample">
+          <img src="/assets/pictures/graphics-visualization.png"/>
+          <div class="picture-caption">
+            <p>A visualization inside an inspector. The visualization shows editors of examples and their dependencies. The lines connect the editors with the other editors, and when the code reference is visible, with the element inside the editor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Learn by yourself-->
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>What would you do if your tools would have no walls?</h1>
+        <p class="lead">Rigid tools make you split your problem along their boundaries. Glamorous Toolkit turns the problem upside down. Instead of relying on single purpose tools, you get an environment made out of interactive and visual operators with which to construct an integrated experience customized for your needs.</p>
+        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Pharo DX-->
+<section class="top-double-space bottom-double-space" id="pharo-dx">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h1>Reimagined Pharo development experience</h1>
+        <p class="lead">Of course, Glamorous Toolkit does offer an extensive environment for Pharo development. It reuses the Pharo language implementation and core libraries, but it comes with a whole new environment that enables a new way of programming. Yes, new even for the Smalltalk world.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Live development in snippets and inspectors</h2>
+        <p class="lead">Traditionally, Smalltalk development happened in the code browser and in the debugger. In Glamorous Toolkit you get to work in snippets and inspectors.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-snippet-class-creation.png"/>
+          <div class="picture-caption">
+            <p>Creating a class directly while programming in a Pharo snippet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-inspector-coder.png"/>
+          <div class="picture-caption">
+            <p>Changing the class of an object in a full fledged coder embedded in the inspector. Executing code is also possible because self has a concrete value.</p>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Unified exploration flow</h2>
+        <p class="lead">Exploration is paramount in software development. Glamorous Toolkit helps you follow casual links at arbitrary levels and across tools.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-flow-lepiter-coder.png"/>
+          <div class="picture-caption">
+            <p>A Lepiter page containing a visualization of a class hierarchy. Clicking on a node in the visualization opens a Coder on that classes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Enhanced coders</h2>
+        <p class="lead">Editing Pharo code is empowered by the flexible editor, but can also be customized in many ways with technology and system specific extensions.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-coder-petitparser.png"/>
+          <div class="picture-caption">
+            <p>Expanding PetitParser productions: this time, the expansion is framework specific and happens for a variable that is resolved to the corresponding method.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-coder-baseline-map.png"/>
+          <div class="picture-caption">
+            <p>A class coder on the baseline definition of Glamorous Toolkit showing a map of the dependencies between projects. Selecting one project spawns a coder to the right.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Composable tools</h2>
+        <p class="lead">The goal of Glamorous Toolkit is to empower you mold your own development experiences. So, tools are not monolithic. Instead, they are made of operators that can be composed in many ways.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-global-spotter.png"/>
+          <div class="picture-caption">
+            <p>A search in the global Spotter.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-inspector-spotter.png"/>
+          <div class="picture-caption">
+            <p>A Spotter in an inspector showing custom searches defined in the inspected object (and addressbook, in our case).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Example-driven development</h2>
+        <p class="lead">The entire environment is tested and documented based on examples. Examples are like tests that return objects. This small change has interesting consequences.</p>
+        <p class="lead">Examples form graphs: you can build on top of other examples by using their returned objects. Examples are documentation, too: by combining the returned objects with custom views and a flexible knowledge base, you get the pieces out of which to build larger executable narratives.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-examples-graph.png"/>
+          <div class="picture-caption">
+            <p>A graph of examples. Executing an example shows the inspector to the right. In this case, the resulting object is a text editor showing an adornment for tracking cursor indexes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-examples-documentation.png"/>
+          <div class="picture-caption">
+            <p>The same example embedded both as code and as a result in a page that is part of the Glamorous Toolkit book.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Filters as first class citizens</h2>
+        <p class="lead">Searching source code has always been a Smalltalk thing. Now, it's even more pervasive and composable.</p>
+        <p class="lead">References and implementers are just filters over code that, once inspected, show the code matches in live editors. Filters can be composed programmatically, too. When combined with inspectors, you get pervasive search opportunities.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-filter-interactive.png"/>
+          <div class="picture-caption">
+            <p>Searching for references to a message in the current hierarchy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-filter-programmed.png"/>
+          <div class="picture-caption">
+            <p>An example of a composite filter combining searches for pragmas, references and abstract syntax tree matches.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Enhanced refactoring and rewrite support</h2>
+        <p class="lead">Automatic refactorings were first implemented in Smalltalk. The engine remains the same, but the experience.</p>
+        <p class="lead">You can perform <a href="https://lepiter.io/feenk/enhancing-the-support-for-multi-step-refac-7tkac5yh3thij5amwco8ng6wz/">complicated refactorings directly in the editor</a>. Furthermore, automatic code rewriting is a supwerpower, but can be difficult to master. No longer. You can now define rewrites by example.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-refactoring.png"/>
+          <div class="picture-caption">
+            <p>An example of a refactoring editable inline.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-rewrite.png"/>
+          <div class="picture-caption">
+            <p>A snippet defining a custom rewrite with the preview of code changes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Extensible forms</h2>
+        <p class="lead">The input forms in Glamorous Toolkit are handled through Magritte, a forms engine.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-pharo-magritte-add-class.png"/>
+          <div class="picture-caption">
+            <p>Adding a class through a form. Different fields offers different completion and validation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>No modal dialogs</h2>
+        <p class="lead">A complete environment. No modal dialogs. Not even one. We are quite proud of this, too.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-nomodal-close.png"/>
+          <div class="picture-caption">
+            <p>Closing the last window prompts for saving without a fully modal dialog.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-nomodal-remove-method.png"/>
+          <div class="picture-caption">
+            <p>Removing a method with references opens a dropdown to inform about those references, including allowing for the option of seeing the references to the right.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Rust enabled runtime</h2>
+        <p class="lead">The Glamorous Toolkit virtual machine is formed by a Rust runtime that wraps and runs the Pharo virtual machine as a library in a separate operating system thread. The runtime also comes with Rust plugins and with an infrastructure for creating Rust plugins.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-rust-inspect.png"/>
+          <div class="picture-caption">
+            <p>Inspecting a Pharo object that wraps a Rust object. The second and third panes show Rust objects in a seamless navigatio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Distributed asynchronous images</h2>
+        <p class="lead">Glamorous Toolkit comes with a asynchronous mechanism to work with multiple remote images. The remote images pull from a queue of tasks and can communicate back through a second asynchronous communication channel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--What is MD?-->
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>So, what exactly is Moldable Development again?</h1>
+        <p class="lead">Please, take another look through this page. What do you see?</p>
+        <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
+        <p class="lead">Moldable Development is a way of programming through custom tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
+        <p class="lead">Glamorous Toolkit itself is an extensive case study of how custom tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
+        <p class="lead">The goal? To make the inside of systems explaianble. </p>
+        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample">
+          <img src="/assets/pictures/gt-extensions.png"/>
+          <div class="picture-caption">
+            <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one custom view; green shows those that have an example.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

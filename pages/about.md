@@ -13,16 +13,13 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-8">
           <h1>About</h1>
-          <p class="lead">Glamorous Toolkit is the environment for <a href="/docs/moldable">moldable development</a>. We see the environment as a language that extends the base language with visual and interactive operators. Through this language, the various components can be combined in many ways live.
+          <p class="lead">Glamorous Toolkit is the environment for <a href="/docs/moldable">Moldable Development</a>.
           </p>
           <p class="lead">
-            Glamorous Toolkit is developed by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable.
+            Moldable Development is hard to convey in words. You have to experience it. We offer Glamorous Toolkit as free and open-source under the MIT license because we want you to experience it as directly as possible.
           </p>
           <p class="lead">
-            Why do we build this? Well, if we asked if you loved working with legacy systems, you are likely to say "No," and you might even experience a shiver. That should change. Programming is the coolest job on the planet, and it should feel like that all the time.
-          </p>
-          <p class="lead">
-            Moldable development is hard to convey in words. You have to experience it. We offer Glamorous Toolkit as free and open-source under the MIT license because we want you to experience it as directly as possible.
+            Glamorous Toolkit is developed by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable. We see the environment as a language that extends the base language with visual and interactive operators that can be combined in many ways. This environment makes it possible to create and consume custom narratives with and about every aspect of a software system. It is the act of creating these narratives about every development problem that leads to systems becoming explainable.
           </p>
       </div>
     </div>

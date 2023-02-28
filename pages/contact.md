@@ -18,14 +18,13 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
           <p class="lead top-space">Code, issues and discussions on GitHub: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
           <p class="lead">Discord Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
-          <p class="lead">YouTube: <a href="https://www.youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug">youtube.com/channel/UClLZHVq_-2D2-iI4rA2O8Ug</a></p>
+          <p class="lead">YouTube: <a href="https://www.youtube.com/@gtoolkit">@gtoolkit</a></p>
           <a class="btn btn-block btn-lg btn-margin btn-default top-double-space" href="mailto:gt@feenk.com">
             <!-- <i class="fas fa-envelope fa-fw fa-2x"></i> -->
             Other issues? Just send us an email
           </a>
         </div>
         <div class="col-md-4">
-          <p class="lead top-space"><iframe src="https://discord.com/widget?id=729445214812504107&theme=light" width="100%" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
           <!--<h2>Stay in touch</h2>
           <div id="mc_embed_signup">
             <form action="https://feenk.us10.list-manage.com/subscribe/post?u=ac03372bbac53b26921e7449e&amp;id=16168190a2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
