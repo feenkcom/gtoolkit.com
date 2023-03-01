@@ -333,7 +333,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-5 offset-lg-1">
         <h2>Queryable</h2>
-        <p class="lead">Every knowledge base case be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p>
+        <p class="lead">Every knowledge base can be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p>
         <div class="sample">
           <img src="/assets/pictures/lepiter-program.png"/>
           <div class="picture-caption">
@@ -423,7 +423,7 @@ image: /assets/pictures/gtr-home.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>What would you do if your tools would have no walls?</h1>
+        <h1>What would you do if your tools had no walls?</h1>
         <p class="lead">Rigid tools make you split your problem along their boundaries. Glamorous Toolkit turns the problem upside down. Instead of relying on single purpose tools, you get an environment made out of interactive and visual operators with which to construct an integrated experience customized for your needs.</p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
@@ -507,7 +507,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-8">
         <h2>Composable tools</h2>
-        <p class="lead">The goal of Glamorous Toolkit is to empower you mold your own development experiences. So, tools are not monolithic. Instead, they are made of operators that can be composed in many ways.</p>
+        <p class="lead">The goal of Glamorous Toolkit is to empower you to mold your own development experiences. So, tools are not monolithic. Instead, they are made of reusable and composable operators.</p>
       </div>
     </div>
     <div class="row">
@@ -581,7 +581,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-8">
         <h2>Enhanced refactoring and rewrite support</h2>
-        <p class="lead">Automatic refactorings were first implemented in Smalltalk. The engine remains the same, but the experience.</p>
+        <p class="lead">Automatic refactorings were first implemented in Smalltalk. The engine remains the same, but the experience became more ... glamorous.</p>
         <p class="lead">You can perform <a href="https://lepiter.io/feenk/enhancing-the-support-for-multi-step-refac-7tkac5yh3thij5amwco8ng6wz/">complicated refactorings directly in the editor</a>. Furthermore, automatic code rewriting is a supwerpower, but can be difficult to master. No longer. You can now define rewrites by example.</p>
       </div>
     </div>
