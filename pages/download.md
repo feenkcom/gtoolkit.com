@@ -51,7 +51,7 @@ order: 20
     </div>
     <div class="row top-small-space">
       <div class="col-lg-4">
-        <a id="linuxArm" href="https://dl.feenk.com/gt/GlamorousToolkitLinuxArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
+        <a id="linuxArm64" href="https://dl.feenk.com/gt/GlamorousToolkitLinuxArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
           <div><i class="fas fa-download fa-fw margin-right"></i><span>Linux ARM</span></div>
           <div><small>Ubuntu 22.04</small></div>
         </a>

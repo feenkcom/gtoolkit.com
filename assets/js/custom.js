@@ -47,11 +47,11 @@ function addVersionNumbers() {
   );
     $.get(
     {
-      url: "https://dl.feenk.com/gt/GlamorousToolkitLinux64-release",
+      url: "https://dl.feenk.com/gt/GlamorousToolkitLinuxArm64-release",
       cache: false,
     },
     (data) => {
-      addVersionNumbersToButton("linuxArm", "GlamorousToolkit-Linux-aarch64-", data);
+      addVersionNumbersToButton("linuxArm64", "GlamorousToolkit-Linux-aarch64-", data);
     }
   );
 
