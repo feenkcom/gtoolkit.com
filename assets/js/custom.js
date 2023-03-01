@@ -45,6 +45,15 @@ function addVersionNumbers() {
       addVersionNumbersToButton("linux64", "GlamorousToolkit-Linux-x86_64-", data);
     }
   );
+    $.get(
+    {
+      url: "https://dl.feenk.com/gt/GlamorousToolkitLinux64-release",
+      cache: false,
+    },
+    (data) => {
+      addVersionNumbersToButton("linuxArm", "GlamorousToolkit-Linux-aarch64-", data);
+    }
+  );
 
   $.get(
     {
