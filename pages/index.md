@@ -64,7 +64,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row top-space usecase">
       <div class="col-lg-3">
         <h2>Domain discovery</h2>
-        <p>Discovering the proper model for a domain is difficult. You want feedabck. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p>
+        <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p>
       </div>
       <div class="col-lg-9">
         <div class="sample">
