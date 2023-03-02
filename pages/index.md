@@ -38,9 +38,8 @@ image: /assets/pictures/gtr-home.png
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>Program. Explore data. Manage knowledge. Browse APIs. Integrated in a programmable experience</h1>
-        <p class="lead">Glamorous Toolkit is made out of visual and interactive operators that can be combined inexpensively in many ways. This makes it feasible to build custom tools for each development problem. And this leads to a new way of programming: Moldable Development.</p>
-        <p class="lead">Why is this important? Because it address the single largest cost in software development today: figuring the system out.</p>
+        <h1>Your context. Your tools</h1>
+        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience. And you can also make them take your specific context into account. This is the essence of Moldable Development. And this is what Glamorous Toolkit enables.</p>
       </div>
    </div>
     <div class="row">
