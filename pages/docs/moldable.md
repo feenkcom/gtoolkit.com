@@ -14,7 +14,7 @@ image: /assets/pictures/doc/moldable/moldable-inspector-custom.png
           Everything about software systems is representable as data. Data does not have an intrinsic shape. It's just data. But, to reason about it, we, humans need a shape. That shape is provided by our tools.
         </p>
         <p>First, this means that tools are essential in software engineering. But, what kind of tools should they be?</p>
-        <p>Consider this basic example of six objects viewed through the lens of a typical view showing the variables and corresponding values. This generic view is widespread. While its genericity makes it applicable to all objects, it also makes it bland. Distant. Uncomunnicative.</p>
+        <p>Consider this basic example of six objects viewed through the lens of a typical view showing the variables and corresponding values. This generic view is widespread. While its genericity makes it applicable to all objects, it also makes it bland. Distant. Uncommunicative.</p>
         <p><img src="/assets/pictures/moldable-inspector-raw.png"/></p>
         <p>Now, let's change the shapes. Same objects. Different shapes.</p>
         <p><img src="/assets/pictures/moldable-inspector-custom.png"/></p>
