@@ -4,7 +4,7 @@ title: Get started
 order: 2
 permalink: /start/
 description: Starting is easy. Download and run. That's it.
-image: /assets/pictures/gtr-hello-world-inspector.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">
@@ -15,7 +15,7 @@ image: /assets/pictures/gtr-hello-world-inspector.png
         <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row padding-top-medium">
       <div class="col-lg-6">
         <h2>Install and run</h2>
       </div>
@@ -44,9 +44,9 @@ image: /assets/pictures/gtr-hello-world-inspector.png
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row padding-top-medium">
       <div class="col-lg-6"> 
-        <h2>First, learn how to learn</h2>
+        <h2>Learn how to learn</h2>
         <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities to learn about itself. So, focus first on learning how to learn.</p>
       </div>
     </div>
@@ -76,6 +76,10 @@ image: /assets/pictures/gtr-hello-world-inspector.png
         <div>
                 <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+      </div>
+    </div>
+    <div class="row padding-top-medium">
+      <div class="col-lg-12">
         <h2>Pick a problem you care about</h2>
         <p class="lead">Pick a problem you care about. Pick a problem you care about. We cannot stress this enough.</p>
         <p class="lead">Why? Because the essence of Moldable Development is about adapting the environment to match the context. If you do not have a deep context, you cannot evaluate what contextual tools do for you. Pick a problem you care about.</p>
@@ -102,17 +106,17 @@ image: /assets/pictures/gtr-hello-world-inspector.png
         <h3><a href="/docs/pharo-dev" class="btn btn-block btn-default">Pharo app development</a></h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row padding-top-medium">
       <div class="col-lg-8">
         <h2>Go beyond the technology</h2>
         <p class="lead">Glamorous Toolkit is an environment that shows how the experience of programming can be, but ultimately it's still just a piece of technology. <a href="/docs/moldable" class="btn btn-lg btn-default">Moldable Development</a> is more than technology. It requires new skills. But even more important is that Moldable Development introduces a new feedback loop that has far reaching consequences, both on the technical and the business level. Use the technology, but focus on learning how to think about programming anew.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row padding-top-medium padding-bottom-large">
       <div class="col-lg-8">
         <h2>Engage with the community</h2>
         <p class="lead">Learning is more fun together with others. More productive, too.</p>
-        <p class="lead"><a href="/contact" class="btn btn-lg btn-default">Join our community</a>. Let's learn together.</p>
+        <p class="lead"><a href="/contact" class="btn btn-lg btn-primary">Join our community</a></p>
       </div>
     </div>
   </div>

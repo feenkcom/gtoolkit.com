@@ -4,6 +4,7 @@ title: Download
 permalink: /download/
 redirect_from: /install/
 order: 20
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="install">

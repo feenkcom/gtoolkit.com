@@ -15,8 +15,8 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
       </div>
       <div class="row">
         <div class="col-md-8">
-          <p class="lead top-space">Code, issues and discussions on GitHub: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
-          <p class="lead">Discord Chat: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
+          <p class="lead top-space">GitHub: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
+          <p class="lead">Discord: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>
           <p class="lead">YouTube: <a href="https://www.youtube.com/@gtoolkit">@gtoolkit</a></p>
           <a class="btn btn-block btn-lg btn-margin btn-default top-double-space" href="mailto:gt@feenk.com">

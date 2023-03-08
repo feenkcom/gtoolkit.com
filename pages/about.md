@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 order: 7
 description: We see the environment as a language that extends the base language with visual and interactive operators. Through this language, the various components can be combined in many ways live.
-image: /assets/pictures/gtr-home.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 
 ---
 

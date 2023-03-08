@@ -3,8 +3,8 @@ layout: default
 title: Home
 permalink: /
 order: 1
-description: Glamorous Toolkit is the moldable development environment.
-image: /assets/pictures/gtr-home.png
+description: Glamorous Toolkit is the Moldable Development environment.
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 <section id="home" class="jumbotron top-double-space">
   <div class="container">
@@ -16,7 +16,7 @@ image: /assets/pictures/gtr-home.png
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is the moldable development environment for making systems explainable through experiences tailored for each problem.
+          Glamorous Toolkit is the Moldable Development environment. It empowers you to make systems explainable through experiences tailored for each problem.
         </p>
       </div>
     </div>

@@ -2,6 +2,7 @@
 layout: subpage
 permalink: /docs/podcasts/
 description: Podcasts
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

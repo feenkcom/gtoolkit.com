@@ -2,6 +2,7 @@
 layout: subpage
 permalink: /docs/videos/
 description: Videos
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

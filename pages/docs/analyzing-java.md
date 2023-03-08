@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /docs/analyzing-java/
 description: 'Java is supported in two distinct ways: through the external https://github.com/feenkcom/jdt2famix parser, and through the internal Java parser.
-image: /assets/pictures/gtr-importing-java-jdt2famix.png'
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

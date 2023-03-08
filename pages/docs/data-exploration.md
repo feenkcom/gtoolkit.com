@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /docs/data-exploration
 description: Data can come in many forms. Some is well defined, some less less so. Some is uniform, some less so.
-image: /assets/pictures/gtr-xml-xpath.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

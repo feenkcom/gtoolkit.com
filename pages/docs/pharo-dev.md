@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /docs/pharo-dev/
 description: Glamorous Toolkit is implemented in Pharo, the pure object-oriented language.
-image: /assets/pictures/gtr-opencv-tensorflow-picture-inspection-1500.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 
 ---
 

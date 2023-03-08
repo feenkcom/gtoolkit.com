@@ -2,6 +2,7 @@
 layout: subpage
 permalink: /docs/os-support/
 description: Operating System Support - Mac OS, Windows, Linux 
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

@@ -4,7 +4,7 @@ title: Docs
 permalink: /docs/
 order: 5
 description: Glamorous Toolkit offers documentation about itself directly in the environment.
-image: /assets/pictures/gtr-home.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 submenuitems:
   - tag: "Use cases"
   - items:

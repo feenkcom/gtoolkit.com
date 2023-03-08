@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /docs/analyzing-js/
 description: "JavaScript is supported through several internal JavaScript importers and parsers."
-image: /assets/pictures/gtr-importing-react.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">

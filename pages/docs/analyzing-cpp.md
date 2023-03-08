@@ -2,7 +2,7 @@
 layout: subpage
 permalink: /docs/analyzing-cpp/
 description:  C/C++ is directly supported through the internal parser and importer.
-image: /assets/pictures/gtr-importing-cpp-blueprint-ast.png
+image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="getstarted">
