@@ -678,7 +678,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Moldable Development is a way of programming through custom tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
         <p class="lead">Glamorous Toolkit itself is an extensive case study of how custom tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
-        <p class="lead">The goal? To make the inside of systems explaianble. </p>
+        <p class="lead">The goal? To make the inside of systems explainable. </p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
       <div class="col-lg-6">
