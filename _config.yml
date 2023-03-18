@@ -10,7 +10,7 @@ twitter:
   username: feenkcom
   card: summary
 
-logo: /assets/pictures/gtoolkit-icon.png
+logo: /assets/pictures/glamoroustoolkit-icon.png
 
 plugins:
   - jekyll-redirect-from
