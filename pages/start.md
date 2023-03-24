@@ -100,7 +100,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h3><a href="/docs/software-assessment" class="btn btn-block btn-default">Assess an existing system</a></h3>
       </div>
       <div class="col-lg-4">
-        <h3><a href="/docs/pharo-dev" class="btn btn-block btn-default">Document a system</a></h3>
+        <h3><a href="/docs/system-documentation" class="btn btn-block btn-default">Document a system</a></h3>
       </div>
       <div class="col-lg-4">
         <h3><a href="/docs/pharo-dev" class="btn btn-block btn-default">Pharo app development</a></h3>
