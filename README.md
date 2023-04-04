@@ -1,10 +1,18 @@
 # gtoolkit.com
 
 ## Setup environment
-`gem install bundler jekyll` (full instructions can be found [here](https://github.com/jekyll/jekyll/issues/7274#issuecomment-445499110))
 
-## Install project dependencies
-`bundle install`
+### Install Ruby
 
-## Build project and start local server
+`$ brew install ruby` (Latest at the time of writing is Ruby 3.2, which is what this project depends on)
+
+### Install project dependencies
+`$ bundle install`
+
+## Usage
+
+### Build project and start local server
 `bundle exec jekyll serve`
+
+### Visit the locally running website
+`$ open http://127.0.0.1:4000`
