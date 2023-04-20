@@ -39,7 +39,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               <input type="text" id="gitHubUsername" name="gitHubUsername" required size="20" class="form-control" disabled>
             </label>
           </div>
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="form-check">
               <input class="form-check-input is-invalid" type="checkbox" value="" id="agreement-checkbox" aria-describedby="invalidCheck3Feedback" required>
               <label class="form-check-label" for="invalidCheck3">
@@ -49,24 +49,49 @@ image: /assets/pictures/glamoroustoolkit-icon.png
                 You must agree before submitting.
               </div> -->
             </div>
-          </div>
+          </div> -->
           <div class="col-12">
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <label class="form-label">
+              Send this information as an email to contributors@feenk.com – this helps us verify your email.
+              <a href="mailto:example@example.com?subject=Subject%20Here&body=This%20is%20the%20body%20of%20the%20email"
+                class="btn btn-primary" id="mailtoLinkForForm">Send Email</a>
+
+              <button class="btn btn-primary" type="submit">Send email</button>
+            </label>
           </div>
         </form>
+
       </div>
     </div>
   </div>
 </section>
 
-<script src="https://contributor-license-agreement-database.gadget.app/api/client/web.min.js"></script>
+<!--
+
+  Do I want to send the stuff over? Maybe not for now?
+
+ -->
+
+<!-- <script src="https://contributor-license-agreement-database.gadget.app/api/client/web.min.js"></script> -->
 
 <script>
-  // create a new instance of the Gadget client at the `api` global connected to the Development environment
-  window.api = new Gadget({
-    environment: "Development"
-    // environment: "Production"
-  })
+  function generateMailtoLink(fullName, email, gitHubLogin) {
+    // Encode the values for use in the URL
+    let encodedSubject = encodeURIComponent("Email Subject");
+    let encodedBody = encodeURIComponent(`Hello ${fullName}!\n\nThanks again for your contribution and agreement to feenk’s Contributor License Agreement.\n\nIf the following information looks right, please send it along and we’ll unblock your GitHub Pull Request:\n\n\tYour full name: ${fullName}\n\n\tYour email address: ${email}\n\n\tYour GitHub login: ${gitHubLogin}`);
+
+    // Generate the mailto URL with encoded values
+    let mailtoUrl = `mailto:${email}?subject=${encodedSubject}&body=${encodedBody}`;
+
+    // Return the encoded mailto URL
+    return mailtoUrl;
+  }
+
+  // // create a new instance of the Gadget client at the `api` global connected to the Development environment
+  // window.api = new Gadget({
+  //   // environment: "Development"
+  //   environment: "Production"
+  // })
 
   jQuery(document).ready(function($) {
 
@@ -80,77 +105,84 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 
     form.find('#gitHubUsername').val(gitHubUsername);
 
+    const mailToLink = form.find("#mailtoLinkForForm");
+
+    mailToLink.on('click', (event) => {
+
+      if (form[0].checkValidity()) {
+        const name = form.find('#name').val();
+        const email = form.find('#email').val();
+        const gitHubUsername = form.find('#gitHubUsername').val();
+
+        mailToLink.attr("href", generateMailtoLink(name, email, gitHubUsername));
+      } else {
+        event.preventDefault();
+      }
+    });
+
+
     form.on('submit', async (event) => {
       event.preventDefault(); // prevent the form from submitting normally
 
-      const name = form.find('#name').val();
-      const email = form.find('#email').val();
-      const gitHubUsername = form.find('#gitHubUsername').val();
-
-      try {
-        const agreementAgreedTo = form.find('#agreement-checkbox').prop("checked");
-        if (!agreementAgreedTo) {
-          throw new Error("Agreement must be agreed to in order to be submitted.")
-        }
-
-        // TODO disable the form submit button and change its value to "Processing"
-        const submitButton = form.find("button[type=submit]");
-        submitButton.prop("disable", true);
-        submitButton.val('(Processing…)');
+      mailToLink.click();
+      window.location.href = $(mailToLink).attr('href');
 
 
-        await api.contributorSignature.create(
-          {
-            contributorSignature: { name: name, email: email, gitHubUsername: gitHubUsername }
-          }
-        );
+      // const name = form.find('#name').val();
+      // const email = form.find('#email').val();
+      // const gitHubUsername = form.find('#gitHubUsername').val();
 
-        // If we’re here report all good and go somewhere? Maybe back to github?
-        console.log("All good huzzah")
+      // try {
+      //   // TODO disable the form submit button and change its value to "Processing"
 
-      } catch (error) {
-        if (error) {
+      //   await api.contributorSignature.create(
+      //     {
+      //       contributorSignature: { name: name, email: email, gitHubUsername: gitHubUsername }
+      //     }
+      //   );
 
-          const submitButton = form.find("button[type=submit]");
-          submitButton.prop("disable", true);
-          submitButton.val('Submit');
+      //   // If we’re here report all good and go somewhere? Maybe back to github?
+      //   console.log("All good huzzah")
 
-          // Loop through each form input
-          //  Check it against the validation errors and
+      // } catch (error) {
+      //   if (error) {
 
-          for (const fieldName of [
-            "name", "email", "gitHubUsername"
-          ]) {
+      //     // Loop through each form input
+      //     //  Check it against the validation errors and
 
-            // Check for validation problems given error
-            const validationError = error.validationErrors.find( validationError => validationError.apiIdentifier == fieldName );
+      //     for (const fieldName of [
+      //       "name", "email", "gitHubUsername"
+      //     ]) {
 
-            const inputForField = form.find(`#${fieldName}`);
+      //       // Check for validation problems given error
+      //       const validationError = error.validationErrors.find( validationError => validationError.apiIdentifier == fieldName );
 
-            if(validationError) {
+      //       const inputForField = form.find(`#${fieldName}`);
 
-              if (validationError.message == "is not unique") {
-                // just resubmit a request to GitHub to check the status
-                // and inform the user about what’s going on
+      //       if(validationError) {
 
-              } else {
-                inputForField.addClass('is-invalid');
+      //         if (validationError.message == "is not unique") {
+      //           // just resubmit a request to GitHub to check the status
+      //           // and inform the user about what’s going on
 
-                // Add error description
-                console.log(`${validationError.apiIdentifier} ${validationError.message}`);
-              }
-            } else {
-              inputForField.addClass('is-valid');
-            }
+      //         } else {
+      //           inputForField.addClass('is-invalid');
 
-          }
+      //           // Add error description
+      //           console.log(`${validationError.apiIdentifier} ${validationError.message}`);
+      //         }
+      //       } else {
+      //         inputForField.addClass('is-valid');
+      //       }
 
-          // On error uniqueness send a request to Gadget to re-process the webhook to notify GitHub to reprocess
-          // OR can I send a request to GitHub to do that?
-          //
-          // Signal to user that it looks like this username and email have already signed the agreement so we’ll signal GitHub to reprocess the check on PRs blocked on signing the agreement
-        }
-      }
+      //     }
+
+      //     // On error uniqueness send a request to Gadget to re-process the webhook to notify GitHub to reprocess
+      //     // OR can I send a request to GitHub to do that?
+      //     //
+      //     // Signal to user that it looks like this username and email have already signed the agreement so we’ll signal GitHub to reprocess the check on PRs blocked on signing the agreement
+      //   }
+      // }
     });
 
   });
