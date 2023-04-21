@@ -13,7 +13,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">
           Thanks for your interest in contributing!
         </p>
-        <p>In the interest of the continued health of the project, feenk (the authors of Glamorous Toolkit) requires all contributors to sign a Contributor License Agreement (CLA).</p>
+        <p>In the interest of the continued health of the project, the authors of Glamorous Toolkit, feenk, requires all contributors to sign a Contributor License Agreement (CLA).</p>
 
         <form id="contributorSignature" class="row g-3">
           <div class="col-md-4">
@@ -21,11 +21,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               Your full name:
               <input type="text" id="name" name="name" required size="20" class="form-control">
             </label>
-
-            <!-- This is not being rendered; fix later -->
-            <!-- <div class="valid-feedback">
-              Looks good!
-            </div> -->
           </div>
           <div class="col-md-4">
             <label class="form-label">
@@ -39,40 +34,20 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               <input type="text" id="gitHubUsername" name="gitHubUsername" required size="20" class="form-control" disabled>
             </label>
           </div>
-          <!-- <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input is-invalid" type="checkbox" value="" id="agreement-checkbox" aria-describedby="invalidCheck3Feedback" required>
-              <label class="form-check-label" for="invalidCheck3">
-                Agree to this agreement
-              </label>
-              <!-- <div id="invalidCheck3Feedback" class="invalid-feedback">
-                You must agree before submitting.
-              </div> -->
-            </div>
-          </div> -->
-          <div class="col-12">
-            <label class="form-label">
-              Send this information as an email to contributors@feenk.com – this helps us verify your email.
-              <a href="mailto:example@example.com?subject=Subject%20Here&body=This%20is%20the%20body%20of%20the%20email"
-                class="btn btn-primary" id="mailtoLinkForForm">Send Email</a>
 
-              <button class="btn btn-primary" type="submit">Send email</button>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit" id="send-email-button">Send email</button>
+          </div>
+          <div class="col-12 pt-4">
+            <label class="form-label" for="send-email-button">
+              This form emails the information here to contributors@feenk.com and helps us verify your email.
             </label>
           </div>
         </form>
-
       </div>
     </div>
   </div>
 </section>
-
-<!--
-
-  Do I want to send the stuff over? Maybe not for now?
-
- -->
-
-<!-- <script src="https://contributor-license-agreement-database.gadget.app/api/client/web.min.js"></script> -->
 
 <script>
   function generateMailtoLink(fullName, email, gitHubLogin) {
@@ -87,103 +62,23 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     return mailtoUrl;
   }
 
-  // // create a new instance of the Gadget client at the `api` global connected to the Development environment
-  // window.api = new Gadget({
-  //   // environment: "Development"
-  //   environment: "Production"
-  // })
-
   jQuery(document).ready(function($) {
-
     const queryParams = new Proxy(new URLSearchParams(window.location.search), {
       get: (searchParams, prop) => searchParams.get(prop),
     });
 
-    const gitHubUsername = queryParams.gitHubUsername;
-
     const form = $('form#contributorSignature');
+    const gitHubLogin = queryParams.gitHubUsername;
+    form.find('#gitHubUsername').val(gitHubLogin);
 
-    form.find('#gitHubUsername').val(gitHubUsername);
-
-    const mailToLink = form.find("#mailtoLinkForForm");
-
-    mailToLink.on('click', (event) => {
-
-      if (form[0].checkValidity()) {
-        const name = form.find('#name').val();
-        const email = form.find('#email').val();
-        const gitHubUsername = form.find('#gitHubUsername').val();
-
-        mailToLink.attr("href", generateMailtoLink(name, email, gitHubUsername));
-      } else {
-        event.preventDefault();
-      }
-    });
-
-
-    form.on('submit', async (event) => {
+    form.on('submit', (event) => {
       event.preventDefault(); // prevent the form from submitting normally
 
-      mailToLink.click();
-      window.location.href = $(mailToLink).attr('href');
+      const name = form.find('#name').val();
+      const email = form.find('#email').val();
+      const gitHubUsername = form.find('#gitHubUsername').val();
 
-
-      // const name = form.find('#name').val();
-      // const email = form.find('#email').val();
-      // const gitHubUsername = form.find('#gitHubUsername').val();
-
-      // try {
-      //   // TODO disable the form submit button and change its value to "Processing"
-
-      //   await api.contributorSignature.create(
-      //     {
-      //       contributorSignature: { name: name, email: email, gitHubUsername: gitHubUsername }
-      //     }
-      //   );
-
-      //   // If we’re here report all good and go somewhere? Maybe back to github?
-      //   console.log("All good huzzah")
-
-      // } catch (error) {
-      //   if (error) {
-
-      //     // Loop through each form input
-      //     //  Check it against the validation errors and
-
-      //     for (const fieldName of [
-      //       "name", "email", "gitHubUsername"
-      //     ]) {
-
-      //       // Check for validation problems given error
-      //       const validationError = error.validationErrors.find( validationError => validationError.apiIdentifier == fieldName );
-
-      //       const inputForField = form.find(`#${fieldName}`);
-
-      //       if(validationError) {
-
-      //         if (validationError.message == "is not unique") {
-      //           // just resubmit a request to GitHub to check the status
-      //           // and inform the user about what’s going on
-
-      //         } else {
-      //           inputForField.addClass('is-invalid');
-
-      //           // Add error description
-      //           console.log(`${validationError.apiIdentifier} ${validationError.message}`);
-      //         }
-      //       } else {
-      //         inputForField.addClass('is-valid');
-      //       }
-
-      //     }
-
-      //     // On error uniqueness send a request to Gadget to re-process the webhook to notify GitHub to reprocess
-      //     // OR can I send a request to GitHub to do that?
-      //     //
-      //     // Signal to user that it looks like this username and email have already signed the agreement so we’ll signal GitHub to reprocess the check on PRs blocked on signing the agreement
-      //   }
-      // }
+      window.location.href = generateMailtoLink(name, email, gitHubUsername);
     });
-
   });
 </script>
