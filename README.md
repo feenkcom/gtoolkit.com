@@ -12,7 +12,7 @@
 ## Usage
 
 ### Build project and start local server
-`bundle exec jekyll serve`
+`$ ./start`
 
 ### Visit the locally running website
 `$ open http://127.0.0.1:4000`
