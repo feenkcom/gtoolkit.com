@@ -110,7 +110,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     let encodedBody = encodeURIComponent(`Dear feenk,\n\nI hereby agree with the feenk Contributor License Agreement. feenk gmbh is the author of Glamorous Toolkit https://gtoolkit.com\n\nI confirm that the following information is accurate:\n\n\tFull name: ${fullName}\n\n\tEmail address (the same as the one from which this email is sent): ${email}\n\n\tGitHub login: ${gitHubLogin}\n\nKind regards,\n${fullName }`);
 
     // Generate the mailto URL with encoded values
-    let mailtoUrl = `mailto:contributors@feenk.com?subject=${encodedSubject}&body=${encodedBody}`;
+    let mailtoUrl = `mailto:contributing@feenk.com?subject=${encodedSubject}&body=${encodedBody}`;
 
     // Return the encoded mailto URL
     return mailtoUrl;
