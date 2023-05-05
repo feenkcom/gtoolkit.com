@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Contributor License Agreement
-permalink: /contributor-license-agreement/
-description: feenk’s Contributor License Agreement
+layout: subpage
+permalink: /community/cla/
+description: feenk gmbh Contributor Level Agreement
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
@@ -10,17 +9,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
       <div class="col-12">
-        <h1>feenk gmbh Contributor License Agreement</h1>
-      </div>
-      <div class="col-lg-8">
+        <h1>Contributor license agreement</h1>
         <p class="lead">
-          Thanks for your interest in contributing!
+          <a href="https://feenk.com">feenk gmbh (feenk)</a>, the team that authored Glamorous Toolkit, requires all contributors to sign a Contributor License Agreement (CLA).
         </p>
-        <p>
-          In the interest of the continued health of the project, the authors of Glamorous Toolkit, feenk gmbh (feenk), requires all contributors to sign a Contributor License Agreement (CLA). This CLA clarifies the intellectual property rights in the project and any Contributions. This CLA is for your protection as a contributor as well as the protection of feenk, recipients of software distributed or made available by feenk, and other contributors; it does not change your rights to use your own Contributions for any other purpose.
+        <p class="lead">This CLA clarifies the intellectual property rights in the project and any Contributions. This CLA is for your protection as a contributor as well as the protection of feenk, recipients of software distributed or made available by feenk, and other contributors. It does not change your rights to use your own Contributions for any other purpose.
         </p>
 
-        <hr />
+        <h2>Agreement</h2>
 
         <p>
           You accept and agree to the following terms and conditions for Your past, present, and future Contributions submitted to feenk.
@@ -88,7 +84,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               <input type="text" id="gitHubUsername" name="gitHubUsername" required size="20" class="form-control" disabled>
             </label>
           </div>
-
           <div class="col-12">
             <button class="btn btn-primary" type="submit" id="send-email-button">Send email</button>
           </div>
