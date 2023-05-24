@@ -61,7 +61,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           <div class="col-md-4">
             <label class="form-label">
               Your GitHub username:
-              <input type="text" id="gitHubUsername" name="gitHubUsername" required size="20" class="form-control" disabled>
+              <input type="text" id="gitHubLogin" name="gitHubLogin" required size="20" class="form-control">
             </label>
           </div>
           <div class="col-12">
@@ -104,16 +104,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     });
 
     const form = $('form#contributorSignature');
-    const gitHubLogin = queryParams.gitHubUsername;
-    form.find('#gitHubUsername').val(gitHubLogin);
+    const gitHubLogin = queryParams.gitHubLogin;
+    form.find('#gitHubLogin').val(gitHubLogin);
 
     form.on('submit', (event) => {
       event.preventDefault(); // prevent the form from submitting normally
       const name = form.find('#name').val();
       const email = form.find('#email').val();
-      const gitHubUsername = form.find('#gitHubUsername').val();
+      const gitHubLogin = form.find('#gitHubLogin').val();
 
-      window.location.href = generateMailtoLink(name, email, gitHubUsername);
+      window.location.href = generateMailtoLink(name, email, gitHubLogin);
     });
   });
 </script>
