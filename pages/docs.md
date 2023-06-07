@@ -40,9 +40,9 @@ submenuitems:
     <div class="row">
       <div class="col-md-12">
         <h1>Documentation</h1>
-        <p class="lead">Glamorous Toolkit offers extensive and live documentation about itself directly in the environment.</p>
+        <p class="lead">Glamorous Toolkit offers extensive and live documentation about itself directly in the environment. You can also read the book <a href="https://book.gtoolkit.com">online</a>.</p>
         <p class="lead">
-          <a href="/start/" class="btn btn-lg btn-margin btn-primary">Get started</a>
+          <a href="https://book.gtoolkit.com" class="btn btn-lg btn-margin btn-primary">book.gtoolkit.com</a>
         </p>
       </div>
     </div>

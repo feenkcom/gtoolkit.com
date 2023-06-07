@@ -46,13 +46,15 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row padding-top-medium">
       <div class="col-lg-6"> 
-        <h2>Learn how to learn</h2>
-        <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities to learn about itself. So, focus first on learning how to learn.</p>
+        <h2>Take a tour</h2>
       </div>
     </div>
     <div class="row">
+      <div class="col-lg-6"> 
+        <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities to learn about itself. Start with a tour through the built-in book to get an overview of the breadth of possibilities.</p>
+        <p><a href="book.gtoolkit.com" class="btn btn-lg btn-default">book.gtoolkit.com</a></p>
+      </div>
       <div class="col-lg-6">
-        <h3>Read the book.</h3>
         <div class="sample">
           <img  src="/assets/pictures/gt-start-book.png"/>
           <div class="picture-caption">
@@ -60,21 +62,12 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <h3>Take the interactive tour.</h3>
-        <div class="sample">
-          <img  src="/assets/pictures/gt-start-tour.png"/>
-          <div class="picture-caption">
-            <p>The tour offers an interactive overview right in the environment.</p>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <h3>Go through the GT in 7' video series.</h3>
+        <h2>Learn from the GT in 7' video series</h2>
         <div>
-                <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
