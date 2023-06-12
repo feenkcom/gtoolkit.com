@@ -39,7 +39,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-12">
         <h1>Your context. Your tools</h1>
-        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience. And you can also make them take your specific context into account. This is the essence of Moldable Development. And this is what Glamorous Toolkit enables.</p>
+        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience that is specific to your context. This is the essence of Moldable Development. And this is what Glamorous Toolkit enables.</p>
       </div>
    </div>
     <div class="row">
