@@ -58,7 +58,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-9">
         <h1>A single environment. Many applications</h1>
         <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways. Here are some examples. </p>
-        <!-- <p class="lead">Glamorous Toolkit can be molded in many ways to support a variety of situations. Here are some examples.</p> -->
       </div>
     </div>
     <div class="row top-space usecase">
@@ -74,7 +73,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div> <!-- row -->
+    </div> 
+    <!-- row -->
     <div class="row top-space usecase">
       <div class="col-lg-3">
         <h2>Software assessment</h2>
@@ -88,7 +88,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div> <!-- row -->
+    </div> 
+    <!-- row -->
     <div class="row top-space usecase">
       <div class="col-lg-3">
         <h2>API exploration</h2>
@@ -103,6 +104,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
     </div>
+    <!-- row -->
     <div class="row top-space usecase">
       <div class="col-lg-3">
         <h2>Data exploration</h2>
@@ -117,6 +119,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
     </div>
+    <!-- row -->
     <div class="row vspace usecase">
       <div class="col-lg-3">
         <h2>System documentation</h2>
@@ -127,6 +130,21 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           <img src="/assets/pictures/use-case-documentation.png"/>
           <div class="picture-caption">
             <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+    <div class="row vspace usecase">
+      <div class="col-lg-3">
+        <h2>System specific editors</h2>
+        <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p>
+      </div>
+      <div class="col-lg-9">
+        <div class="sample">
+          <img src="/assets/pictures/use-case-editor.png"/>
+          <div class="picture-caption">
+            <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
           </div>
         </div>
       </div>
