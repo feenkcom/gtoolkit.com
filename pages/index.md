@@ -599,7 +599,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-8">
         <h2>Enhanced refactoring and rewrite support</h2>
         <p class="lead">Automatic refactorings were first implemented in Smalltalk. The engine remains the same, but the experience became more ... glamorous.</p>
-        <p class="lead">You can perform <a href="https://lepiter.io/feenk/enhancing-the-support-for-multi-step-refac-7tkac5yh3thij5amwco8ng6wz/">complicated refactorings directly in the editor</a>. Furthermore, automatic code rewriting is a supwerpower, but can be difficult to master. No longer. You can now define rewrites by example.</p>
+        <p class="lead">You can perform <a href="https://lepiter.io/feenk/enhancing-the-support-for-multi-step-refac-7tkac5yh3thij5amwco8ng6wz/">complicated refactorings directly in the editor</a>. Furthermore, automatic code rewriting is a superpower, but can be difficult to master. No longer. You can now define rewrites by example.</p>
       </div>
     </div>
     <div class="row">
