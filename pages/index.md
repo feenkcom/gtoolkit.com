@@ -442,7 +442,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-6">
         <h1>What would you do if your tools had no walls?</h1>
         <p class="lead">Rigid tools make you split your problem along their boundaries. Glamorous Toolkit turns the problem upside down. Instead of relying on single purpose tools, you get an environment made out of interactive and visual operators with which to construct an integrated experience customized for your needs.</p>
-        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+        <p><a href="https://book.gtoolkit.com" class="btn btn-block btn-lg btn-margin btn-primary">Read the book online</a></p>
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@ window.onload = function registerBehaviour() {
 
 function addVersionNumbers() {
   $("#release-datetime").append(
-    "<h2><span class='gtversion'> </span> beta released on <span class='releasedate'></span></h2>"
+    "<h2><span class='gtversion'> </span> released on <span class='releasedate'></span></h2>"
   );
   $.get(
     {
