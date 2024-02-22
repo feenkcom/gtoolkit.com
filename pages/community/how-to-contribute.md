@@ -19,7 +19,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </p>
         <h2>Contributing code</h2>
         <p>
-          Code contributions by external contributors take place through Pull Requests for the respecitve GitHub public repositories from the <a href="https://github.com/feenkcom">github.com/feenkcom</a> organization.
+          Code contributions by external contributors take place through Pull Requests for the respective GitHub public repositories from the <a href="https://github.com/feenkcom">github.com/feenkcom</a> organization.
         </p>
         <p>
           Contributing requires a previously signed <a href="../cla">Contributor License Agreement</a>.

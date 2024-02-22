@@ -69,7 +69,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
           <div class="col-12 pt-4">
             <label class="form-label" for="send-email-button">
-              This form emails the information here to contributors@feenk.com and helps us verify your email.
+              This form emails the information here to contributing@feenk.com and helps us verify your email.
             </label>
           </div>
         </form>
