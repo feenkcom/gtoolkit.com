@@ -49,8 +49,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           Unzip and run <code class="small">.\bin\GlamorousToolkit.exe</code>
         </p>
       </div>
-    </div>    
-    <div class="row top-small-space">
       <div class="col-lg-4">
         <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
           <div><i class="fas fa-download fa-fw margin-right"></i><span>Windows Intel</span></div>
