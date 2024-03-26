@@ -20,6 +20,15 @@ function addVersionNumbers() {
   );
   $.get(
     {
+      url: "https://dl.feenk.com/gt/GlamorousToolkitWinArm64-release",
+      cache: false,
+    },
+    (data) => {
+      addVersionNumbersToButton("winArm64", "GlamorousToolkit-Windows-aarch64-", data);
+    }
+  );
+  $.get(
+    {
       url: "https://dl.feenk.com/gt/GlamorousToolkitOSX64-release",
       cache: false,
     },
