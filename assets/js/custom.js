@@ -92,16 +92,20 @@ function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
 }
 
 function detectOS() {
-  var userPlatform = this.platform.os.family;
+  var userPlatform = this.platform.os.family.toLowerCase();
+  var userAgent = this.platform.ua.toLowerCase();
   var platforms = $(".download-button");
+  var match = "no match"
   for (var i = 0; i < platforms.length; i++) {
-    var platform = platforms[i].getAttribute("data-switcher-content");
-    if (platform.toLowerCase().startsWith(userPlatform.toLowerCase())) {
+    var platform = platforms[i].getAttribute("data-switcher-content").toLowerCase();
+    if (platform.startsWith(userPlatform) || userAgent.includes(platform)) {
+      match = platform;
       $(platforms[i]).addClass("btn-primary download-active");
     } else {
       $(platforms[i]).addClass("btn-default download-inactive");
     }
   }
+  return match;
 }
 
 function handleMenuSelection() {
