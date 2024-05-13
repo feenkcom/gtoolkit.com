@@ -41,7 +41,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row top-small-space">
       <div class="col-lg-4">
-        <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWinArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
+        <a id="winArm64" href="https://dl.feenk.com/gt/GlamorousToolkitWinArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
           <div><i class="fas fa-download fa-fw margin-right"></i><span>Windows ARM</span></div>
           <div><small>Windows 10 or later</small></div>
         </a>
