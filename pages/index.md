@@ -38,9 +38,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Your context. Your tools</h1>
-        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience that is specific to your context. This is the essence of Moldable Development. And this is what Glamorous Toolkit enables.</p>
-        <p class="lead"><a href="https://www.youtube.com/watch?v=_ztGZpo9I9E">Watch the YOW! 2023 talk.</a></p>
+        <h1>Your own development experience</h1>
+        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience that is specific to your context. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
       </div>
       <div class="col-lg-6">
         <div class="sample">
