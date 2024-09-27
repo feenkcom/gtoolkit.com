@@ -16,7 +16,7 @@ submenuitems:
       permalink: /docs/data-exploration
     - title: API exploration
       permalink: /docs/api-exploration
-    - title: System documnetation
+    - title: System documentation
       permalink: /docs/system-documentation
     - title: Pharo development
       permalink: /docs/pharo-dev/
