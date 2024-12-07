@@ -44,6 +44,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-6">
         <div class="sample">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="picture-caption">Watch Tudor Girba's talk about Moldable Development with Glamorous Toolkit at YOW 2023.</div>
         </div>
       </div>
     </div>
@@ -219,17 +220,15 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-5">
-        <h1>Build your own development experience</h1>
+        <h1>Thousands of custom tools ... per system</h1>
         <p class="lead">Every system is unique and deserves a dedicated environment. Scratch that. Every problem about any piece of a system is unique.</p>
         <p class="lead">Yes, we know it's sounds crazy expensive. But it's really not. Glamorous Toolkit is programmable exactly so that you can create your own experience for each development problem inexpensively.</p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
       <div class="col-lg-7">
         <div class="sample">
-          <img src="/assets/pictures/wardleymap-white.png"/>
-          <div class="picture-caption">
-            <p>Wardley Map describing the benefits of custom tools that produce dedicated views that accelerate decision making.</p>
-          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="picture-caption">Watch Simon Wardley and Tudor Girba chatting about Moldable Development.</div>
         </div>
       </div>
     </div>
@@ -377,10 +376,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Take your first steps in Moldable Development</h1>
+        <h1>Get started</h1>
         <p class="lead">Starting is easy. Download Glamorous Toolkit. Execute. That's it.</p>
         <p class="lead">When you start, first focus on learning how to learn. Then pick a concrete problem you care about. Perhaps like the use cases above. Moldable Development takes a bit of time to get used to, but once you do, you won't want to go ahead without it.</p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
+      </div>
+      <div class="sample">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="picture-caption">
+            <p>Watch Oscar Nierstrasz's GT in 7 minutes series.</p>
+        </div>
       </div>
     </div>
   </div>
