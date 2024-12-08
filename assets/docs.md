@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: submenu
 title: Docs
 permalink: /docs/
@@ -33,7 +33,7 @@ submenuitems:
     - title: Podcasts
       permalink: /docs/podcasts/
 
----
+--- -->
 
 <section id="doc">
   <div class="container pt-5 pb-5 jumbotron-small">

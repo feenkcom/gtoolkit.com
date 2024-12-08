@@ -52,7 +52,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-6"> 
         <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities to learn about itself. Start with a tour through the built-in book to get an overview of the breadth of possibilities.</p>
-        <p><a href="https://book.gtoolkit.com" class="btn btn-lg btn-default">book.gtoolkit.com</a></p>
+        <p><a href="https://book.gtoolkit.com" class="btn btn-lg btn-default">Read the book</a></p>
       </div>
       <div class="col-lg-6">
         <div class="sample">

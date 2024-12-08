@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: default
 title: Contact
 permalink: /contact/
 order: 15
 description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://discord.gg/FTJr9gP Twitter: https://twitter.com/feenkcom'
----
+--- -->
 
 <section id="contact">
     <div class="container pt-5 pb-5 jumbotron-small">

@@ -30,8 +30,8 @@
       {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist
       %} {% if item contains "order" %}
       <li>
-          <a
-          class="nav-item nav-link 
+          <!-- <a
+          class="nav-item nav-link
             {% if item.permalink == '/download/' %} 
               nav-link-prominent
             {% endif %} 
@@ -39,10 +39,22 @@
                nav-link-active 
             {% endif %} p-3"
           href="{{ item.url }}"
+          >{{ item.title }}</a -->
+          <a
+          class="nav-item nav-link 
+            {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
+               nav-link-active 
+            {% endif %}
+           p-3"
+          href="{{ item.url }}"
           >{{ item.title }}</a
         >
       </li>
       {% endif %} {% endfor %}
+      <li>
+        <a class="nav-item nav-link p-3"
+          href="https://book.gtoolkit.com">Read the book</a>
+      </li>
       <li>
         <a class="nav-item nav-link p-3"
           href="https://blog.feenk.com">Blog</a>
