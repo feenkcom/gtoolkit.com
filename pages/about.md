@@ -14,10 +14,10 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-8">
           <h1>About</h1>
           <p class="lead">Glamorous Toolkit is the environment for Moldable Development, a way of programming through custom tools.
-            Moldable Development is hard to convey in words. You have to experience it. We offer Glamorous Toolkit as free and open-source under the MIT license because we want you to experience it as directly as possible.
+            Moldable Development is hard to convey in words. You have to experience it. Glamorous Toolkit is <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">free and open-source</a> so you can do just that.
           </p>
           <p class="lead">
-            Glamorous Toolkit is developed by <a href="https://feenk.com">feenk</a>, and was born out of a long term effort to make the inside of software systems explainable. We see the environment as a language that extends the base language with visual and interactive operators that can be combined in many ways. This environment makes it possible to create and consume custom narratives with and about every aspect of a software system. It is the act of creating these narratives about every development problem that leads to explainable systems.
+            Glamorous Toolkit is developed by <a href="https://feenk.com">feenk</a> as part of a long term effort to make the inside of software systems explainable. We see the environment as a language with visual and interactive operators that can be combined in many ways to create and consume custom narratives with and about every aspect of a software system. Creating these narratives leads to explainable systems.
           </p>
       </div>
     </div>
