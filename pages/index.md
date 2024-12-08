@@ -57,7 +57,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-9">
         <h1>A single environment. Many applications</h1>
-        <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways. Here are some examples. </p>
+        <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways.</p>
       </div>
     </div>
   </div>
@@ -66,14 +66,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-4">
         <!-- <h3>Domain discovery</h3> -->
         <!-- <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-domain-discovery.png"/>
           <div class="picture-caption">
             <p>Explaining a domain object through examples and custom views.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 p-3">
         <!-- <h3>Software assessment</h3> -->
         <!-- <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p> -->
         <div class="sample">
@@ -83,7 +83,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 p-3">
         <!-- <h3>API exploration</h3> -->
         <!-- <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p> -->
         <div class="sample">
@@ -93,7 +93,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 p-3">
         <!-- <h3>Data exploration</h3> -->
         <!-- <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p> -->
         <div class="sample">
@@ -103,7 +103,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 p-3">
         <!-- <h3>System documentation</h3> -->
         <!-- <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p> -->
         <div class="sample">
@@ -113,7 +113,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 p-3">
         <!-- <h3>System specific editors</h3> -->
         <!-- <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p> -->
         <div class="sample">
@@ -154,14 +154,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-8">
         <h1>Made to work with many languages and technologies</h1>
-        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a>, but it was designed to be extended for other technologies and languages, like GraphQL, Python or JavaScript.</p>
+        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a> but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone.</p>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6">
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/user-case-graphql.png"/>
           <div class="picture-caption">
             <p>Editing GraphQL and exploring a server response from a Lepiter page.</p>
@@ -169,10 +169,26 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/own-environment-smacc.png"/>
           <div class="picture-caption">
             <p>A dedicated environment for defining support for other languages.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/gt-cobol-screens-source.png"/>
+          <div class="picture-caption">
+            <p>Exploring COBOL screens, control flows and source code.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/gt-python-tokenization.png"/>
+          <div class="picture-caption">
+            <p>Explaining a tokenization algorithm implemented in Python.</p>
           </div>
         </div>
       </div>
