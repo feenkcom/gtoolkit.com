@@ -221,8 +221,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-5 offset-lg-1">
-        <h2>Snippets define their own language</h2>
-        <p class="lead">Each snippet defines its own language. Languages can be textual, like GraphQL or JavaScript. They can be visual, like a Wardley Map. Or even widgets.</p>
+        <!-- <h2>Snippets define their own language</h2>
+        <p class="lead">Each snippet defines its own language. Languages can be textual, like GraphQL or JavaScript. They can be visual, like a Wardley Map. Or even widgets.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-example.png"/>
           <div class="picture-caption">
@@ -231,8 +231,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
       <div class="col-lg-5">
-        <h2>Snippets interoperate across languages</h2>
-        <p class="lead">Every page defines a shared scope for variables. Combined with an extensible proxy model, variables can be defined and reused across languages.</p>
+        <!-- <h2>Snippets interoperate across languages</h2>
+        <p class="lead">Every page defines a shared scope for variables. Combined with an extensible proxy model, variables can be defined and reused across languages.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-js-pharo.png"/>
           <div class="picture-caption">
@@ -243,8 +243,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row">
       <div class="col-lg-5 offset-lg-1">
-        <h2>Extensible Markdown</h2>
-        <p class="lead">The default text snippet supports a Markdown that can be extended with custom annotations.</p>
+        <!-- <h2>Extensible Markdown</h2>
+        <p class="lead">The default text snippet supports a Markdown that can be extended with custom annotations.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-extensible-markdown.png"/>
           <div class="picture-caption">
@@ -253,8 +253,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
       <div class="col-lg-5">
-        <h2>Links are bidirectional and language agnostic</h2>
-        <p class="lead">Links can come from any snippet to any snippet. And even to and from arbitrary objects.</p>
+        <!-- <h2>Links are bidirectional and language agnostic</h2>
+        <p class="lead">Links can come from any snippet to any snippet. And even to and from arbitrary objects.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-links.png"/>
           <div class="picture-caption">
@@ -265,8 +265,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row">
       <div class="col-lg-5 offset-lg-1">
-        <h2>Queryable</h2>
-        <p class="lead">Every knowledge base can be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p>
+        <!-- <h2>Queryable</h2>
+        <p class="lead">Every knowledge base can be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-program.png"/>
           <div class="picture-caption">
@@ -275,8 +275,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </div>
       </div>
       <div class="col-lg-5">
-        <h2>Edit and view in a seamless interface</h2>
-        <p class="lead">Editing and viewing happen in the same interface. We achieve this by making the editing capabilities appear in place.</p>
+        <!-- <h2>Edit and view in a seamless interface</h2>
+        <p class="lead">Editing and viewing happen in the same interface. We achieve this by making the editing capabilities appear in place.</p> -->
         <div class="sample">
           <img src="/assets/pictures/lepiter-edit-view.png"/>
           <div class="picture-caption">
