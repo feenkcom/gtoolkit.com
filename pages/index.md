@@ -60,12 +60,12 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways. Here are some examples. </p>
       </div>
     </div>
+  </div>
+  <div class="container-fluid">
     <div class="row top-space usecase">
-      <div class="col-lg-3">
-        <h2>Domain discovery</h2>
-        <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>Domain discovery</h3> -->
+        <!-- <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-domain-discovery.png"/>
           <div class="picture-caption">
@@ -73,14 +73,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div> 
-    <!-- row -->
-    <div class="row top-space usecase">
-      <div class="col-lg-3">
-        <h2>Software assessment</h2>
-        <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>Software assessment</h3> -->
+        <!-- <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-assessment-dependencies.png"/>
           <div class="picture-caption">
@@ -88,14 +83,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div> 
-    <!-- row -->
-    <div class="row top-space usecase">
-      <div class="col-lg-3">
-        <h2>API exploration</h2>
-        <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>API exploration</h3> -->
+        <!-- <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-rest-api.png"/>
           <div class="picture-caption">
@@ -103,14 +93,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div>
-    <!-- row -->
-    <div class="row top-space usecase">
-      <div class="col-lg-3">
-        <h2>Data exploration</h2>
-        <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>Data exploration</h3> -->
+        <!-- <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-data.png"/>
           <div class="picture-caption">
@@ -118,14 +103,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div>
-    <!-- row -->
-    <div class="row vspace usecase">
-      <div class="col-lg-3">
-        <h2>System documentation</h2>
-        <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>System documentation</h3> -->
+        <!-- <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-documentation.png"/>
           <div class="picture-caption">
@@ -133,14 +113,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-    </div>
-    <!-- row -->
-    <div class="row vspace usecase">
-      <div class="col-lg-3">
-        <h2>System specific editors</h2>
-        <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p>
-      </div>
-      <div class="col-lg-9">
+      <div class="col-lg-4">
+        <!-- <h3>System specific editors</h3> -->
+        <!-- <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p> -->
         <div class="sample">
           <img src="/assets/pictures/use-case-editor.png"/>
           <div class="picture-caption">
@@ -152,68 +127,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <!-- row -->
   </div>
 </section>
-
-
-<!--Conversation-->
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-          <h1>Join the conversation</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-6">
-          <p class="lead">
-            Moldable Development has many implications both technically and business-wise.
-          </p>
-          <p class="lead">
-            Figuring systems out is expensive and pervasive. Not doing it well ends up creating black boxes that pile up on top of each other. As the world we build is based on software, we must make those black boxes explainable. It's a large problem that can only change if we deal with it explicitly. We need a conversation.
-          </p>
-          <p class="lead">    
-            We created Glamorous Toolkit to have a concrete conversation about how we figure systems out. <a href="https://discord.gg/FTJr9gP">Join us</a>.
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <a href="https://discord.gg/FTJr9gP" class="btn btn-block btn-lg btn-margin btn-primary">Join us on Discord</a>
-          <a href="https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Follow @feenkcom on Twitter</a>
-          <a href="https://www.youtube.com/@gtoolkit" class="btn btn-block btn-lg btn-margin btn-default">Watch @gtoolkit on YouTube</a>
-          <a href=" https://twitter.com/feenkcom" class="btn btn-block btn-lg btn-margin btn-default">Fork us on GitHub</a>
-        </div>
-    </div>
-  </div>
-</section>
-
-<!--What people say-->
-<section class="top-double-space">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1>What people say</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3">
-        <p>A most fascinating environment.</p>
-        <p class="lead"><a href="https://twitter.com/Grady_Booch/status/1290381503478632448?s=20">@Grady_Booch</a></p>
-      </div>
-      <div class="col-lg-3">
-        <p>GT is a point of light in the darkness. I have my reservations of course, but it is by far the best example I've seen of a live literate programming environment.</p>
-        <p class="lead"><a href="https://twitter.com/Gilad_Bracha/status/1321238595273814016?s=20">@Gilad_Bracha</a></p>
-      </div>
-      <div class="col-lg-3">
-        <p>The first software system that I can seriously imagine to replace Emacs for me. Given that I practically live in Emacs, that’s not a small statement.
-        </p>
-        <p class="lead"><a href="https://twitter.com/khinsen/status/1330551198068449281">@khinsen</a></p>
-      </div>
-      <div class="col-lg-3">
-        <p>It is no exaggeration to say that #GToolkit is a work of genius built on top of a work of genius.</p>
-        <p class="lead"><a href="https://twitter.com/codexeditor/status/1339833115401805824">@codexeditor</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <!--Own experience-->
 <section class="top-double-space section-light">
