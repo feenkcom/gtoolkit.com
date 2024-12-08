@@ -21,12 +21,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-6 offset-lg-3">
+      <div class="col-lg-6 offset-lg-3 center">
           <p>
             <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
               Download for Mac, Linux &amp; Windows
             </a>
           </p>
+          <p class="picture-caption">It's free and open-source. <a href="https://github.com/feenkcom/gtoolkit">Star us on GitHub</a>.</p>
       </div>
     </div>
   </div>
@@ -73,50 +74,50 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4">
         <!-- <h3>Software assessment</h3> -->
         <!-- <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-assessment-dependencies.png"/>
           <div class="picture-caption">
             <p>An interactive exploration of dependencies between ActiveRecords in a Rails application that also shows the Ruby and SQL sources.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4">
         <!-- <h3>API exploration</h3> -->
         <!-- <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-rest-api.png"/>
           <div class="picture-caption">
             <p>Exploring a REST API through custom views.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4">
         <!-- <h3>Data exploration</h3> -->
         <!-- <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-data.png"/>
           <div class="picture-caption">
             <p>Exploring the data exported from a Twitter account.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4">
         <!-- <h3>System documentation</h3> -->
         <!-- <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-documentation.png"/>
           <div class="picture-caption">
             <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 p-3">
+      <div class="col-lg-4">
         <!-- <h3>System specific editors</h3> -->
         <!-- <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p> -->
-        <div class="sample">
+        <div class="sample p-3">
           <img src="/assets/pictures/use-case-editor.png"/>
           <div class="picture-caption">
             <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
@@ -191,21 +192,15 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 </section>
 
 
-<!--Manage your knowledge-->
+<!--Get started-->
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
-        <h1>Manage your knowledge base. Programmatically</h1>
-        <p class="lead">Whether it's your personal knowledge base, or the documentation for your system, you want it linked and tailored to the context. Customize it with dedicated annotations and snippets created right in the environment.</p>
-        <p class="lead">And once you have a knowledge base, exploit by querying and visualizing it programmatically.</p>
-        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
-      </div>
-      <div class="col-lg-7">
+      <div class="col-lg-8 offset-lg-2">
         <div class="sample">
-          <img src="/assets/pictures/lepiter-graph.png"/>
+          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="picture-caption">
-            <p>A custom visualization of pages and their interconnections from the Glamorous Toolkit book. The node in blue is the "Get started" page. The nodes in red are all the pages reachable from the "Get started" page.</p>
+            <div class="picture-caption">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
           </div>
         </div>
       </div>
@@ -294,21 +289,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 </section>
 
 
-<!--Get started-->
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="sample">
-          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="picture-caption">
-            <div class="picture-caption">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <!--Graphical stack-->
