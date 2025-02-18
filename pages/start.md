@@ -109,7 +109,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-8">
         <h2>Engage with the community</h2>
         <p class="lead">Learning is more fun together with others. More productive, too.</p>
-        <p class="lead"><a href="/contact" class="btn btn-lg btn-primary">Join our community</a></p>
+        <p class="lead"><a href="/community" class="btn btn-lg btn-primary">Join our community</a></p>
       </div>
     </div>
   </div>
