@@ -45,7 +45,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-6">
         <div class="sample">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <div class="picture-caption">Watch Tudor Girba's talk about Moldable Development with Glamorous Toolkit at YOW 2023.</div>
+          <div class="picture-caption">Watch Tudor Girba's talk about Moldable Development with Glamorous Toolkit at YOW 2023. (The first two minutes has poor sound quality, but it's still worth it ;))</div>
         </div>
       </div>
     </div>
