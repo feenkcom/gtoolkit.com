@@ -16,7 +16,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-8 offset-lg-2 center">
         <p class="lead">
-          Glamorous Toolkit is the Moldable Development environment. It empowers you to make systems explainable through experiences tailored for each problem.
+          Glamorous Toolkit is the Moldable Development environment. It empowers you to make systems explainable through contextual experiences tailored for each problem.
         </p>
       </div>
     </div>
@@ -70,7 +70,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample p-3">
           <img src="/assets/pictures/use-case-domain-discovery.png"/>
           <div class="picture-caption">
-            <p>Explaining a domain object through examples and custom views.</p>
+            <p>Explaining a domain object through examples and contextual views.</p>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample p-3">
           <img src="/assets/pictures/use-case-rest-api.png"/>
           <div class="picture-caption">
-            <p>Exploring a REST API through custom views.</p>
+            <p>Exploring a REST API through contextual views.</p>
           </div>
         </div>
       </div>
@@ -248,7 +248,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample">
           <img src="/assets/pictures/lepiter-extensible-markdown.png"/>
           <div class="picture-caption">
-            <p>A completion inside a custom todo annotation. The completion shows a date dialog for the due date.</p>
+            <p>A completion inside a contextual todo annotation. The completion shows a date dialog for the due date.</p>
           </div>
         </div>
       </div>
@@ -443,7 +443,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample">
           <img src="/assets/pictures/gt-pharo-inspector-spotter.png"/>
           <div class="picture-caption">
-            <p>A Spotter in an inspector showing custom searches defined in the inspected object (and addressbook, in our case).</p>
+            <p>A Spotter in an inspector showing contextual searches defined in the inspected object (and addressbook, in our case).</p>
           </div>
         </div>
       </div>
@@ -452,7 +452,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-lg-8">
         <h2>Example-driven development</h2>
         <p class="lead">The entire environment is tested and documented based on examples. Examples are like tests that return objects. This small change has interesting consequences.</p>
-        <p class="lead">Examples form graphs: you can build on top of other examples by using their returned objects. Examples are documentation, too: by combining the returned objects with custom views and a flexible knowledge base, you get the pieces out of which to build larger executable narratives.</p>
+        <p class="lead">Examples form graphs: you can build on top of other examples by using their returned objects. Examples are documentation, too: by combining the returned objects with contextual views and a flexible knowledge base, you get the pieces out of which to build larger executable narratives.</p>
       </div>
     </div>
     <div class="row">
@@ -518,7 +518,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample">
           <img src="/assets/pictures/gt-pharo-rewrite.png"/>
           <div class="picture-caption">
-            <p>A snippet defining a custom rewrite with the preview of code changes.</p>
+            <p>A snippet defining a dedicated rewrite with the preview of code changes.</p>
           </div>
         </div>
       </div>
@@ -597,8 +597,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h1>So, what exactly is Moldable Development again?</h1>
         <p class="lead">Please, take another look through this page. What do you see?</p>
         <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
-        <p class="lead">Moldable Development is a way of programming through custom tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
-        <p class="lead">Glamorous Toolkit itself is an extensive case study of how custom tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
+        <p class="lead">Moldable Development is a way of programming through contextual tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
+        <p class="lead">Glamorous Toolkit itself is an extensive case study of how contextual tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
         <p class="lead">The goal? To make the inside of systems explainable. </p>
         <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
@@ -606,7 +606,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="sample">
           <img src="/assets/pictures/gt-extensions.png"/>
           <div class="picture-caption">
-            <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one custom view; green shows those that have an example.</p>
+            <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one contextual view; green shows those that have an example.</p>
           </div>
         </div>
       </div>
