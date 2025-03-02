@@ -12,7 +12,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Download</h1>
-          <p class="lead">You can obtain Glamorous Toolkit in two ways: downloading a ready made distribution, or cloning the code explicitly.</p>
+          <p class="lead">Glamorous Toolkit is free and open-source. You can obtain it in two ways: downloading a ready made distribution, or cloning the code explicitly.</p>
       </div>
     </div>
     <div class="row">
