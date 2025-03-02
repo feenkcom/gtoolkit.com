@@ -82,7 +82,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row bottom-space">
       <div class="col-lg-8">
         <h2>Alternative: clone and install the latest code</h2>
-        <p>Executing the script below installs the VM, clones all <a href="https://github.com/feenkcom/gtoolkit">Glamorous Toolkit repositories from GitHub</a> and builds an image. It takes about 8 minutes and it is useful for developing Glamorous Toolkit itself.</p>
+        <p>Executing the script below installs the VM, clones <a href="https://github.com/feenkcom/gtoolkit">Glamorous Toolkit from GitHub</a> and builds an image. It can takes ~10 minutes and it is useful for developing Glamorous Toolkit itself.</p>
       </div>
       <div class="col-lg-8">
         <div class="instructions-item selected" area-labelledby="pharo-70">
