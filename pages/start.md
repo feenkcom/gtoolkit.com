@@ -10,106 +10,76 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 <section id="getstarted">
   <div class="container pt-5 pb-5 jumbotron-small">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-8">
         <h1>Get started</h1>
         <p class="lead">Starting is easy. We just ask you to stick with it for a few days to feel the effect.</p>
       </div>
     </div>
-    <div class="row padding-top-medium">
+    <div class="row">
       <div class="col-lg-6">
-        <h2>Install and run</h2>
+        <h2>Download and run</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6"> 
         <p class="lead">
-          Simply <a href="/download" class="btn btn-lg btn-primary">download Glamorous Toolkit</a>.
+          Simply <a href="/download" class="btn btn-lg btn-primary">Download Glamorous Toolkit</a>.
         </p>
         <p class="lead">
-          The download is a self contained installation made of a Glamorous Toolkit image, a virtual machine, and a few other resources and libraries.
-        </p>
-        <p class="lead">
-          Now, just run the executable.
+          Unzip and copy to a user directory, and run the executable.
         </p>
         <p>On Mac: <code class="small">GlamorousToolkit.app</code></p>
         <p>On Windows: <code class="small">.\bin\GlamorousToolkit.exe</code></p>
         <p>On Linux: <code class="small">./bin/GlamorousToolkit</code></p>
       </div>
-      <div class="col-lg-6">
-        <div class="sample">
-          <img class="sample" src="/assets/pictures/gt-start-home.png"/>
-          <div class="picture-caption">
-            <p>The home tab of Glamorous Toolkit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-lg-6"> 
-        <h2>Take a tour</h2>
-      </div>
     </div>
     <div class="row">
       <div class="col-lg-6"> 
-        <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities to learn about itself. Start with a tour through the built-in book to get an overview of the breadth of possibilities.</p>
-        <p><a href="https://book.gtoolkit.com" class="btn btn-lg btn-default">Read the book</a></p>
-      </div>
-      <div class="col-lg-6">
-        <div class="sample">
-          <img  src="/assets/pictures/gt-start-book.png"/>
-          <div class="picture-caption">
-            <p>The book about Glamorous Toolkit delivered inside Glamorous Toolkit.</p>
-          </div>
-        </div>
+        <h2>Learn how to learn</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12">
-        <h2>Learn from the GT in 7' video series</h2>
-        <div>
-          <iframe width="100%" height="600" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+      <div class="col-lg-8"> 
+        <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities for you to learn about itself. In the core distribution there are thousands of contextual tools that we used to develop the environment. You should not learn them by heart. Each of these is based on an underlying language made out of visual and interactive operators that can be combined in many ways. So, first learn this language.
+        </p>
+        <h3>Start with this 30 minutes orientation tour:</h3>
       </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-lg-12">
-        <h2>Pick a problem you care about</h2>
-        <p class="lead">Pick a problem you care about. Pick a problem you care about. We cannot stress this enough.</p>
-        <p class="lead">Why? Because the essence of Moldable Development is about adapting the environment to match the context. If you do not have a deep context, you cannot evaluate what contextual tools do for you. Pick a problem you care about.</p>
-        <p class="lead">What kind of problems? There can be many.</p>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/lqogvp1dGpk?si=PpmxYfYJKy0ruQ4Q"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/N0XSImxyszM?si=jm3vqIWhGxpiJcak"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/FBxgOQ7-zl4?si=q43r3j5dwPbSBrQ7"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/ZMKQv2Du5OU?si=WJBFjfLkjmOuzIMQ"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
-        <h3><a href="/docs/api-exploration" class="btn btn-block btn-default">Explore a GraphQL or REST API</a></h3>
-      </div>
-      <div class="col-lg-4">
-        <h3><a href="/docs/data-exploration" class="btn btn-block btn-default">Analyze unknown data</a></h3>
-      </div>
-      <div class="col-lg-4">
-        <h3><a href="/docs/domain-discovery" class="btn btn-block btn-default">Discover and model a domain</a></h3>
-      </div>
-      <div class="col-lg-4">
-        <h3><a href="/docs/software-assessment" class="btn btn-block btn-default">Assess an existing system</a></h3>
-      </div>
-      <div class="col-lg-4">
-        <h3><a href="/docs/system-documentation" class="btn btn-block btn-default">Document a system</a></h3>
-      </div>
-      <div class="col-lg-4">
-        <h3><a href="/docs/pharo-dev" class="btn btn-block btn-default">Pharo app development</a></h3>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
       <div class="col-lg-8">
-        <h2>Go beyond the technology</h2>
-        <p class="lead">Glamorous Toolkit is an environment that shows how the experience of programming can be, but ultimately it's still just a piece of technology. <a href="/docs/moldable" class="btn btn-lg btn-default">Moldable Development</a> is more than technology. It requires new skills. But even more important is that Moldable Development introduces a new feedback loop that has far reaching consequences, both on the technical and the business level. Use the technology, but focus on learning how to think about programming anew.</p>
+        <p class="lead"><a href="https://book.gtoolkit.com/get-started-ejn67l0sdt6csob78xjfb8kf4" class="btn btn-lg btn-default">Read more in the Glamorous Toolkit book</a></p>
       </div>
     </div>
-    <div class="row padding-top-medium padding-bottom-large">
+    <div class="row">
+      <div class="col-lg-8">
+        <h2>Pick a problem you care about</h2>
+        <p class="lead">Pick a problem you care about because the essence of Moldable Development is about adapting the environment to match the context.</p>
+        <h3>Watch these videos for inspiration:</h3>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=WKa4KqZ1z2KKvzpr"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/F_-z0aC7Pnk?si=2rC1VHILoVlONwJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="row padding-bottom-large">
       <div class="col-lg-8">
         <h2>Engage with the community</h2>
         <p class="lead">Learning is more fun together with others. More productive, too.</p>
-        <p class="lead"><a href="/community" class="btn btn-lg btn-primary">Join our community</a></p>
+        <p class="lead"><a href="/community" class="btn btn-lg btn-default">Join our community</a></p>
       </div>
     </div>
   </div>
