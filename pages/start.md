@@ -39,8 +39,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8"> 
-        <p class="lead">Glamorous Toolkit was developed following Moldable Development, and it offers extensive opportunities for you to learn about itself. In the core distribution there are thousands of contextual tools that we used to develop the environment. You should not learn them by heart. Each of these is based on an underlying language made out of visual and interactive operators that can be combined in many ways. So, first learn this language.
+      <div class="col-lg-10"> 
+        <p class="lead">Glamorous Toolkit was developed following Moldable Development. In the core distribution there are thousands of contextual tools that we used to develop and explain the environment. Each of these is based on an underlying language made out of visual and interactive operators that can be combined in many ways. So, first learn this language.
         </p>
         <h3>Start with this 30 minutes orientation tour:</h3>
       </div>
@@ -65,7 +65,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-8">
         <h2>Pick a problem you care about</h2>
-        <p class="lead">Pick a problem you care about because the essence of Moldable Development is about adapting the environment to match the context.</p>
+        <p class="lead">Moldable Development is about adapting the environment to match the context. So, pick a problem you care about and work your way through it.</p>
         <h3>Watch these videos for inspiration:</h3>
       </div>
       <div class="col-lg-6 p-3">
