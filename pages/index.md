@@ -6,28 +6,23 @@ order: 1
 description: Glamorous Toolkit is the Moldable Development environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
+
+
 <section id="home" class="jumbotron top-double-space">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 center">
-          <h1>Mold your development experience</h1>
+      <div class="col-lg-10 offset-lg-1 center">
+          <h1>Mold your own development experience</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-8 offset-lg-2 center">
-        <p class="lead">
-          Glamorous Toolkit is the Moldable Development environment. It empowers you to make systems explainable through contextual experiences tailored for each problem.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 offset-lg-3 center">
+      <div class="col-lg-4 offset-lg-4 center">
           <p>
             <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
-              Download for Mac, Linux &amp; Windows
+              Download now
             </a>
           </p>
-          <p class="picture-caption">It's free and open-source. <a href="https://github.com/feenkcom/gtoolkit">Star us on GitHub</a>.</p>
+          <p class="picture-caption">Free and open-source for Mac, Linux &amp; Windows. <br/><a href="https://github.com/feenkcom/gtoolkit">Star us on GitHub.</a></p>
       </div>
     </div>
   </div>
@@ -39,13 +34,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Your own development experience</h1>
-        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools, but those tools can come to you in an integrated experience that is specific to your context. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
+        <h1>Thousands of contextual tools... per system</h1>
+        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools that can come to you in an integrated experience that is specific to your system. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
       </div>
       <div class="col-lg-6">
         <div class="sample">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <div class="picture-caption">Watch Tudor Girba's talk about Moldable Development with Glamorous Toolkit at YOW 2023. (The first two minutes has poor sound quality, but it's still worth it ;))</div>
+          <div class="picture-caption">Watch Tudor Girba's YOW 2023 talk <br/> (The first two minutes has poor sound quality, but it's still worth it ;))</div>
         </div>
       </div>
     </div>
@@ -57,14 +52,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-9">
-        <h1>A single environment. Many applications</h1>
-        <p class="lead">Glamorous Toolkit offers a uniform environment made out of visual and interactive operators that can be combined inexpensively in many ways.</p>
+        <h1>A single environment. Many use cases</h1>
+        <p class="lead">Glamorous Toolkit is the Moldable Development environment made out of visual and interactive operators that can be combined inexpensively in many ways.</p>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row top-space usecase">
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>Domain discovery</h3> -->
         <!-- <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p> -->
         <div class="sample p-3">
@@ -74,7 +69,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>Software assessment</h3> -->
         <!-- <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p> -->
         <div class="sample p-3">
@@ -84,7 +79,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>API exploration</h3> -->
         <!-- <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p> -->
         <div class="sample p-3">
@@ -94,7 +89,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>Data exploration</h3> -->
         <!-- <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p> -->
         <div class="sample p-3">
@@ -104,7 +99,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>System documentation</h3> -->
         <!-- <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p> -->
         <div class="sample p-3">
@@ -114,7 +109,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <!-- <h3>System specific editors</h3> -->
         <!-- <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p> -->
         <div class="sample p-3">
@@ -129,14 +124,27 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
-<!--Own experience-->
+
+
+<!--Get started-->
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-4">
+        <h1>How to start?</h1>
+        <p class="lead">Download and run.</p>
+        <p class="lead">Learn how to learn.</p>
+        <p class="lead">Pick a problem you care about.</p>
+        <a href="start" class="btn btn-lg btn-margin btn-primary">
+              Just get started
+        </a>
+      </div>
+      <div class="col-lg-8">
         <div class="sample">
-          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="picture-caption">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
+          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="picture-caption">
+            <div class="lead">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
+          </div>
         </div>
       </div>
     </div>
@@ -165,6 +173,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
       <div class="col-lg-6">
         <div class="sample p-3">
+          <img src="/assets/pictures/gt-python-tokenization.png"/>
+          <div class="picture-caption">
+            <p>Explaining a tokenization algorithm implemented in Python.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/own-environment-smacc.png"/>
           <div class="picture-caption">
             <p>A dedicated environment for defining support for other languages.</p>
@@ -179,61 +195,33 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="sample p-3">
-          <img src="/assets/pictures/gt-python-tokenization.png"/>
-          <div class="picture-caption">
-            <p>Explaining a tokenization algorithm implemented in Python.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 
-
-<!--Get started-->
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="sample">
-          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="picture-caption">
-            <div class="picture-caption">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!--Lepiter-->
-<section class="top-double-space bottom-double-space">
+<!-- <section class="top-double-space bottom-double-space">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10">
-        <h1>Moldable knowledge management + multi-language notebooks</h1>
-         <p class="lead">Glamorous Toolkit is powered by the Lepiter knowledge base engine. Lepiter is made out of snippets grouped into pages and can be used for various use cases. And like every part of the environment, Lepiter is also moldable.</p>
+      <div class="col-lg-8">
+        <h1>Programmable knowledge management + multi-language notebooks</h1>
+         <p class="lead">The Lepiter knowledge base engine is made out of programmable snippets grouped and can be used for various use cases.</p>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-5 offset-lg-1">
-        <!-- <h2>Snippets define their own language</h2>
-        <p class="lead">Each snippet defines its own language. Languages can be textual, like GraphQL or JavaScript. They can be visual, like a Wardley Map. Or even widgets.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-example.png"/>
           <div class="picture-caption">
             <p>An example with a preview embedded in a Lepiter page. The example is defined and viewed in a dedicated snippet.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-5">
-        <!-- <h2>Snippets interoperate across languages</h2>
-        <p class="lead">Every page defines a shared scope for variables. Combined with an extensible proxy model, variables can be defined and reused across languages.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-js-pharo.png"/>
           <div class="picture-caption">
             <p>A page with a JavaScript snippet that is combined with a Pharo snippet to produce a visualization of dependencies defined in a Yarn file.</p>
@@ -242,20 +230,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-5 offset-lg-1">
-        <!-- <h2>Extensible Markdown</h2>
-        <p class="lead">The default text snippet supports a Markdown that can be extended with custom annotations.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-extensible-markdown.png"/>
           <div class="picture-caption">
             <p>A completion inside a contextual todo annotation. The completion shows a date dialog for the due date.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-5">
-        <!-- <h2>Links are bidirectional and language agnostic</h2>
-        <p class="lead">Links can come from any snippet to any snippet. And even to and from arbitrary objects.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-links.png"/>
           <div class="picture-caption">
             <p>On the left, we see a page with a Wardley Map in which one of the nodes has a link to another page. On the right, the linked page shows the Wardley Map as one of the references.</p>
@@ -264,20 +248,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-5 offset-lg-1">
-        <!-- <h2>Queryable</h2>
-        <p class="lead">Every knowledge base can be accessed from a snippet inside itself. This then allows you to explore and extend Lepiter from itself.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-program.png"/>
           <div class="picture-caption">
             <p>Visualizing the current knowledge base through a Pharo snippet. Clicking on nodes opens the page to the right.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-5">
-        <!-- <h2>Edit and view in a seamless interface</h2>
-        <p class="lead">Editing and viewing happen in the same interface. We achieve this by making the editing capabilities appear in place.</p> -->
-        <div class="sample">
+      <div class="col-lg-6">
+        <div class="sample p-3">
           <img src="/assets/pictures/lepiter-edit-view.png"/>
           <div class="picture-caption">
             <p>A page containing text with two links and an example snippet. The second link ("Examples") appears expanded because the cursor is next to it. At the bottom, the example snippet shows the parameters when the mouse hovers.</p>
@@ -286,13 +266,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 
 
 <!--Graphical stack-->
-<section class="top-double-space bottom-double-space">
+<!-- <section class="top-double-space bottom-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
@@ -335,11 +315,11 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <!--Learn by yourself-->
-<section class="top-double-space section-light">
+<!-- <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -349,10 +329,10 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!--Pharo DX-->
-<section class="top-double-space bottom-double-space" id="pharo-dx">
+<!-- <section class="top-double-space bottom-double-space" id="pharo-dx">
   <div class="container">
     <div class="row">
       <div class="col-lg-10">
@@ -586,8 +566,21 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
+<!--Own experience-->
+<!-- <section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="sample">
+          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="lead">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
 <!--What is MD?-->
 <section class="top-double-space section-light">
@@ -595,12 +588,10 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-6">
         <h1>So, what exactly is Moldable Development again?</h1>
-        <p class="lead">Please, take another look through this page. What do you see?</p>
-        <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Moldable Development is a way of programming through contextual tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
+        <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Glamorous Toolkit itself is an extensive case study of how contextual tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
         <p class="lead">The goal? To make the inside of systems explainable. </p>
-        <p><a href="/start" class="btn btn-block btn-lg btn-margin btn-primary">Get started</a></p>
       </div>
       <div class="col-lg-6">
         <div class="sample">
@@ -608,6 +599,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           <div class="picture-caption">
             <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one contextual view; green shows those that have an example.</p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="sample">
+          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="lead">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
         </div>
       </div>
     </div>
