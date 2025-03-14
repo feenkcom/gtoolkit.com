@@ -170,7 +170,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">Learn how to learn.</p>
         <p class="lead">Pick a problem you care about.</p>
         <a href="start" class="btn btn-lg btn-margin btn-primary">
-              Just get started
+              Get started
         </a>
       </div>
       <div class="col-lg-8">
