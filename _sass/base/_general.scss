@@ -225,3 +225,30 @@ a.btn {
     color: $white;
   }
 }
+
+.list-group {
+  border-left: none;
+}
+
+.list-group-item.active {
+  background-color: $gray-light;
+  color: black;
+  border: 0px;
+}
+
+a.list-group-item {
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.list-group-item {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+

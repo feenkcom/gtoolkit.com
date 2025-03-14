@@ -34,7 +34,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Thousands of contextual tools... per system</h1>
+        <h1>Explain your system through contextual tools</h1>
         <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools that can come to you in an integrated experience that is specific to your system. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
       </div>
       <div class="col-lg-6">
@@ -57,70 +57,101 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row top-space usecase">
-      <div class="col-lg-6">
-        <!-- <h3>Domain discovery</h3> -->
-        <!-- <p>Discovering the proper model for a domain is difficult. You want feedback. Get it faster by exploring scenarios through executable examples. View the results through custom views.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-domain-discovery.png"/>
-          <div class="picture-caption">
-            <p>Explaining a domain object through examples and contextual views.</p>
-          </div>
+  <div class="container top-space">
+    <div class="row flex-column flex-md-row">
+      <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="list-group use-case-selector" id="use-case-list" role="tablist">
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
+            <h4 class="mb-1">API exploration</h4>
+            <p class="mb-0 small text-muted">Discover and browse API data</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-assessment-tab" data-bs-toggle="list" href="#use-case-assessment" role="tab" aria-controls="use-case-assessment">
+            <h4 class="mb-1">Software analysis</h4>
+            <p class="mb-0 small text-muted">Explore your code from many perspectives</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-data-tab" data-bs-toggle="list" href="#use-case-data" role="tab" aria-controls="use-case-data">
+            <h4 class="mb-1">Data exploration</h4>
+            <p class="mb-0 small text-muted">Unearth patterns in data through visualization</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-devops-tab" data-bs-toggle="list" href="#use-case-devops" role="tab" aria-controls="use-case-devops">
+            <h4 class="mb-1">DevOps investigations</h4>
+            <p class="mb-0 small text-muted">Analyze logs and system behavior</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-documentation-tab" data-bs-toggle="list" href="#use-case-documentation" role="tab" aria-controls="use-case-documentation">
+            <h4 class="mb-1">System documentation</h4>
+            <p class="mb-0 small text-muted">Make the system tell its stories</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-editor-tab" data-bs-toggle="list" href="#use-case-editor" role="tab" aria-controls="use-case-editor">
+            <h4 class="mb-1">System specific editors</h4>
+            <p class="mb-0 small text-muted">Create context-aware editing experiences</p>
+          </a>
+          <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-domain-tab" data-bs-toggle="list" href="#use-case-domain" role="tab" aria-controls="use-case-domain">
+            <h4 class="mb-1">Domain discovery</h4>
+            <p class="mb-0 small text-muted">Explore scenarios through executable examples</p>
+          </a>
         </div>
       </div>
-      <div class="col-lg-6">
-        <!-- <h3>Software assessment</h3> -->
-        <!-- <p>Code reading is the single most expensive development activity. Much of reading is actually about finding interesting places. Finding the root cause, finding where to add a new feature. Those are search activities. Or visualization ones.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-assessment-dependencies.png"/>
-          <div class="picture-caption">
-            <p>An interactive exploration of dependencies between ActiveRecords in a Rails application that also shows the Ruby and SQL sources.</p>
+      <div class="col-12 col-md-8 col-lg-9">
+        <div class="tab-content" id="use-case-content">
+          <div class="tab-pane fade show active" id="use-case-domain" role="tabpanel" aria-labelledby="use-case-domain-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-domain-discovery.png" class="img-fluid rounded" alt="Domain discovery example"/>
+              <div class="picture-caption">
+                <p>Explaining a domain object through examples and contextual views.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <!-- <h3>API exploration</h3> -->
-        <!-- <p>APIs need to be explored. Documentation helps, but seeing live data flowing through them helps even more.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-rest-api.png"/>
-          <div class="picture-caption">
-            <p>Exploring a REST API through contextual views.</p>
+          <div class="tab-pane fade" id="use-case-assessment" role="tabpanel" aria-labelledby="use-case-assessment-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-assessment-dependencies.png" class="img-fluid" alt="Software assessment example"/>
+              <div class="picture-caption">
+                <p>An interactive exploration of dependencies between ActiveRecords in a Rails application that also shows the Ruby and SQL sources.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <!-- <h3>Data exploration</h3> -->
-        <!-- <p>Data holds valuable patterns that can only be unearthed when they are made visible. Visualization is important but it becomes a superpower only when you combine it with modeling and exploration.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-data.png"/>
-          <div class="picture-caption">
-            <p>Exploring the data exported from a Twitter account.</p>
+          <div class="tab-pane fade" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-rest-api.png" class="img-fluid" alt="API exploration example"/>
+              <div class="picture-caption">
+                <p>Exploring a REST API through contextual views.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <!-- <h3>System documentation</h3> -->
-        <!-- <p>Documentation is only useful when it's accurate. Make the system tell its stories. Then assemble them into larger interactive narratives in a linked knowledge base.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-documentation.png"/>
-          <div class="picture-caption">
-            <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
+          <div class="tab-pane fade" id="use-case-devops" role="tabpanel" aria-labelledby="use-case-devops-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-jenkins.png" class="img-fluid" alt="DevOps investigations example"/>
+              <div class="picture-caption">
+                <p>Investigating system behavior through log analysis and monitoring data.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <!-- <h3>System specific editors</h3> -->
-        <!-- <p>Editing a system becomes effective when the environment understands the system's context. Editors can go well beyond syntax and offer custom services right in the editing experience.</p> -->
-        <div class="sample p-3">
-          <img src="/assets/pictures/use-case-editor.png"/>
-          <div class="picture-caption">
-            <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
+          <div class="tab-pane fade" id="use-case-data" role="tabpanel" aria-labelledby="use-case-data-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-data.png" class="img-fluid" alt="Data exploration example"/>
+              <div class="picture-caption">
+                <p>Exploring the data exported from a Twitter account.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="use-case-documentation" role="tabpanel" aria-labelledby="use-case-documentation-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-documentation.png" class="img-fluid" alt="System documentation example"/>
+              <div class="picture-caption">
+                <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="use-case-editor" role="tabpanel" aria-labelledby="use-case-editor-tab">
+            <div class="sample">
+              <img src="/assets/pictures/use-case-editor.png" class="img-fluid" alt="System specific editors example"/>
+              <div class="picture-caption">
+                <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- row -->
   </div>
 </section>
 
@@ -157,7 +188,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-8">
         <h1>Made to work with many languages and technologies</h1>
-        <p class="lead">Glamorous Toolkit is implemented in <a href="/docs/gt-and-pharo">Pharo</a> but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone.</p>
+        <p class="lead">Glamorous Toolkit is implemented in Pharo and Rust but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone.</p>
       </div>
     </div>
   </div>
@@ -588,8 +619,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-6">
         <h1>So, what exactly is Moldable Development again?</h1>
-        <p class="lead">Moldable Development is a way of programming through contextual tools built for each problem. It's a systematic approach that can be employed at any level of abstraction.</p>
-        <p class="lead">You see many shapes. The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
+        <p class="lead">Moldable Development is a way of programming through contextual tools built for each problem.</p>
+        <p class="lead">The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Glamorous Toolkit itself is an extensive case study of how contextual tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
         <p class="lead">The goal? To make the inside of systems explainable. </p>
       </div>
@@ -612,3 +643,20 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
   </div>
 </section>
+
+<!-- Add this script at the end of your page or in your JS file -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the tabs
+    var triggerTabList = [].slice.call(document.querySelectorAll('#use-case-list a'));
+    triggerTabList.forEach(function(triggerEl) {
+      var tabTrigger = new bootstrap.Tab(triggerEl);
+      
+      triggerEl.addEventListener('click', function(event) {
+        event.preventDefault();
+        tabTrigger.show();
+      });
+    });
+    
+  });
+</script>
