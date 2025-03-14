@@ -8,24 +8,24 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 
-<section id="home" class="jumbotron top-double-space">
+<section id="home" class="jumbotron top-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">
-          <h1>Make systems explainable through thousands of contextual tools</h1>
-          <p class="lead">
-          Glamorous Toolkit is the Moldable Development Environment.
-        </p>
+          <h4>Glamorous Toolkit is the Moldable Development Environment.</h4>
+          <h1>Make systems explainable through thousands of contextual tools.</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row pt-5">
       <div class="col-lg-4 offset-lg-4 center">
           <p>
             <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
-              Download now
+              Download <br/>
             </a>
           </p>
-          <p class="picture-caption">Free and open-source for Mac, Linux &amp; Windows. <br/><a href="https://github.com/feenkcom/gtoolkit">Star us on GitHub.</a></p>
+          <div class="small">Free and open-source for Mac, Linux &amp; Windows</div>
+          <div class="small">Star us on <a href="https://github.com/feenkcom/gtoolkit">GitHub</a>.
+          Chat with us on <a href="https://discord.gg/FTJr9gP">Discord</a>.</div>
       </div>
     </div>
   </div>
