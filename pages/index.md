@@ -95,7 +95,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <div class="tab-content" id="use-case-content">
           <div class="tab-pane fade show active" id="use-case-domain" role="tabpanel" aria-labelledby="use-case-domain-tab">
             <div class="sample">
-              <img src="/assets/pictures/use-case-domain-discovery.png" class="img-fluid rounded" alt="Domain discovery example"/>
+              <img src="/assets/pictures/use-case-domain-discovery.png" class="img-fluid" alt="Domain discovery example"/>
               <div class="picture-caption">
                 <p>Explaining a domain object through examples and contextual views.</p>
               </div>
@@ -121,7 +121,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             <div class="sample">
               <img src="/assets/pictures/use-case-jenkins.png" class="img-fluid" alt="DevOps investigations example"/>
               <div class="picture-caption">
-                <p>Investigating system behavior through log analysis and monitoring data.</p>
+                <p>Investigating the logs of a failing Jenkins continuous delivery job.</p>
               </div>
             </div>
           </div>
