@@ -12,7 +12,10 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">
-          <h1>Mold your own development experience</h1>
+          <h1>Make systems explainable through thousands of contextual tools</h1>
+          <p class="lead">
+          Glamorous Toolkit is the Moldable Development Environment.
+        </p>
       </div>
     </div>
     <div class="row">
@@ -34,7 +37,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Explain your system through contextual tools</h1>
+        <h1>Thousands of contextual tools?</h1>
         <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools that can come to you in an integrated experience that is specific to your system. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
       </div>
       <div class="col-lg-6">
