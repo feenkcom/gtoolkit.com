@@ -23,7 +23,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row">
       <div class="col-lg-8">
-          <h2>Contact us</h2>
+          <h2>Connect with us</h2>
           <p class="lead">GitHub: <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a></p>
           <p class="lead">Discord: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <p class="lead">Twitter: <a href="https://twitter.com/feenkcom">@feenkcom</a></p>

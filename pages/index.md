@@ -164,18 +164,18 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h1>How to start?</h1>
         <p class="lead">Download and run.</p>
-        <p class="lead">Learn how to learn.</p>
+        <p class="lead">Learn how to learn inside the environment.</p>
         <p class="lead">Pick a problem you care about.</p>
         <a href="start" class="btn btn-lg btn-margin btn-primary">
               Get started
         </a>
       </div>
-      <div class="col-lg-8">
+      <div class="col-12 col-md-8 col-lg-8 mb-4">
         <div class="sample">
-          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="picture-caption">
             <div class="lead">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
           </div>
