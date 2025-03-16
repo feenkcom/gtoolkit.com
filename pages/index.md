@@ -158,8 +158,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
-
-
 <!--Get started-->
 <section class="top-double-space section-light">
   <div class="container">
@@ -167,8 +165,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-12 col-md-4 col-lg-4 mb-4">
         <h1>How to start?</h1>
         <p class="lead">Download and run.</p>
-        <p class="lead">Learn how to learn inside the environment.</p>
-        <p class="lead">Pick a problem you care about.</p>
+        <p class="lead">To exploit Glamorous Toolkit, you have to program it. To learn how to program it, first learn how to learn inside the environment.</p>
+        <p class="lead">Then pick a problem you care about and work your way through it.</p>
         <a href="start" class="btn btn-lg btn-margin btn-primary">
               Get started
         </a>

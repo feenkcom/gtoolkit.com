@@ -3,7 +3,7 @@ layout: default
 title: Get started
 order: 2
 permalink: /start/
-description: Starting is easy. Download and run. That's it.
+description: Starting is easy. Download, run and learn within the environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
