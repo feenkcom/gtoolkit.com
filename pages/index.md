@@ -12,8 +12,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">
-          <h4>Glamorous Toolkit is the Moldable Development Environment.</h4>
-          <h1>Make systems explainable through thousands of contextual tools.</h1>
+          <h4>Glamorous Toolkit is the Moldable Development Environment</h4>
+          <h1>Make systems explainable through thousands of contextual tools</h1>
       </div>
     </div>
     <div class="row pt-5">
@@ -65,32 +65,32 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-12 col-md-4 col-lg-3 mb-4">
         <div class="list-group use-case-selector" id="use-case-list" role="tablist">
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
-            <h4 class="mb-1">API exploration</h4>
-            <p class="mb-0 small text-muted">Discover and browse API data</p>
+            <h4>API exploration</h4>
+            <p class="mb-0 small">Discover and browse API data</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-assessment-tab" data-bs-toggle="list" href="#use-case-assessment" role="tab" aria-controls="use-case-assessment">
-            <h4 class="mb-1">Software analysis</h4>
-            <p class="mb-0 small text-muted">Explore your code from many perspectives</p>
+            <h4>Software analysis</h4>
+            <p class="mb-0 small">Explore your code from many perspectives</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-data-tab" data-bs-toggle="list" href="#use-case-data" role="tab" aria-controls="use-case-data">
-            <h4 class="mb-1">Data exploration</h4>
-            <p class="mb-0 small text-muted">Unearth patterns in data through visualization</p>
+            <h4>Data exploration</h4>
+            <p class="mb-0 small">Unearth patterns in data through visualization</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-devops-tab" data-bs-toggle="list" href="#use-case-devops" role="tab" aria-controls="use-case-devops">
-            <h4 class="mb-1">DevOps investigations</h4>
-            <p class="mb-0 small text-muted">Analyze logs and system behavior</p>
+            <h4>DevOps investigations</h4>
+            <p class="mb-0 small">Analyze logs and system behavior</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-documentation-tab" data-bs-toggle="list" href="#use-case-documentation" role="tab" aria-controls="use-case-documentation">
-            <h4 class="mb-1">System documentation</h4>
-            <p class="mb-0 small text-muted">Make the system tell its stories</p>
+            <h4>System documentation</h4>
+            <p class="mb-0 small">Make the system tell its stories</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-editor-tab" data-bs-toggle="list" href="#use-case-editor" role="tab" aria-controls="use-case-editor">
-            <h4 class="mb-1">System specific editors</h4>
-            <p class="mb-0 small text-muted">Create context-aware editing experiences</p>
+            <h4>System specific editors</h4>
+            <p class="mb-0 small">Create context-aware editing experiences</p>
           </a>
           <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-domain-tab" data-bs-toggle="list" href="#use-case-domain" role="tab" aria-controls="use-case-domain">
-            <h4 class="mb-1">Domain discovery</h4>
-            <p class="mb-0 small text-muted">Explore scenarios through executable examples</p>
+            <h4>Domain discovery</h4>
+            <p class="mb-0 small">Explore scenarios through executable examples</p>
           </a>
         </div>
       </div>
