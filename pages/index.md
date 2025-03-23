@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Home
+title: Glamorous Toolkit
 permalink: /
 order: 1
-description: Glamorous Toolkit is the Moldable Development environment.
+description: Glamorous Toolkit is the Moldable Development Environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
@@ -13,7 +13,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">
           <h4>Glamorous Toolkit is the Moldable Development Environment</h4>
-          <h1>Make systems explainable through thousands of contextual tools</h1>
+          <h1>Make systems explainable through contextual micro tools</h1>
       </div>
     </div>
     <div class="row pt-5">
@@ -36,13 +36,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <h1>Thousands of contextual tools?</h1>
-        <p class="lead">Programming, exploring data, browsing APIs, knowledge management, log investigations, domain modeling are all part of the same continuum. They require dedicated tools that can come to you in an integrated experience that is specific to your system. This is the essence of Moldable Development. And this is what Glamorous Toolkit makes practical.</p>
+      <div class="col-lg-5">
+        <h1>Contextual micro tools?</h1>
+        <p class="lead">Each problem about your system is special. And each of it can be explained through contextual development experiences. Glamorous Toolkit enables you to build such experiences out of micro tools. Thousands of them ... per system. This is called Moldable Development.</p>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <div class="sample">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <div class="picture-caption">Watch Tudor Girba's YOW 2023 talk <br/> (The first two minutes has poor sound quality, but it's still worth it ;))</div>
         </div>
       </div>
