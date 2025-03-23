@@ -38,7 +38,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-5">
         <h1>Contextual micro tools?</h1>
-        <p class="lead">Each problem about your system is special. And each of it can be explained through contextual development experiences. Glamorous Toolkit enables you to build such experiences out of micro tools. Thousands of them ... per system. This is called Moldable Development.</p>
+        <p class="lead">Each problem about your system is special. And each problem can be explained through contextual development experiences. Glamorous Toolkit enables you to build such experiences out of micro tools. Thousands of them ... per system. It's called Moldable Development.</p>
       </div>
       <div class="col-lg-7">
         <div class="sample">
