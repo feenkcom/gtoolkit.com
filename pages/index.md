@@ -7,7 +7,6 @@ description: Glamorous Toolkit is the Moldable Development Environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
-
 <section id="home" class="jumbotron top-space">
   <div class="container">
     <div class="row">
@@ -64,7 +63,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row flex-column flex-md-row">
       <div class="col-12 col-md-4 col-lg-3 mb-4">
         <div class="list-group use-case-selector" id="use-case-list" role="tablist">
-          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
+          <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
             <h4>API exploration</h4>
             <p class="mb-0 small">Discover and browse API data</p>
           </a>
@@ -88,22 +87,22 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             <h4>System specific editors</h4>
             <p class="mb-0 small">Create context-aware editing experiences</p>
           </a>
-          <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-domain-tab" data-bs-toggle="list" href="#use-case-domain" role="tab" aria-controls="use-case-domain">
+          <!-- <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-domain-tab" data-bs-toggle="list" href="#use-case-domain" role="tab" aria-controls="use-case-domain">
             <h4>Domain discovery</h4>
             <p class="mb-0 small">Explore scenarios through executable examples</p>
-          </a>
+          </a> -->
         </div>
       </div>
       <div class="col-12 col-md-8 col-lg-9">
         <div class="tab-content" id="use-case-content">
-          <div class="tab-pane fade show active" id="use-case-domain" role="tabpanel" aria-labelledby="use-case-domain-tab">
+          <!-- <div class="tab-pane fade" id="use-case-domain" role="tabpanel" aria-labelledby="use-case-domain-tab">
             <div class="sample">
               <img src="/assets/pictures/use-case-domain-discovery.png" class="img-fluid" alt="Domain discovery example"/>
               <div class="picture-caption">
                 <p>Explaining a domain object through examples and contextual views.</p>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="tab-pane fade" id="use-case-assessment" role="tabpanel" aria-labelledby="use-case-assessment-tab">
             <div class="sample">
               <img src="/assets/pictures/use-case-assessment-dependencies.png" class="img-fluid" alt="Software assessment example"/>
@@ -112,7 +111,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
+          <div class="tab-pane fade show active" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
             <div class="sample">
               <img src="/assets/pictures/use-case-rest-api.png" class="img-fluid" alt="API exploration example"/>
               <div class="picture-caption">
