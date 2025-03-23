@@ -105,7 +105,7 @@ section {
     font-family: "sources-bold", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
     font-size: 32px;
-    margin-top: 64px;
+    margin-top: 48px;
   }
   h3 {
     margin-top: 20px;
@@ -234,6 +234,11 @@ a.btn {
   background-color: $gray-light;
   color: black;
   border: 0px;
+}
+
+.list-group-item-action {
+  color: black;
+  h4 {font-weight: bold;}
 }
 
 a.list-group-item {
