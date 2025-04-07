@@ -7,7 +7,7 @@ description: Glamorous Toolkit is the Moldable Development Environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
-<section id="home" class="jumbotron top-space">
+<section id="home" class="top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">

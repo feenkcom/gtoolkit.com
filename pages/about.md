@@ -9,7 +9,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="components">
-  <div class="container pt-5 pb-5 jumbotron-small">
+  <div class="container pt-5 pb-5 top-space">
     <div class="row">
       <div class="col-lg-8">
           <h1>About</h1>
