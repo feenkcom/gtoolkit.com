@@ -617,28 +617,28 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 <section class="top-double-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <h1>So, what exactly is Moldable Development again?</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-5">
         <p class="lead">Moldable Development is a way of programming through contextual tools built for each problem.</p>
         <p class="lead">The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Glamorous Toolkit itself is an extensive case study of how contextual tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
         <p class="lead">The goal? To make the inside of systems explainable. </p>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-7">
         <div class="sample">
+          <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="lead">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
+        </div>
+        <!-- <div class="sample">
           <img src="/assets/pictures/gt-extensions.png"/>
           <div class="picture-caption">
             <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one contextual view; green shows those that have an example.</p>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="sample">
-          <iframe width="840" height="472" style="max-width: 90%; max-height: 90%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="lead">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
