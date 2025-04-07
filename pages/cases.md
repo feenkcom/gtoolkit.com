@@ -16,8 +16,7 @@ submenuitems:
     <div class="row">
       <div class="col-md-10">
         <h1>Case studies</h1>
-        <p class="lead">Glamorous Toolkit can be used in many situations. Here are some.</p>
-        <p class="lead">Glamorous Toolkit can be used in many situations. Here are some.</p>
+        <p class="lead">Glamorous Toolkit can be used in many situations. Here are some examples of scenarios.</p>
       </div>
     </div>
   </div>

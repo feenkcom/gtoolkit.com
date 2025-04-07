@@ -18,8 +18,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row pt-5">
       <div class="col-lg-4 offset-lg-4 center">
           <p>
-            <a href="download" class="btn btn-block btn-lg btn-margin btn-primary">
-              Download <br/>
+            <a href="start" class="btn btn-block btn-lg btn-margin btn-primary">
+              Get started
             </a>
           </p>
           <div class="small">Free and open-source for Mac, Linux &amp; Windows</div>
