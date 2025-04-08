@@ -632,6 +632,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">The premise of Moldable Development is that there is no single perspective on a system that is correct. There are always many, and different parts of the system are best shown differently. These shapes summarize the system from specific perspectives. This then leads to a compressed communication and a new feedback loop.</p>
         <p class="lead">Glamorous Toolkit itself is an extensive case study of how contextual tools enhance programming abilities. It comes out of the box with thousands of extensions and examples that touch on the whole system.</p>
         <p class="lead">The goal? To make the inside of systems explainable. </p>
+        <a class="btn btn-lg btn-margin btn-primary" href="https://moldabledevelopment.com">Learn more at moldabledevelopment.com</a>
       </div>
       <div class="col-lg-7">
         <div class="sample">
