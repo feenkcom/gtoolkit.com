@@ -59,7 +59,12 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       </div>
     </div>
   </div>
-  <div class="container top-space">
+  <div class="container">
+    <div class="row flex-column flex-md-row">
+      <div class="col-12">
+        <h2>Some examples</h2>
+      </div>
+    </div>
     <div class="row flex-column flex-md-row">
       <div class="col-12 col-md-4 col-lg-3 mb-4">
         <div class="list-group use-case-selector" id="use-case-list" role="tablist">
