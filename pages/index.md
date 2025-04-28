@@ -11,8 +11,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1 center">
-          <h4>Glamorous Toolkit is the Moldable Development Environment</h4>
-          <h1>Make systems explainable through contextual micro tools</h1>
+          <h1>Your code, your tools</h1>
+          <h4>Glamorous Toolkit is the Moldable Development Environment.</h4>
       </div>
     </div>
     <div class="row pt-5">
@@ -30,33 +30,14 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
-
-<!--TOP-->
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5">
-        <h1>Contextual micro tools?</h1>
-        <p class="lead">Each problem about your system is special. And each problem can be explained through contextual development experiences. Glamorous Toolkit enables you to build such experiences out of micro tools. Thousands of them ... per system. It's called Moldable Development.</p>
-      </div>
-      <div class="col-lg-7">
-        <div class="sample">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=1E94DWiGrwJTlKSr" title="Moldable Development with Glamorous Toolkit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <div class="picture-caption">Watch Tudor Girba's YOW 2023 talk <br/> (The first two minutes has poor sound quality, but it's still worth it ;))</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!--Use cases-->
-<section class="top-double-space">
+<section class="top-space section-light">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9">
-        <h1>A single environment. Many use cases</h1>
-        <p class="lead">Glamorous Toolkit is the Moldable Development environment made out of visual and interactive operators that can be combined inexpensively in many ways.</p>
-      </div>
+      <div class="col-lg-12">
+        <h1>One environment. Many applications</h1>
+        <p class="lead">Program and combine micro tools inexpensively and in many ways.</p>
+       </div>
     </div>
   </div>
   <div class="container">
@@ -68,13 +49,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row flex-column flex-md-row">
       <div class="col-12 col-md-4 col-lg-3 mb-4">
         <div class="list-group use-case-selector" id="use-case-list" role="tablist">
-          <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
-            <h5>API exploration</h5>
-            <p class="mb-0 small">Discover and browse API data</p>
-          </a>
-          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-assessment-tab" data-bs-toggle="list" href="#use-case-assessment" role="tab" aria-controls="use-case-assessment">
+          <a class="list-group-item list-group-item-action active d-flex flex-column align-items-start" id="use-case-assessment-tab" data-bs-toggle="list" href="#use-case-assessment" role="tab" aria-controls="use-case-assessment">
             <h5>Software analysis</h5>
             <p class="mb-0 small">Explore your code from many perspectives</p>
+          </a>
+          <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-api-tab" data-bs-toggle="list" href="#use-case-api" role="tab" aria-controls="use-case-api">
+            <h5>API exploration</h5>
+            <p class="mb-0 small">Discover and browse API data</p>
           </a>
           <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-data-tab" data-bs-toggle="list" href="#use-case-data" role="tab" aria-controls="use-case-data">
             <h5>Data exploration</h5>
@@ -92,23 +73,11 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             <h5>System specific editors</h5>
             <p class="mb-0 small">Create context-aware editing experiences</p>
           </a>
-          <!-- <a class="list-group-item list-group-item-action d-flex flex-column align-items-start" id="use-case-domain-tab" data-bs-toggle="list" href="#use-case-domain" role="tab" aria-controls="use-case-domain">
-            <h4>Domain discovery</h4>
-            <p class="mb-0 small">Explore scenarios through executable examples</p>
-          </a> -->
         </div>
       </div>
       <div class="col-12 col-md-8 col-lg-9">
         <div class="tab-content" id="use-case-content">
-          <!-- <div class="tab-pane fade" id="use-case-domain" role="tabpanel" aria-labelledby="use-case-domain-tab">
-            <div class="sample">
-              <img src="/assets/pictures/use-case-domain-discovery.png" class="img-fluid" alt="Domain discovery example"/>
-              <div class="picture-caption">
-                <p>Explaining a domain object through examples and contextual views.</p>
-              </div>
-            </div>
-          </div> -->
-          <div class="tab-pane fade" id="use-case-assessment" role="tabpanel" aria-labelledby="use-case-assessment-tab">
+          <div class="tab-pane fade show active" id="use-case-assessment" role="tabpanel" aria-labelledby="use-case-assessment-tab">
             <div class="sample">
               <img src="/assets/pictures/use-case-assessment-dependencies.png" class="img-fluid" alt="Software assessment example"/>
               <div class="picture-caption">
@@ -116,7 +85,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
               </div>
             </div>
           </div>
-          <div class="tab-pane fade show active" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
+          <div class="tab-pane fade" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
             <div class="sample">
               <img src="/assets/pictures/use-case-rest-api.png" class="img-fluid" alt="API exploration example"/>
               <div class="picture-caption">
@@ -155,31 +124,6 @@ image: /assets/pictures/glamoroustoolkit-icon.png
                 <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--Get started-->
-<section class="top-double-space section-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-4 col-lg-4 mb-4">
-        <h1>How to start?</h1>
-        <p class="lead">Download and run.</p>
-        <p class="lead">To exploit Glamorous Toolkit, you have to program it. To learn how to program it, first learn how to learn inside the environment.</p>
-        <p class="lead">Then pick a problem you care about and work your way through it.</p>
-        <a href="start" class="btn btn-lg btn-margin btn-primary">
-              Get started
-        </a>
-      </div>
-      <div class="col-12 col-md-8 col-lg-8 mb-4">
-        <div class="sample">
-          <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="picture-caption">
-            <div class="lead">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
           </div>
         </div>
       </div>
@@ -235,6 +179,30 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
+<!--Get started-->
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-4 mb-4">
+        <h1>How to start?</h1>
+        <p class="lead">Download and run.</p>
+        <p class="lead">To exploit Glamorous Toolkit, you have to program it. To learn how to program it, first learn how to learn inside the environment.</p>
+        <p class="lead">Then pick a problem you care about and work your way through it.</p>
+        <a href="start" class="btn btn-lg btn-margin btn-primary">
+              Get started
+        </a>
+      </div>
+      <div class="col-12 col-md-8 col-lg-8 mb-4">
+        <div class="sample">
+          <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="picture-caption">
+            <div class="lead">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!--Lepiter-->
 <!-- <section class="top-double-space bottom-double-space">
@@ -619,7 +587,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 </section> -->
 
 <!--What is MD?-->
-<section class="top-double-space section-light">
+<section class="top-double-space">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -647,6 +615,31 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             <p>The need for moldability is pervasive. The treemap shows the classes of Glamorous Toolkit organized in packages. Blue denotes classes that contain at least one contextual view; green shows those that have an example.</p>
           </div>
         </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="top-double-space section-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h2>Frequently asked questions</h2>
+        <h3>Do I need this environment in the age of Generative AI?</h3>
+        <p>More than ever. Generative AI will only lead to more and larger systems. As long as you want to make informed decisions about your systems, you need first and foremost to grasp them. The main goal of Glamorous Toolkit is to optimize how you get ourselves informed.</p>
+        <h3>Is Glamorous Toolkit a system to build systems in?</h3>
+        <p>Glamorous Toolkit is primarily for building systems through, not necessarily in. It's for building the tools through which you develop systems built in various technologies.</p>
+        <p>It can be used for large legacy systems. But it can also be used for various other scenarios. Including domain discovery. Or exploring AI interactions.</p>
+        <h3>Why would we need contextual tools? Aren't standard tools enough?</h3>
+        <p>Software systems are highly contextual. This means that we can predict classes of problems, but not specific ones. That's why ready made clicking tools are inefective. Instead, we should build tools after we know the problem. That means during development.</p>
+        <h3>Isn't building development tools expensive?</h3>
+        <p>Not if you use Glamorous Toolkit. We understand the skepticism though. It can be hard to believe it's possible to create thousands of tools per system in practice. That's why we suggest to just <a href="/start">get started</a> to see it live.</p>
+        <h3>Why is Glamorous Toolkit implemented in Smalltalk?</h3>
+        <p>Glamorous Toolks is indeed primarily implemented in Smalltalk because Smalltalk offers a reflective systems in which the environment can be changed live while using it. This made the research inexpensive which was essential for us to discover what today we call <a href="https://moldabledevelopment.com">Moldable Development</a>.</p>
+        <h3>Would I need to learn to program Smalltalk?</h3>
+        <p>Yes. If you want to leverage Glamorous Toolkit, you have to program it. And Smalltalk (Pharo to be more specific) is the main way to program it.</p>
+        <h3>But isn't Smalltalk dead?</h3>
+        <p>Not at all. It's just misunderstood.</p>
       </div>
     </div>
   </div>

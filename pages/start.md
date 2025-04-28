@@ -64,9 +64,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row">
       <div class="col-lg-8">
-        <h2>Pick a problem you care about</h2>
-        <p class="lead">Moldable Development is about adapting the environment to match the context. So, pick a problem you care about and work your way through it.</p>
-        <h3>Watch these videos for inspiration:</h3>
+        <h2>Start with a "reading" problem you care about</h2>
+        <p class="lead">Moldable Development is about adapting the environment to match the context. So, pick a problem you care about and work your way through it. Ideally, start with a problem that requires you to "read" through various artifacts.</p>
+        <h3>Watch these talks for inspiration:</h3>
       </div>
       <div class="col-lg-6 p-3">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=WKa4KqZ1z2KKvzpr"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
