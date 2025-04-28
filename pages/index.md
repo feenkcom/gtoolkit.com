@@ -635,7 +635,9 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h3>Isn't building development tools expensive?</h3>
         <p>Not if you use Glamorous Toolkit. We understand the skepticism though. It can be hard to believe it's possible to create thousands of tools per system in practice. That's why we suggest to just <a href="/start">get started</a> to see it live.</p>
         <h3>Why is Glamorous Toolkit implemented in Smalltalk?</h3>
-        <p>Glamorous Toolks is indeed primarily implemented in Smalltalk because Smalltalk offers a reflective systems in which the environment can be changed live while using it. This made the research inexpensive which was essential for us to discover what today we call <a href="https://moldabledevelopment.com">Moldable Development</a>.</p>
+        <p>We implemented it primarily in Smalltalk because Smalltalk offers a reflective system in which the environment can be changed live while using it. This decreased the cost of research which was essential for us to discover what today we call <a href="https://moldabledevelopment.com">Moldable Development</a>.</p>
+        <h3>But the interface does not seem to be classic Smalltalk. Why?</h3>
+        <p>Because the goal was to discover a different kind of an environment that allows us to understand systems without relying on reading as the primary means to extract information. So, while we reused the language, core libraries and virtual machine of Pharo Smalltalk, the whole graphical stack and various engines are novel.</p>
         <h3>Would I need to learn to program Smalltalk?</h3>
         <p>Yes. If you want to leverage Glamorous Toolkit, you have to program it. And Smalltalk (Pharo to be more specific) is the main way to program it.</p>
         <h3>But isn't Smalltalk dead?</h3>
