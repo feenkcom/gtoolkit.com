@@ -136,8 +136,8 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <h1>It's not what you click on. It's what you build with</h1>
-        <p class="lead">Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
+        <h1>It's not what you click on out of the box. It's what you can build with it</h1>
+        <p class="lead">Imagine the cost of a tool to be so inexpensive that you build one for every single development problem you have. Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
       </div>
     </div>
   </div>
@@ -145,17 +145,17 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row">
       <div class="col-lg-6">
         <div class="sample p-3">
-          <img src="/assets/pictures/user-case-graphql.png"/>
+          <img src="/assets/pictures/gt-view-editor.png"/>
           <div class="picture-caption">
-            <p>Editing GraphQL and exploring a server response from a Lepiter page.</p>
+            <p>Adjusting a view showing the dependencies of React components in a live editor.</p>
           </div>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="sample p-3">
-          <img src="/assets/pictures/gt-python-tokenization.png"/>
+          <img src="/assets/pictures/gt-exploring-chat.png"/>
           <div class="picture-caption">
-            <p>Explaining a tokenization algorithm implemented in Python.</p>
+            <p>Prototyping a chat and having a chat about the chat.</p>
           </div>
         </div>
       </div>
@@ -219,7 +219,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h1>How to start?</h1>
         <p class="lead">Download and run.</p>
         <p class="lead">To exploit Glamorous Toolkit, you have to program it. To learn how to program it, first learn how to learn inside the environment.</p>
-        <p class="lead">Then pick a problem you care about and work your way through it.</p>
+        <p class="lead">Then pick a (reading) problem you care about and work your way through it.</p>
         <a href="start" class="btn btn-lg btn-margin btn-primary">
               Get started
         </a>
