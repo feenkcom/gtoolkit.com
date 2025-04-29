@@ -131,6 +131,38 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
+<!--Not what you click on-->
+<section class="top-double-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>It's not what you click on. It's what you build with</h1>
+        <p class="lead">Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/user-case-graphql.png"/>
+          <div class="picture-caption">
+            <p>Editing GraphQL and exploring a server response from a Lepiter page.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/gt-python-tokenization.png"/>
+          <div class="picture-caption">
+            <p>Explaining a tokenization algorithm implemented in Python.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!--Made to work with other languages-->
 <section class="top-double-space">
   <div class="container">
@@ -627,19 +659,20 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h2>Frequently asked questions</h2>
         <h3>Do I need this environment in the age of Generative AI?</h3>
         <p>More than ever. Generative AI will only lead to more and larger systems. As long as you want to make informed decisions about your systems, you need first and foremost to grasp them. The main goal of Glamorous Toolkit is to optimize how you get ourselves informed.</p>
-        <h3>Is Glamorous Toolkit a system to build systems in?</h3>
+        <h3>Is Glamorous Toolkit a platform to build systems in?</h3>
         <p>Glamorous Toolkit is primarily for building systems through, not necessarily in. It's for building the tools through which you develop systems built in various technologies.</p>
+        <h3>Is Glamorous Toolkit only useful for large legacy systems?</h3>
         <p>It can be used for large legacy systems. But it can also be used for various other scenarios. Including domain discovery. Or exploring AI interactions.</p>
         <h3>Why would we need contextual tools? Aren't standard tools enough?</h3>
         <p>Software systems are highly contextual. This means that we can predict classes of problems, but not specific ones. That's why ready made clicking tools are inefective. Instead, we should build tools after we know the problem. That means during development.</p>
         <h3>Isn't building development tools expensive?</h3>
         <p>Not if you use Glamorous Toolkit. We understand the skepticism though. It can be hard to believe it's possible to create thousands of tools per system in practice. That's why we suggest to just <a href="/start">get started</a> to see it live.</p>
+        <h3>Would I need to learn to program Smalltalk?</h3>
+        <p>If you want to leverage Glamorous Toolkit, you have to program it. And Smalltalk (Pharo to be more specific) is the main way to program it.</p>
         <h3>Why is Glamorous Toolkit implemented in Smalltalk?</h3>
         <p>We implemented it primarily in Smalltalk because Smalltalk offers a reflective system in which the environment can be changed live while using it. This decreased the cost of research which was essential for us to discover what today we call <a href="https://moldabledevelopment.com">Moldable Development</a>.</p>
         <h3>But the interface does not seem to be classic Smalltalk. Why?</h3>
         <p>Because the goal was to discover a different kind of an environment that allows us to understand systems without relying on reading as the primary means to extract information. So, while we reused the language, core libraries and virtual machine of Pharo Smalltalk, the whole graphical stack and various engines are novel.</p>
-        <h3>Would I need to learn to program Smalltalk?</h3>
-        <p>Yes. If you want to leverage Glamorous Toolkit, you have to program it. And Smalltalk (Pharo to be more specific) is the main way to program it.</p>
         <h3>But isn't Smalltalk dead?</h3>
         <p>Not at all. It's just misunderstood.</p>
       </div>
