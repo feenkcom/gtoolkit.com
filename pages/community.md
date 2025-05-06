@@ -18,12 +18,11 @@ submenuitems:
         <div class="col-md-10">
           <h1>Community</h1>
           <p class="lead">Exploring is more fun together. Join us.</p>
-          <h2>Contribute code and issues</h2>
-          <h3>Reporting issues</h3>
+          <h2>Report issues</h2>
           <p>
             We manage issues on GitHub in the central <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a> repository.
           </p>
-          <h3>Contributing code</h3>
+          <h2>Contribute code</h2>
           <p>
             External code contributions take place through Pull Requests for the respective GitHub public repositories from the <a href="https://github.com/feenkcom">github.com/feenkcom</a> organization.
           </p>
