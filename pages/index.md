@@ -143,43 +143,11 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   </div>
 </section>
 
-<!--Not what you click on-->
-<section class="top-double-space">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1>You can click on many things out of the box. But you can build even more</h1>
-        <p class="lead">Imagine the cost of a tool to be so inexpensive that you build one for every single development problem you have. Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="sample p-3">
-          <img src="/assets/pictures/gt-view-editor.png"/>
-          <div class="picture-caption">
-            <p>Adjusting a view showing the dependencies of React components in a live editor.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="sample p-3">
-          <img src="/assets/pictures/gt-exploring-chat.png"/>
-          <div class="picture-caption">
-            <p>Prototyping a chat and having a chat about the chat.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!--Made to work with other languages-->
 <section class="top-double-space">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <h1>Work with many languages and technologies</h1>
         <p class="lead">Glamorous Toolkit is implemented in Pharo and Rust but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone.</p>
       </div>
@@ -222,6 +190,39 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
   </div>
 </section>
+
+<!--Not what you click on-->
+<section class="top-double-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10">
+        <h1>You can click on many things out of the box. But the key lies in what you can build</h1>
+        <p class="lead">Imagine the cost of a tool to be so inexpensive that you build one for every single development problem you have. Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/gt-view-editor.png"/>
+          <div class="picture-caption">
+            <p>Adjusting a view showing the dependencies of React components in a live editor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="sample p-3">
+          <img src="/assets/pictures/gt-exploring-chat.png"/>
+          <div class="picture-caption">
+            <p>Prototyping a chat and having a chat about the chat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!--Get started-->
 <section class="top-double-space section-light">
