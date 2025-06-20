@@ -69,7 +69,13 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <h3>Watch these talks for inspiration:</h3>
       </div>
       <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/W8TSPED0alY?si=X0nBrSgDikrFWsrR"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=WKa4KqZ1z2KKvzpr"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 p-3">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/HEaHbc7eCJE?si=4wbMdVarIxy7tOPX"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <div class="col-lg-6 p-3">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/F_-z0aC7Pnk?si=2rC1VHILoVlONwJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

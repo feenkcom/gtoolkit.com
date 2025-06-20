@@ -35,7 +35,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1>Contextual tools for every problem</h1>
+        <h1>Work through contextual tools. For every problem</h1>
         <p class="lead">Program and combine micro tools inexpensively and in many ways.</p>
        </div>
     </div>
@@ -148,7 +148,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <h1>It's not what you click on out of the box. It's what you can build with it</h1>
+        <h1>You can click on many things out of the box. But you can build even more</h1>
         <p class="lead">Imagine the cost of a tool to be so inexpensive that you build one for every single development problem you have. Glamorous Toolkit comes out of the box with thousands of micro tools. But more importantly, it empowers you to build your own.</p>
       </div>
     </div>
@@ -180,7 +180,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-        <h1>Made to work with many languages and technologies</h1>
+        <h1>Work with many languages and technologies</h1>
         <p class="lead">Glamorous Toolkit is implemented in Pharo and Rust but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone.</p>
       </div>
     </div>
