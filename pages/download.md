@@ -22,7 +22,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row top-small-space">
       <div class="col-lg-4 ">
         <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac M1, M2, M3</span></div>
+          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac Apple Silicon</span></div>
           <div><small>macOS 11 or later</small></div>
         </a>
         <p class="padding center">
