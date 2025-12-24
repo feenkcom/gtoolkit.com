@@ -79,6 +79,11 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </p>
       </div>
     </div> 
+    <div class="row">
+      <div class="col-lg-8">
+        <p>Instructions on using GlamorousToolkit with Nix are available in the <a href="https://book.gtoolkit.com/how-to-install-glamorous-toolkit-with-nix-bfbaaxjyp9t1ktuetlgm8okxb">GlamorousToolkit book</a>.</p>
+      </div>
+    </div>
     <div class="row bottom-space">
       <div class="col-lg-8">
         <h2>Alternative: clone and install the latest code</h2>
