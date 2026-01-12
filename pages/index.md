@@ -82,7 +82,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
       <div class="col-12 col-md-8 col-lg-9">
         <div class="tab-content" id="use-case-content">
           <div class="tab-pane fade show active" id="use-case-assessment" role="tabpanel" aria-labelledby="use-case-assessment-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-assessment-dependencies.png" class="img-fluid" alt="Software assessment example"/>
               <div class="picture-caption">
                 <p>An interactive exploration of dependencies between ActiveRecords in a Rails application that also shows the Ruby and SQL sources.</p>
@@ -90,7 +90,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-api" role="tabpanel" aria-labelledby="use-case-api-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-rest-api.png" class="img-fluid" alt="API exploration example"/>
               <div class="picture-caption">
                 <p>Exploring a REST API through contextual views.</p>
@@ -98,7 +98,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-devops" role="tabpanel" aria-labelledby="use-case-devops-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-jenkins.png" class="img-fluid" alt="DevOps investigations example"/>
               <div class="picture-caption">
                 <p>Investigating the logs of a failing Jenkins continuous delivery job.</p>
@@ -106,7 +106,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-data" role="tabpanel" aria-labelledby="use-case-data-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-data.png" class="img-fluid" alt="Data exploration example"/>
               <div class="picture-caption">
                 <p>Exploring the data exported from a Twitter account.</p>
@@ -114,7 +114,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-documentation" role="tabpanel" aria-labelledby="use-case-documentation-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-documentation.png" class="img-fluid" alt="System documentation example"/>
               <div class="picture-caption">
                 <p>Exploring the book about Glamorous Toolkit written in Glamorous Toolkit.</p>
@@ -122,7 +122,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-editor" role="tabpanel" aria-labelledby="use-case-editor-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-editor.png" class="img-fluid" alt="System specific editors example"/>
               <div class="picture-caption">
                 <p>Editing a AT Protocol lexicon definition at the domain level: highlighting of name strings, completion inside JSON strings, navigation from a reference to its definition.</p>
@@ -130,7 +130,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
             </div>
           </div>
           <div class="tab-pane fade" id="use-case-llm" role="tabpanel" aria-labelledby="use-case-llm-tab">
-            <div class="sample">
+            <div class="sample video-container">
               <img src="/assets/pictures/use-case-llm.png" class="img-fluid" alt="Custom LLM interactions example"/>
               <div class="picture-caption">
                 <p>Working on a Wardley Map through a dedicated chat.</p>
@@ -238,7 +238,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </a>
       </div>
       <div class="col-12 col-md-8 col-lg-8 mb-4">
-        <div class="sample">
+        <div class="sample video-container">
           <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;"  src="https://www.youtube.com/embed/videoseries?si=nrlYMTglACFg5myn&amp;list=PLfrs5bwLJOoAaHvQGSLeKpHWmFuZXPUTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="picture-caption">
             <div class="lead">Watch Oscar Nierstrasz's GT in 7 minutes series.</div>
@@ -268,7 +268,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </p>
       </div>
       <div class="col-lg-7">
-        <div class="sample">
+        <div class="sample video-container">
           <iframe width="840" height="472" style="max-width: 100%; max-height: 100%;" src="https://www.youtube.com/embed/abArhHOwdEc?si=sgxwd4e8rST3j_g2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="lead">Watch Simon Wardley and Tudor Girba chat about Moldable Development and thousands of tools per system.</div>
         </div>

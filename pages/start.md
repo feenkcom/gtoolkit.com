@@ -44,16 +44,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         </p>
         <h3>Start with this 30 minutes orientation tour:</h3>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/lqogvp1dGpk?si=PpmxYfYJKy0ruQ4Q"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/N0XSImxyszM?si=jm3vqIWhGxpiJcak"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/FBxgOQ7-zl4?si=q43r3j5dwPbSBrQ7"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/ZMKQv2Du5OU?si=WJBFjfLkjmOuzIMQ"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
@@ -68,16 +68,16 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p class="lead">Moldable Development is about adapting the environment to match the context. So, pick a problem you care about and work your way through it. Ideally, start with a problem that requires you to "read" through various artifacts.</p>
         <h3>Watch these talks for inspiration:</h3>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/W8TSPED0alY?si=X0nBrSgDikrFWsrR"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/_ztGZpo9I9E?si=WKa4KqZ1z2KKvzpr"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/HEaHbc7eCJE?si=4wbMdVarIxy7tOPX"   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      <div class="col-lg-6 p-3">
+      <div class="col-lg-6 p-3 video-container">
         <iframe width="100%" height="300" src="https://www.youtube.com/embed/F_-z0aC7Pnk?si=2rC1VHILoVlONwJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>

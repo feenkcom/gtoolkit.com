@@ -2,19 +2,31 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 32px;
+
   img,
   video {
-    max-width: 99%;
+    max-width: 100%;
     margin: 0 auto;
-    box-shadow: 0px 0px 20px #aaa;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
   }
+
   .picture-caption {
     p {
       font-size: 14px;
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+      color: #666;
+      line-height: 1.6;
     }
   }
 }
@@ -48,4 +60,19 @@ a.overview {
 
 code {
   color: $black;
+}
+
+// Unified video styling - can be applied to any iframe container
+.video-container {
+  iframe {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+  }
 }
