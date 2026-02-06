@@ -30,7 +30,7 @@ submenuitems:
             Contributing requires a previously signed <a href="../cla">Contributor License Agreement</a>.
           </p>
           <h2>Chat with us</h2>
-          <p>Join the converstaion on Discord: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
+          <p>Join the conversation on Discord: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
           <h2>Follow us</h2>
           <p>LinkedIn: <a href="https://www.linkedin.com/company/feenk">@feenk</a></p>
           <p>X: <a href="https://x.com/feenkcom">@feenkcom</a></p>
