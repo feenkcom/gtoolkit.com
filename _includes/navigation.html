@@ -1,20 +1,21 @@
-<div class="fixed-top">
+<div class="site-header fixed-top">
   <!-- <div class="top-note center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <a href="https://lepiter.io/feenk/what-exactly-is-glamorous-toolkit-v1-0--7sex44dze2dqlocqxwfz8ju0i/">What exactly is Glamorous Toolkit 1.0?</a>
+          <a href="https://discord.gg/FTJr9gP">Next GT Meetup: April 20, 2026, 16:00 CET</a>
         </div>
       </div>
     </div>
   </div> -->
-  <nav class="navbar navbar-light navbar-expand-lg bg-white py-0 px-4">
-    <a class="navbar-brand" href="/">
-      <img src="/assets/pictures/glamoroustoolkit-icon.png" height="40px" />
+  <div class="container-fluid">
+  <nav class="navbar navbar-light navbar-expand-lg site-navbar">
+    <a class="navbar-brand site-brand" href="/">
+      <img src="/assets/pictures/glamoroustoolkit-icon.png" alt="Glamorous Toolkit" height="28px" />
     </a>
 
     <button
-      class="navbar-toggler"
+      class="navbar-toggler site-navbar-toggler"
       type="button"
       data-toggle="collapse"
       data-target="#navbarNavAltMarkup"
@@ -25,41 +26,35 @@
       <i class="fas fa-bars"></i>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse site-navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav site-nav-list ml-auto">
       {% assign doclist = site.pages | sort: 'order' %} {% for item in doclist
       %} {% if item contains "order" %}
-      <li>
-          <!-- <a
-          class="nav-item nav-link
-            {% if item.permalink == '/download/' %} 
-              nav-link-prominent
-            {% endif %} 
-            {% if item.permalink != '/download/' and page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
-               nav-link-active 
-            {% endif %} p-3"
-          href="{{ item.url }}"
-          >{{ item.title }}</a -->
+      <li class="nav-item site-nav-item">
           <a
-          class="nav-item nav-link 
+          class="nav-item nav-link site-nav-link
+            {% if item.permalink == '/xdownload/' %} 
+              nav-link-prominent
+            {% endif %}
             {% if page.permalink == item.permalink or (item.permalink != '/' and page.permalink contains item.permalink) %}
                nav-link-active 
             {% endif %}
-           p-3"
+           "
           href="{{ item.url }}"
           >{{ item.title }}</a
         >
       </li>
       {% endif %} {% endfor %}
-      <li>
-        <a class="nav-item nav-link p-3"
-          href="https://book.gtoolkit.com">Read the book</a>
+      <li class="nav-item site-nav-item">
+        <a class="nav-item nav-link site-nav-link"
+          href="https://book.gtoolkit.com">Book</a>
       </li>
-      <li>
-        <a class="nav-item nav-link p-3"
+      <!-- <li class="nav-item site-nav-item">
+        <a class="nav-item nav-link site-nav-link"
           href="https://blog.feenk.com">Blog</a>
-      </li>
-    </div>
+      </li> -->
+    </ul>
   </div>
   </nav>
+  </div>
 </div>
