@@ -4,7 +4,9 @@ window.onload = function registerBehaviour() {
   detectOS();
   addVersionNumbers();
   initCardStack();
-  initHomeImageWall();
+  if (typeof initImageWall === "function") {
+    initImageWall();
+  }
 };
 
 function addVersionNumbers() {
@@ -151,115 +153,6 @@ function initCardStack() {
     modal.find(".modal-body").empty();
     modal.find(".modal-header .caption p").text("");
   });
-}
-
-function initHomeImageWall() {
-  var links = $(".home-image-wall-link[data-image]");
-  var modal = $("#expandedModal");
-  var items = collectHomeImageWallItems(links);
-
-  if (!links.length || !modal.length || !items.length) {
-    return;
-  }
-
-  links.off("click.homeImageWall").on("click.homeImageWall", function (event) {
-    event.preventDefault();
-    renderHomeImageWallModal(items, links.index(this));
-    modal.modal("show");
-  });
-
-  modal
-    .off("slid.bs.carousel.homeImageWall", "#homeImageWallCarousel")
-    .on("slid.bs.carousel.homeImageWall", "#homeImageWallCarousel", function () {
-      var activeIndex = Number(
-        $(this)
-          .find(".carousel-item.active")
-          .attr("data-index")
-      );
-      updateHomeImageWallCaption(items, activeIndex);
-    });
-
-  modal.off("hidden.bs.modal.homeImageWall").on("hidden.bs.modal.homeImageWall", function () {
-    modal.find(".modal-body").empty();
-    modal.find(".modal-header .caption p").text("");
-  });
-}
-
-function collectHomeImageWallItems(links) {
-  return links
-    .map(function () {
-      var link = $(this);
-      return {
-        image: link.attr("data-image") || "",
-        caption: link.attr("data-caption") || "",
-        label: link.find(".home-image-wall-label").text().trim(),
-      };
-    })
-    .get()
-    .filter(function (item) {
-      return Boolean(item.image);
-    });
-}
-
-function renderHomeImageWallModal(items, activeIndex) {
-  var modal = $("#expandedModal");
-  var normalizedIndex = Math.max(0, Math.min(activeIndex || 0, items.length - 1));
-
-  if (!items.length) {
-    return;
-  }
-
-  var slidesMarkup = items
-    .map(function (item, index) {
-      return (
-        '<div class="carousel-item' +
-        (index === normalizedIndex ? " active" : "") +
-        '" data-index="' +
-        index +
-        '">' +
-          '<img src="' +
-          item.image +
-          '" alt="' +
-          escapeHtml(item.label || item.caption) +
-          '">' +
-        "</div>"
-      );
-    })
-    .join("");
-
-  var controlsMarkup =
-    items.length > 1
-      ? '<a class="carousel-control-prev" href="#homeImageWallCarousel" role="button" data-slide="prev">' +
-          '<span class="carousel-control-prev-icon" aria-hidden="true"></span>' +
-          '<span class="sr-only">Previous</span>' +
-        "</a>" +
-        '<a class="carousel-control-next" href="#homeImageWallCarousel" role="button" data-slide="next">' +
-          '<span class="carousel-control-next-icon" aria-hidden="true"></span>' +
-          '<span class="sr-only">Next</span>' +
-        "</a>"
-      : "";
-
-  modal.find(".modal-body").html(
-    '<div id="homeImageWallCarousel" class="carousel slide home-image-wall-modal" data-interval="false">' +
-      '<div class="carousel-inner">' +
-        slidesMarkup +
-      "</div>" +
-      controlsMarkup +
-    "</div>"
-  );
-  modal.find("#homeImageWallCarousel").carousel({
-    interval: false,
-    keyboard: true,
-    ride: false,
-    wrap: true,
-  });
-  updateHomeImageWallCaption(items, normalizedIndex);
-}
-
-function updateHomeImageWallCaption(items, activeIndex) {
-  var modal = $("#expandedModal");
-  var activeItem = items[activeIndex] || items[0];
-  modal.find(".modal-header .caption p").text(activeItem ? activeItem.caption : "");
 }
 
 function renderCardStackGallery(activeIndex) {

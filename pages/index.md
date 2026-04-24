@@ -5,6 +5,7 @@ permalink: /
 order: 1
 description: Glamorous Toolkit is the Moldable Development Environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
+image_wall: true
 ---
 
 <section id="home" class="home-landing hero-section">
@@ -57,69 +58,69 @@ Guide and understand AI interactions through interfaces tailored to each convers
 </section>
 
 
-<section class="home-image-wall-section padding-bottom-large padding-top-large" aria-labelledby="home-image-wall-title">
+<section class="image-wall-section padding-bottom-large padding-top-large" aria-labelledby="image-wall-title">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <h2>Reading code is the largest bottleneck. <br/> Replace it with deterministic contextual tools</h2>
+        <h2 id="image-wall-title">Reading code is the largest bottleneck. <br/> Replace it with deterministic contextual tools</h2>
         <p class="lead">Developers rely on reading to understand systems. But systems are larger than can be read, and AI generates code faster than can be read. In Glamorous Toolkit, you rely on deterministic contextual tools that compress the system for each problem and accelerate both how humans understand and how AIs can explore system. Build these tools yourself or with AI, and have them coexist in an integrated environment.</p>
       </div>
     </div>
-    <!-- <div class="home-image-wall-intro text-center">
-      <p class="home-image-wall-kicker" id="home-image-wall-title">Explore the domains</p>
-      <p class="home-image-wall-summary lead">Jump straight into the kinds of systems and conversations Glamorous Toolkit makes easier to understand.</p>
+    <!-- <div class="image-wall-intro text-center">
+      <p class="image-wall-kicker" id="image-wall-title">Explore the domains</p>
+      <p class="image-wall-summary lead">Jump straight into the kinds of systems and conversations Glamorous Toolkit makes easier to understand.</p>
     </div> -->
   </div>
-  <div class="home-image-wall-bleed">
-    <ul class="home-image-wall-grid" aria-label="Homepage use cases">
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Details">
-          <span class="home-image-wall-label">Software analysis</span>
+  <div class="image-wall-bleed">
+    <ul class="image-wall-grid" aria-label="Homepage use cases">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Details">
+          <span class="image-wall-label">Software analysis</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-chat.png" data-caption="Work on a Wardley Map through a dedicated chat that stays connected to the underlying model." aria-label="Details">
-          <span class="home-image-wall-label">Dedicated AI chats</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-chat.png" data-caption="Work on a Wardley Map through a dedicated chat that stays connected to the underlying model." aria-label="Details">
+          <span class="image-wall-label">Dedicated AI chats</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-rest-api.png" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Details">
-          <span class="home-image-wall-label">API exploration</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-rest-api.png" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Details">
+          <span class="image-wall-label">API exploration</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Details">
-          <span class="home-image-wall-label">Data exploration</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Details">
+          <span class="image-wall-label">Data exploration</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Details">
-          <span class="home-image-wall-label">DevOps investigations</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Details">
+          <span class="image-wall-label">DevOps investigations</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Details">
-          <span class="home-image-wall-label">Technical documentation</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Details">
+          <span class="image-wall-label">Technical documentation</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-editor.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-editor.png" data-caption="Edit an AT Protocol lexicon with domain-aware highlighting, completion inside JSON strings, and navigation to definitions." aria-label="Details">
-          <span class="home-image-wall-label">System specific editors</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-editor.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-editor.png" data-caption="Edit an AT Protocol lexicon with domain-aware highlighting, completion inside JSON strings, and navigation to definitions." aria-label="Details">
+          <span class="image-wall-label">System specific editors</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Details">
-          <span class="home-image-wall-label">Inspecting runtime</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Details">
+          <span class="image-wall-label">Inspecting runtime</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Details">
-          <span class="home-image-wall-label">Domain documentation</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Details">
+          <span class="image-wall-label">Domain documentation</span>
         </a>
       </li>
-      <li class="home-image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite.png');">
-        <a class="home-image-wall-link" href="#" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Details">
-          <span class="home-image-wall-label">Rewriting code</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Details">
+          <span class="image-wall-label">Rewriting code</span>
         </a>
       </li>
     </ul>
