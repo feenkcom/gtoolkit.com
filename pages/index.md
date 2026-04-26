@@ -57,7 +57,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-
 <section class="image-wall-section padding-bottom-large padding-top-large" aria-labelledby="image-wall-title">
   <div class="container">
     <div class="row justify-content-center text-center">
@@ -66,10 +65,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
         <p class="lead">Developers rely on reading to understand systems. But systems are larger than can be read, and AI generates code faster than can be read. In Glamorous Toolkit, you rely on deterministic contextual tools that compress the system for each problem and accelerate both how humans understand and how AIs can explore system. Build these tools yourself or with AI, and have them coexist in an integrated environment.</p>
       </div>
     </div>
-    <!-- <div class="image-wall-intro text-center">
-      <p class="image-wall-kicker" id="image-wall-title">Explore the domains</p>
-      <p class="image-wall-summary lead">Jump straight into the kinds of systems and conversations Glamorous Toolkit makes easier to understand.</p>
-    </div> -->
   </div>
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
@@ -144,36 +139,28 @@ Guide and understand AI interactions through interfaces tailored to each convers
 
 <section class="padding-top-large padding-bottom-large section-light">
   <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-12 col-lg-9">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations.</p>
+        <p class="lead">Working with AI implies three parts: define the context, specify the intent, understand the output. Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations.</p>
       </div>
     </div>
     <div class="row padding-top-medium">
-      <div class="col-md-6 col-xl-4 mb-4">
+      <div class="col-md-6 col-lg-3 mb-4">
         <h3>Scriptable</h3>
         <p>Shape each conversation through scripts that define prompts, actions and transformations specific to the problem at hand.</p>
       </div>
-      <div class="col-md-6 col-xl-4 mb-4">
-        <h3>Inspectable tools</h3>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <h3>Inspectable</h3>
         <p>Inspect the AI tools and optimize them to your use case.</p>
       </div>
-      <div class="col-md-6 col-xl-4 mb-4">
-        <h3>Knowledge base with explanations and examples</h3>
-        <p>Capture conversations, rationale and results in Lepiter pages that remain connected to the live objects behind them.</p>
-      </div>
-      <div class="col-md-6 col-xl-4 mb-4">
+      <div class="col-md-6 col-lg-3 mb-4">
         <h3>Objects in. Objects out</h3>
-        <p>Work with any domain objects instead of plain text so that you can build contextual tools around them.</p>
+        <p>Work with any domain objects instead of plain text so that you can build contextual tools around them. Depict objects with contextual views to make them easier to digest for AI.</p>
       </div>
-      <div class="col-md-6 col-xl-4 mb-4">
-        <h3>Object data views</h3>
-        <p>Endow your objects with data views that AI can exploit.</p>
-      </div>
-      <div class="col-md-6 col-xl-4 mb-4">
-        <h3>Deterministic summaries</h3>
-        <p>Create summaries from explicit inputs and outputs so explanations stay trustable and easy to verify.</p>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <h3>Executable explanations</h3>
+        <p>Capture explanations and results in the integrated linked knowledge base and connect them to the system live objects.</p>
       </div>
     </div>
   </div>
@@ -183,7 +170,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
-        <p class="lead">Software is shapeless. We, humans, need a shape to reason about anything. Tools provide the shape of software. Tools are essential for software engineering.</p>
+        <p class="lead">Software is shapeless. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
         <p class="lead">Software is highly contextual. For tools to be effective, they must be contextual, too.</p>
         <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always many representations, each relevant for different problems.</p>
         <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine micro tools inexpensively, live and in many ways.</p>
@@ -195,30 +182,73 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-mdium padding-bottom-large">
+<section class="padding-bottom-small">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8">
-        <p class="lead">A tool is an interface through which we interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API.</p>
-        <p class="lead">A tool can be elaborate, doing many things. Or it can be simple, focusing on answering a single question.</p>
+        <p class="lead">A tool is an interface through which we interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things. Or it can be simple, focusing on answering a single question. A tool can be visual. Or it can be plain. A tool can be generic, applicable to many inputs. Or it can be contextual, relevant to only a narrow input.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="image-wall-section padding-bottom-large" aria-labelledby="image-wall-title">
+  <div class="image-wall-bleed">
+    <ul class="image-wall-grid" aria-label="Homepage use cases">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The authorship history of a file in Git." aria-label="Details">
+          <span class="image-wall-label">Authorship history</span>
+        </a>
+      </li>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Editing the dependency definitions of Glamorous Toolkit." aria-label="Details">
+          <span class="image-wall-label">Dependencies editor</span>
+        </a>
+      </li>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-treemap.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" aria-label="Details">
+          <span class="image-wall-label">Treemap distribution</span>
+        </a>
+      </li>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-blueprint.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." aria-label="Details">
+          <span class="image-wall-label">Class hierarchy</span>
+        </a>
+      </li>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-ast.png');">
+        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." aria-label="Details">
+          <span class="image-wall-label">Abstract syntax tree</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="padding-top-large padding-bottom-large">
+  <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
+      <div class="col-8 col-lg-4 mr-4">
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts. But those artifacts are too large to be read.</p>
+        <p class="lead">Tools can encode the way to get the answer.</p>
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
-        <p class="lead">A tool can be visual. Or it can be plain.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
-        <p class="lead">A tool can be generic, applicable to many inputs. Or it can be contextual, relevant to only a narrow input.</p>
+      <div class="col-8 col-lg-4 ml-4">
+        <ul class="image-wall-vertical image-wall-vertical--fixed" aria-label="Examples of deterministic contextual tools">
+          <li class="image-wall-vertical-item image-wall-vertical-item--source" style="--wall-image: url('/assets/pictures/c-source.png');">
+            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-source.png" data-caption="Consider the case of understanding the dependencies of a project, like depicted in the picture. The sources defining these dependencies and the properties of each project consist of some 1241 lines of code." aria-label="Details">
+              <span class="image-wall-label">Source code</span>
+            </a>
+          </li>
+          <li class="image-wall-vertical-item image-wall-vertical-item--wide" style="--wall-image: url('/assets/pictures/c-view.png');">
+            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-view.png" data-caption="." aria-label="Details">
+              <span class="image-wall-label">Technology-specific view</span>
+            </a>
+          </li>
+          <li class="image-wall-vertical-item image-wall-vertical-item--wide" style="--wall-image: url('/assets/pictures/c-contextual-view.png');">
+            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-contextual-view.png" data-caption="." aria-label="Details">
+              <span class="image-wall-label">System-specific view</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

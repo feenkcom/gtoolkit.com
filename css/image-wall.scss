@@ -67,26 +67,6 @@
   padding-bottom: 28px;
 }
 
-.image-wall-intro {
-  max-width: 62rem;
-  margin: 0 auto 32px;
-}
-
-.image-wall-kicker {
-  margin: 0;
-  color: var(--brand);
-  font-family: "sources-bold", sans-serif;
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.image-wall-summary {
-  max-width: 40ch;
-  margin: 10px auto 0;
-  color: var(--ink-muted);
-}
-
 .image-wall-bleed {
   width: min(100vw - 32px, 1840px);
   margin-right: auto;
@@ -204,6 +184,53 @@
   transform: translateY(0);
 }
 
+.image-wall-vertical {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+  margin: 0;
+  padding: 8px 0 0;
+}
+
+.image-wall-vertical--fixed .image-wall-vertical-item {
+  width: 100%;
+  aspect-ratio: 6 / 5;
+}
+
+.image-wall-vertical-item {
+  list-style: none;
+  position: relative;
+  border-radius: 20px;
+  transform: translateX(var(--wall-shift-x, 0px)) translateY(var(--wall-shift-y, 0px)) rotate(var(--wall-rotate, 0deg));
+}
+
+.image-wall-vertical-item--source {
+  --wall-shift-x: -20px;
+  --wall-rotate: -1.2deg;
+  aspect-ratio: 6 / 5;
+}
+
+.image-wall-vertical-item--wide {
+  aspect-ratio: 17 / 8;
+}
+
+.image-wall-vertical-item--wide:nth-child(2) {
+  --wall-shift-x: 18px;
+  --wall-shift-y: -6px;
+  --wall-rotate: 1deg;
+}
+
+.image-wall-vertical-item--wide:nth-child(3) {
+  --wall-shift-x: -8px;
+  --wall-shift-y: 4px;
+  --wall-rotate: -0.6deg;
+}
+
+.image-wall-vertical-link {
+  position: absolute;
+  inset: 0;
+}
+
 @media (max-width: 991.98px) {
   .image-wall-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -225,6 +252,29 @@
 
   .image-wall-item:nth-child(4n) {
     --wall-shift: 14px;
+  }
+
+  .image-wall-vertical {
+    gap: 16px;
+    padding-top: 4px;
+  }
+
+  .image-wall-vertical-item {
+    transform: translateX(var(--wall-tablet-shift-x, 0px)) translateY(var(--wall-tablet-shift-y, 0px));
+  }
+
+  .image-wall-vertical-item--source {
+    --wall-tablet-shift-x: -10px;
+  }
+
+  .image-wall-vertical-item--wide:nth-child(2) {
+    --wall-tablet-shift-x: 10px;
+    --wall-tablet-shift-y: 0px;
+  }
+
+  .image-wall-vertical-item--wide:nth-child(3) {
+    --wall-tablet-shift-x: -4px;
+    --wall-tablet-shift-y: 0px;
   }
 }
 
@@ -261,5 +311,22 @@
     bottom: 12px;
     left: 14px;
     font-size: 18px;
+  }
+
+  .image-wall-vertical {
+    gap: 14px;
+    padding-top: 0;
+  }
+
+  .image-wall-vertical-item {
+    transform: none;
+  }
+
+  .image-wall-vertical-item--source {
+    aspect-ratio: 6 / 5;
+  }
+
+  .image-wall-vertical-item--wide {
+    aspect-ratio: 17 / 8;
   }
 }
