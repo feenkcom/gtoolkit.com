@@ -16,10 +16,11 @@ image_stack: true
         <h1 class="hero-title home-landing-tagline home-landing-title-single">The <span class="insert-slot" aria-hidden="true"><span class="insert-label">moldable<br>development</span><svg class="insert-mark" viewBox="0 0 120 80" aria-hidden="true" focusable="false"><path d="M20 14 C36 24, 49 44, 58 72 C69 45, 86 22, 108 10" /></svg></span> environment for <br/> making sense of systems and AI</h1>
       </div>
     </div>
-    <div class="row justify-content-center text-center">
+    <div class="row justify-content-center text-center mt-4">
       <div class="col-lg-8 col-xl-8">
-        <p class="xlead home-landing-subline">Understand and describe each system through contextual tools.
-Guide and understand AI interactions through interfaces tailored to each conversation.</p>
+        <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with deterministic contextual tools that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
+        <!-- <p class="xlead home-landing-subline">Understand and describe each system through contextual tools.
+Guide and understand AI interactions through interfaces tailored to each conversation.</p> -->
       </div>
     </div>
     <div class="row justify-content-center text-center">
@@ -62,8 +63,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <h2 id="image-wall-title">Reading code is the largest bottleneck. <br/> Replace it with deterministic contextual tools</h2>
-        <p class="lead">Developers rely on reading to understand systems. But systems are larger than can be read, and AI generates code faster than can be read. In Glamorous Toolkit, you rely on deterministic contextual tools that compress the system for each problem and accelerate both how humans understand and how AIs can explore system. Build these tools yourself or with AI, and have them coexist in an integrated environment.</p>
+        <h2>Reading code is the largest bottleneck. <br/> Replace it with deterministic contextual tools</h2>
       </div>
     </div>
   </div>
@@ -138,12 +138,14 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section> -->
 
-<section class="padding-top-medium padding-bottom-medium section-light">
+<section class="padding-top-large padding-bottom-large section-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">Working with AI implies three parts: define the context, specify the intent, understand the output. Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations.</p>
+        <p class="lead">Working with AI implies: defining the context, specifying the intent, and understanding the output. Defining and context and understanding the output depend on your ability to reason the </p>
+        <p class="lead">AIs are magic black boxes. But we are 
+        Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations.</p>
       </div>
     </div>
     <div class="row padding-top-medium">
@@ -277,7 +279,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-caption="A system-specific view lets you answer the concrete question directly from a tool shaped around that system."
               >
                 <img src="/assets/pictures/c-contextual-view.png" alt="System specific contextual tool view" />
-                <span class="image-stack-caption">Contextual views</span>
+                <span class="image-stack-label">Contextual views</span>
               </span>
             </span>
           </button>
