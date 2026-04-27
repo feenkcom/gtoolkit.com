@@ -59,14 +59,14 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="image-wall-section margin-bottom-large margin-top-medium" aria-labelledby="image-wall-title">
-  <div class="container">
-    <div class="row justify-content-center text-center">
+<section class="image-wall-section margin-bottom-large margin-top-large" aria-labelledby="image-wall-title">
+  <!-- <div class="container">
+    <div class="row justify-content-center text-center mb-4">
       <div class="col-10 col-lg-10">
-        <h2>For every system problem, a dedicated experience</h2>
+        <h2>For every problem, a dedicated experience</h2>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
@@ -143,43 +143,41 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">Working with AI implies: defining the context, specifying the intent, and understanding the output. Defining and context and understanding the output depend on your ability to reason the </p>
-        <p class="lead">AIs are magic black boxes. But we are 
-        Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations.</p>
+        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it.  Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations. </p>
       </div>
     </div>
     <div class="row padding-top-medium">
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-3 mb-4">
         <h3>Scriptable</h3>
         <p>Shape each conversation through scripts that define prompts, actions and transformations specific to the problem at hand.</p>
       </div>
-      <div class="col-md-6 col-lg-4 mb-4">
+      <!-- <div class="col-md-6 col-lg-4 mb-4">
         <h3>Forkable</h3>
         <p>Go back in the interaction history and fork new conversations to preserve meaningful context.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
+      </div> -->
+      <div class="col-md-6 col-lg-3 mb-4">
         <h3>Inspectable</h3>
-        <p>Inspect the AI tools and optimize them to your use case.</p>
+        <p>Inspect everything about the AI interaction to understand what the AI does.</p>
       </div>
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-3 mb-4">
         <h3>Objects in. Objects out</h3>
-        <p>Work with any domain objects instead of plain text so that you can build contextual tools around them. Depict objects with contextual views to make them easier to digest for AI.</p>
+        <p>Work with objects instead of text and build contextual tools around them. Depict objects with contextual views to make them easily digestable by AI.</p>
       </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Executable explanations</h3>
-        <p>Capture explanations and results in the integrated linked knowledge base and connect them to the system live objects.</p>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <h3>Executable context</h3>
+        <p>Capture context explanations in the integrated linked knowledge base and connect them to the system live objects.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="padding-top-large padding-bottom-medium">
+<section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
-        <p class="lead">Software is shapeless. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
-        <p class="lead">Software is highly contextual. For tools to be effective, they must be contextual, too.</p>
-        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always many representations, each relevant for different problems.</p>
+        <p class="lead">Software is <span class="annotated-underline">shapeless</span>. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
+        <p class="lead">Software is <span class="annotated-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
+        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always <span class="annotated-underline">many representations</span>, each relevant for different problems.</p>
         <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine micro tools inexpensively, live and in many ways.</p>
       </div>
       <div class="col-8 col-lg-4">
@@ -189,7 +187,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="">
+<section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8">
@@ -199,7 +197,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="image-wall-section padding-bottom-large" aria-labelledby="image-wall-title">
+<section class="image-wall-section" aria-labelledby="image-wall-title">
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel.png');">
@@ -235,7 +233,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a compression of the system for that question. The more specific the tool, and more relevant and larger the compression is.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the <span class="annotated-underline">answer deterministically</span>. The result produced by the tool essentially acts as a <span class="annotated-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
@@ -296,7 +294,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-9">
+      <div class="col-lg-8">
         <h2>Frequently asked questions</h2>
         <div class="faq-accordion" id="faq-accordion">
           <article class="faq-item">
