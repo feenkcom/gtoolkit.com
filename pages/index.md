@@ -16,16 +16,16 @@ image_stack: true
         <h1 class="hero-title home-landing-tagline home-landing-title-single">The <span class="insert-slot" aria-hidden="true"><span class="insert-label">moldable<br>development</span><svg class="insert-mark" viewBox="0 0 120 80" aria-hidden="true" focusable="false"><path d="M20 14 C36 24, 49 44, 58 72 C69 45, 86 22, 108 10" /></svg></span> environment for <br/> making sense of systems and AI</h1>
       </div>
     </div>
-    <div class="row justify-content-center text-center mt-4">
+    <div class="row justify-content-center text-center mt-5 mb-5">
       <div class="col-lg-8 col-xl-8">
-        <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with deterministic contextual tools that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
+        <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with <span class="annotated-underline">deterministic contextual tools</span> that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
         <!-- <p class="xlead home-landing-subline">Understand and describe each system through contextual tools.
 Guide and understand AI interactions through interfaces tailored to each conversation.</p> -->
       </div>
     </div>
     <div class="row justify-content-center text-center">
       <div class="col-lg-10">
-        <div class="row home-offering-row padding-top-medium">
+        <div class="row home-offering-row">
           <div class="col-md-6">
             <a class="home-offering-card-link" href="/start" aria-label="Get started with Glamorous Toolkit">
               <div class="card home-offering-card">
@@ -63,7 +63,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <h2>Reading code is the largest bottleneck. <br/> Replace it with deterministic contextual tools</h2>
+        <h2>Build tools quickly. Uniformly. Integrated</h2>
       </div>
     </div>
   </div>
@@ -149,19 +149,23 @@ Guide and understand AI interactions through interfaces tailored to each convers
       </div>
     </div>
     <div class="row padding-top-medium">
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Scriptable</h3>
         <p>Shape each conversation through scripts that define prompts, actions and transformations specific to the problem at hand.</p>
       </div>
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h3>Forkable</h3>
+        <p>Go back in the interaction history and fork new conversations to preserve meaningful context.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Inspectable</h3>
         <p>Inspect the AI tools and optimize them to your use case.</p>
       </div>
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Objects in. Objects out</h3>
         <p>Work with any domain objects instead of plain text so that you can build contextual tools around them. Depict objects with contextual views to make them easier to digest for AI.</p>
       </div>
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Executable explanations</h3>
         <p>Capture explanations and results in the integrated linked knowledge base and connect them to the system live objects.</p>
       </div>
