@@ -40,14 +40,14 @@
   pointer-events: none;
 }
 
-.annotated-underline-mark path {
+.manual-underline-mark path {
   fill: none;
   stroke: var(--insert-red);
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-.annotated-underline {
+.manual-underline {
   position: relative;
   display: inline-block;
   padding: 0 0.03em 0.03em;
@@ -55,7 +55,7 @@
   isolation: isolate;
 }
 
-.annotated-underline-mark {
+.manual-underline-mark {
   position: absolute;
   left: -0.08em;
   bottom: -0.08em;
@@ -67,7 +67,7 @@
   transform: rotate(-1deg);
 }
 
-.annotated-underline-mark path {
+.manual-underline-mark path {
   stroke-width: 9;
 }
 

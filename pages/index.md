@@ -18,7 +18,7 @@ image_stack: true
     </div>
     <div class="row justify-content-center text-center mt-5 mb-5">
       <div class="col-lg-8 col-xl-8">
-        <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with <span class="annotated-underline">deterministic contextual tools</span> that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
+        <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with <span class="manual-underline">deterministic contextual tools</span> that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
         <!-- <p class="xlead home-landing-subline">Understand and describe each system through contextual tools.
 Guide and understand AI interactions through interfaces tailored to each conversation.</p> -->
       </div>
@@ -175,9 +175,9 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
-        <p class="lead">Software is <span class="annotated-underline">shapeless</span>. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
-        <p class="lead">Software is <span class="annotated-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
-        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always <span class="annotated-underline">many representations</span>, each relevant for different problems.</p>
+        <p class="lead">Software is <span class="manual-underline">shapeless</span>. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
+        <p class="lead">Software is <span class="manual-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
+        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
         <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine micro tools inexpensively, live and in many ways.</p>
       </div>
       <div class="col-8 col-lg-4">
@@ -233,7 +233,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the <span class="annotated-underline">answer deterministically</span>. The result produced by the tool essentially acts as a <span class="annotated-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the <span class="manual-underline">answer deterministically</span>. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">

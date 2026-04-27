@@ -39,10 +39,10 @@
   }
 
   function hydrateAnnotatedUnderlines(root) {
-    var underlines = root.querySelectorAll(".annotated-underline");
+    var underlines = root.querySelectorAll(".manual-underline");
     for (var i = 0; i < underlines.length; i++) {
-      if (!underlines[i].querySelector(".annotated-underline-mark")) {
-        var svg = createSvg("annotated-underline-mark", "0 0 180 28");
+      if (!underlines[i].querySelector(".manual-underline-mark")) {
+        var svg = createSvg("manual-underline-mark", "0 0 180 28");
         svg.appendChild(createPath(underlinePath));
         underlines[i].appendChild(svg);
       }
