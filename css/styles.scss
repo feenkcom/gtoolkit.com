@@ -510,87 +510,6 @@ section h2 {
   color: var(--ink-muted);
 }
 
-.card-stack-wrap {
-  margin-top: 12px;
-}
-
-.card-stack-button {
-  width: 100%;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  text-align: left;
-  cursor: pointer;
-}
-
-.card-stack-button:focus {
-  outline: none;
-}
-
-.card-stack {
-  position: relative;
-  display: block;
-  width: min(100%, 920px);
-  margin: 0 auto;
-  min-height: var(--stack-min-height, 470px);
-  padding-top: 54px;
-  padding-bottom: 22px;
-}
-
-.card-stack-card {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  display: block;
-  width: min(100%, 760px);
-  border-radius: 18px;
-  overflow: hidden;
-  background: #ffffff;
-  border: 1px solid var(--line);
-  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.12);
-  transform-origin: center top;
-  z-index: var(--stack-z, 1);
-  opacity: var(--stack-opacity, 1);
-  filter: var(--stack-filter, none);
-  transform: translateX(calc(-50% + var(--stack-x, 0px)))
-    translateY(var(--stack-y, 0px))
-    rotate(var(--stack-rotate, 0deg))
-    scale(var(--stack-scale, 1));
-  transition: transform 0.22s ease, box-shadow 0.22s ease, opacity 0.22s ease;
-}
-
-.card-stack-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.card-stack-button:focus .card-stack-card,
-.card-stack-button:hover .card-stack-card {
-  transform: translateX(calc(-50% + var(--stack-hover-x, var(--stack-x, 0px))))
-    translateY(var(--stack-hover-y, var(--stack-y, 0px)))
-    rotate(var(--stack-hover-rotate, var(--stack-rotate, 0deg)))
-    scale(var(--stack-scale, 1));
-}
-
-.card-stack-button:focus .card-stack-card[data-stack-depth="0"],
-.card-stack-button:hover .card-stack-card[data-stack-depth="0"] {
-  box-shadow: 0 24px 44px rgba(0, 0, 0, 0.18);
-}
-
-.card-stack-caption {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(66, 66, 66, 0.88);
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "sources-bold", sans-serif;
-  letter-spacing: 0.02em;
-}
-
 #expandedModal .modal-dialog {
   max-width: 1080px;
 }
@@ -641,77 +560,6 @@ section h2 {
   margin: 0;
   padding: 0;
   opacity: 1;
-}
-
-.card-stack-gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-}
-
-.card-stack-gallery-active {
-  border-radius: 18px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background: #fafafa;
-}
-
-.card-stack-gallery-active img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.card-stack-gallery-selectors {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 14px;
-}
-
-.card-stack-gallery-selector {
-  display: block;
-  width: 100%;
-  padding: 0;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: #ffffff;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-}
-
-.card-stack-gallery-selector img {
-  display: block;
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%);
-}
-
-.card-stack-gallery-selector:hover,
-.card-stack-gallery-selector:focus {
-  border-color: var(--brand);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
-  transform: translateY(-2px);
-  outline: none;
-}
-
-.card-stack-gallery-selector.is-active {
-  border-color: var(--brand);
-  background: #ffffff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-}
-
-.card-stack-gallery-selector.is-active img {
-  filter: none;
-}
-
-.card-stack-gallery-label {
-  display: block;
-  padding: 10px 12px 12px;
-  color: #353535;
-  font-size: 13px;
-  line-height: 1.35;
-  text-align: left;
 }
 
 .placeholder-frame {
@@ -933,16 +781,6 @@ section h2 {
     font-size: 27px;
   }
 
-  .card-stack {
-    min-height: var(--stack-min-height, 400px);
-    width: 100%;
-    padding-top: 40px;
-  }
-
-  .card-stack-card {
-    width: min(100%, 680px);
-  }
-
   .use-case-card-grid {
     grid-template-columns: 1fr;
   }
@@ -984,18 +822,6 @@ section h2 {
 
   .community-link-button {
     min-height: 0;
-  }
-
-  .card-stack {
-    min-height: var(--stack-min-height, 265px);
-    padding-top: 26px;
-    padding-bottom: 10px;
-  }
-
-  .card-stack-caption {
-    right: 12px;
-    bottom: 12px;
-    font-size: 12px;
   }
 
   .use-case-showcase-layout {

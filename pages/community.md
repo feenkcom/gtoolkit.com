@@ -6,8 +6,8 @@ order: 8
 description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://discord.gg/FTJr9gP'
 ---
 
-<section id="community">
-  <div class="container pt-5 pb-5 jumbotron-small padding-bottom-large">
+<section id="community padding-bottom-large">
+  <div class="container pt-5 pb-5 jumbotron-small ">
     <div class="row">
       <div class="col-lg-8">
         <h1>Community</h1>

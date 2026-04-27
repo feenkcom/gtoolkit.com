@@ -6,6 +6,7 @@ order: 1
 description: Glamorous Toolkit is the Moldable Development Environment.
 image: /assets/pictures/glamoroustoolkit-icon.png
 image_wall: true
+image_stack: true
 ---
 
 <section id="home" class="home-landing hero-section">
@@ -57,7 +58,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="image-wall-section padding-bottom-large padding-top-large" aria-labelledby="image-wall-title">
+<section class="image-wall-section margin-bottom-large margin-top-medium" aria-labelledby="image-wall-title">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
@@ -122,7 +123,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-medium padding-bottom-large">
+<!-- <section class="padding-top-medium padding-bottom-large">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
@@ -135,9 +136,9 @@ Guide and understand AI interactions through interfaces tailored to each convers
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="padding-top-large padding-bottom-large section-light">
+<section class="padding-top-medium padding-bottom-medium section-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
@@ -166,7 +167,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-large padding-bottom-large">
+<section class="padding-top-large padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
@@ -182,11 +183,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-bottom-small">
+<section class="">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8">
-        <p class="lead">A tool is an interface through which we interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things. Or it can be simple, focusing on answering a single question. A tool can be visual. Or it can be plain. A tool can be generic, applicable to many inputs. Or it can be contextual, relevant to only a narrow input.</p>
+        <p class="lead">A tool is an interface through which we interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things, or it can be simple, focusing on answering a single question. A tool can be visual, or it can be plain. A tool can be generic, applicable to many inputs, or it can be contextual, relevant to only a narrow input.</p>
       </div>
     </div>
   </div>
@@ -228,27 +229,59 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts. But those artifacts are too large to be read.</p>
-        <p class="lead">Tools can encode the way to get the answer.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a compression of the system for that question. The more specific the tool, and more relevant and larger the compression is.</p>
       </div>
-      <div class="col-8 col-lg-4 ml-4">
-        <ul class="image-wall-vertical image-wall-vertical--fixed" aria-label="Examples of deterministic contextual tools">
-          <li class="image-wall-vertical-item image-wall-vertical-item--source" style="--wall-image: url('/assets/pictures/c-source.png');">
-            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-source.png" data-caption="Consider the case of understanding the dependencies of a project, like depicted in the picture. The sources defining these dependencies and the properties of each project consist of some 1241 lines of code." aria-label="Details">
-              <span class="image-wall-label">Source code</span>
-            </a>
-          </li>
-          <li class="image-wall-vertical-item image-wall-vertical-item--wide" style="--wall-image: url('/assets/pictures/c-view.png');">
-            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-view.png" data-caption="." aria-label="Details">
-              <span class="image-wall-label">Technology-specific view</span>
-            </a>
-          </li>
-          <li class="image-wall-vertical-item image-wall-vertical-item--wide" style="--wall-image: url('/assets/pictures/c-contextual-view.png');">
-            <a class="image-wall-link image-wall-vertical-link" href="#" data-image="/assets/pictures/c-contextual-view.png" data-caption="." aria-label="Details">
-              <span class="image-wall-label">System-specific view</span>
-            </a>
-          </li>
-        </ul>
+      <div class="col-8 col-lg-4">
+        <div class="image-stack-wrap image-stack-wrap--compact">
+          <button
+            type="button"
+            class="image-stack-button"
+            data-image-stack-trigger
+            aria-label="Open examples of contextual tool views"
+          >
+            <span
+              class="image-stack image-stack--compact"
+              aria-hidden="true"
+              data-stack-base-height="392"
+              data-stack-compact-base-height="272"
+              data-stack-front-y="30"
+              data-stack-compact-front-y="18"
+              data-stack-step-x="18"
+              data-stack-compact-step-x="14"
+              data-stack-step-y="12"
+              data-stack-compact-step-y="9"
+            >
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="2"
+                data-image="/assets/pictures/c-source.png"
+                data-caption="The raw source behind the dependency definition spans 1241 lines of code. Reading them can be daunting."
+              >
+                <img src="/assets/pictures/c-source.png" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="1"
+                data-image="/assets/pictures/c-view.png"
+                data-caption="A technology-specific view compresses the dependency structure into a navigable representation instead of raw text."
+              >
+                <img src="/assets/pictures/c-view.png" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="0"
+                data-image="/assets/pictures/c-contextual-view.png"
+                data-caption="A system-specific view lets you answer the concrete question directly from a tool shaped around that system."
+              >
+                <img src="/assets/pictures/c-contextual-view.png" alt="System specific contextual tool view" />
+                <span class="image-stack-caption">Contextual views</span>
+              </span>
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   </div>

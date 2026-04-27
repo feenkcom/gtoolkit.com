@@ -339,6 +339,23 @@ a.btn {
   padding-bottom: 40px;
 }
 
+.margin-top-large {
+  margin-top: 120px;
+}
+
+.margin-top-medium {
+  margin-top: 40px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 120px;
+}
+
+.padding-bottom-medium {
+  margin-bottom: 40px;
+}
+
+
 @mixin sectionWithBackground($color) {
   background: $color;
   & a:hover img {
@@ -347,8 +364,6 @@ a.btn {
 }
 
 .section-light {
-  padding-top: 40px;
-  padding-bottom: 40px;
    @include sectionWithBackground($gray-light);
 }
 
