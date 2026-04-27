@@ -458,65 +458,6 @@ section h2 {
   color: var(--ink-muted);
 }
 
-.insert-slot {
-  position: relative;
-  display: inline-block;
-  width: 0;
-  margin: 0;
-}
-
-.insert-label {
-  position: absolute;
-  left: -2.52em;
-  bottom: 1.78em;
-  color: var(--insert-red);
-  font-family: "desyrel", "Bradley Hand", "Marker Felt", cursive;
-  font-size: clamp(22px, 2.1vw, 36px);
-  font-weight: 700;
-  line-height: 0.88;
-  letter-spacing: 0;
-  transform: rotate(-3deg);
-  white-space: nowrap;
-}
-
-.insert-mark {
-  position: absolute;
-  left: -1.04em;
-  top: calc(100% - 1.1em);
-  width: 2.18em;
-  height: 0.84em;
-  overflow: visible;
-}
-
-.insert-mark path {
-  fill: none;
-  stroke: var(--insert-red);
-  stroke-width: 7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.annotated-underline {
-  position: relative;
-  display: inline-block;
-  padding: 0 0.03em 0.03em;
-  margin: 0 -0.03em;
-  isolation: isolate;
-}
-
-.annotated-underline::after {
-  content: "";
-  position: absolute;
-  left: -0.08em;
-  right: -0.1em;
-  bottom: -0.08em;
-  z-index: -1;
-  height: 0.36em;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 28' preserveAspectRatio='none'%3E%3Cpath d='M4 11 C52 10, 126 10, 176 16' fill='none' stroke='%23ff0000' stroke-width='9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
-  pointer-events: none;
-  transform: rotate(-1deg);
-}
-
 .hero-cta {
   display: flex;
   gap: 12px;
@@ -757,16 +698,6 @@ section h2 {
 
   .hero-subtitle {
     font-size: 20px;
-  }
-
-  .insert-slot {
-    width: 0;
-  }
-
-  .insert-label {
-    left: -1.18em;
-    bottom: 1.52em;
-    font-size: clamp(20px, 5vw, 28px);
   }
 
   .hero-title {

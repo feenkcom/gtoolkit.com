@@ -1,0 +1,80 @@
+---
+---
+
+.insert-label {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0;
+  color: transparent;
+  overflow: visible;
+  vertical-align: baseline;
+}
+
+.insert-label::before {
+  content: attr(data-label);
+  position: absolute;
+  left: -2.52em;
+  bottom: 1.78em;
+  color: var(--insert-red);
+  font-family: "desyrel", "Bradley Hand", "Marker Felt", cursive;
+  font-size: clamp(22px, 2.1vw, 36px);
+  font-weight: 700;
+  line-height: 0.88;
+  letter-spacing: 0;
+  transform: rotate(-3deg);
+  text-align: left;
+  white-space: pre;
+}
+
+.insert-mark {
+  position: absolute;
+  display: block;
+  left: -1.04em;
+  top: -1.1em;
+  width: 2.18em;
+  height: 0.84em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 80'%3E%3Cpath d='M20 14 C36 24, 49 44, 58 72 C69 45, 86 22, 108 10' fill='none' stroke='%23ff0000' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.annotated-underline-mark path {
+  fill: none;
+  stroke: var(--insert-red);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.annotated-underline {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.03em 0.03em;
+  margin: 0 -0.03em;
+  isolation: isolate;
+}
+
+.annotated-underline-mark {
+  position: absolute;
+  left: -0.08em;
+  bottom: -0.08em;
+  z-index: -1;
+  width: calc(100% + 0.18em);
+  height: 0.36em;
+  overflow: visible;
+  pointer-events: none;
+  transform: rotate(-1deg);
+}
+
+.annotated-underline-mark path {
+  stroke-width: 9;
+}
+
+@media (max-width: 991.98px) {
+  .insert-label::before {
+    left: -1.18em;
+    bottom: 1.52em;
+    font-size: clamp(20px, 5vw, 28px);
+  }
+}
