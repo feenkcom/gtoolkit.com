@@ -238,7 +238,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. Contextual tools can capture that value.</p>
+        <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. Contextual tools can communicate that value much more efficiently and pleasantly.</p>
       </div>
       <div class="col-10 col-lg-10">
         <div class="image-comparison-slider" style="--comparison-position: 50%;">
