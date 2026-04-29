@@ -143,13 +143,13 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. Take control by controlling the tools through which you interact with AI.</p>
+        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. Get in charge by controlling the tools through which you interact with it.</p>
       </div>
     </div>
     <div class="row padding-top-medium">
       <div class="col-md-6 col-lg-4 mb-4">
         <h3>Programmable</h3>
-        <p>Shape each conversation through scripts that define tools, explanations, structured outputs or prompts.</p>
+        <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
       </div>
       <div class="col-md-6 col-lg-4 mb-4">
         <h3>Forkable</h3>
@@ -245,7 +245,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
-            aria-label="Open examples of contextual tool views"
+            aria-label="Open details for Contextual views"
           >
             <span
               class="image-stack image-stack--compact"
@@ -307,7 +307,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
-            aria-label="Open examples of contextual tool views"
+            aria-label="Open details for Multiple views for the same context"
           >
             <span
               class="image-stack image-stack--compact"
@@ -362,6 +362,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
         <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand.</p>
+        <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
   </div>
@@ -377,31 +378,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row padding-top-medium">
       <div class="col-md-4 col-lg-4 mb-4">
         <h3>Start with a specific question</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>If there is no relevant tool, build one</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>Interpret the answer</h3>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="padding-top-large padding-bottom-large section-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-12">
-        <h2>Get started</h2>
-        <p class="lead">To </p>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3></h3>
         <p>...</p>
       </div>
       <div class="col-md-4 col-lg-4 mb-4">
