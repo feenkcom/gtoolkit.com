@@ -111,6 +111,8 @@
   inset: 0;
   z-index: 1;
   display: block;
+  width: 100%;
+  padding: 0;
   border-radius: 20px;
   overflow: hidden;
   background-color: #ffffff;
@@ -123,7 +125,10 @@
   transition: border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease, transform 0.3s ease;
   color: inherit;
   text-decoration: none;
+  text-align: left;
   isolation: isolate;
+  cursor: pointer;
+  appearance: none;
 }
 
 .image-wall-link::after {
@@ -161,10 +166,12 @@
 
 .image-wall-label {
   position: absolute;
+  display: block;
   right: 16px;
   bottom: 14px;
   left: 16px;
   z-index: 3;
+  text-align: left;
   color: #111111;
   font-family: "sources-bold", "desyrel", sans-serif;
   font-size: 16px;

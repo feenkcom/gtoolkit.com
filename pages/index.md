@@ -70,54 +70,54 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Software analysis</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-chat.png" data-caption="Work on a Wardley Map through a dedicated chat that stays connected to the underlying model." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-caption="Work on a Wardley Map through a dedicated chat that stays connected to the underlying model." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dedicated AI chats</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-rest-api.png" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open details for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">API exploration</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Data exploration</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Open details for DevOps investigations" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">DevOps investigations</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Technical documentation</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-editor.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-editor.png" data-caption="Edit an AT Protocol lexicon with domain-aware highlighting, completion inside JSON strings, and navigation to definitions." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-editor.png" data-caption="Edit an AT Protocol lexicon with domain-aware highlighting, completion inside JSON strings, and navigation to definitions." aria-label="Open details for System specific editors" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">System specific editors</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Open details for Inspecting runtime" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Inspecting runtime</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Open details for Domain documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Domain documentation</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Open details for Rewriting code" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Rewriting code</span>
-        </a>
+        </button>
       </li>
     </ul>
   </div>
@@ -205,29 +205,29 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The authorship history of a file in Git." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The authorship history of a file in Git." aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Authorship history</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Editing the dependency definitions of Glamorous Toolkit." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Editing the dependency definitions of Glamorous Toolkit." aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dependencies editor</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-treemap.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" aria-label="Open details for Treemap distribution" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Treemap distribution</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-blueprint.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." aria-label="Open details for Class hierarchy" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Class hierarchy</span>
-        </a>
+        </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-ast.png');">
-        <a class="image-wall-link" href="#" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." aria-label="Details">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." aria-label="Open details for Abstract syntax tree" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Abstract syntax tree</span>
-        </a>
+        </button>
       </li>
     </ul>
   </div>
