@@ -154,6 +154,17 @@
   transform: translateY(0);
 }
 
+@media (hover: none), (pointer: coarse), (max-width: 767.98px) {
+  .image-stack-card[data-stack-depth="0"]::after {
+    opacity: 1;
+  }
+
+  .image-stack-card[data-stack-depth="0"] .image-stack-label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 991.98px) {
   .image-stack,
   .card-stack {

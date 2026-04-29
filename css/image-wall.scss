@@ -191,6 +191,17 @@
   transform: translateY(0);
 }
 
+@media (hover: none), (pointer: coarse), (max-width: 767.98px) {
+  .image-wall-link::after {
+    opacity: 1;
+  }
+
+  .image-wall-label {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .image-wall-vertical {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
