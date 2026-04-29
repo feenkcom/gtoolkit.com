@@ -391,10 +391,20 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand.</p>
+        <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+      <div><img src="/assets/pictures/gt-exploration-cobol.png"/></div>
+      </div>
+    </div>
+    <div class="row justify-content-center padding-top-medium">
+      <div class="col-8 col-lg-8 mr-4">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
+
   </div>
 </section>
 
