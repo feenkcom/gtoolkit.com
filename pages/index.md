@@ -192,7 +192,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-large">
+<section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8">
@@ -231,6 +231,35 @@ Guide and understand AI interactions through interfaces tailored to each convers
         </button>
       </li>
     </ul>
+  </div>
+</section>
+
+<section class="padding-top-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mr-4">
+        <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. Contextual tools can capture that value.</p>
+      </div>
+      <div class="col-10 col-lg-10">
+        <div class="image-comparison-slider" style="--comparison-position: 50%;">
+          <figure class="image-comparison-frame">
+            <span class="image-comparison-layer image-comparison-layer--base">
+              <img class="image-comparison-image" src="/assets/pictures/gt-objects-view.png" alt="Contextual Glamorous Toolkit object view" />
+              <span class="image-comparison-label image-comparison-label--right">Contextual views</span>
+            </span>
+            <span class="image-comparison-layer image-comparison-layer--reveal">
+              <img class="image-comparison-image" src="/assets/pictures/gt-objects-raw.png" alt="Raw Glamorous Toolkit object view" />
+              <span class="image-comparison-label image-comparison-label--left">Generic views</span>
+            </span>
+            <span class="image-comparison-divider" aria-hidden="true"></span>
+            <span class="image-comparison-handle" aria-hidden="true">
+              <i class="fas fa-arrows-alt-h"></i>
+            </span>
+            <input class="image-comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal raw object or contextual view" />
+          </figure>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -297,35 +326,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
 </section>
 
 <section class="padding-top-medium">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">Anything in a system can be viewed in different ways. Even a single object.</p>
-      </div>
-      <div class="col-8 col-lg-8">
-        <div class="image-comparison-slider" style="--comparison-position: 50%;">
-          <figure class="image-comparison-frame">
-            <span class="image-comparison-layer image-comparison-layer--base">
-              <img class="image-comparison-image" src="/assets/pictures/gt-objects-view.png" alt="Contextual Glamorous Toolkit object view" />
-              <span class="image-comparison-label image-comparison-label--right">Contextual views</span>
-            </span>
-            <span class="image-comparison-layer image-comparison-layer--reveal">
-              <img class="image-comparison-image" src="/assets/pictures/gt-objects-raw.png" alt="Raw Glamorous Toolkit object view" />
-              <span class="image-comparison-label image-comparison-label--left">Raw objects</span>
-            </span>
-            <span class="image-comparison-divider" aria-hidden="true"></span>
-            <span class="image-comparison-handle" aria-hidden="true">
-              <i class="fas fa-arrows-alt-h"></i>
-            </span>
-            <input class="image-comparison-range" type="range" min="0" max="100" value="50" aria-label="Reveal raw object or contextual view" />
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
