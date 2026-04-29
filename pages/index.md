@@ -143,29 +143,33 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it.  Chat through contextual interfaces that you control. Interact from deep inside your systems through executable explanations. </p>
+        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. Take control by controlling the tools through which you interact with AI.</p>
       </div>
     </div>
     <div class="row padding-top-medium">
-      <div class="col-md-6 col-lg-3 mb-4">
-        <h3>Scriptable</h3>
-        <p>Shape each conversation through scripts that define prompts, actions and transformations specific to the problem at hand.</p>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h3>Programmable</h3>
+        <p>Shape each conversation through scripts that define tools, explanations, structured outputs or prompts.</p>
       </div>
-      <!-- <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Forkable</h3>
-        <p>Go back in the interaction history and fork new conversations to preserve meaningful context.</p>
-      </div> -->
-      <div class="col-md-6 col-lg-3 mb-4">
+        <p>Fork new conversations at any point to explore alternatives without losing the context.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Inspectable</h3>
         <p>Inspect everything about the AI interaction to understand what the AI does.</p>
       </div>
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Objects in. Objects out</h3>
-        <p>Work with objects instead of text and build contextual tools around them. Depict objects with contextual views to make them easily digestable by AI.</p>
+        <p>Pass live objects into the conversation and get structured objects back, each with contextual views that make them explorable for both humans and AI.</p>
       </div>
-      <div class="col-md-6 col-lg-3 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4">
         <h3>Executable context</h3>
-        <p>Capture context explanations in the integrated linked knowledge base and connect them to the system live objects.</p>
+        <p>Ground conversations in executable explanations linked to code, examples, and documentation, so context can be reused, checked, and evolved.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h3>Deeply integrated</h3>
+        <p>The AI interaction is made of the same pieces the rest of the environment is made of and can be combined seamlessly with everything else.</p>
       </div>
     </div>
   </div>
@@ -175,9 +179,9 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
-        <p class="lead">Software is <span class="manual-underline">shapeless</span>. We, humans, need a shape to reason about anything. Tools are essential as they provide the shape of software.</p>
+        <p class="lead">Software is <span class="manual-underline">shapeless</span>. You cannot perceive anything in a software system except through a tool. Tools are essential as they provide the shape of software. Control the tool to control the perception, and therefore your comprehension.</p>
         <p class="lead">Software is <span class="manual-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
-        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which we type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
+        <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which you type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
         <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine micro tools inexpensively, live and in many ways.</p>
       </div>
       <div class="col-8 col-lg-4">
@@ -191,7 +195,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8">
-        <p class="lead">A tool is an interface through which we interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things, or it can be simple, focusing on answering a single question. A tool can be visual, or it can be plain. A tool can be generic, applicable to many inputs, or it can be contextual, relevant to only a narrow input.</p>
+        <p class="lead">A tool is an interface through which you interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things, or it can be simple, focusing on answering a single question. A tool can be visual, or it can be plain. A tool can be generic, applicable to many inputs, or it can be contextual, relevant to only a narrow input.</p>
       </div>
     </div>
   </div>
@@ -229,11 +233,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-large padding-bottom-large">
+<section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the <span class="manual-underline">answer deterministically</span>. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
@@ -260,7 +264,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image-stack-item
                 data-gallery-index="2"
                 data-image="/assets/pictures/c-source.png"
-                data-caption="The raw source behind the dependency definition spans 1241 lines of code. Reading them can be daunting."
+                data-caption="Consider an example of a dependency definition for a project. The raw source spans 1241 lines of code. Reading them can be daunting."
               >
                 <img src="/assets/pictures/c-source.png" alt="" />
               </span>
@@ -291,6 +295,127 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
+<section class="padding-top-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-4 mr-4">
+        <p class="lead">Answering every question through deterministic contextual tools leads to <span class="manual-underline">thousands of tools per system</span>. To manage them, you need an inversion of control: tools should come to where you are, instead of you invoking them explicitly. In Glamorous Toolkit, tools are associated to the contexts in which they are relevant and they activate only when you interact with that context. Such a context can be as basic as an individual object.</p>
+      </div>
+      <div class="col-8 col-lg-4">
+        <div class="image-stack-wrap image-stack-wrap--compact">
+          <button
+            type="button"
+            class="image-stack-button"
+            data-image-stack-trigger
+            aria-label="Open examples of contextual tool views"
+          >
+            <span
+              class="image-stack image-stack--compact"
+              aria-hidden="true"
+              data-stack-base-height="392"
+              data-stack-compact-base-height="272"
+              data-stack-front-y="30"
+              data-stack-compact-front-y="18"
+              data-stack-step-x="18"
+              data-stack-compact-step-x="14"
+              data-stack-step-y="12"
+              data-stack-compact-step-y="9"
+            >
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="2"
+                data-image="/assets/pictures/gt-object-views-text.png"
+                data-caption="These are different views for a text object. They only appear when inspecting such an object."
+              >
+                <img src="/assets/pictures/gt-object-views-text.png" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="1"
+                data-image="/assets/pictures/gt-object-views-squarify.png"
+                data-caption="These are different views for a text object. They only appear when inspecting such an object."
+              >
+                <img src="/assets/pictures/gt-object-views-squarify" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="0"
+                data-image="/assets/pictures/gt-object-views-file.png"
+                data-caption="These are different views for a picture file object. They only appear when inspecting such an object."
+              >
+                <img src="/assets/pictures/gt-object-views-file.png" alt="System specific contextual tool view" />
+                <span class="image-stack-label">Multiple views for the same context</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-top-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mr-4">
+        <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-top-large padding-bottom-large">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <h2>A typical flow</h2>
+      </div>
+    </div>
+    <div class="row padding-top-medium">
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>Start with a specific question</h3>
+        <p>...</p>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>If there is no relevant tool, build one</h3>
+        <p>...</p>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>Interpret the answer</h3>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-top-large padding-bottom-large section-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <h2>Get started</h2>
+        <p class="lead">To </p>
+      </div>
+    </div>
+    <div class="row padding-top-medium">
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3></h3>
+        <p>...</p>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>If there is no relevant tool, build one</h3>
+        <p>...</p>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>Interpret the answer</h3>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">
     <div class="row justify-content-center">
@@ -300,7 +425,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
           <article class="faq-item">
             <h3 class="faq-title">
               <button class="faq-question" type="button" data-toggle="collapse" data-target="#faq-ai-era" aria-expanded="true" aria-controls="faq-ai-era">
-                <span>Do I need this environment in the age of Generative AI?</span>
+                <span>Do I need this environment in the AI age?</span>
               </button>
             </h3>
             <div id="faq-ai-era" class="collapse show" data-parent="#faq-accordion">
@@ -317,7 +442,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-platform" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>Glamorous Toolkit is primarily for building systems through, not necessarily in. It is for building the tools through which you develop systems built in various technologies.</p>
+                <p>Glamorous Toolkit is primarily for building tools, views, explanations, and workflows through which you understand and change systems, not a replacement application platform.</p>
               </div>
             </div>
           </article>
@@ -329,7 +454,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-legacy" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>It can be used for large legacy systems, but also for many other scenarios including domain discovery and exploring AI interactions.</p>
+                <p>It can be used for large legacy systems, but also for many other scenarios including domain discovery, browsing APIs, data exploration, making sense of logs, documentation, domain modeling, code rewriting, AI conversations, or runtime inspection.</p>
               </div>
             </div>
           </article>
@@ -341,7 +466,31 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-contextual-tools" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>Software systems are highly contextual. We can predict classes of problems, but not specific ones. That is why ready-made clicking tools are ineffective. Instead, we should build tools after we know the problem, during development.</p>
+                <p>Software systems are highly contextual. We can predict classes of problems, but not specific ones. Standard tools are useful for generic problems. Contextual tools are for all the specific questions that emerge inside a concrete system.</p>
+              </div>
+            </div>
+          </article>
+          <article class="faq-item">
+            <h3 class="faq-title">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+                <span>What is a deterministic contextual tool again?</span>
+              </button>
+            </h3>
+            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+              <div class="faq-answer">
+                <p>A tool made to answer a question about a system. The pictures from this page show various examples.</p>
+              </div>
+            </div>
+          </article>
+          <article class="faq-item">
+            <h3 class="faq-title">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+                <span>Why do we need deterministic tools when the AI can create summaries so easily?</span>
+              </button>
+            </h3>
+            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+              <div class="faq-answer">
+                <p>Most questions about a system require deterministic answers based on the information from the system. AI summaries can be convenient, but you do not know if they are accurate or representative, and they are not explainable either. These are essential characteristics for answers to be used for engineering purposes. Deterministic contetual tools will also contain bias, but this bias can be inspected before interpreting their output. Read more about it in the 6th chapter of Rewilding Software Engineering.</p>
               </div>
             </div>
           </article>
@@ -353,7 +502,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-expensive" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>Not if you use Glamorous Toolkit. We understand the skepticism. It can be hard to believe that creating thousands of tools per system is practical, so we suggest you <a href="/start">get started</a> and see it live.</p>
+                <p>Not if you use Glamorous Toolkit. The environment is built as a language made out of visual and interactive operators that you can program easily and combine in many ways. We know it's so because we were its first users: when you open Glamorous Toolkit, you get more than 6000 contextual tools that we relied upon when developing the envionment itself. <a href="/start">Get started</a> and see it live.</p>
               </div>
             </div>
           </article>
@@ -365,7 +514,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-smalltalk-learn" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>If you want to leverage Glamorous Toolkit, you have to program it. Smalltalk (Pharo, to be specific) is the main way to program it.</p>
+                <p>You can use existing tools, but if you want to leverage Glamorous Toolkit to its full potential, you have to program it. Smalltalk (Pharo, to be specific) is the main way to program it.</p>
               </div>
             </div>
           </article>
@@ -377,31 +526,31 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-smalltalk-implemented" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>We implemented it primarily in Smalltalk because it offers a reflective system in which the environment can be changed live while using it. This lowered research cost and enabled us to discover what we now call <a href="https://moldabledevelopment.com">Moldable Development</a>. That said, today, Glamorous Toolkit has a significant part implemented in Rust.</p>
+                <p>We implemented it primarily in Smalltalk because it offers a reflective system in which the environment can be changed live while using it. This lowered research cost and enabled us to discover what we now call <a href="https://moldabledevelopment.com">Moldable Development</a>. That said, today, Glamorous Toolkit has a significant part implemented in Rust and works with many other technologies.</p>
               </div>
             </div>
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
               <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
-                <span>But the interface does not seem to be classic Smalltalk. Why?</span>
+                <span>Which languages and technologies can it work with?</span>
               </button>
             </h3>
             <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>The goal was to discover an environment that helps us understand systems without relying on reading as the primary way to extract information. So while we reused the language, core libraries, and virtual machine of Pharo, the graphical stack and multiple engines are novel.</p>
+                <p>Glamorous Toolkit has an elaborate support for Pharo, but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Rust, Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone. These are available out of the box, but they can be taken as examples of what you can build yourself for your language and technology.</p>
               </div>
             </div>
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
-              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-dead" aria-expanded="false" aria-controls="faq-dead">
-                <span>But isn't Smalltalk dead?</span>
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+                <span>Is Glamorous Toolkit free and open-source?</span>
               </button>
             </h3>
-            <div id="faq-dead" class="collapse" data-parent="#faq-accordion">
+            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>Not at all. It is just misunderstood.</p>
+                <p>Yes, it is free and open-source under an <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">MIT license</a>.</p>
               </div>
             </div>
           </article>
