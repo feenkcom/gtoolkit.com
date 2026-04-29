@@ -9,6 +9,9 @@ window.onload = function registerBehaviour() {
   if (typeof initImageWall === "function") {
     initImageWall();
   }
+  if (typeof initImageComparisonSliders === "function") {
+    initImageComparisonSliders();
+  }
 };
 
 function addVersionNumbers() {
