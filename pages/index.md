@@ -396,7 +396,12 @@ Guide and understand AI interactions through interfaces tailored to each convers
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
-      <div><img src="/assets/pictures/gt-exploration-cobol.png"/></div>
+        <div class="image-card">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system through contextual views in Glamorous Toolkit." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+            <img class="image-card-image" src="/assets/pictures/gt-exploration-cobol.png" alt="Exploring the structure of a COBOL system in Glamorous Toolkit" />
+            <span class="image-card-label">COBOL system exploration</span>
+          </button>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center padding-top-medium">

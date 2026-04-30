@@ -1,5 +1,5 @@
 function initImageWall() {
-  var links = $(".image-wall-link[data-image]");
+  var links = $(".image-wall-link[data-image], .image-card-link[data-image]");
   var modal = $("#expandedModal");
   var dataKey = "imageWallItems";
 
@@ -11,11 +11,11 @@ function initImageWall() {
 
   links.off("click.imageWall").on("click.imageWall", function (event) {
     var group = findImageWallGroup($(this));
-    var groupLinks = group.find(".image-wall-link[data-image]");
+    var groupLinks = group.find(".image-wall-link[data-image], .image-card-link[data-image]");
     var items = collectImageGalleryItems(groupLinks, {
       imageAttribute: "data-image",
       captionAttribute: "data-caption",
-      labelSelector: ".image-wall-label",
+      labelSelector: ".image-wall-label, .image-card-label",
     });
 
     if (!items.length) {
@@ -29,5 +29,5 @@ function initImageWall() {
 }
 
 function findImageWallGroup(link) {
-  return link.closest(".image-wall-grid, .image-wall-vertical");
+  return link.closest(".image-wall-grid, .image-wall-vertical, .image-card");
 }
