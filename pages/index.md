@@ -410,7 +410,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
       </div>
     </div>
     <div class="row justify-content-center padding-top-medium">
-      <div class="col-8 col-lg-8 mr-4">
+      <div class="col-8 col-lg-8 mt-4">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
