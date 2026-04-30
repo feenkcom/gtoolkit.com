@@ -13,7 +13,8 @@
   border-radius: inherit;
 }
 
-.image-wall-modal img {
+.image-wall-modal img,
+.image-wall-modal video {
   display: block;
   width: auto;
   max-width: 100%;
@@ -167,6 +168,43 @@
 .image-wall-link:focus-visible {
   outline: 3px solid rgba(0, 102, 200, 0.16);
   outline-offset: 2px;
+}
+
+.image-wall-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 4;
+  display: block;
+  width: 58px;
+  height: 58px;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+  transform: translate(-50%, -50%);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.image-wall-play::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 20px solid rgba(255, 255, 255, 0.86);
+  transform: translate(-40%, -50%);
+}
+
+.image-wall-link:hover .image-wall-play,
+.image-wall-link:focus .image-wall-play,
+.image-wall-link:focus-visible .image-wall-play {
+  background: rgba(255, 255, 255, 0.38);
+  transform: translate(-50%, -50%) scale(1.04);
 }
 
 .image-wall-label {

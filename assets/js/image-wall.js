@@ -1,5 +1,5 @@
 function initImageWall() {
-  var links = $(".image-wall-link[data-image], .image-card-link[data-image]");
+  var links = $(".image-wall-link[data-image], .image-wall-link[data-video], .image-card-link[data-image], .image-card-link[data-video]");
   var modal = $("#expandedModal");
   var dataKey = "imageWallItems";
 
@@ -11,7 +11,7 @@ function initImageWall() {
 
   links.off("click.imageWall").on("click.imageWall", function (event) {
     var group = findImageWallGroup($(this));
-    var groupLinks = group.find(".image-wall-link[data-image], .image-card-link[data-image]");
+    var groupLinks = group.find(".image-wall-link[data-image], .image-wall-link[data-video], .image-card-link[data-image], .image-card-link[data-video]");
     var items = collectImageGalleryItems(groupLinks, {
       imageAttribute: "data-image",
       captionAttribute: "data-caption",

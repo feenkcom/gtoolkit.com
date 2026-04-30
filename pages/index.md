@@ -80,8 +80,9 @@ Guide and understand AI interactions through interfaces tailored to each convers
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open details for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+      <li class="image-wall-item ximage-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
+        <button class="image-wall-link ximage-wall-link--video" type="button" data-image="/assets/pictures/use-case-rest-api.png" xdata-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <!-- <span class="image-wall-play" aria-hidden="true"></span> -->
           <span class="image-wall-label">API exploration</span>
         </button>
       </li>

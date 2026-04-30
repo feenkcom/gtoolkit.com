@@ -8,6 +8,8 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
         return;
       }
 
+      pauseImageGalleryVideos(modal);
+
       var activeIndex = Number(
         $(this)
           .find(".carousel-item.active")
@@ -21,6 +23,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
   });
 
   modal.off("hidden.bs.modal." + namespace).on("hidden.bs.modal." + namespace, function () {
+    pauseImageGalleryVideos(modal);
     clearImageGalleryModal(modal, dataKey);
   });
 }
@@ -36,13 +39,15 @@ function collectImageGalleryItems(elements, options) {
           : "";
       return {
         image: element.attr(options.imageAttribute || "data-image") || "",
+        video: element.attr(options.videoAttribute || "data-video") || "",
+        videoType: element.attr(options.videoTypeAttribute || "data-video-type") || "video/mp4",
         caption: element.attr(options.captionAttribute || "data-caption") || "",
         label: label,
       };
     })
     .get()
     .filter(function (item) {
-      return Boolean(item.image);
+      return Boolean(item.image || item.video);
     });
 }
 
@@ -73,11 +78,7 @@ function buildImageGalleryMarkup(items, activeIndex) {
         '" data-index="' +
         index +
         '">' +
-          '<img src="' +
-          item.image +
-          '" alt="' +
-          escapeHtml(item.label || item.caption) +
-          '">' +
+          buildImageGalleryMediaMarkup(item) +
         "</div>"
       );
     })
@@ -102,6 +103,37 @@ function buildImageGalleryMarkup(items, activeIndex) {
       "</div>" +
       controlsMarkup +
     "</div>"
+  );
+}
+
+function buildImageGalleryMediaMarkup(item) {
+  var label = escapeHtml(item.label || item.caption);
+
+  if (item.video) {
+    var posterMarkup = item.image ? ' poster="' + escapeHtml(item.image) + '"' : "";
+
+    return (
+      '<video controls playsinline preload="metadata"' +
+        posterMarkup +
+        ' aria-label="' +
+        label +
+        '">' +
+          '<source src="' +
+          escapeHtml(item.video) +
+          '" type="' +
+          escapeHtml(item.videoType) +
+          '">' +
+          "Your browser does not support the video tag." +
+      "</video>"
+    );
+  }
+
+  return (
+    '<img src="' +
+      escapeHtml(item.image) +
+      '" alt="' +
+      label +
+      '">'
   );
 }
 
@@ -141,4 +173,10 @@ function clearImageGalleryModal(modal, dataKey) {
   modal.find(".modal-body").empty();
   modal.find(".modal-header .caption p").text("");
   modal.removeData(dataKey);
+}
+
+function pauseImageGalleryVideos(modal) {
+  modal.find("#imageGalleryCarousel video").each(function () {
+    this.pause();
+  });
 }
