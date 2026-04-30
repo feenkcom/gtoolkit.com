@@ -2,20 +2,27 @@
 ---
 
 .image-wall-modal {
+  max-height: calc(100vh - 132px);
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid var(--line);
   background: #fafafa;
 }
 
-.image-wall-modal .carousel-inner {
+.image-wall-modal .carousel-inner,
+.image-wall-modal .carousel-item {
+  max-height: inherit;
   border-radius: inherit;
 }
 
 .image-wall-modal img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: inherit;
   height: auto;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 .image-wall-modal .carousel-control-prev,

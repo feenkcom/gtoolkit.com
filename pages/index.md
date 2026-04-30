@@ -178,6 +178,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
 
 <section class="padding-top-large">
   <div class="container">
+    <!-- <div class="row justify-content-center">
+      <div class="col-8 col-lg-8">
+      <h2>Choosing the role of human decision making is the most important architectural decision of our time. Understanding the nature of software and what it takes to comprehend it are paramount before making that choice</h2>
+      </div>
+    </div> -->
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4">
         <p class="lead">Software is <span class="manual-underline">shapeless</span>. You cannot perceive anything in a software system except through a tool. Tools are essential as they provide the shape of software. Control the tool to control the perception, and therefore your comprehension.</p>
@@ -315,7 +320,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-caption="A system-specific view lets you answer the concrete question directly from a tool shaped around that system."
               >
                 <img src="/assets/pictures/c-contextual-view.png" alt="System specific contextual tool view" />
-                <span class="image-stack-label">Contextual views</span>
+                <span class="image-stack-label">Contextual views compress the system</span>
               </span>
             </span>
           </button>
