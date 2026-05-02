@@ -71,6 +71,56 @@
   stroke-width: 9;
 }
 
+.downward-arrow-lead {
+  position: relative;
+  margin-bottom: 76px;
+}
+
+.downward-arrow {
+  position: absolute;
+  left: calc(50% + 0.92em);
+  top: calc(100% + 0.6em);
+  display: block;
+  width: max-content;
+  height: auto;
+  overflow: visible;
+  pointer-events: none;
+  color: var(--insert-red);
+  font-family: "desyrel", "Bradley Hand", "Marker Felt", cursive;
+  font-size: clamp(24px, 2.2vw, 30px);
+  font-weight: 700;
+  line-height: 0.88;
+  letter-spacing: 0;
+  transform: rotate(-5deg);
+  white-space: nowrap;
+}
+
+.downward-arrow::after {
+  content: "";
+  position: absolute;
+  left: -3.1em;
+  top: -0.4em;
+  width: 4.5em;
+  height: 2.86em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 112' preserveAspectRatio='none'%3E%3Cpath d='M90 4 C108 22, 76 38, 91 60' fill='none' stroke='%23ff0000' stroke-width='3.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M76 49 C84 56, 90 63, 93 70 C98 61, 104 54, 112 48' fill='none' stroke='%23ff0000' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  overflow: visible;
+  transform: rotate(5deg);
+  transform-origin: top left;
+}
+
+@media (min-width: 992px) {
+  .downward-arrow {
+    top: calc(100% + 0.38em);
+  }
+
+  .downward-arrow::after {
+    left: -2.62em;
+    top: -0.28em;
+    width: 3.72em;
+    height: 2.18em;
+  }
+}
+
 @media (max-width: 991.98px) {
   .insert-label::before {
     left: -1.18em;

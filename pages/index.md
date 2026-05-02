@@ -64,7 +64,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <p class="lead">Any question about a system can be answered through narratives made out of contextual tools.</p>
+        <p class="lead downward-arrow-lead">Any question about a system can be answered through narratives made out of contextual tools.<span class="downward-arrow">examples</span></p>
       </div>
     </div>
   </div>
@@ -245,7 +245,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. Contextual tools can communicate that value much more efficiently and pleasantly.</p>
+        <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. <span class="manual-underline">Contextual tools</span> can communicate that value much more efficiently and pleasantly.</p>
       </div>
       <div class="col-10 col-lg-10">
         <div class="image-comparison-slider" style="--comparison-position: 50%;">
