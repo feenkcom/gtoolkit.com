@@ -61,29 +61,30 @@ Guide and understand AI interactions through interfaces tailored to each convers
 </section>
 
 <section class="image-wall-section margin-bottom-large margin-top-large" aria-labelledby="image-wall-title">
-  <!-- <div class="container">
-    <div class="row justify-content-center text-center mb-4">
+  <div class="container">
+    <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <h2>For every problem, a dedicated experience</h2>
+        <p class="lead">Any question about a system can be answered through narratives made out of contextual tools.</p>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-label">Software analysis</span>
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
+        <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-play" aria-hidden="true"></span>
+          <span class="image-wall-label">API exploration</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-caption="Work on a Wardley Map through a dedicated chat that stays connected to the underlying model." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
+        <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contetualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
-      <li class="image-wall-item ximage-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
-        <button class="image-wall-link ximage-wall-link--video" type="button" data-image="/assets/pictures/use-case-rest-api.png" xdata-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
-          <!-- <span class="image-wall-play" aria-hidden="true"></span> -->
-          <span class="image-wall-label">API exploration</span>
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-label">Software analysis</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data.png');">
@@ -189,7 +190,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
         <p class="lead">Software is <span class="manual-underline">shapeless</span>. You cannot perceive anything in a software system except through a tool. Tools are essential as they provide the shape of software. Control the tool to control the perception, and therefore your comprehension.</p>
         <p class="lead">Software is <span class="manual-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
         <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which you type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
-        <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine micro tools inexpensively, live and in many ways.</p>
+        <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine <span class="manual-underline">micro tools</span> inexpensively, live and in many ways.</p>
       </div>
       <div class="col-8 col-lg-4">
         <img src="/assets/pictures/gt-layers.png"/>
@@ -403,7 +404,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <div class="image-card">
-          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system through contextual views in Glamorous Toolkit." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system: the screens in the system, the control flow graph associated to one screen, the source of one of the COBOL modules, and then a query over the code to find CICS EXEC instructions." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
             <img class="image-card-image" src="/assets/pictures/gt-exploration-cobol.png" alt="Exploring the structure of a COBOL system in Glamorous Toolkit" />
             <span class="image-card-label">COBOL system exploration</span>
           </button>
@@ -415,7 +416,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
-
   </div>
 </section>
 
@@ -438,6 +438,27 @@ Guide and understand AI interactions through interfaces tailored to each convers
       <div class="col-md-4 col-lg-4 mb-4">
         <h3>Interpret the answer</h3>
         <p>...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-top-large padding-bottom-large section-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <h2>Explore and document your systems</h2>
+        <p class="lead">A knowledge base .</p>
+      </div>
+    </div>
+    <div class="row padding-top-medium">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h3>Programmable snippets</h3>
+        <p>.</p>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <h3>Multi language notebooks</h3>
+        <p>.</p>
       </div>
     </div>
   </div>

@@ -180,7 +180,7 @@
   height: 58px;
   border: 1px solid rgba(255, 255, 255, 0.58);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.28);
+  background: rgba(100, 100, 100, 0.28);
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
   transform: translate(-50%, -50%);
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -203,7 +203,8 @@
 .image-wall-link:hover .image-wall-play,
 .image-wall-link:focus .image-wall-play,
 .image-wall-link:focus-visible .image-wall-play {
-  background: rgba(255, 255, 255, 0.38);
+  // background: rgba(255, 255, 255, 0.38);
+  background: rgba(100, 100, 100, 0.28);
   transform: translate(-50%, -50%) scale(1.04);
 }
 
