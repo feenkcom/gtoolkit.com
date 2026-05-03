@@ -146,10 +146,28 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Control your AI interactions</h2>
-        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. Get in charge by controlling the tools through which you interact with it.</p>
+        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. In Glamorous Toolkit you remain charge by controlling the environment through which you interact with AI.</p>
       </div>
     </div>
-    <div class="row padding-top-medium">
+    <div class="row  mt-4">
+      <div class="col-md-6 col-lg-6 mb-4">
+        <h3>Program your harness</h3>
+        <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
+      </div>
+      <div class="col-md-6 col-lg-6 mb-4">
+        <h3>Make your context count</h3>
+        <p>Ground conversations in executable reusable explanations linked to code and examples so context can be easily checked and evolved. Fork new conversations.</p>
+      </div>
+      <div class="col-md-6 col-lg-6 mb-4">
+        <h3>Understand what tools do</h3>
+        <p>Don't take for granted what the AI says it does. Understand it through deterministic views, both when using it diretly or through MCP.</p>
+      </div>
+      <div class="col-md-6 col-lg-6 mb-4">
+        <h3>Work with objects</h3>
+        <p>Pass live objects into the conversation and get structured objects back, each with contextual views that make them explorable for both humans and AI.</p>
+      </div>
+    </div>
+    <!-- <div class="row padding-top-medium">
       <div class="col-md-6 col-lg-4 mb-4">
         <h3>Programmable</h3>
         <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
@@ -173,6 +191,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
       <div class="col-md-6 col-lg-4 mb-4">
         <h3>Deeply integrated</h3>
         <p>The AI interaction is made of the same pieces the rest of the environment is made of and can be combined seamlessly with everything else.</p>
+      </div>
+    </div> -->
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12 mt-4">
+        <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
   </div>
@@ -394,10 +417,41 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<section class="padding-top-medium">
+<section class="padding-bottom-large padding-top-large section-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
+      <div class="col-12 col-lg-12">
+        <h2>A typical flow</h2>
+        <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer.</p>
+      </div>
+    </div>
+    <div class="row padding-top-medium">
+      <div class="col-md-4 col-lg-4 mb-4">
+        <p>...</p>
+        <h3>Start with a specific question</h3>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>If there is no relevant tool, build one</h3>
+        <p>...</p>
+      </div>
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3>Interpret the answer</h3>
+        <p>...</p>
+      </div>
+    </div>
+    <div class="row justify-content-center padding-top-medium">
+      <div class="col-12 col-lg-12 mt-4">
+        <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="padding-top-large padding-bottom-medium ">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mb-4">
         <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
       </div>
     </div>
@@ -411,39 +465,103 @@ Guide and understand AI interactions through interfaces tailored to each convers
         </div>
       </div>
     </div>
-    <div class="row justify-content-center padding-top-medium">
-      <div class="col-8 col-lg-8 mt-4">
+  </div>
+</section>
+
+<section class="padding-bottom-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mb-4">
+        <p class="lead">Narratives can cover any objects depicting any facets of a systems, including the domain, and they can be aimed at <span class="manual-underline">different audiences</span> with different backgrounds. Thus, the environment becomes truly integrated mediating the conversation between all stakeholders of the system.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <div class="image-card">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-uhmo.png" data-caption="Exploring the inner workings of a restaurant. On the left, a script simulates a scenario in which a waiter places an order and issues an invoice. The state of the simulation is seen in the second pane. To the right we see the invoice." aria-label="Open details for restaurant exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+            <img class="image-card-image" src="/assets/pictures/gt-exploration-uhmo.png" alt="Exploring the inner workings of a restaurant in Glamorous Toolkit" />
+            <span class="image-card-label">Exporing a restaurant system</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-4 mr-4">
+        <p class="lead">The contextualization extends to any interaction with the system, including editing. A system is made of many facets: technologies, domain rules, conventions, libraries, interfaces, tests, generated artifacts, and runtime behavior. Editing is not just typing text, but affecting some of these facets. Every change happens inside a context that determines what the change means. Generic editors flatten that context. <span class="manual-underline">Contextual editors</span> elevate the interaction to match it.</p>
+      </div>
+      <div class="col-8 col-lg-4">
+        <div class="image-stack-wrap image-stack-wrap--compact">
+          <button
+            type="button"
+            class="image-stack-button"
+            data-image-stack-trigger
+            aria-label="Open details for Contextual editors"
+          >
+            <span
+              class="image-stack image-stack--compact"
+              aria-hidden="true"
+              data-stack-base-height="392"
+              data-stack-compact-base-height="272"
+              data-stack-front-y="30"
+              data-stack-compact-front-y="18"
+              data-stack-step-x="18"
+              data-stack-compact-step-x="14"
+              data-stack-step-y="12"
+              data-stack-compact-step-y="9"
+            >
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="0"
+                data-image="/assets/pictures/gt-lza-completion.png"
+                data-caption="A contextual editor can provide completions shaped by the system being changed."
+              >
+                <img src="/assets/pictures/gt-lza-completion.png" alt="Contextual editor completion in Glamorous Toolkit" />
+                <span class="image-stack-label">Contextual editors match the system</span>
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="1"
+                data-image="/assets/pictures/gt-lza-peek.png"
+                data-caption="A contextual editor can reveal related details inline, where they are needed."
+              >
+                <img src="/assets/pictures/gt-lza-peek.png" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="2"
+                data-image="/assets/pictures/gt-lza-references.png"
+                data-caption="A contextual editor can bring references into the editing flow without leaving the current context."
+              >
+                <img src="/assets/pictures/gt-lza-references.png" alt="" />
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-large">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mr-4">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="padding-top-large padding-bottom-large">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-12">
-        <h2>A typical flow</h2>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>Start with a specific question</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>If there is no relevant tool, build one</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>Interpret the answer</h3>
-        <p>...</p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="padding-top-large padding-bottom-large section-light">
+<!-- <section class="padding-top-large padding-bottom-large section-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
@@ -462,7 +580,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">
