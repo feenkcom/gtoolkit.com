@@ -624,6 +624,24 @@ section h2 {
   margin-bottom: 0;
 }
 
+.faq-answer-image {
+  display: block;
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .faq-answer--with-image {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 40%);
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .faq-answer--with-image .faq-answer-image {
+    margin-top: 0;
+  }
+}
+
 .footer {
   background: linear-gradient(180deg, #222222 0%, #0d0d0d 100%);
 }

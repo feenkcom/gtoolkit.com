@@ -550,6 +550,16 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
+<!-- <section class="padding-bottom-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mr-4">
+        <p class="lead">Making systems explaianble is a large .</p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
 <section class="padding-bottom-large">
   <div class="container">
     <div class="row justify-content-center">
@@ -655,8 +665,9 @@ Guide and understand AI interactions through interfaces tailored to each convers
               </button>
             </h3>
             <div id="faq-ai-summaries" class="collapse" data-parent="#faq-accordion">
-              <div class="faq-answer">
-                <p>Most questions about a system require deterministic answers based on the information from the system. AI summaries can be convenient, but you do not know if they are accurate or representative, and they are not explainable either. These are essential characteristics for answers to be used for engineering purposes. Deterministic contetual tools will also contain bias, but this bias can be inspected before interpreting their output. Read more about it in the 6th chapter of Rewilding Software Engineering.</p>
+              <div class="faq-answer faq-answer--with-image">
+                <p>Most questions about a system require deterministic answers based on the information from the system. AI summaries can be convenient, but you do not know if they are accurate or representative, and they are not explainable either. These are essential characteristics for answers to be used for engineering purposes. Deterministic contetual tools will also contain bias, but this bias can be inspected before interpreting their output. Read more about it in the <a href="https://medium.com/feenk/rewilding-software-engineering-ca3ad1e612d8">6th chapter of Rewilding Software Engineering</a>.</p>
+                <img class="img-fluid faq-answer-image" src="/assets/pictures/gt-dependencies-llm-vs-gt.png" alt="Comparing an AI summary with a deterministic Glamorous Toolkit dependency view" />
               </div>
             </div>
           </article>
