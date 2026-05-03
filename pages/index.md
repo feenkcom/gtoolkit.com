@@ -422,13 +422,13 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>A typical flow</h2>
-        <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer.</p>
+        <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer and make a decision.</p>
       </div>
     </div>
     <div class="row padding-top-medium">
       <div class="col-md-4 col-lg-4 mb-4">
-        <p>...</p>
         <h3>Start with a specific question</h3>
+        <p>...</p>
       </div>
       <div class="col-md-4 col-lg-4 mb-4">
         <h3>If there is no relevant tool, build one</h3>
@@ -638,11 +638,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
-              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-deterministic-tool" aria-expanded="false" aria-controls="faq-deterministic-tool">
                 <span>What is a deterministic contextual tool again?</span>
               </button>
             </h3>
-            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+            <div id="faq-deterministic-tool" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
                 <p>A tool made to answer a question about a system. The pictures from this page show various examples.</p>
               </div>
@@ -650,11 +650,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
-              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-ai-summaries" aria-expanded="false" aria-controls="faq-ai-summaries">
                 <span>Why do we need deterministic tools when the AI can create summaries so easily?</span>
               </button>
             </h3>
-            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+            <div id="faq-ai-summaries" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
                 <p>Most questions about a system require deterministic answers based on the information from the system. AI summaries can be convenient, but you do not know if they are accurate or representative, and they are not explainable either. These are essential characteristics for answers to be used for engineering purposes. Deterministic contetual tools will also contain bias, but this bias can be inspected before interpreting their output. Read more about it in the 6th chapter of Rewilding Software Engineering.</p>
               </div>
@@ -698,11 +698,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
-              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-supported-technologies" aria-expanded="false" aria-controls="faq-supported-technologies">
                 <span>Which languages and technologies can it work with?</span>
               </button>
             </h3>
-            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+            <div id="faq-supported-technologies" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
                 <p>Glamorous Toolkit has an elaborate support for Pharo, but it was designed to be extended for other technologies and languages. It can be used to analyze various sources such as Rust, Java, C#, Ruby/Rails, Python, TypeScript, JavaScript, React or COBOL. And it can be used to work with various runtimes like GraphQL, Python, JavaScript or Gemstone. These are available out of the box, but they can be taken as examples of what you can build yourself for your language and technology.</p>
               </div>
@@ -710,11 +710,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
           </article>
           <article class="faq-item">
             <h3 class="faq-title">
-              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-interface" aria-expanded="false" aria-controls="faq-interface">
+              <button class="faq-question collapsed" type="button" data-toggle="collapse" data-target="#faq-open-source" aria-expanded="false" aria-controls="faq-open-source">
                 <span>Is Glamorous Toolkit free and open-source?</span>
               </button>
             </h3>
-            <div id="faq-interface" class="collapse" data-parent="#faq-accordion">
+            <div id="faq-open-source" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
                 <p>Yes, it is free and open-source under an <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">MIT license</a>.</p>
               </div>
