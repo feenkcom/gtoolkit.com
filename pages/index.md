@@ -425,20 +425,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
         <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer and make a decision.</p>
       </div>
     </div>
-    <div class="row padding-top-medium">
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>Start with a specific question</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>If there is no relevant tool, build one</h3>
-        <p>...</p>
-      </div>
-      <div class="col-md-4 col-lg-4 mb-4">
-        <h3>Interpret the answer</h3>
-        <p>...</p>
-      </div>
-    </div>
     <div class="row justify-content-center padding-top-medium">
       <div class="col-12 col-lg-12 mt-4">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
@@ -550,15 +536,15 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
-<!-- <section class="padding-bottom-medium">
+<section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">Making systems explaianble is a large .</p>
+        <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span>. Many more. We built Glamorous Toolkit for you to explore the many facets beyond words.</p>
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 <section class="padding-bottom-large">
   <div class="container">
