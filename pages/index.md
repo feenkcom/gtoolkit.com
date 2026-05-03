@@ -478,7 +478,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">The contextualization extends to any interaction with the system, including editing. A system is made of many facets: technologies, domain rules, conventions, libraries, interfaces, tests, generated artifacts, and runtime behavior. Editing is not just typing text, but affecting some of these facets. Every change happens inside a context that determines what the change means. Generic editors flatten that context. <span class="manual-underline">Contextual editors</span> elevate the interaction to match it.</p>
+        <p class="lead">The contextualization extends to any interaction with the system, including editing. A system is made of many facets: technologies, domain rules, conventions, libraries, interfaces, tests, generated artifacts, and runtime behavior. Editing is not just typing text, but affecting some of these facets. Every change happens inside a context that determines what the change means. Generic editors flatten that context and force you to work at their level. <span class="manual-underline">Contextual editors</span> elevate the interaction to match your mental model.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
@@ -540,7 +540,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span>. Many more. We built Glamorous Toolkit for you to explore the many facets beyond words.</p>
+        <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span>. Many more than words and a few images and videos can describe. We built Glamorous Toolkit for you to explore the many facets by yourself.</p>
       </div>
     </div>
   </div>

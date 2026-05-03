@@ -503,6 +503,10 @@ section h2 {
   background: transparent;
 }
 
+#expandedModal .modal-body img {
+  border-radius: 20px;
+}
+
 #expandedModal .modal-footer {
   display: none;
 }
@@ -518,7 +522,7 @@ section h2 {
   color: #111111;
   font-size: 15px;
   line-height: 1.4;
-  text-align: left;
+  text-align: center;
 }
 
 #expandedModal .modal-header .close {
