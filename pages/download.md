@@ -8,7 +8,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="install">
-  <div class="container pt-5 pb-5 jumbotron-small">
+  <div class="container padding-bottom-large pt-5 jumbotron-small">
     <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Download</h1>
@@ -90,13 +90,18 @@ image: /assets/pictures/glamoroustoolkit-icon.png
         <p>Instructions on using GlamorousToolkit with Nix are available in the <a href="https://book.gtoolkit.com/how-to-install-glamorous-toolkit-with-nix-bfbaaxjyp9t1ktuetlgm8okxb">GlamorousToolkit book</a>.</p>
       </div>
     </div>
-    <div class="row top-small-space">
+  </div>
+</section>
+
+<section class="section-light padding-bottom-large padding-top-large">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8">
         <h2>Alternative: clone and install the latest code</h2>
         <p>Choose this path if you want the newest code from <a href="https://github.com/feenkcom/gtoolkit">GitHub</a> or if you plan to work on Glamorous Toolkit itself. The setup script installs the VM, clones the repository, and builds a local image. The first run usually takes about 10 minutes. If you only want to try Glamorous Toolkit, the ready-made downloads above are the faster option.</p>
       </div>
     </div>
-    <div class="row bottom-space">
+    <div class="row">
       <div class="col-lg-10">
         <h3>Mac</h3>
         <pre><code>curl https://dl.feenk.com/scripts/mac.sh | bash</code></pre>

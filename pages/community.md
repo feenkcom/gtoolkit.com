@@ -6,7 +6,7 @@ order: 8
 description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://discord.gg/FTJr9gP'
 ---
 
-<section id="community padding-bottom-large">
+<section id="community">
   <div class="container pt-5 pb-5 jumbotron-small ">
     <div class="row">
       <div class="col-lg-8">
@@ -14,7 +14,7 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
         <p class="lead">Glamorous Toolkit grows through questions, issue reports, pull requests, and stories from practice. Start where the feedback loop is shortest: talk to people, share concrete problems, and contribute improvements.</p>
       </div>
     </div>
-    <div class="row top-small-space community-link-row">
+    <div class="row margin-top-medium">
       <div class="col-lg-4">
         <a href="https://discord.gg/FTJr9gP" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit Discord community">
           <div class="flex-fill">
@@ -34,7 +34,7 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
         </a>
       </div>
     </div>
-    <div class="row top-small-space community-link-row">
+    <div class="row margin-top-medium padding-bottom-large">
       <div class="col-lg-4">
         <a href="https://www.youtube.com/@gtoolkit" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit YouTube channel">
           <div class="flex-fill">
@@ -53,7 +53,7 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
           <i class="btn-icon fas fa-bullhorn fa-fw" aria-hidden="true"></i>
         </a>
       </div>
-      <div class="col-lg-4">
+      <!-- <div class="col-lg-4">
         <a href="https://x.com/feenkcom" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk X profile">
           <div class="flex-fill">
             <span class="community-link-title">X</span>
@@ -61,7 +61,7 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
           </div>
           <i class="btn-icon fas fa-share-alt fa-fw" aria-hidden="true"></i>
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
