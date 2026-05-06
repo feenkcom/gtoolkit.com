@@ -495,7 +495,8 @@ section h2 {
   background: transparent;
 }
 
-#expandedModal .modal-body img {
+#expandedModal .modal-body img,
+#expandedModal .modal-body video {
   border-radius: 20px;
 }
 

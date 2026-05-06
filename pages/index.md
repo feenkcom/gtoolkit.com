@@ -70,54 +70,59 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
-      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api.png');">
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">API exploration</span>
         </button>
       </li>
-      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat.png');">
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contetualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Software analysis</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Data exploration</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Open details for DevOps investigations" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">DevOps investigations</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Technical documentation</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-editor.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-graphql-small.png');">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-graphql.png" data-caption="Exploring the GitHub API with GraphQL. The editor offers syntax highlighting and completion. The result is presented through contextual views." aria-label="Open details for System specific editors and views" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-label">System specific editors and views</span>
+        </button>
+      </li>
+      <!-- <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-editor-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-editor.png" data-caption="Edit an AT Protocol lexicon with domain-aware highlighting, completion inside JSON strings, and navigation to definitions." aria-label="Open details for System specific editors" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">System specific editors</span>
         </button>
-      </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization.png');">
+      </li> -->
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Open details for Inspecting runtime" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Inspecting runtime</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Open details for Domain documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Domain documentation</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Open details for Rewriting code" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Rewriting code</span>
         </button>
@@ -149,13 +154,13 @@ Guide and understand AI interactions through interfaces tailored to each convers
         <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. In Glamorous Toolkit you remain charge by controlling the environment through which you interact with AI.</p>
       </div>
     </div>
-    <div class="row  mt-4">
+    <div class="row mt-4">
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Program your harness</h3>
+        <h3>Program your interaction</h3>
         <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Make your context count</h3>
+        <h3>Control your context</h3>
         <p>Ground conversations in executable reusable explanations linked to code and examples so context can be easily checked and evolved. Fork new conversations.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
@@ -165,6 +170,11 @@ Guide and understand AI interactions through interfaces tailored to each convers
       <div class="col-md-6 col-lg-6 mb-4">
         <h3>Work with objects</h3>
         <p>Pass live objects into the conversation and get structured objects back, each with contextual views that make them explorable for both humans and AI.</p>
+      </div>
+    </div>
+    <div class="row  mt-4">
+      <div class="col-md-6 col-lg-6">
+        <p class="small">Work with OpenAI, Claude, Ollama or build your own provider.</p>
       </div>
     </div>
     <!-- <div class="row padding-top-medium">
@@ -194,7 +204,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
       </div>
     </div> -->
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-12 mt-4">
+      <div class="col-12 col-lg-12">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
@@ -235,27 +245,27 @@ Guide and understand AI interactions through interfaces tailored to each convers
 <section class="image-wall-section" aria-labelledby="image-wall-title">
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The authorship history of a file in Git." aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Authorship history</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Editing the dependency definitions of Glamorous Toolkit." aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dependencies editor</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-treemap.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-treemap-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" aria-label="Open details for Treemap distribution" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Treemap distribution</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-blueprint.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-blueprint-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." aria-label="Open details for Class hierarchy" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Class hierarchy</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-ast.png');">
+      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-ast-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." aria-label="Open details for Abstract syntax tree" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Abstract syntax tree</span>
         </button>
@@ -297,7 +307,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is. The larger the compression, the easier it is to understand.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
@@ -326,7 +336,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/c-source.png"
                 data-caption="Consider an example of a dependency definition for a project. The raw source spans 1241 lines of code. Reading them can be daunting."
               >
-                <img src="/assets/pictures/c-source.png" alt="" />
+                <img src="/assets/pictures/c-source-small.png" alt="" />
               </span>
               <span
                 class="image-stack-card"
@@ -335,7 +345,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/c-view.png"
                 data-caption="A technology-specific view compresses the dependency structure into a navigable representation instead of raw text."
               >
-                <img src="/assets/pictures/c-view.png" alt="" />
+                <img src="/assets/pictures/c-view-small.png" alt="" />
               </span>
               <span
                 class="image-stack-card"
@@ -344,7 +354,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/c-contextual-view.png"
                 data-caption="A system-specific view lets you answer the concrete question directly from a tool shaped around that system."
               >
-                <img src="/assets/pictures/c-contextual-view.png" alt="System specific contextual tool view" />
+                <img src="/assets/pictures/c-contextual-view-small.png" alt="System specific contextual tool view" />
                 <span class="image-stack-label">Contextual views compress the system</span>
               </span>
             </span>
@@ -388,7 +398,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-object-views-text.png"
                 data-caption="These are different views for a text object. They only appear when inspecting such an object."
               >
-                <img src="/assets/pictures/gt-object-views-text.png" alt="" />
+                <img src="/assets/pictures/gt-object-views-text-small.png" alt="" />
               </span>
               <span
                 class="image-stack-card"
@@ -397,7 +407,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-object-views-squarify.png"
                 data-caption="These are different views for a text object. They only appear when inspecting such an object."
               >
-                <img src="/assets/pictures/gt-object-views-squarify" alt="" />
+                <img src="/assets/pictures/gt-object-views-squarify-small.png" alt="" />
               </span>
               <span
                 class="image-stack-card"
@@ -406,7 +416,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-object-views-file.png"
                 data-caption="These are different views for a picture file object. They only appear when inspecting such an object."
               >
-                <img src="/assets/pictures/gt-object-views-file.png" alt="System specific contextual tool view" />
+                <img src="/assets/pictures/gt-object-views-file-small.png" alt="System specific contextual tool view" />
                 <span class="image-stack-label">Multiple views for the same context</span>
               </span>
             </span>
@@ -507,7 +517,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-lza-completion.png"
                 data-caption="A contextual editor can provide completions shaped by the system being changed."
               >
-                <img src="/assets/pictures/gt-lza-completion.png" alt="Contextual editor completion in Glamorous Toolkit" />
+                <img src="/assets/pictures/gt-lza-completion-small.png" alt="Contextual editor completion in Glamorous Toolkit" />
                 <span class="image-stack-label">Contextual editors match the system</span>
               </span>
               <span
@@ -517,7 +527,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-lza-peek.png"
                 data-caption="A contextual editor can reveal related details inline, where they are needed."
               >
-                <img src="/assets/pictures/gt-lza-peek.png" alt="" />
+                <img src="/assets/pictures/gt-lza-peek-small.png" alt="" />
               </span>
               <span
                 class="image-stack-card"
@@ -526,7 +536,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
                 data-image="/assets/pictures/gt-lza-references.png"
                 data-caption="A contextual editor can bring references into the editing flow without leaving the current context."
               >
-                <img src="/assets/pictures/gt-lza-references.png" alt="" />
+                <img src="/assets/pictures/gt-lza-references-small.png" alt="" />
               </span>
             </span>
           </button>
@@ -536,15 +546,23 @@ Guide and understand AI interactions through interfaces tailored to each convers
   </div>
 </section>
 
+<!-- Rewriting large systems can be handled through micro transformations, too -->
+
+<!-- We can talk about various domains of applicability. We can talk about -->
+
+<!-- Lepiter knowledge base: seemlessly integrated in the overall eperience -->
+
+
 <section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span>. Many more than words and a few images and videos can describe. We built Glamorous Toolkit for you to explore the many facets by yourself.</p>
+        <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span> than words and a few images can describe. We built Glamorous Toolkit for you to explore the many facets of this space by yourself.</p>
       </div>
     </div>
   </div>
 </section>
+
 
 <section class="padding-bottom-large">
   <div class="container">
@@ -555,28 +573,6 @@ Guide and understand AI interactions through interfaces tailored to each convers
     </div>
   </div>
 </section>
-
-
-<!-- <section class="padding-top-large padding-bottom-large section-light">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-12">
-        <h2>Explore and document your systems</h2>
-        <p class="lead">A knowledge base .</p>
-      </div>
-    </div>
-    <div class="row padding-top-medium">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Programmable snippets</h3>
-        <p>.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Multi language notebooks</h3>
-        <p>.</p>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">

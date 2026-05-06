@@ -1,5 +1,11 @@
 function bindImageGalleryModalEvents(modal, namespace, dataKey) {
   modal
+    .off("shown.bs.modal." + namespace)
+    .on("shown.bs.modal." + namespace, function () {
+      playActiveImageGalleryVideo(modal);
+    });
+
+  modal
     .off("slid.bs.carousel." + namespace, "#imageGalleryCarousel")
     .on("slid.bs.carousel." + namespace, "#imageGalleryCarousel", function () {
       var items = getImageGalleryItems(modal, dataKey);
@@ -9,6 +15,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
       }
 
       pauseImageGalleryVideos(modal);
+      playActiveImageGalleryVideo(modal);
 
       var activeIndex = Number(
         $(this)
@@ -67,6 +74,7 @@ function openImageGalleryModal(modal, dataKey, items, activeIndex) {
     wrap: true,
   });
   updateImageGalleryCaption(modal, items, normalizedIndex);
+  playActiveImageGalleryVideo(modal);
 }
 
 function buildImageGalleryMarkup(items, activeIndex) {
@@ -110,11 +118,8 @@ function buildImageGalleryMediaMarkup(item) {
   var label = escapeHtml(item.label || item.caption);
 
   if (item.video) {
-    var posterMarkup = item.image ? ' poster="' + escapeHtml(item.image) + '"' : "";
-
     return (
-      '<video controls playsinline preload="metadata"' +
-        posterMarkup +
+      '<video controls playsinline preload="auto"' +
         ' aria-label="' +
         label +
         '">' +
@@ -179,4 +184,18 @@ function pauseImageGalleryVideos(modal) {
   modal.find("#imageGalleryCarousel video").each(function () {
     this.pause();
   });
+}
+
+function playActiveImageGalleryVideo(modal) {
+  var video = modal.find("#imageGalleryCarousel .carousel-item.active video").get(0);
+
+  if (!video) {
+    return;
+  }
+
+  var playPromise = video.play();
+
+  if (playPromise && typeof playPromise.catch === "function") {
+    playPromise.catch(function () {});
+  }
 }
