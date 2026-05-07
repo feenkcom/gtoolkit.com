@@ -17,7 +17,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row padding-top-medium">
       <div class="col-lg-8"> 
-        <p class="lead">Starting is easy. Simply download and run.</p>
+        <p class="lead">Starting is technically easy. Simply download and run.</p>
         <p class="lead"><a href="/download" class="btn btn-lg btn-primary   btn-internal">Install now</a></p>
       </div>
     </div>
