@@ -1,43 +1,67 @@
 ---
-layout: submenu
+layout: default
 title: Community
 permalink: /community/
 order: 8
 description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://discord.gg/FTJr9gP'
-submenuitems:
-  - tag: "Contributing"
-  - items:
-    - title: Contributor license agreement
-      permalink: /community/cla
 ---
 
-
-<section id="contact">
-    <div class="container pt-5 pb-5 jumbotron-small">
-      <div class="row">
-        <div class="col-md-10">
-          <h1>Community</h1>
-          <p class="lead">Exploring is more fun together. Join us.</p>
-          <h2>Report issues</h2>
-          <p>
-            We manage issues on GitHub in the central <a href="https://github.com/feenkcom/gtoolkit">github.com/feenkcom/gtoolkit</a> repository.
-          </p>
-          <h2>Contribute code</h2>
-          <p>
-            External code contributions take place through Pull Requests for the respective GitHub public repositories from the <a href="https://github.com/feenkcom">github.com/feenkcom</a> organization.
-          </p>
-          <p>
-            Contributing requires a previously signed <a href="../cla">Contributor License Agreement</a>.
-          </p>
-          <h2>Chat with us</h2>
-          <p>Join the conversation on Discord: <a href="https://discord.gg/FTJr9gP">discord.gg/FTJr9gP</a></p>
-          <h2>Follow us</h2>
-          <p>LinkedIn: <a href="https://www.linkedin.com/company/feenk">@feenk</a></p>
-          <p>X: <a href="https://x.com/feenkcom">@feenkcom</a></p>
-          <p>YouTube: <a href="https://www.youtube.com/@gtoolkit">@gtoolkit</a></p>
-          <h2>Create narratives</h2>
-          <p>We believe communicating what Glamorous Toolkit is is as important as contributing code. We would very much encourage you to create narratives about it. Let us know about these narratives and we will do our best to promote them.</p>
-        </div>
+<section id="community">
+  <div class="container pt-5 pb-5 jumbotron-small ">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>Community</h1>
+        <p class="lead">Glamorous Toolkit grows through questions, issue reports, pull requests, and stories from practice. Start where the feedback loop is shortest: talk to people, share concrete problems, and contribute improvements.</p>
       </div>
     </div>
+    <div class="row margin-top-medium">
+      <div class="col-lg-4">
+        <a href="https://discord.gg/FTJr9gP" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit Discord community">
+          <div class="flex-fill">
+            <span class="community-link-title">Discord</span>
+            <span class="community-link-subtext">Ask questions and discuss ideas</span>
+          </div>
+          <i class="btn-icon fas fa-comments fa-fw" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://github.com/feenkcom/gtoolkit" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit GitHub repository">
+          <div class="flex-fill">
+            <span class="community-link-title">GitHub</span>
+            <span class="community-link-subtext">Report issues and submit pull requests</span>
+          </div>
+          <i class="btn-icon fas fa-code-branch fa-fw" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row margin-top-medium padding-bottom-large">
+      <div class="col-lg-4">
+        <a href="https://www.youtube.com/@gtoolkit" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit YouTube channel">
+          <div class="flex-fill">
+            <span class="community-link-title">YouTube</span>
+            <span class="community-link-subtext">Watch @gtoolkit demos and talks</span>
+          </div>
+          <i class="btn-icon fas fa-video fa-fw" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.linkedin.com/company/feenk" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk LinkedIn page">
+          <div class="flex-fill">
+            <span class="community-link-title">LinkedIn</span>
+            <span class="community-link-subtext">Short updates from @feenk</span>
+          </div>
+          <i class="btn-icon fas fa-bullhorn fa-fw" aria-hidden="true"></i>
+        </a>
+      </div>
+      <!-- <div class="col-lg-4">
+        <a href="https://x.com/feenkcom" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk X profile">
+          <div class="flex-fill">
+            <span class="community-link-title">X</span>
+            <span class="community-link-subtext">Short updates from @feenkcom</span>
+          </div>
+          <i class="btn-icon fas fa-share-alt fa-fw" aria-hidden="true"></i>
+        </a>
+      </div> -->
+    </div>
+  </div>
 </section>

@@ -3,11 +3,20 @@ window.onload = function registerBehaviour() {
   handleMenuSelection();
   detectOS();
   addVersionNumbers();
+  if (typeof initImageStack === "function") {
+    initImageStack();
+  }
+  if (typeof initImageWall === "function") {
+    initImageWall();
+  }
+  if (typeof initImageComparisonSliders === "function") {
+    initImageComparisonSliders();
+  }
 };
 
 function addVersionNumbers() {
   $("#release-datetime").append(
-    "<h2><span class='gtversion'> </span> released on <span class='releasedate'></span></h2>"
+    "<h2>Release <span class='gtversion'> </span> &mdash; <span class='releasedate'></span></h2>"
   );
   $.get(
     {
@@ -98,11 +107,13 @@ function detectOS() {
   var match = "no match"
   for (var i = 0; i < platforms.length; i++) {
     var platform = platforms[i].getAttribute("data-switcher-content").toLowerCase();
+    var button = $(platforms[i]);
+    button.removeClass("btn-primary btn-default download-active download-inactive");
     if (platform.startsWith(userPlatform) || userAgent.includes(platform)) {
       match = platform;
-      $(platforms[i]).addClass("btn-primary download-active");
+      button.addClass("btn-primary download-active");
     } else {
-      $(platforms[i]).addClass("btn-default download-inactive");
+      button.addClass("btn-default download-inactive");
     }
   }
   return match;
@@ -113,4 +124,13 @@ function handleMenuSelection() {
     $(".nav").find(".active").removeClass("active");
     $(this).addClass("active");
   });
+}
+
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }

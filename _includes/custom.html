@@ -8,3 +8,36 @@
   type="text/javascript"
   charset="utf-8"
 ></script>
+<script
+  src="/assets/js/annotate.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+{% if page.image_stack or page.image_wall %}
+<script
+  src="/assets/js/image-gallery.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+{% endif %}
+{% if page.image_stack %}
+<script
+  src="/assets/js/image-stack.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+{% endif %}
+{% if page.image_wall %}
+<script
+  src="/assets/js/image-wall.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+{% endif %}
+{% if page.image_comparison %}
+<script
+  src="/assets/js/image-comparison.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+{% endif %}

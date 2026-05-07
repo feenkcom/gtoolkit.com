@@ -125,11 +125,15 @@ img.shadow {
 }
 
 a.btn {
-  padding: 14px 24px;
+  padding: 16px 32px;
   text-decoration: none;
-  border: 1px solid #ddd;
-  font-weight: normal;
-  border-radius: 4px;
+  border: 1px solid $gray-light;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
   &:focus,
   &:active:focus,
   &.active:focus {
@@ -140,27 +144,159 @@ a.btn {
     max-width: none;
     display: inline;
   }
+
+  .btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    font-size: 18px;
+    line-height: 1;
+    color: $gray-darker;
+    background: $gray-light;
+    border: 1px solid $gray-light;
+    transition: all 0.2s ease;
+  }
 }
 
 .btn-default {
-  background: $gray-light;
+  background: $white;
+  border-color: $gray-light;
+  color: $gray-darker;
+
+  &:hover,
+  &:focus {
+    background: $white;
+    color: $gray-darker;
+    border-color: $blue-light;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  &:hover .btn-icon,
+  &:focus .btn-icon {
+    background: $blue-light;
+    color: $white;
+    border-color: $blue-light;
+  }
+}
+
+.btn-internal {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &::after {
+    content: "\f061";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1;
+    color: $gray-darker;
+    background: $gray-light;
+    border: 1px solid $gray-light;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.btn-external {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &::after {
+    content: "\f061";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1;
+    color: $gray-darker;
+    background: $gray-light;
+    border: 1px solid $gray-light;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    transform: rotate(-45deg);
+    transform-origin: center;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 .btn-primary {
-  background: $blue-light;
-  border: 1px solid $blue-dark;
+  background: $white;
+  color: $blue-light;
+  border: 1px solid $blue-light;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
   &:hover,
   &:focus {
-    background: $blue-dark;
+    background: $white;
+    color: $blue-dark;
+    border-color: $blue-dark;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
   }
+
+  &:hover .btn-icon,
+  &:focus .btn-icon {
+    background: $blue-light;
+    color: $white;
+    border-color: $blue-light;
+  }
+
   &:active {
-    background: $blue-dark;
-    box-shadow: none;
+    background: $white;
+    color: $blue-dark;
+    border-color: $blue-dark;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
+
   &.active {
-    background: $blue-dark;
-    box-shadow: none;
+    background: $white;
+    color: $blue-dark;
+    border-color: $blue-dark;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
+}
+
+.btn-default.btn-internal:hover::after,
+.btn-default.btn-internal:focus::after,
+.btn-primary.btn-internal:hover::after,
+.btn-primary.btn-internal:focus::after,
+.btn-default.btn-external:hover::after,
+.btn-default.btn-external:focus::after,
+.btn-primary.btn-external:hover::after,
+.btn-primary.btn-external:focus::after {
+  background: $blue-light;
+  color: $white;
+  border-color: $blue-light;
 }
 
 .card {
@@ -203,6 +339,23 @@ a.btn {
   padding-bottom: 40px;
 }
 
+.margin-top-large {
+  margin-top: 120px;
+}
+
+.margin-top-medium {
+  margin-top: 40px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 120px;
+}
+
+.padding-bottom-medium {
+  margin-bottom: 40px;
+}
+
+
 @mixin sectionWithBackground($color) {
   background: $color;
   & a:hover img {
@@ -211,19 +364,17 @@ a.btn {
 }
 
 .section-light {
-  padding-top: 40px;
-  padding-bottom: 40px;
    @include sectionWithBackground($gray-light);
 }
 
 
 .top-note {
-  background-color: $black !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: $white;
+  background-color: #ffd66688 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
   a {
-    color: $white;
+    color: $black;
   }
 }
 

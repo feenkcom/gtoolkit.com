@@ -7,14 +7,14 @@
     content="Glamorous Toolkit is the moldable development environment"
   />
   <meta name="author" content="feenk.com" />
-  <meta name="keywords" content="moldable development, integrated development environment, IDE, notebook, knowledge management, multi-language, smalltalk, pharo, rust, javascript, pyhton, graphql">
+  <meta name="keywords" content="moldable development, integrated development environment, IDE, notebook, knowledge management, multi-language, smalltalk, pharo, rust, javascript, python, graphql">
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "Glamorous Toolkit",
       "url": "https://gtoolkit.com",
-      "logo": "https://gtoolkit.com/assets/pictures/glamoroustoolkit-icon",
+      "logo": "https://gtoolkit.com/assets/pictures/glamoroustoolkit-icon.png",
       "sameAs": [
         "https://twitter.com/feenkcom",
         "https://www.linkedin.com/company/feenk/",
@@ -50,6 +50,16 @@
   ></script>
   <link rel="stylesheet" href="/assets/css/all.css" />
   <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/annotate.css" />
+  {% if page.image_wall %}
+  <link rel="stylesheet" href="/css/image-wall.css" />
+  {% endif %}
+  {% if page.image_stack %}
+  <link rel="stylesheet" href="/css/image-stack.css" />
+  {% endif %}
+  {% if page.image_comparison %}
+  <link rel="stylesheet" href="/css/image-comparison.css" />
+  {% endif %}
   <!-- Matomo -->
   <script type="text/javascript">
     var _paq = window._paq || [];

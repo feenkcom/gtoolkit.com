@@ -8,7 +8,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
 ---
 
 <section id="install">
-  <div class="container pt-5 pb-5 jumbotron-small">
+  <div class="container padding-bottom-large pt-5 jumbotron-small">
     <div class="row">
       <div class="col-lg-8">
           <h1 class="center-text">Download</h1>
@@ -21,83 +21,94 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     </div>
     <div class="row top-small-space">
       <div class="col-lg-4 ">
-        <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Mac Apple Silicon</span></div>
-          <div><small>macOS 11 or later</small></div>
+        <a id="osxM1" href="https://dl.feenk.com/gt/GlamorousToolkitOSXM1-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="os x">
+          <div class="flex-fill">
+            <div><span>Mac Apple Silicon</span></div>
+            <div><small>macOS 11 or later</small></div>
+            <div><span class="download-button-step">Unzip &amp; open: GlamorousToolkit.app</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">GlamorousToolkit.app</code>
-        </p>
       </div>
       <div class="col-lg-4 ">
-        <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="os x">
-          <i class="fas fa-download fa-fw margin-right"></i><span>Mac Intel</span>
-          <div><small>macOS 10.15 or later</small></div>
+        <a id="osx64" href="https://dl.feenk.com/gt/GlamorousToolkitOSX64-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="os x">
+          <div class="flex-fill">
+            <div><span>Mac Intel</span></div>
+            <div><small>macOS 10.15 or later</small></div>
+            <div><span class="download-button-step">Unzip &amp; open: GlamorousToolkit.app</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">GlamorousToolkit.app</code>
-        </p>
       </div>
     </div>
     <div class="row top-small-space">
       <div class="col-lg-4">
-        <a id="winArm64" href="https://dl.feenk.com/gt/GlamorousToolkitWinArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Windows ARM</span></div>
-          <div><small>Windows 10 or later</small></div>
+        <a id="winArm64" href="https://dl.feenk.com/gt/GlamorousToolkitWinArm64-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="windows">
+          <div class="flex-fill">
+            <div><span>Windows ARM</span></div>
+            <div><small>Windows 10 or later</small></div>
+            <div><span class="download-button-step">Unzip &amp; run: .\bin\GlamorousToolkit.exe</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">.\bin\GlamorousToolkit.exe</code>
-        </p>
       </div>
       <div class="col-lg-4">
-        <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="windows">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Windows Intel</span></div>
-          <div><small>Windows 10 or later</small></div>
+        <a id="win64" href="https://dl.feenk.com/gt/GlamorousToolkitWin64-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="windows">
+          <div class="flex-fill">
+            <div><span>Windows Intel</span></div>
+            <div><small>Windows 10 or later</small></div>
+            <div><span class="download-button-step">Unzip &amp; run: .\bin\GlamorousToolkit.exe</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">.\bin\GlamorousToolkit.exe</code>
-        </p>
       </div>
     </div>
     <div class="row top-small-space">
       <div class="col-lg-4">
-        <a id="linuxArm64" href="https://dl.feenk.com/gt/GlamorousToolkitLinuxArm64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Linux ARM</span></div>
-          <div><small>Ubuntu 22.04</small></div>
+        <a id="linuxArm64" href="https://dl.feenk.com/gt/GlamorousToolkitLinuxArm64-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="linux">
+          <div class="flex-fill">
+            <div><span>Linux ARM</span></div>
+            <div><small>Ubuntu 22.04</small></div>
+            <div><span class="download-button-step">Unzip &amp; run: ./bin/GlamorousToolkit</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">./bin/GlamorousToolkit</code>
-        </p>
       </div>
       <div class="col-lg-4">
-        <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-block" data-switcher-content="linux">
-          <div><i class="fas fa-download fa-fw margin-right"></i><span>Linux Intel</span></div>
-          <div><small>Ubuntu 20.04 or later, Fedora 32 & 33 or later</small></div>
+        <a id="linux64" href="https://dl.feenk.com/gt/GlamorousToolkitLinux64-release.zip" class="download-button btn btn-lg btn-default d-flex align-items-center justify-content-between w-100 text-left" data-switcher-content="linux">
+          <div class="flex-fill">
+            <div><span>Linux Intel</span></div>
+            <div><small>Ubuntu 20.04, Fedora 32 & 33</small></div>
+            <div><span class="download-button-step">Unzip &amp; run: ./bin/GlamorousToolkit</span></div>
+          </div>
+          <i class="btn-icon fas fa-download fa-fw" aria-hidden="true"></i>
         </a>
-        <p class="padding center">
-          Unzip and run <code class="small">./bin/GlamorousToolkit</code>
-        </p>
       </div>
     </div> 
-    <div class="row">
+    <div class="row top-small-space">
       <div class="col-lg-8">
         <p>Instructions on using GlamorousToolkit with Nix are available in the <a href="https://book.gtoolkit.com/how-to-install-glamorous-toolkit-with-nix-bfbaaxjyp9t1ktuetlgm8okxb">GlamorousToolkit book</a>.</p>
       </div>
     </div>
-    <div class="row bottom-space">
+  </div>
+</section>
+
+<section class="section-light padding-bottom-large padding-top-large">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-8">
         <h2>Alternative: clone and install the latest code</h2>
-        <p>Executing the script below installs the VM, clones <a href="https://github.com/feenkcom/gtoolkit">Glamorous Toolkit from GitHub</a> and builds an image. It can takes ~10 minutes and it is useful for developing Glamorous Toolkit itself.</p>
+        <p>Choose this path if you want the newest code from <a href="https://github.com/feenkcom/gtoolkit">GitHub</a> or if you plan to work on Glamorous Toolkit itself. The setup script installs the VM, clones the repository, and builds a local image. The first run usually takes about 10 minutes. If you only want to try Glamorous Toolkit, the ready-made downloads above are the faster option.</p>
       </div>
-      <div class="col-lg-8">
-        <div class="instructions-item selected" area-labelledby="pharo-70">
-          <p>On Mac:</p>
-          <pre>curl https://dl.feenk.com/scripts/mac.sh | bash</pre>
-          <p>On Linux:</p>
-          <pre>curl https://dl.feenk.com/scripts/linux.sh | bash</pre>
-          <p>On Windows:</p>
-          <pre>wget https://dl.feenk.com/scripts/windows.ps1 -OutFile windows.ps1; ./windows.ps1</pre>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10">
+        <h3>Mac</h3>
+        <pre><code>curl https://dl.feenk.com/scripts/mac.sh | bash</code></pre>
+        <h3>Linux</h3>
+        <pre><code>curl https://dl.feenk.com/scripts/linux.sh | bash</code></pre>
+        <h3>Windows</h3>
+        <pre><code>wget https://dl.feenk.com/scripts/windows.ps1 -OutFile windows.ps1; ./windows.ps1</code></pre>
       </div>
     </div>
   </div> <!-- /container -->
