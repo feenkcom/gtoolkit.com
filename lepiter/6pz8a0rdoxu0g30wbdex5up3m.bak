@@ -131,14 +131,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2026-05-05T19:21:34.810809+02:00"
+						"dateAndTimeString" : "2026-05-05T19:22:24.639705+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "cjxSwj6FRji24ZjCOOTxXg=="
 				},
-				"code" : "currentWorldElement space extent: 1500@1036."
+				"code" : "currentWorldElement space extent: 1500@1046."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -307,6 +307,40 @@
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "4TCbMOALQbmMZ4eZCuf4jw=="
+				},
+				"code" : "BlSpace userFontScale: 1"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T20:53:02.867321+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2026-05-06T20:53:03.113054+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "NoPtWBAqSuKBNH2h+dlHwA=="
 				},
 				"code" : "BlSpace userFontScale: 1"
 			}

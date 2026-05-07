@@ -64,7 +64,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-10 col-lg-10">
-        <p class="lead downward-arrow-lead">Any question about a system can be answered through narratives made out of contextual tools.<span class="downward-arrow">examples</span></p>
+        <p class="lead downward-arrow-lead">Any question about an existing system can be answered through narratives made out of contextual tools.<span class="downward-arrow">examples</span></p>
       </div>
     </div>
   </div>
@@ -82,24 +82,27 @@ Guide and understand AI interactions through interfaces tailored to each convers
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies-small.png');">
+        <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-video="/assets/video/use-case-assessment-dependencies.mp4" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Software analysis</span>
         </button>
       </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-data-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-data.png" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-data-small.png');">
+        <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-data.png" data-video="/assets/video/use-case-data.mp4" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Data exploration</span>
+        </button>
+      </li>
+      <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-documentation-small.png');">
+        <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-documentation.png" data-video="/assets/video/use-case-documentation.mp4" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
+          <span class="image-wall-play" aria-hidden="true"></span>
+          <span class="image-wall-label">Technical documentation</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins-small.png');">
         <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Open details for DevOps investigations" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">DevOps investigations</span>
-        </button>
-      </li>
-      <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-documentation-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-documentation.png" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-label">Technical documentation</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-graphql-small.png');">
@@ -174,7 +177,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
     </div>
     <div class="row  mt-4">
       <div class="col-md-6 col-lg-6">
-        <p class="small">Work with OpenAI, Claude, Ollama or build your own provider.</p>
+        <p class="small">Work with OpenAI, Anthropic, Ollama or build your own provider.</p>
       </div>
     </div>
     <!-- <div class="row padding-top-medium">
@@ -709,7 +712,7 @@ Guide and understand AI interactions through interfaces tailored to each convers
             </h3>
             <div id="faq-open-source" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
-                <p>Yes, it is free and open-source under an <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">MIT license</a>.</p>
+                <p>Yes, Glamorous Toolkit is free and open-source under an <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">MIT license</a>.</p>
               </div>
             </div>
           </article>
