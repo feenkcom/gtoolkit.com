@@ -72,31 +72,26 @@ Guide and understand AI interactions through interfaces tailored to each convers
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">API exploration</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contetualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-video="/assets/video/use-case-assessment-dependencies.mp4" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Software analysis</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-data-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-data.png" data-video="/assets/video/use-case-data.mp4" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Data exploration</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-documentation-small.png');">
         <button class="image-wall-link image-wall-link--video" type="button" data-image="/assets/pictures/use-case-documentation.png" data-video="/assets/video/use-case-documentation.mp4" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
-          <span class="image-wall-play" aria-hidden="true"></span>
           <span class="image-wall-label">Technical documentation</span>
         </button>
       </li>
