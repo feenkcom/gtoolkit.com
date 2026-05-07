@@ -20,8 +20,6 @@ image_comparison: true
     <div class="row justify-content-center text-center mt-5 mb-5">
       <div class="col-lg-8 col-xl-8">
         <p class="lead">Code reading is the bottleneck. Systems are too large, and AI generates code too fast. <br/> Glamorous Toolkit replaces reading with <span class="manual-underline">deterministic contextual tools</span> that compress the system around each problem, helping humans and AI explore faster. <br/>Build these tools yourself or with AI in one integrated environment.</p>
-        <!-- <p class="xlead home-landing-subline">Understand and describe each system through contextual tools.
-Guide and understand AI interactions through interfaces tailored to each conversation.</p> -->
       </div>
     </div>
     <div class="row justify-content-center text-center">
