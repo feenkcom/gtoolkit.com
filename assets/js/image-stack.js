@@ -111,10 +111,16 @@ function applyImageStackLayout(trigger) {
       .css("--stack-hover-rotate", hoverRotation + "deg");
   });
 
-  stack.css(
-    "--stack-min-height",
-    computeImageStackMinHeight(maxDepth, baseHeight, extraDepthHeight) + "px"
-  );
+  var minHeight = computeImageStackMinHeight(maxDepth, baseHeight, extraDepthHeight);
+
+  if (isCompact && stack.hasClass("image-stack--compact")) {
+    minHeight = Math.max(
+      minHeight,
+      computeCompactImageStackMinHeight(stack, frontY)
+    );
+  }
+
+  stack.css("--stack-min-height", minHeight + "px");
 }
 
 function readImageStackMetric(stack, key, fallback) {
@@ -125,4 +131,17 @@ function readImageStackMetric(stack, key, fallback) {
 function computeImageStackMinHeight(maxDepth, baseHeight, extraDepthHeight) {
   var extraDepth = Math.max(0, maxDepth - 3);
   return baseHeight + extraDepth * extraDepthHeight;
+}
+
+function computeCompactImageStackMinHeight(stack, frontY) {
+  var stackWidth = stack.width();
+
+  if (!stackWidth) {
+    return 0;
+  }
+
+  var cardHeight = stackWidth * (5 / 6);
+  var bottomClearance = 42;
+
+  return Math.ceil(frontY + cardHeight + bottomClearance);
 }
