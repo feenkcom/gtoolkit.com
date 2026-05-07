@@ -16,50 +16,50 @@ description: 'GitHub: https://github.com/feenkcom/gtoolkit Discord: https://disc
     </div>
     <div class="row margin-top-medium">
       <div class="col-lg-4">
-        <a href="https://discord.gg/FTJr9gP" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit Discord community">
+        <a href="https://discord.gg/FTJr9gP" class="card-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit Discord community">
           <div class="flex-fill">
-            <span class="community-link-title">Discord</span>
-            <span class="community-link-subtext">Ask questions and discuss ideas</span>
+            <span class="card-button-title">Discord</span>
+            <span class="card-button-subtext">Ask questions and discuss ideas</span>
           </div>
-          <i class="btn-icon fas fa-comments fa-fw" aria-hidden="true"></i>
+          <i class="btn-icon fab fa-discord fa-fw" aria-hidden="true"></i>
         </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://github.com/feenkcom/gtoolkit" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit GitHub repository">
+        <a href="https://github.com/feenkcom/gtoolkit" class="card-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit GitHub repository">
           <div class="flex-fill">
-            <span class="community-link-title">GitHub</span>
-            <span class="community-link-subtext">Report issues and submit pull requests</span>
+            <span class="card-button-title">GitHub</span>
+            <span class="card-button-subtext">Report issues and submit pull requests</span>
           </div>
-          <i class="btn-icon fas fa-code-branch fa-fw" aria-hidden="true"></i>
+          <i class="btn-icon fab fa-github fa-fw" aria-hidden="true"></i>
         </a>
       </div>
     </div>
     <div class="row margin-top-medium padding-bottom-large">
       <div class="col-lg-4">
-        <a href="https://www.youtube.com/@gtoolkit" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit YouTube channel">
+        <a href="https://www.youtube.com/@gtoolkit" class="card-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the Glamorous Toolkit YouTube channel">
           <div class="flex-fill">
-            <span class="community-link-title">YouTube</span>
-            <span class="community-link-subtext">Watch @gtoolkit demos and talks</span>
+            <span class="card-button-title">YouTube</span>
+            <span class="card-button-subtext">Watch @gtoolkit demos and talks</span>
           </div>
-          <i class="btn-icon fas fa-video fa-fw" aria-hidden="true"></i>
+          <i class="btn-icon fab fa-youtube fa-fw" aria-hidden="true"></i>
         </a>
       </div>
       <div class="col-lg-4">
-        <a href="https://www.linkedin.com/company/feenk" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk LinkedIn page">
+        <a href="https://www.linkedin.com/company/feenk" class="card-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk LinkedIn page">
           <div class="flex-fill">
-            <span class="community-link-title">LinkedIn</span>
-            <span class="community-link-subtext">Short updates from @feenk</span>
+            <span class="card-button-title">LinkedIn</span>
+            <span class="card-button-subtext">Short updates from @feenk</span>
           </div>
-          <i class="btn-icon fas fa-bullhorn fa-fw" aria-hidden="true"></i>
+          <i class="btn-icon fab fa-linkedin fa-fw" aria-hidden="true"></i>
         </a>
       </div>
       <!-- <div class="col-lg-4">
-        <a href="https://x.com/feenkcom" class="community-link-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk X profile">
+        <a href="https://x.com/feenkcom" class="card-button btn btn-lg btn-default d-flex justify-content-between w-100 text-left" aria-label="Open the feenk X profile">
           <div class="flex-fill">
-            <span class="community-link-title">X</span>
-            <span class="community-link-subtext">Short updates from @feenkcom</span>
+            <span class="card-button-title">X</span>
+            <span class="card-button-subtext">Short updates from @feenkcom</span>
           </div>
-          <i class="btn-icon fas fa-share-alt fa-fw" aria-hidden="true"></i>
+          <i class="btn-icon fab fa-twitter fa-fw" aria-hidden="true"></i>
         </a>
       </div> -->
     </div>

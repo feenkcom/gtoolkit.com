@@ -410,7 +410,7 @@ section h2 {
   text-decoration: none;
 }
 
-.community-link-button {
+.card-button {
   min-height: 116px;
   padding: 18px 22px;
   gap: 16px;
@@ -418,11 +418,11 @@ section h2 {
   font-weight: 400;
 }
 
-.community-link-button .btn-icon {
+.card-button .btn-icon {
   flex: 0 0 auto;
 }
 
-.community-link-title {
+.card-button-title {
   display: block;
   font-family: "sources-bold", sans-serif;
   font-size: 20px;
@@ -431,7 +431,7 @@ section h2 {
   color: #111111;
 }
 
-.community-link-subtext {
+.card-button-subtext {
   display: block;
   margin-top: 6px;
   font-size: 13px;
@@ -791,7 +791,7 @@ section h2 {
     right: 16px;
   }
 
-  .community-link-button {
+  .card-button {
     min-height: 0;
   }
 
