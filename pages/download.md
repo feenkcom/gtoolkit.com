@@ -15,8 +15,12 @@ image: /assets/pictures/glamoroustoolkit-icon.png
           <p class="lead">Glamorous Toolkit is free and open-source. You can obtain it in two ways: downloading a ready made distribution, or cloning the code explicitly.</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12" id="release-datetime">
+    <div class="row padding-top-medium">
+      <div class="col-lg-8">
+        <div class="release-header" id="release-datetime" aria-live="polite">
+          <h2>Glamorous Toolkit <span class="gtversion">...</span></h2>
+          <div class="release-published">Published <span class="releasedate">...</span></div>
+        </div>
       </div>
     </div>
     <div class="row top-small-space">
@@ -88,6 +92,7 @@ image: /assets/pictures/glamoroustoolkit-icon.png
     <div class="row top-small-space">
       <div class="col-lg-8">
         <p>Instructions on using GlamorousToolkit with Nix are available in the <a href="https://book.gtoolkit.com/how-to-install-glamorous-toolkit-with-nix-bfbaaxjyp9t1ktuetlgm8okxb">GlamorousToolkit book</a>.</p>
+        <p>Find more releases on <a href="https://github.com/feenkcom/gtoolkit/releases">GitHub</a>.</p>
       </div>
     </div>
   </div>

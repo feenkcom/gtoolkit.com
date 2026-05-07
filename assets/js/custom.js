@@ -15,9 +15,6 @@ window.onload = function registerBehaviour() {
 };
 
 function addVersionNumbers() {
-  $("#release-datetime").append(
-    "<h2>Release <span class='gtversion'> </span> &mdash; <span class='releasedate'></span></h2>"
-  );
   $.get(
     {
       url: "https://dl.feenk.com/gt/GlamorousToolkitWin64-release",
@@ -80,18 +77,15 @@ function addVersionNumbers() {
     },
     (data) => {
       var d = new Date(data * 1000);
-      const month = d.toLocaleString("en-us", { month: "long" });
-      var datestring =
-        month +
-        " " +
-        d.getDate() +
-        " " +
-        d.getHours() +
-        ":" +
-        ((d.getMinutes() < 10 ? "0" : "") + d.getMinutes());
-      $(".releasedate").text(datestring);
+      $(".releasedate").text(formatReleaseDate(d));
     }
   );
+}
+
+function formatReleaseDate(date) {
+  const month = date.toLocaleString("en-US", { month: "long" });
+  const minutes = (date.getMinutes() < 10 ? "0" : "") + date.getMinutes();
+  return month + " " + date.getDate() + ", " + date.getHours() + ":" + minutes;
 }
 
 function addVersionNumbersToButton(buttonId, downloadIdentifier, data) {
