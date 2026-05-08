@@ -427,8 +427,8 @@ image_comparison: true
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
-        <h2>A typical flow</h2>
-        <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer and make a decision.</p>
+        <h2>A typical <span class="insert-label">moldable development</span> flow</h2>
+        <p class="lead">Start with a specific question. If there is no relevant tool, build one. Interpret the answer and make a decision. Repeat.</p>
       </div>
     </div>
     <div class="row justify-content-center padding-top-medium">

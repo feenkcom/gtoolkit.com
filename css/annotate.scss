@@ -16,10 +16,10 @@
   content: attr(data-label);
   position: absolute;
   left: -2.52em;
-  bottom: 1.78em;
+  bottom: var(--insert-label-bottom, 1.78em);
   color: var(--insert-red);
   font-family: "desyrel", "Bradley Hand", "Marker Felt", cursive;
-  font-size: clamp(22px, 2.1vw, 36px);
+  font-size: clamp(22px, min(2.1vw, 0.85em), 36px);
   font-weight: 700;
   line-height: 0.88;
   letter-spacing: 0;
@@ -124,7 +124,7 @@
 @media (max-width: 991.98px) {
   .insert-label::before {
     left: -1.18em;
-    bottom: 1.52em;
-    font-size: clamp(20px, 5vw, 28px);
+    bottom: var(--insert-label-bottom, 1.52em);
+    font-size: clamp(20px, min(5vw, 0.85em), 28px);
   }
 }

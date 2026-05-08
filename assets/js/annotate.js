@@ -22,6 +22,34 @@
     return text.trim().replace(/\s+/, "\n");
   }
 
+  function clamp(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+  }
+
+  function updateInsertLabelPosition(label) {
+    var context = label.parentElement || label;
+    var contextFontSize = parseFloat(window.getComputedStyle(context).fontSize);
+    var labelFontSize = parseFloat(window.getComputedStyle(label, "::before").fontSize);
+    if (!contextFontSize || !labelFontSize) {
+      return;
+    }
+
+    var sizeRatio = labelFontSize / contextFontSize;
+    var responsiveRange = window.matchMedia("(max-width: 991.98px)").matches
+      ? { maxBottom: 1.52, minBottom: 1.1 }
+      : { maxBottom: 1.78, minBottom: 1.3 };
+    var ratioProgress = clamp((sizeRatio - 0.5) / 0.35, 0, 1);
+    var bottom = responsiveRange.maxBottom - (responsiveRange.maxBottom - responsiveRange.minBottom) * ratioProgress;
+    label.style.setProperty("--insert-label-bottom", bottom.toFixed(2) + "em");
+  }
+
+  function updateInsertLabelPositions(root) {
+    var labels = root.querySelectorAll(".insert-label");
+    for (var i = 0; i < labels.length; i++) {
+      updateInsertLabelPosition(labels[i]);
+    }
+  }
+
   function hydrateInsertLabels(root) {
     var labels = root.querySelectorAll(".insert-label");
     for (var i = 0; i < labels.length; i++) {
@@ -36,6 +64,7 @@
       }
       labels[i].setAttribute("aria-hidden", "true");
     }
+    updateInsertLabelPositions(root);
   }
 
   function hydrateAnnotatedUnderlines(root) {
@@ -56,6 +85,20 @@
   }
 
   window.initAnnotations = initAnnotations;
+
+  var resizeTimer;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      updateInsertLabelPositions(document);
+    }, 120);
+  });
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      updateInsertLabelPositions(document);
+    });
+  }
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () {
