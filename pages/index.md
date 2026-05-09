@@ -273,10 +273,10 @@ image_comparison: true
 <section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
+      <div class="col-8 col-lg-8">
         <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. <span class="manual-underline">Contextual tools</span> can communicate that value much more efficiently and pleasantly.</p>
       </div>
-      <div class="col-10 col-lg-10">
+      <div class="col-12 col-lg-12">
         <div class="image-comparison-slider" style="--comparison-position: 50%;">
           <figure class="image-comparison-frame">
             <span class="image-comparison-layer image-comparison-layer--base">
@@ -365,7 +365,7 @@ image_comparison: true
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Answering every question through deterministic contextual tools leads to <span class="manual-underline">thousands of tools per system</span>. To manage them, you need an inversion of control: tools should come to where you are, instead of you invoking them explicitly. In Glamorous Toolkit, tools are associated to the contexts in which they are relevant and they activate only when you interact with that context. Such a context can be as basic as an individual object.</p>
+        <p class="lead">Answering every question through deterministic contextual tools leads to <span class="manual-underline">thousands of tools</span> per system. To manage them, you need an inversion of control: tools should come to where you are, instead of you invoking them explicitly. In Glamorous Toolkit, tools are associated to the contexts in which they are relevant and they activate only when you interact with that context. Such a context can be as basic as an individual object.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">

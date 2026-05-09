@@ -37,8 +37,8 @@
 
     var sizeRatio = labelFontSize / contextFontSize;
     var responsiveRange = window.matchMedia("(max-width: 991.98px)").matches
-      ? { maxBottom: 1.52, minBottom: 1.1 }
-      : { maxBottom: 1.78, minBottom: 1.3 };
+      ? { maxBottom: 1.52, minBottom: 1.2 }
+      : { maxBottom: 1.78, minBottom: 1.5 };
     var ratioProgress = clamp((sizeRatio - 0.5) / 0.35, 0, 1);
     var bottom = responsiveRange.maxBottom - (responsiveRange.maxBottom - responsiveRange.minBottom) * ratioProgress;
     label.style.setProperty("--insert-label-bottom", bottom.toFixed(2) + "em");
