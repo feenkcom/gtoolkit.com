@@ -152,7 +152,7 @@ image_comparison: true
     </div>
     <div class="row mt-4">
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Program your interaction</h3>
+        <h3>Program your AI interaction</h3>
         <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
@@ -160,7 +160,7 @@ image_comparison: true
         <p>Ground conversations in executable reusable explanations linked to code and examples so context can be easily checked and evolved. Fork new conversations.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Understand what tools do</h3>
+        <h3>Understand what the AI does</h3>
         <p>Don't take for granted what the AI says it does. Understand it through deterministic views, both when using it diretly or through MCP.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
@@ -242,12 +242,12 @@ image_comparison: true
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The authorship history of a file in Git." aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The Git authorship history of a file." aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Authorship history</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Editing the dependency definitions of Glamorous Toolkit." aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Exploring the dependency definitions of Glamorous Toolkit in a live editor. Because the editor understands the context, it knows to expand the dependency defined in a string." aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dependencies editor</span>
         </button>
       </li>
@@ -544,16 +544,26 @@ image_comparison: true
 
 <!-- Rewriting large systems can be handled through micro transformations, too -->
 
-<!-- We can talk about various domains of applicability. We can talk about -->
-
 <!-- Lepiter knowledge base: seemlessly integrated in the overall eperience -->
 
+<!-- We provide  -->
 
+<!-- We can talk about various domains of applicability. -->
 <section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-8 mr-4">
         <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span> than words and a few images can describe. We built Glamorous Toolkit for you to explore the many facets of this space by yourself.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-8 mr-4">
+        <p class="lead">These contextual tools have to be built by someone.</p>
       </div>
     </div>
   </div>
@@ -706,6 +716,18 @@ image_comparison: true
             <div id="faq-open-source" class="collapse" data-parent="#faq-accordion">
               <div class="faq-answer">
                 <p>Yes, Glamorous Toolkit is free and open-source under an <a href="https://github.com/feenkcom/gtoolkit/blob/master/LICENSE">MIT license</a>.</p>
+              </div>
+            </div>
+          </article>
+          <article class="faq-item">
+            <h3 class="faq-title">
+              <button class="faq-question" type="button" data-toggle="collapse" data-target="#faq-moldabledevelopment" aria-expanded="true" aria-controls="faq-moldabledevelopment">
+                <span>Where can I learn more about Moldable Development?</span>
+              </button>
+            </h3>
+            <div id="faq-moldabledevelopment" class="collapse" data-parent="#faq-accordion">
+              <div class="faq-answer">
+                <p>You get more practical details in <a href="https://book.gtoolkit.com/moldable-development-ejn67l5cdqh83kegi9umt1mdd">the Glamorous Toolkit book</a>. You can find higher level details about it at <a href="https://moldabledevelopment.com">moldabledevelopment.com</a>.</p>
               </div>
             </div>
           </article>
