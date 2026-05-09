@@ -1,6 +1,7 @@
 (function () {
   var svgNamespace = "http://www.w3.org/2000/svg";
   var underlinePath = "M4 11 C52 10, 126 10, 176 16";
+  var ovalPath = "M154 19 C125 6, 74 3, 34 18 C7 28, 5 46, 33 57 C75 72, 145 65, 169 45 C185 30, 172 18, 151 10";
 
   function createSvg(className, viewBox) {
     var svg = document.createElementNS(svgNamespace, "svg");
@@ -78,10 +79,22 @@
     }
   }
 
+  function hydrateAnnotatedOvals(root) {
+    var ovals = root.querySelectorAll(".manual-oval");
+    for (var i = 0; i < ovals.length; i++) {
+      if (!ovals[i].querySelector(".manual-oval-mark")) {
+        var svg = createSvg("manual-oval-mark", "0 0 180 70");
+        svg.appendChild(createPath(ovalPath));
+        ovals[i].appendChild(svg);
+      }
+    }
+  }
+
   function initAnnotations(root) {
     var target = root || document;
     hydrateInsertLabels(target);
     hydrateAnnotatedUnderlines(target);
+    hydrateAnnotatedOvals(target);
   }
 
   window.initAnnotations = initAnnotations;

@@ -40,19 +40,29 @@
   pointer-events: none;
 }
 
-.manual-underline-mark path {
+.manual-underline-mark path,
+.manual-oval-mark path {
   fill: none;
   stroke: var(--insert-red);
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-.manual-underline {
+.manual-underline,
+.manual-oval {
   position: relative;
   display: inline-block;
+  isolation: isolate;
+}
+
+.manual-underline {
   padding: 0 0.03em 0.03em;
   margin: 0 -0.03em;
-  isolation: isolate;
+}
+
+.manual-oval {
+  padding: 0.05em 0.11em;
+  margin: -0.05em 0.02em -0.05em -0.04em;
 }
 
 .manual-underline-mark {
@@ -67,8 +77,24 @@
   transform: rotate(-1deg);
 }
 
+.manual-oval-mark {
+  position: absolute;
+  left: -0.42em;
+  top: -0.31em;
+  z-index: -1;
+  width: calc(100% + 0.74em);
+  height: calc(100% + 0.52em);
+  overflow: visible;
+  pointer-events: none;
+  transform: rotate(-1.6deg);
+}
+
 .manual-underline-mark path {
   stroke-width: 9;
+}
+
+.manual-oval-mark path {
+  stroke-width: 3.2;
 }
 
 .downward-arrow-lead {

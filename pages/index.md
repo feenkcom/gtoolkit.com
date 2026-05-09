@@ -219,7 +219,7 @@ image_comparison: true
         <p class="lead">Software is <span class="manual-underline">shapeless</span>. You cannot perceive anything in a software system except through a tool. Tools are essential as they provide the shape of software. Control the tool to control the perception, and therefore your comprehension.</p>
         <p class="lead">Software is <span class="manual-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
         <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which you type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
-        <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine <span class="manual-underline">micro tools</span> inexpensively, live and in many ways.</p>
+        <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine <span class="manual-oval">micro tools</span> inexpensively, live and in many ways.</p>
       </div>
       <div class="col-8 col-lg-4">
         <img src="/assets/pictures/gt-layers.png"/>
@@ -303,7 +303,7 @@ image_comparison: true
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-8 col-lg-4 mr-4">
-        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-underline">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is. The larger the compression, the easier it is to understand.</p>
+        <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-oval">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is. The larger the compression, the easier it is to understand.</p>
       </div>
       <div class="col-8 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
