@@ -544,9 +544,7 @@ image_comparison: true
 
 <!-- Rewriting large systems can be handled through micro transformations, too -->
 
-<!-- Lepiter knowledge base: seemlessly integrated in the overall eperience -->
-
-<!-- We provide  -->
+<!-- Lepiter knowledge base: seemlessly part in the overall eperience -->
 
 <!-- We can talk about various domains of applicability. -->
 <section class="padding-bottom-medium">
@@ -559,16 +557,7 @@ image_comparison: true
   </div>
 </section>
 
-<section class="padding-bottom-medium">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
-        <p class="lead">These contextual tools have to be built by someone.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- Constructing tools requires dedicated skills. This has to be internalized. -->
 
 <section class="padding-bottom-large">
   <div class="container">
