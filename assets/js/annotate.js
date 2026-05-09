@@ -28,19 +28,24 @@
   }
 
   function updateInsertLabelPosition(label) {
+    var mark = label.querySelector(".insert-mark");
     var context = label.parentElement || label;
     var contextFontSize = parseFloat(window.getComputedStyle(context).fontSize);
     var labelFontSize = parseFloat(window.getComputedStyle(label, "::before").fontSize);
-    if (!contextFontSize || !labelFontSize) {
+    if (!mark || !contextFontSize || !labelFontSize) {
+      return;
+    }
+
+    var markStyle = window.getComputedStyle(mark);
+    var markTop = Math.abs(parseFloat(markStyle.top));
+    var markHeight = parseFloat(markStyle.height);
+    if (!markTop || !markHeight) {
       return;
     }
 
     var sizeRatio = labelFontSize / contextFontSize;
-    var responsiveRange = window.matchMedia("(max-width: 991.98px)").matches
-      ? { maxBottom: 1.52, minBottom: 1.2 }
-      : { maxBottom: 1.78, minBottom: 1.5 };
-    var ratioProgress = clamp((sizeRatio - 0.5) / 0.35, 0, 1);
-    var bottom = responsiveRange.maxBottom - (responsiveRange.maxBottom - responsiveRange.minBottom) * ratioProgress;
+    var targetGap = clamp(labelFontSize * (0.1 + (1 - sizeRatio) * 0.45), 3, 11);
+    var bottom = (markTop - markHeight * 0.09 + targetGap) / labelFontSize;
     label.style.setProperty("--insert-label-bottom", bottom.toFixed(2) + "em");
   }
 

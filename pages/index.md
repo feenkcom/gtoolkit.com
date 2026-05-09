@@ -61,7 +61,7 @@ image_comparison: true
 <section class="image-wall-section margin-bottom-large margin-top-large" aria-labelledby="image-wall-title">
   <div class="container">
     <div class="row justify-content-center text-center">
-      <div class="col-10 col-lg-10">
+      <div class="col-12 col-lg-10">
         <p class="lead downward-arrow-lead">Any question about an existing system can be answered through narratives made out of contextual tools.<span class="downward-arrow">examples</span></p>
       </div>
     </div>
@@ -215,13 +215,13 @@ image_comparison: true
       </div>
     </div> -->
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-4">
+      <div class="col-10 col-lg-4">
         <p class="lead">Software is <span class="manual-underline">shapeless</span>. You cannot perceive anything in a software system except through a tool. Tools are essential as they provide the shape of software. Control the tool to control the perception, and therefore your comprehension.</p>
         <p class="lead">Software is <span class="manual-underline">highly contextual</span>. For tools to be effective, they must be contextual, too.</p>
         <p class="lead">There is no single representation of anything in a software system. Even the textual shape of code is just the incidental form of the medium in which you type. There are always <span class="manual-underline">many representations</span>, each relevant for different problems.</p>
         <p class="lead">To accommodate many unforeseen contextual tools, the environment is designed as a language made out of interactive and visual operators with which you can program and combine <span class="manual-oval">micro tools</span> inexpensively, live and in many ways.</p>
       </div>
-      <div class="col-8 col-lg-4">
+      <div class="col-10 col-lg-4">
         <img src="/assets/pictures/gt-layers.png"/>
       </div>
     </div>
@@ -231,7 +231,7 @@ image_comparison: true
 <section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
+      <div class="col-10 col-lg-8">
         <p class="lead">A tool is an interface through which you interact with a computation. It can be a configuration editor, a debugger over the runtime, or an inspector of an API. A tool can be elaborate, doing many things, or it can be simple, focusing on answering a single question. A tool can be visual, or it can be plain. A tool can be generic, applicable to many inputs, or it can be contextual, relevant to only a narrow input.</p>
       </div>
     </div>
@@ -273,7 +273,7 @@ image_comparison: true
 <section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8">
+      <div class="col-10 col-lg-8">
         <p class="lead">Generic tools are applicable widely at the cost of making everything look the same. But in software systems, value is always specific. <span class="manual-underline">Contextual tools</span> can communicate that value much more efficiently and pleasantly.</p>
       </div>
       <div class="col-12 col-lg-12">
@@ -302,10 +302,10 @@ image_comparison: true
 <section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4 mr-4">
         <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-oval">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is. The larger the compression, the easier it is to understand.</p>
       </div>
-      <div class="col-8 col-lg-4">
+      <div class="col-12 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
           <button
             type="button"
@@ -364,7 +364,7 @@ image_comparison: true
 <section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4 mr-4">
         <p class="lead">Answering every question through deterministic contextual tools leads to <span class="manual-underline">thousands of tools</span> per system. To manage them, you need an inversion of control: tools should come to where you are, instead of you invoking them explicitly. In Glamorous Toolkit, tools are associated to the contexts in which they are relevant and they activate only when you interact with that context. Such a context can be as basic as an individual object.</p>
       </div>
       <div class="col-8 col-lg-4">
@@ -443,7 +443,7 @@ image_comparison: true
 <section class="padding-top-large padding-bottom-medium ">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mb-4">
+      <div class="col-10 col-lg-8 mb-4">
         <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
       </div>
     </div>
@@ -463,7 +463,7 @@ image_comparison: true
 <section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mb-4">
+      <div class="col-10 col-lg-8 mb-4">
         <p class="lead">Narratives can cover any objects depicting any facets of a systems, including the domain, and they can be aimed at <span class="manual-underline">different audiences</span> with different backgrounds. Thus, the environment becomes truly integrated mediating the conversation between all stakeholders of the system.</p>
       </div>
     </div>
@@ -483,10 +483,10 @@ image_comparison: true
 <section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4 mr-4">
         <p class="lead">The contextualization extends to any interaction with the system, including editing. A system is made of many facets: technologies, domain rules, conventions, libraries, interfaces, tests, generated artifacts, and runtime behavior. Editing is not just typing text, but affecting some of these facets. Every change happens inside a context that determines what the change means. Generic editors flatten that context and force you to work at their level. <span class="manual-underline">Contextual editors</span> elevate the interaction to match your mental model.</p>
       </div>
-      <div class="col-8 col-lg-4">
+      <div class="col-810 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
           <button
             type="button"
@@ -550,7 +550,7 @@ image_comparison: true
 <section class="padding-bottom-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
+      <div class="col-10 col-lg-8 mr-4">
         <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span> than words and a few images can describe. We built Glamorous Toolkit for you to explore the many facets of this space by yourself.</p>
       </div>
     </div>
@@ -562,7 +562,7 @@ image_comparison: true
 <section class="padding-bottom-large">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-8 col-lg-8 mr-4">
+      <div class="col-10 col-lg-8 mr-4">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
@@ -572,7 +572,7 @@ image_comparison: true
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-10 col-lg-8">
         <h2>Frequently asked questions</h2>
         <div class="faq-accordion" id="faq-accordion">
           <article class="faq-item">
