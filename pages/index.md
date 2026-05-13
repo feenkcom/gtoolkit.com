@@ -147,7 +147,7 @@ image_comparison: true
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <h2>Drive with the built-in <span class="insert-label">moldable</span> agent</h2>
-        <p class="lead">AIs can feel like magic, but that does not mean you should delegate your comprehension to it. In Glamorous Toolkit you remain in charge by controlling the environment through which you interact with AI.</p>
+        <p class="lead">AI can feel like magic, but that does not mean you should delegate your comprehension to it. In Glamorous Toolkit you remain in charge by controlling the environment through which you interact with AI.</p>
       </div>
     </div>
     <div class="row mt-4">
