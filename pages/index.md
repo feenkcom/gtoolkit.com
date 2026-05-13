@@ -157,7 +157,7 @@ image_comparison: true
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
         <h3>Control your context</h3>
-        <p>Ground conversations in executable reusable explanations linked to code and examples so context can be easily checked and evolved. Fork new conversations.</p>
+        <p>Define the context through executable reusable explanations linked to code and examples. Fork new conversations on demand to explore variations.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
         <h3>Understand what the AI does</h3>
