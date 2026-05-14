@@ -173,32 +173,6 @@ image_comparison: true
         <p class="small">Work with OpenAI, Anthropic, Ollama or build your own provider.</p>
       </div>
     </div>
-    <!-- <div class="row padding-top-medium">
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Programmable</h3>
-        <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Forkable</h3>
-        <p>Fork new conversations at any point to explore alternatives without losing the context.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Inspectable</h3>
-        <p>Inspect everything about the AI interaction to understand what the AI does.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Objects in. Objects out</h3>
-        <p>Pass live objects into the conversation and get structured objects back, each with contextual views that make them explorable for both humans and AI.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Executable context</h3>
-        <p>Ground conversations in executable explanations linked to code, examples, and documentation, so context can be reused, checked, and evolved.</p>
-      </div>
-      <div class="col-md-6 col-lg-4 mb-4">
-        <h3>Deeply integrated</h3>
-        <p>The AI interaction is made of the same pieces the rest of the environment is made of and can be combined seamlessly with everything else.</p>
-      </div>
-    </div> -->
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
@@ -302,7 +276,7 @@ image_comparison: true
 <section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4">
         <p class="lead">Understanding systems boils down to answering questions about them. The answers can be found in the system's artifacts, but those artifacts are too large to be read. Tools can encode the way to get the answer deterministically. The result produced by the tool essentially acts as a <span class="manual-oval">compression</span> of the system for that question. The more specific the tool, the more relevant and larger the compression is. The larger the compression, the easier it is to understand.</p>
       </div>
       <div class="col-12 col-lg-4">
@@ -364,7 +338,7 @@ image_comparison: true
 <section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4">
         <p class="lead">Answering every question through deterministic contextual tools leads to <span class="manual-underline">thousands of tools</span> per system. To manage them, you need an inversion of control: tools should come to where you are, instead of you invoking them explicitly. In Glamorous Toolkit, tools are associated to the contexts in which they are relevant and they activate only when you interact with that context. Such a context can be as basic as an individual object.</p>
       </div>
       <div class="col-8 col-lg-4">
@@ -440,19 +414,61 @@ image_comparison: true
 </section>
 
 
-<section class="padding-top-large padding-bottom-medium ">
+<section class="padding-top-large">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-8 mb-4">
-        <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">narratives</span> in defined documents. When the objects are produced by dynamic explorations you construct narratives that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
+      <div class="col-10 col-lg-4">
+        <p class="lead">A view associated to an object offers a unit of documentation. When the objects are produced and tested by automatic examples, you have the pieces for constructing elaborate <span class="manual-underline">defined narratives</span> that communicate lasting concepts, from tutorials to architectural constraints or business processes. These narratives can be designed both for humans and for AI. Either way, the pieces are the same and the result is integrated in the overall development experience, which also means that it can be automatically tested and refactored together with the code.</p>
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-12">
-        <div class="image-card">
-          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system: the screens in the system, the control flow graph associated to one screen, the source of one of the COBOL modules, and then a query over the code to find CICS EXEC instructions." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
-            <img class="image-card-image" src="/assets/pictures/gt-exploration-cobol.png" alt="Exploring the structure of a COBOL system in Glamorous Toolkit" />
-            <span class="image-card-label">COBOL system exploration</span>
+      <div class="col-10 col-lg-4">
+        <div class="image-stack-wrap image-stack-wrap--compact">
+          <button
+            type="button"
+            class="image-stack-button"
+            data-image-stack-trigger
+            aria-label="Open details for defined narratives in the integrated knowledge base"
+          >
+            <span
+              class="image-stack image-stack--compact"
+              aria-hidden="true"
+              data-stack-base-height="392"
+              data-stack-compact-base-height="272"
+              data-stack-front-y="30"
+              data-stack-compact-front-y="18"
+              data-stack-step-x="18"
+              data-stack-compact-step-x="14"
+              data-stack-step-y="12"
+              data-stack-compact-step-y="9"
+            >
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="0"
+                data-image="/assets/pictures/gt-doc-prices.png"
+                data-caption="A page describing the mechanism for discounting prices in a financial system."
+              >
+                <img src="/assets/pictures/gt-doc-prices-small.png" alt="A page describing the mechanism for discounting prices in a financial system" />
+                <span class="image-stack-label">Defined narratives in the integrated knowledge base</span>
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="1"
+                data-image="/assets/pictures/gt-doc-dependencies.png"
+                data-caption="A page describing the dependencies of a system."
+              >
+                <img src="/assets/pictures/gt-doc-dependencies-small.png" alt="" />
+              </span>
+              <span
+                class="image-stack-card"
+                data-image-stack-item
+                data-gallery-index="2"
+                data-image="/assets/pictures/gt-doc-size.png"
+                data-caption="A page with links to code and a quantitative analysis of the system."
+              >
+                <img src="/assets/pictures/gt-doc-size-small.png" alt="" />
+              </span>
+            </span>
           </button>
         </div>
       </div>
@@ -460,11 +476,31 @@ image_comparison: true
   </div>
 </section>
 
-<section class="padding-bottom-medium">
+<section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-8 mb-4">
-        <p class="lead">Narratives can cover any objects depicting any facets of a systems, including the domain, and they can be aimed at <span class="manual-underline">different audiences</span> with different backgrounds. Thus, the environment becomes truly integrated mediating the conversation between all stakeholders of the system.</p>
+      <div class="col-10 col-lg-8">
+        <p class="lead">Defined narratives are important reusable pieces. But the contextual nature of sof When the objects are produced by <span class="manual-underline">dynamic narratives</span> that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-12">
+        <div class="image-card">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system: the screens in the system, the control flow graph associated to one screen, the source of one of the COBOL modules, and then a query over the code to find CICS EXEC instructions." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+            <img class="image-card-image" src="/assets/pictures/gt-exploration-cobol.png" alt="Exploring the structure of a COBOL system in Glamorous Toolkit" />
+            <span class="image-card-label">A dynamic exploration of a COBOL system</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-top-medium">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8">
+        <p class="lead">Narratives can cover any objects depicting any facets of a systems, including the domain, and they can be aimed at <span class="manual-oval">different audiences</span> with different backgrounds and concerns. Thus, the environment becomes truly integrated, mediating the conversation between all stakeholders of the system.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -480,13 +516,13 @@ image_comparison: true
   </div>
 </section>
 
-<section class="padding-bottom-medium">
+<section class="padding-top-medium">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 mr-4">
+      <div class="col-10 col-lg-4">
         <p class="lead">The contextualization extends to any interaction with the system, including editing. A system is made of many facets: technologies, domain rules, conventions, libraries, interfaces, tests, generated artifacts, and runtime behavior. Editing is not just typing text, but affecting some of these facets. Every change happens inside a context that determines what the change means. Generic editors flatten that context and force you to work at their level. <span class="manual-underline">Contextual editors</span> elevate the interaction to match your mental model.</p>
       </div>
-      <div class="col-810 col-lg-4">
+      <div class="col-10 col-lg-4">
         <div class="image-stack-wrap image-stack-wrap--compact">
           <button
             type="button"
@@ -547,11 +583,16 @@ image_comparison: true
 <!-- Lepiter knowledge base: seemlessly part in the overall eperience -->
 
 <!-- We can talk about various domains of applicability. -->
-<section class="padding-bottom-medium">
+<section class="padding-top-large padding-bottom-large">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-8 mr-4">
+      <div class="col-10 col-lg-8">
         <p class="lead">There are more things to say about <span class="manual-underline">making systems explainable</span> than words and a few images can describe. We built Glamorous Toolkit for you to explore the many facets of this space by yourself.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8">
+        <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
       </div>
     </div>
   </div>
@@ -559,15 +600,6 @@ image_comparison: true
 
 <!-- Constructing tools requires dedicated skills. This has to be internalized. -->
 
-<section class="padding-bottom-large">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-8 mr-4">
-        <a href="/start" class="btn btn-lg btn-primary btn-internal">Get started to see it in practice</a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="padding-top-large padding-bottom-large section-light faq-section">
   <div class="container">
