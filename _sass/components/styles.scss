@@ -1,27 +1,24 @@
----
----
-
 @import "main";
 
 @font-face {
     font-family: "sources-extralight";
-    src: url("../assets/webfonts/sourcesanspro-extralight-webfont.woff");
+    src: url("../webfonts/sourcesanspro-extralight-webfont.woff");
 }
 
 @font-face {
     font-family: "sources-bold";
-    src: url("../assets/webfonts/sourcesanspro-bold-webfont.woff");
+    src: url("../webfonts/sourcesanspro-bold-webfont.woff");
 }
 
 @font-face {
     font-family: "sources-regular";
-    src: url("../assets/webfonts/sourcesanspro-regular-webfont.woff");
+    src: url("../webfonts/sourcesanspro-regular-webfont.woff");
 }
 
 @font-face {
     font-family: "desyrel";
-    src: url("../assets/webfonts/desyrel.woff2") format("woff2"),
-         url("../assets/webfonts/desyrel.woff") format("woff");
+    src: url("../webfonts/desyrel.woff2") format("woff2"),
+         url("../webfonts/desyrel.woff") format("woff");
     font-display: swap;
 }
 
