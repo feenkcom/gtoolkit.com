@@ -34,7 +34,7 @@ image_comparison: true
                     <i class="fas fa-arrow-right"></i>
                   </span>
                 </div>
-                <p class="lead home-offering-line">Learn the basics<br/>Engage with the community</p>
+                <p class="lead home-offering-line">Learn the basics<br/>Choose a problem and start solving it</p>
               </div>
             </a>
           </div>
