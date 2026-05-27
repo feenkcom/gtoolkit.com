@@ -322,29 +322,6 @@ section h2 {
   margin-bottom: 0;
 }
 
-.home-landing-subline {
-  margin: 18px auto 0;
-  color: #3a3a3a;
-  font-size: clamp(17px, 1.6vw, 22px);
-  line-height: 1.4;
-}
-
-.home-thesis-content {
-  padding: 32px 36px 0;
-  text-align: center;
-}
-
-.home-thesis-content h2 {
-  margin-top: 0;
-  margin-bottom: 18px;
-  font-size: clamp(28px, 3.2vw, 42px);
-}
-
-.home-thesis-content .lead {
-  line-height: 1.72;
-  margin-bottom: 0;
-}
-
 .home-offering-row .col-md-6 {
   display: flex;
 }
@@ -498,20 +475,6 @@ section h2 {
   background: #f6f6f6;
 }
 
-.hero-subtitle {
-  max-width: 46ch;
-  font-size: 22px;
-  color: var(--ink-muted);
-}
-
-.hero-cta {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 28px;
-}
-
 .hero-meta {
   max-width: 44ch;
   margin: 14px auto 0;
@@ -552,10 +515,6 @@ section h2 {
 #expandedModal .modal-body img,
 #expandedModal .modal-body video {
   border-radius: 20px;
-}
-
-#expandedModal .modal-footer {
-  display: none;
 }
 
 #expandedModal .modal-header .caption {
@@ -601,11 +560,6 @@ section h2 {
 .video-container iframe {
   border-radius: var(--radius);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
-}
-
-.picture-caption p,
-.picture-caption .lead {
-  color: var(--ink-muted);
 }
 
 .faq-section h3 {
@@ -697,18 +651,6 @@ section h2 {
   background: linear-gradient(180deg, #222222 0%, #0d0d0d 100%);
 }
 
-.flexfill {
-    flex: 1 auto;
-}
-
-.sources-b {
-    font-family: "sources-bold", sans-serif;
-}
-
-.sources-el {
-    font-family: "sources-extralight", sans-serif;
-}
-
 .logo {
     font-size: 150px;
 }
@@ -769,21 +711,9 @@ section h2 {
     padding-bottom: 56px;
   }
 
-  .hero-subtitle {
-    font-size: 20px;
-  }
-
   .hero-title {
     max-width: 100%;
     font-size: clamp(17px, 6.4vw, 34px);
-  }
-
-  .home-landing-subline {
-    font-size: 20px;
-  }
-
-  .home-thesis-content {
-    padding: 24px 12px 0;
   }
 
   .home-offering-card {
@@ -798,14 +728,6 @@ section h2 {
     white-space: normal;
   }
 
-  .feature-card {
-    min-height: 210px;
-  }
-
-  .feature-card h3 {
-    font-size: 27px;
-  }
-
   .use-case-card-grid {
     grid-template-columns: 1fr;
   }
@@ -817,16 +739,8 @@ section h2 {
 }
 
 @media (max-width: 767.98px) {
-  .hero-cta .btn {
-    width: 100%;
-  }
-
   .hero-title {
     max-width: 100%;
-  }
-
-  .home-landing-subline {
-    font-size: 18px;
   }
 
   .home-offering-card {
