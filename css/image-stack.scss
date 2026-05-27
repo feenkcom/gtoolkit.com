@@ -1,8 +1,7 @@
 ---
 ---
 
-.image-stack-wrap,
-.card-stack-wrap {
+.image-stack-wrap {
   // margin-top: 12px;
 }
 
@@ -38,8 +37,7 @@
   padding-bottom: 14px;
 }
 
-.image-stack-card,
-.card-stack-card {
+.image-stack-card {
   position: absolute;
   top: 0;
   left: 50%;
@@ -67,8 +65,7 @@
   border-radius: 16px;
 }
 
-.image-stack-card img,
-.card-stack-card img {
+.image-stack-card img {
   display: block;
   width: 100%;
   height: auto;
@@ -81,9 +78,7 @@
 }
 
 .image-stack-button:focus .image-stack-card,
-.image-stack-button:hover .image-stack-card,
-.card-stack-button:focus .card-stack-card,
-.card-stack-button:hover .card-stack-card {
+.image-stack-button:hover .image-stack-card {
   transform: translateX(calc(-50% + var(--stack-hover-x, var(--stack-x, 0px))))
     translateY(var(--stack-hover-y, var(--stack-y, 0px)))
     rotate(var(--stack-hover-rotate, var(--stack-rotate, 0deg)))
@@ -91,23 +86,8 @@
 }
 
 .image-stack-button:focus .image-stack-card[data-stack-depth="0"],
-.image-stack-button:hover .image-stack-card[data-stack-depth="0"],
-.card-stack-button:focus .card-stack-card[data-stack-depth="0"],
-.card-stack-button:hover .card-stack-card[data-stack-depth="0"] {
+.image-stack-button:hover .image-stack-card[data-stack-depth="0"] {
   box-shadow: 0 24px 44px rgba(0, 0, 0, 0.18);
-}
-
-.card-stack-caption {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(66, 66, 66, 0.88);
-  color: #ffffff;
-  font-size: 13px;
-  font-family: "sources-bold", sans-serif;
-  letter-spacing: 0.02em;
 }
 
 .image-stack-label {
@@ -172,8 +152,7 @@
     padding-top: 40px;
   }
 
-  .image-stack-card,
-  .card-stack-card {
+  .image-stack-card {
     width: min(100%, 680px);
   }
 
@@ -193,12 +172,6 @@
     min-height: var(--stack-min-height, 265px);
     padding-top: 26px;
     padding-bottom: 10px;
-  }
-
-  .card-stack-caption {
-    right: 12px;
-    bottom: 12px;
-    font-size: 12px;
   }
 
   .image-stack-label {

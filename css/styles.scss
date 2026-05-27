@@ -728,14 +728,6 @@ section h2 {
     white-space: normal;
   }
 
-  .use-case-card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .use-case-card-toggle {
-    gap: 24px;
-  }
-
 }
 
 @media (max-width: 767.98px) {
@@ -763,44 +755,4 @@ section h2 {
     min-height: 0;
   }
 
-  .use-case-showcase-layout {
-    margin-top: 26px;
-  }
-
-  .use-case-card-toggle {
-    gap: 12px;
-    padding: 8px 14px;
-    min-height: 180px;
-  }
-
-  .use-case-card-thumb {
-    flex: 0 0 36%;
-    min-width: 120px;
-    padding: 6px 10px;
-  }
-
-  .use-case-card-title {
-    font-size: 20px;
-  }
-
-  .use-case-card-toggle::after {
-    right: 14px;
-  }
-
-  .use-case-card-thumb img {
-    max-height: 120px;
-  }
-
-  .use-case-card-copy {
-    flex: 1 1 64%;
-    padding-right: 40px;
-  }
-
-  .use-case-card-detail {
-    padding: 0 14px 16px;
-  }
-
-  .use-case-card-detail-media {
-    margin-top: 16px;
-  }
 }

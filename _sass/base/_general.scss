@@ -301,10 +301,6 @@ a.btn {
   padding-bottom: 120px;
 }
 
-.padding-bottom-medium {
-  padding-bottom: 40px;
-}
-
 .margin-top-large {
   margin-top: 120px;
 }
@@ -316,11 +312,6 @@ a.btn {
 .margin-bottom-large {
   margin-bottom: 120px;
 }
-
-.padding-bottom-medium {
-  margin-bottom: 40px;
-}
-
 
 @mixin sectionWithBackground($color) {
   background: $color;
