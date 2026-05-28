@@ -74,7 +74,7 @@ image_comparison: true
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contetualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contextualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
@@ -161,7 +161,7 @@ image_comparison: true
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
         <h3>Understand what the AI does</h3>
-        <p>Don't take for granted what the AI says it does. Understand it through deterministic views, both when using it diretly or through MCP.</p>
+        <p>Don't take for granted what the AI says it does. Understand it through deterministic views, both when using it directly or through MCP.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
         <h3>Work with objects</h3>
@@ -480,7 +480,7 @@ image_comparison: true
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10 col-lg-8">
-        <p class="lead">Defined narratives are important reusable pieces. But the contextual nature of sof When the objects are produced by <span class="manual-underline">dynamic narratives</span> that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
+        <p class="lead">Defined narratives are important reusable pieces. But the contextual nature of software also calls for <span class="manual-underline">dynamic narratives</span> that answer ever larger questions on demand. This applies to a wide range of problems, from investigating the performance of a cluster to exploring the structure of a COBOL system.</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -508,7 +508,7 @@ image_comparison: true
         <div class="image-card">
           <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-uhmo.png" data-caption="Exploring the inner workings of a restaurant. On the left, a script simulates a scenario in which a waiter places an order and issues an invoice. The state of the simulation is seen in the second pane. To the right we see the invoice." aria-label="Open details for restaurant exploration" aria-haspopup="dialog" aria-controls="expandedModal">
             <img class="image-card-image" src="/assets/pictures/gt-exploration-uhmo.png" alt="Exploring the inner workings of a restaurant in Glamorous Toolkit" />
-            <span class="image-card-label">Exporing a restaurant system</span>
+            <span class="image-card-label">Exploring a restaurant system</span>
           </button>
         </div>
       </div>
