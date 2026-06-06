@@ -30,6 +30,7 @@ function initImageStack() {
     }
 
     event.preventDefault();
+    trackMatomoImageClick(trigger, getImageStackTrackingName(trigger, items));
     openImageGalleryModal(modal, dataKey, items, 0);
     modal.modal("show");
   });
@@ -45,6 +46,15 @@ function collectImageStackItems(trigger) {
         return "";
       },
     }
+  );
+}
+
+function getImageStackTrackingName(trigger, items) {
+  return (
+    trigger.find(".image-stack-label").first().text().trim() ||
+    trigger.attr("aria-label") ||
+    (items[0] ? items[0].caption : "") ||
+    ""
   );
 }
 

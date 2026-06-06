@@ -69,37 +69,37 @@ image_comparison: true
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-rest-api-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-rest-api.png" data-video="/assets/video/use-case-rest-api.mp4" data-caption="Inspect a REST API through contextual views that expose structure and linked resources directly." data-matomo-image-click-goal-id="" data-matomo-image-click-name="API exploration" data-matomo-image-view-goal-id="" data-matomo-image-view-name="API exploration" aria-label="Open video for API exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">API exploration</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-chat-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contextualizing the AI interaction to an object, and making it extend the model and associated views." aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-chat.png" data-video="/assets/video/use-case-chat-extend-contributor.mp4" data-caption="Contextualizing the AI interaction to an object, and making it extend the model and associated views." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Dedicated AI chats" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Dedicated AI chats" aria-label="Open details for Dedicated AI chats" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dedicated AI chats</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-assessment-dependencies-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-video="/assets/video/use-case-assessment-dependencies.mp4" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-assessment-dependencies.png" data-video="/assets/video/use-case-assessment-dependencies.mp4" data-caption="Navigate ActiveRecord dependencies in a Rails application while keeping the related Ruby and SQL sources in view." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Software analysis" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Software analysis" aria-label="Open details for Software analysis" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Software analysis</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-data-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-data.png" data-video="/assets/video/use-case-data.mp4" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-data.png" data-video="/assets/video/use-case-data.mp4" data-caption="Explore exported Twitter account data through visualizations that expose structure and trends." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Data exploration" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Data exploration" aria-label="Open details for Data exploration" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Data exploration</span>
         </button>
       </li>
       <li class="image-wall-item image-wall-item--video" style="--wall-image: url('/assets/pictures/use-case-documentation-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-documentation.png" data-video="/assets/video/use-case-documentation.mp4" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-documentation.png" data-video="/assets/video/use-case-documentation.mp4" data-caption="Explore the Glamorous Toolkit book from inside Glamorous Toolkit with live examples and explanations side by side." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Technical documentation" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Technical documentation" aria-label="Open details for Technical documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Technical documentation</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-jenkins-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." aria-label="Open details for DevOps investigations" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-jenkins.png" data-caption="Investigate a failing Jenkins continuous delivery job through contextual log and execution views." data-matomo-image-click-goal-id="" data-matomo-image-click-name="DevOps investigations" data-matomo-image-view-goal-id="" data-matomo-image-view-name="DevOps investigations" aria-label="Open details for DevOps investigations" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">DevOps investigations</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-graphql-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-graphql.png" data-caption="Exploring the GitHub API with GraphQL. The editor offers syntax highlighting and completion. The result is presented through contextual views." aria-label="Open details for System specific editors and views" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-graphql.png" data-caption="Exploring the GitHub API with GraphQL. The editor offers syntax highlighting and completion. The result is presented through contextual views." data-matomo-image-click-goal-id="" data-matomo-image-click-name="System specific editors and views" data-matomo-image-view-goal-id="" data-matomo-image-view-name="System specific editors and views" aria-label="Open details for System specific editors and views" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">System specific editors and views</span>
         </button>
       </li>
@@ -109,17 +109,17 @@ image_comparison: true
         </button>
       </li> -->
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-tokenization-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." aria-label="Open details for Inspecting runtime" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-tokenization.png" data-caption="Exploring a Python implementation of a tokenization algorithm through contextual views implemented both in Python and in GT." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Inspecting runtime" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Inspecting runtime" aria-label="Open details for Inspecting runtime" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Inspecting runtime</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-domain-documentation-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." aria-label="Open details for Domain documentation" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-domain-documentation.png" data-caption="Exemplifying the creation of a discounted price object and visualizing the result." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Domain documentation" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Domain documentation" aria-label="Open details for Domain documentation" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Domain documentation</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/use-case-simple-rewrite-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." aria-label="Open details for Rewriting code" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/use-case-simple-rewrite.png" data-caption="Scripting a Rust code rewriting by matching against the abstract syntax tree." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Rewriting code" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Rewriting code" aria-label="Open details for Rewriting code" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Rewriting code</span>
         </button>
       </li>
@@ -216,27 +216,27 @@ image_comparison: true
   <div class="image-wall-bleed">
     <ul class="image-wall-grid" aria-label="Homepage use cases">
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-kumpel-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The Git authorship history of a file." aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-kumpel.png" data-caption="The Git authorship history of a file." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Authorship history" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Authorship history" aria-label="Open details for Authorship history" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Authorship history</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-baseline-editor-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Exploring the dependency definitions of Glamorous Toolkit in a live editor. Because the editor understands the context, it knows to expand the dependency defined in a string." aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-baseline-editor.png" data-caption="Exploring the dependency definitions of Glamorous Toolkit in a live editor. Because the editor understands the context, it knows to expand the dependency defined in a string." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Dependencies editor" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Dependencies editor" aria-label="Open details for Dependencies editor" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Dependencies editor</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-treemap-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" aria-label="Open details for Treemap distribution" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-treemap.png" data-caption="The distribution of contextual views and of examples through the classes of Glamorous Toolkit" data-matomo-image-click-goal-id="" data-matomo-image-click-name="Treemap distribution" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Treemap distribution" aria-label="Open details for Treemap distribution" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Treemap distribution</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-blueprint-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." aria-label="Open details for Class hierarchy" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-blueprint.png" data-caption="A visualization of a class hierarchy, including the method calls and slot accesses." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Class hierarchy" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Class hierarchy" aria-label="Open details for Class hierarchy" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Class hierarchy</span>
         </button>
       </li>
       <li class="image-wall-item" style="--wall-image: url('/assets/pictures/gt-tool-ast-small.png');">
-        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." aria-label="Open details for Abstract syntax tree" aria-haspopup="dialog" aria-controls="expandedModal">
+        <button class="image-wall-link" type="button" data-image="/assets/pictures/gt-tool-ast.png" data-caption="Inspecting the abstract syntax tree of a JavaScript code through an interactive browser." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Abstract syntax tree" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Abstract syntax tree" aria-label="Open details for Abstract syntax tree" aria-haspopup="dialog" aria-controls="expandedModal">
           <span class="image-wall-label">Abstract syntax tree</span>
         </button>
       </li>
@@ -285,6 +285,8 @@ image_comparison: true
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
+            data-matomo-image-click-goal-id=""
+            data-matomo-image-click-name="Contextual views compress the system"
             aria-label="Open details for Contextual views"
           >
             <span
@@ -305,6 +307,8 @@ image_comparison: true
                 data-gallery-index="2"
                 data-image="/assets/pictures/c-source.png"
                 data-caption="Consider an example of a dependency definition for a project. The raw source spans 1241 lines of code. Reading them can be daunting."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Raw dependency source"
               >
                 <img src="/assets/pictures/c-source-small.png" alt="" />
               </span>
@@ -314,6 +318,8 @@ image_comparison: true
                 data-gallery-index="1"
                 data-image="/assets/pictures/c-view.png"
                 data-caption="A technology-specific view compresses the dependency structure into a navigable representation instead of raw text."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Technology-specific dependency view"
               >
                 <img src="/assets/pictures/c-view-small.png" alt="" />
               </span>
@@ -323,6 +329,8 @@ image_comparison: true
                 data-gallery-index="0"
                 data-image="/assets/pictures/c-contextual-view.png"
                 data-caption="A system-specific view lets you answer the concrete question directly from a tool shaped around that system."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="System-specific contextual view"
               >
                 <img src="/assets/pictures/c-contextual-view-small.png" alt="System specific contextual tool view" />
                 <span class="image-stack-label">Contextual views compress the system</span>
@@ -347,6 +355,8 @@ image_comparison: true
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
+            data-matomo-image-click-goal-id=""
+            data-matomo-image-click-name="Multiple views for the same context"
             aria-label="Open details for Multiple views for the same context"
           >
             <span
@@ -367,6 +377,8 @@ image_comparison: true
                 data-gallery-index="2"
                 data-image="/assets/pictures/gt-object-views-text.png"
                 data-caption="These are different views for a text object. They only appear when inspecting such an object."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Text object view"
               >
                 <img src="/assets/pictures/gt-object-views-text-small.png" alt="" />
               </span>
@@ -376,6 +388,8 @@ image_comparison: true
                 data-gallery-index="1"
                 data-image="/assets/pictures/gt-object-views-squarify.png"
                 data-caption="These are different views for a text object. They only appear when inspecting such an object."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Squarify text object view"
               >
                 <img src="/assets/pictures/gt-object-views-squarify-small.png" alt="" />
               </span>
@@ -385,6 +399,8 @@ image_comparison: true
                 data-gallery-index="0"
                 data-image="/assets/pictures/gt-object-views-file.png"
                 data-caption="These are different views for a picture file object. They only appear when inspecting such an object."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Picture file object view"
               >
                 <img src="/assets/pictures/gt-object-views-file-small.png" alt="System specific contextual tool view" />
                 <span class="image-stack-label">Multiple views for the same context</span>
@@ -426,6 +442,8 @@ image_comparison: true
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
+            data-matomo-image-click-goal-id=""
+            data-matomo-image-click-name="Defined narratives in the integrated knowledge base"
             aria-label="Open details for defined narratives in the integrated knowledge base"
           >
             <span
@@ -446,6 +464,8 @@ image_comparison: true
                 data-gallery-index="0"
                 data-image="/assets/pictures/gt-doc-prices.png"
                 data-caption="A page describing the mechanism for discounting prices in a financial system."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Discounted prices narrative"
               >
                 <img src="/assets/pictures/gt-doc-prices-small.png" alt="A page describing the mechanism for discounting prices in a financial system" />
                 <span class="image-stack-label">Defined narratives in the integrated knowledge base</span>
@@ -456,6 +476,8 @@ image_comparison: true
                 data-gallery-index="1"
                 data-image="/assets/pictures/gt-doc-dependencies.png"
                 data-caption="A page describing the dependencies of a system."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Dependencies narrative"
               >
                 <img src="/assets/pictures/gt-doc-dependencies-small.png" alt="" />
               </span>
@@ -465,6 +487,8 @@ image_comparison: true
                 data-gallery-index="2"
                 data-image="/assets/pictures/gt-doc-size.png"
                 data-caption="A page with links to code and a quantitative analysis of the system."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="System size narrative"
               >
                 <img src="/assets/pictures/gt-doc-size-small.png" alt="" />
               </span>
@@ -486,7 +510,7 @@ image_comparison: true
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <div class="image-card">
-          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system: the screens in the system, the control flow graph associated to one screen, the source of one of the COBOL modules, and then a query over the code to find CICS EXEC instructions." aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-cobol.png" data-caption="Exploring the structure of a COBOL system: the screens in the system, the control flow graph associated to one screen, the source of one of the COBOL modules, and then a query over the code to find CICS EXEC instructions." data-matomo-image-click-goal-id="" data-matomo-image-click-name="COBOL system exploration" data-matomo-image-view-goal-id="" data-matomo-image-view-name="COBOL system exploration" aria-label="Open details for COBOL system exploration" aria-haspopup="dialog" aria-controls="expandedModal">
             <img class="image-card-image" src="/assets/pictures/gt-exploration-cobol.png" alt="Exploring the structure of a COBOL system in Glamorous Toolkit" />
             <span class="image-card-label">A dynamic exploration of a COBOL system</span>
           </button>
@@ -506,7 +530,7 @@ image_comparison: true
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
         <div class="image-card">
-          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-uhmo.png" data-caption="Exploring the inner workings of a restaurant. On the left, a script simulates a scenario in which a waiter places an order and issues an invoice. The state of the simulation is seen in the second pane. To the right we see the invoice." aria-label="Open details for restaurant exploration" aria-haspopup="dialog" aria-controls="expandedModal">
+          <button class="image-card-link" type="button" data-image="/assets/pictures/gt-exploration-uhmo.png" data-caption="Exploring the inner workings of a restaurant. On the left, a script simulates a scenario in which a waiter places an order and issues an invoice. The state of the simulation is seen in the second pane. To the right we see the invoice." data-matomo-image-click-goal-id="" data-matomo-image-click-name="Restaurant system exploration" data-matomo-image-view-goal-id="" data-matomo-image-view-name="Restaurant system exploration" aria-label="Open details for restaurant exploration" aria-haspopup="dialog" aria-controls="expandedModal">
             <img class="image-card-image" src="/assets/pictures/gt-exploration-uhmo.png" alt="Exploring the inner workings of a restaurant in Glamorous Toolkit" />
             <span class="image-card-label">Exploring a restaurant system</span>
           </button>
@@ -528,6 +552,8 @@ image_comparison: true
             type="button"
             class="image-stack-button"
             data-image-stack-trigger
+            data-matomo-image-click-goal-id=""
+            data-matomo-image-click-name="Contextual editors match the system"
             aria-label="Open details for Contextual editors"
           >
             <span
@@ -548,6 +574,8 @@ image_comparison: true
                 data-gallery-index="0"
                 data-image="/assets/pictures/gt-lza-completion.png"
                 data-caption="A contextual editor can provide completions shaped by the system being changed."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Contextual editor completion"
               >
                 <img src="/assets/pictures/gt-lza-completion-small.png" alt="Contextual editor completion in Glamorous Toolkit" />
                 <span class="image-stack-label">Contextual editors match the system</span>
@@ -558,6 +586,8 @@ image_comparison: true
                 data-gallery-index="1"
                 data-image="/assets/pictures/gt-lza-peek.png"
                 data-caption="A contextual editor can reveal related details inline, where they are needed."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Contextual editor peek"
               >
                 <img src="/assets/pictures/gt-lza-peek-small.png" alt="" />
               </span>
@@ -567,6 +597,8 @@ image_comparison: true
                 data-gallery-index="2"
                 data-image="/assets/pictures/gt-lza-references.png"
                 data-caption="A contextual editor can bring references into the editing flow without leaving the current context."
+                data-matomo-image-view-goal-id=""
+                data-matomo-image-view-name="Contextual editor references"
               >
                 <img src="/assets/pictures/gt-lza-references-small.png" alt="" />
               </span>

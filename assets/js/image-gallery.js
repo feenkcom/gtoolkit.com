@@ -3,6 +3,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
     .off("shown.bs.modal." + namespace)
     .on("shown.bs.modal." + namespace, function () {
       playActiveImageGalleryVideo(modal);
+      trackActiveImageGalleryView(modal, dataKey);
     });
 
   modal
@@ -23,6 +24,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
           .attr("data-index")
       );
       updateImageGalleryCaption(modal, items, activeIndex);
+      trackMatomoImageView(items[activeIndex] || items[0]);
     });
 
   modal.off("keydown." + namespace).on("keydown." + namespace, function (event) {
@@ -50,6 +52,8 @@ function collectImageGalleryItems(elements, options) {
         videoType: element.attr(options.videoTypeAttribute || "data-video-type") || "video/mp4",
         caption: element.attr(options.captionAttribute || "data-caption") || "",
         label: label,
+        viewGoalId: element.attr("data-matomo-image-view-goal-id") || "",
+        viewName: element.attr("data-matomo-image-view-name") || "",
       };
     })
     .get()
@@ -75,6 +79,54 @@ function openImageGalleryModal(modal, dataKey, items, activeIndex) {
   });
   updateImageGalleryCaption(modal, items, normalizedIndex);
   playActiveImageGalleryVideo(modal);
+}
+
+function trackMatomoImageClick(trigger, fallbackName) {
+  if (!window._paq) {
+    return;
+  }
+
+  var goalId = trigger.attr("data-matomo-image-click-goal-id");
+  var name = trigger.attr("data-matomo-image-click-name") || fallbackName || goalId;
+
+  if (name) {
+    _paq.push(["trackEvent", "Image", "click", name]);
+  }
+
+  if (isMatomoGoalId(goalId)) {
+    _paq.push(["trackGoal", Number(goalId)]);
+  }
+}
+
+function trackActiveImageGalleryView(modal, dataKey) {
+  var items = getImageGalleryItems(modal, dataKey);
+
+  if (!items.length) {
+    return;
+  }
+
+  var activeIndex = Number(
+    modal
+      .find("#imageGalleryCarousel .carousel-item.active")
+      .attr("data-index")
+  );
+
+  trackMatomoImageView(items[activeIndex] || items[0]);
+}
+
+function trackMatomoImageView(item) {
+  if (!window._paq || !item || !isMatomoGoalId(item.viewGoalId)) {
+    return;
+  }
+
+  var name = item.viewName || item.label || item.caption || item.image || item.video || item.viewGoalId;
+
+  _paq.push(["trackEvent", "Image", "view", name]);
+  _paq.push(["trackGoal", Number(item.viewGoalId)]);
+}
+
+function isMatomoGoalId(goalId) {
+  return /^\d+$/.test(String(goalId || ""));
 }
 
 function buildImageGalleryMarkup(items, activeIndex) {
