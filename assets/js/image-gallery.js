@@ -3,7 +3,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
     .off("shown.bs.modal." + namespace)
     .on("shown.bs.modal." + namespace, function () {
       playActiveImageGalleryVideo(modal);
-      trackActiveImageGalleryView(modal, dataKey);
+      trackActiveImageGalleryView(modal, dataKey, "gallery_initial_view");
     });
 
   modal
@@ -24,7 +24,7 @@ function bindImageGalleryModalEvents(modal, namespace, dataKey) {
           .attr("data-index")
       );
       updateImageGalleryCaption(modal, items, activeIndex);
-      trackMatomoImageView(items[activeIndex] || items[0]);
+      trackMatomoImageView(items[activeIndex] || items[0], "gallery_navigation_view");
     });
 
   modal.off("keydown." + namespace).on("keydown." + namespace, function (event) {
@@ -90,7 +90,7 @@ function trackMatomoImageClick(trigger, fallbackName) {
   var name = trigger.attr("data-matomo-image-click-name") || fallbackName || goalId;
 
   if (name) {
-    _paq.push(["trackEvent", "Image", "click", name]);
+    _paq.push(["trackEvent", "Image", "open", name]);
   }
 
   if (isMatomoGoalId(goalId)) {
@@ -98,7 +98,7 @@ function trackMatomoImageClick(trigger, fallbackName) {
   }
 }
 
-function trackActiveImageGalleryView(modal, dataKey) {
+function trackActiveImageGalleryView(modal, dataKey, action) {
   var items = getImageGalleryItems(modal, dataKey);
 
   if (!items.length) {
@@ -111,18 +111,23 @@ function trackActiveImageGalleryView(modal, dataKey) {
       .attr("data-index")
   );
 
-  trackMatomoImageView(items[activeIndex] || items[0]);
+  trackMatomoImageView(items[activeIndex] || items[0], action);
 }
 
-function trackMatomoImageView(item) {
-  if (!window._paq || !item || !isMatomoGoalId(item.viewGoalId)) {
+function trackMatomoImageView(item, action) {
+  if (!window._paq || !item) {
     return;
   }
 
   var name = item.viewName || item.label || item.caption || item.image || item.video || item.viewGoalId;
 
-  _paq.push(["trackEvent", "Image", "view", name]);
-  _paq.push(["trackGoal", Number(item.viewGoalId)]);
+  if (name) {
+    _paq.push(["trackEvent", "Image", action || "gallery_view", name]);
+  }
+
+  if (isMatomoGoalId(item.viewGoalId)) {
+    _paq.push(["trackGoal", Number(item.viewGoalId)]);
+  }
 }
 
 function isMatomoGoalId(goalId) {
