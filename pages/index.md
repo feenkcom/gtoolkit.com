@@ -146,25 +146,25 @@ image_comparison: true
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-12">
-        <h2>Drive with the built-in <span class="insert-label">moldable</span> agent</h2>
-        <p class="lead">AI can feel like magic, but that does not mean you should delegate your comprehension to it. In Glamorous Toolkit you remain in charge by controlling the environment through which you interact with AI.</p>
+        <h2>Drive with the built-in <span class="insert-label">moldable</span> agent harness</h2>
+        <!-- <p class="lead">Work with AI agents without delegating your comprehension to them. Remain in charge by controlling your harness.</p> -->
       </div>
     </div>
     <div class="row mt-4">
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Program your AI interaction</h3>
-        <p>Setup conversations through scripts that define tools, explanations, structured outputs or prompts.</p>
+        <h3>Programmable agents</h3>
+        <p>Setup conversations through scripts that define context, tools or structured outputs.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Control your context</h3>
-        <p>Define the context through executable reusable explanations linked to code and examples. Fork new conversations on demand to explore variations.</p>
+        <h3>Expandable agent memory</h3>
+        <p>Define context through executable explanations linked to code and examples. Leverage contextual views to expand the agent's memory to arbitrary objects.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Understand what the AI does</h3>
-        <p>Don't take for granted what the AI says it does. Understand it through deterministic views, both when using it directly or through MCP.</p>
+        <h3>Explainable agent actions</h3>
+        <p>Don't take for granted what the AI says it does. Understand it deterministically through contextual views.</p>
       </div>
       <div class="col-md-6 col-lg-6 mb-4">
-        <h3>Work with objects</h3>
+        <h3>Objects, not text</h3>
         <p>Pass live objects into the conversation and get structured objects back, each with contextual views that make them explorable for both humans and AI.</p>
       </div>
     </div>
